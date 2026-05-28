@@ -381,21 +381,13 @@ h2 {
 
 .category-label {
   display: block;
-  max-width: 15ch;
+  max-width: 16ch;
   color: var(--paper);
   font-family: var(--font-display);
-  font-size: 1.55rem;
+  font-size: 1.65rem;
   font-weight: 700;
   line-height: 1.05;
   text-shadow: 0 2px 14px color-mix(in oklch, black, transparent 40%);
-}
-
-.category-kicker {
-  max-width: 24ch;
-  color: color-mix(in oklch, var(--paper), transparent 12%);
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-shadow: 0 1px 8px color-mix(in oklch, black, transparent 40%);
 }
 
 .tone-gold { --tone: var(--gold); }

@@ -245,7 +245,6 @@ function renderCategoryGrid() {
       <span class="category-overlay" aria-hidden="true"></span>
       <span class="category-content">
         <span class="category-label">${category.label}</span>
-        <span class="category-kicker">${category.kicker}</span>
       </span>
     `;
     button.addEventListener("click", () => {

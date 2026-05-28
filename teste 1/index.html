@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste 1 · Combinações de Fontes</title>
+  <meta name="description" content="Variações de fontes para o topo do Guia Vila Mascote.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,500;1,6..96,600&family=Cormorant+Garamond:ital,wght@1,600;1,700&family=Libre+Baskerville:ital@1&family=Montserrat:wght@700;800;900&family=Playfair+Display:ital,wght@1,600;1,700&family=Poppins:wght@700;800;900&family=Raleway:wght@800;900&family=Urbanist:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ink: oklch(20% 0.04 260);
+      --paper: oklch(97% 0.012 92);
+      --surface: oklch(99% 0.006 95);
+      --navy: oklch(23% 0.13 263);
+      --navy-deep: oklch(17% 0.1 263);
+      --gold: oklch(82% 0.18 88);
+      --gold-deep: oklch(57% 0.13 82);
+      --line: oklch(86% 0.016 92);
+      --muted: oklch(46% 0.03 255);
+      --radius: 8px;
+      --space-xs: 8px;
+      --space-sm: 12px;
+      --space-md: 16px;
+      --space-lg: 24px;
+      --space-xl: 32px;
+      --space-2xl: 48px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, oklch(98% 0.01 92), var(--paper) 380px),
+        var(--paper);
+      font-family: Montserrat, sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      font-kerning: normal;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    .page-head,
+    .grid {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .page-head {
+      display: grid;
+      gap: var(--space-sm);
+      padding: var(--space-xl) 0 var(--space-lg);
+    }
+
+    .back {
+      width: fit-content;
+      color: var(--navy);
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .page-head h1 {
+      max-width: 780px;
+      margin: 0;
+      color: var(--navy);
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .page-head p {
+      max-width: 720px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .grid {
+      display: grid;
+      gap: var(--space-lg);
+      padding-bottom: var(--space-2xl);
+    }
+
+    .option {
+      overflow: hidden;
+      border: 1px solid color-mix(in oklch, var(--navy), transparent 78%);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: 0 20px 50px color-mix(in oklch, var(--navy), transparent 90%);
+    }
+
+    .option-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-md);
+      padding: var(--space-md);
+      border-bottom: 1px solid var(--line);
+      background: color-mix(in oklch, var(--surface), var(--paper) 24%);
+    }
+
+    .option-meta strong {
+      color: var(--navy);
+      font-size: 0.95rem;
+    }
+
+    .option-meta span {
+      color: var(--gold-deep);
+      font-size: 0.76rem;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .sample {
+      --display: Montserrat, sans-serif;
+      --accent: "Cormorant Garamond", serif;
+      --metal-gold: oklch(75% 0.105 83);
+      --metal-shadow: oklch(42% 0.07 78);
+      min-height: 330px;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      padding: var(--space-md) var(--space-md) var(--space-xl);
+      color: var(--surface);
+      background:
+        linear-gradient(180deg, color-mix(in oklch, var(--navy-deep), transparent 8%), var(--navy-deep)),
+        var(--navy-deep);
+    }
+
+    .sample-top {
+      width: min(1000px, 100%);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-md);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-sm);
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 52px;
+      height: 52px;
+      object-fit: contain;
+      flex: 0 0 auto;
+    }
+
+    .brand strong,
+    .brand span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .brand strong {
+      font-family: var(--display);
+      font-size: 1rem;
+      line-height: 1.1;
+    }
+
+    .brand span {
+      color: color-mix(in oklch, var(--surface), transparent 36%);
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .pill {
+      border: 1px solid color-mix(in oklch, var(--surface), transparent 74%);
+      border-radius: 999px;
+      padding: 7px 11px;
+      color: var(--surface);
+      background: color-mix(in oklch, var(--navy), transparent 34%);
+      font-size: 0.76rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .sample-body {
+      width: min(1000px, 100%);
+      margin: 0 auto;
+      align-self: center;
+      display: grid;
+      justify-items: center;
+      text-align: center;
+      padding-top: var(--space-md);
+    }
+
+    .sample h2 {
+      max-width: 940px;
+      margin: 0;
+      color: var(--surface);
+      font-family: var(--display);
+      font-size: clamp(2.15rem, 6.2vw, 5.2rem);
+      font-weight: 900;
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    .sample h2 em {
+      display: block;
+      margin-top: 2px;
+      color: var(--metal-gold);
+      font-family: var(--accent);
+      font-size: 0.72em;
+      font-style: italic;
+      font-weight: 600;
+      text-shadow:
+        0 1px 0 color-mix(in oklch, var(--surface), transparent 82%),
+        0 2px 10px color-mix(in oklch, var(--metal-shadow), transparent 52%);
+    }
+
+    .sample p {
+      max-width: 58ch;
+      margin: var(--space-sm) 0 var(--space-md);
+      color: color-mix(in oklch, var(--surface), transparent 18%);
+      font-size: 0.98rem;
+      font-weight: 600;
+    }
+
+    .search {
+      width: min(820px, 100%);
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(170px, 0.65fr) 126px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: var(--surface);
+      box-shadow: 0 22px 58px color-mix(in oklch, black, transparent 70%);
+      text-align: left;
+    }
+
+    .field {
+      display: grid;
+      gap: 2px;
+      min-width: 0;
+      padding: 10px 18px 10px 24px;
+    }
+
+    .field + .field {
+      border-left: 1px solid var(--line);
+    }
+
+    .field label {
+      color: var(--gold-deep);
+      font-size: 0.64rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .field input,
+    .field select {
+      width: 100%;
+      min-width: 0;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      color: var(--ink);
+      font-size: 0.95rem;
+    }
+
+    .search button {
+      min-height: 56px;
+      border: 0;
+      color: var(--navy-deep);
+      background: var(--metal-gold);
+      font-size: 0.76rem;
+      font-weight: 900;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .opt-a {
+      --display: Montserrat, sans-serif;
+      --accent: "Cormorant Garamond", serif;
+      --metal-gold: oklch(74% 0.095 82);
+      --metal-shadow: oklch(39% 0.06 76);
+    }
+
+    .opt-b {
+      --display: Montserrat, sans-serif;
+      --accent: "Bodoni Moda", serif;
+      --metal-gold: oklch(70% 0.085 78);
+      --metal-shadow: oklch(36% 0.055 74);
+    }
+
+    .opt-c {
+      --display: Poppins, sans-serif;
+      --accent: "Cormorant Garamond", serif;
+      --metal-gold: oklch(77% 0.08 89);
+      --metal-shadow: oklch(41% 0.045 84);
+    }
+
+    .opt-d {
+      --display: Poppins, sans-serif;
+      --accent: "Bodoni Moda", serif;
+      --metal-gold: oklch(72% 0.075 86);
+      --metal-shadow: oklch(36% 0.04 82);
+    }
+
+    .opt-e {
+      --display: Urbanist, sans-serif;
+      --accent: "Playfair Display", serif;
+      --metal-gold: oklch(76% 0.07 92);
+      --metal-shadow: oklch(43% 0.04 88);
+    }
+
+    .opt-f {
+      --display: Raleway, sans-serif;
+      --accent: "Bodoni Moda", serif;
+      --metal-gold: oklch(68% 0.065 80);
+      --metal-shadow: oklch(34% 0.04 78);
+    }
+
+    .opt-g {
+      --display: Montserrat, sans-serif;
+      --accent: "Libre Baskerville", serif;
+      --metal-gold: oklch(73% 0.07 84);
+      --metal-shadow: oklch(38% 0.04 80);
+    }
+
+    .opt-h {
+      --display: Poppins, sans-serif;
+      --accent: "Playfair Display", serif;
+      --metal-gold: oklch(71% 0.06 88);
+      --metal-shadow: oklch(37% 0.035 84);
+    }
+
+    @media (max-width: 760px) {
+      .option-meta {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .sample {
+        min-height: 520px;
+      }
+
+      .sample-top {
+        align-items: flex-start;
+      }
+
+      .pill {
+        display: none;
+      }
+
+      .sample h2 {
+        max-width: 11ch;
+        font-size: clamp(2rem, 11vw, 3.15rem);
+      }
+
+      .sample h2 em {
+        font-size: 0.68em;
+      }
+
+      .sample p {
+        max-width: 28ch;
+      }
+
+      .search {
+        grid-template-columns: 1fr;
+        border-radius: var(--radius);
+      }
+
+      .field + .field {
+        border-top: 1px solid var(--line);
+        border-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="page-head">
+    <a class="back" href="../index.html">Voltar ao guia</a>
+    <h1>Teste 1: combinações de fonte para o topo</h1>
+    <p>Variações com uma sans geométrica para o texto branco e uma serifada itálica dourada para o tom premium/editorial.</p>
+  </header>
+
+  <main class="grid" aria-label="Opções de tipografia">
+    <article class="option">
+      <div class="option-meta">
+        <strong>Opção A · Montserrat ExtraBold + Cormorant Garamond Italic</strong>
+        <span>Mais próxima da referência</span>
+      </div>
+      <section class="sample opt-a">
+        <div class="sample-top">
+          <div class="brand">
+            <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+            <span><strong>Guia Vila Mascote</strong><span>Curadoria local</span></span>
+          </div>
+          <span class="pill">127 locais</span>
+        </div>
+        <div class="sample-body">
+          <h2>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h2>
+          <p>Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+          <form class="search">
+            <div class="field"><label>O que você busca?</label><input placeholder="Restaurante, café, serviço..."></div>
+            <div class="field"><label>Categoria</label><select><option>Todas</option><option>Gastronomia</option><option>Saúde</option></select></div>
+            <button>Buscar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+
+    <article class="option">
+      <div class="option-meta">
+        <strong>Opção B · Montserrat ExtraBold + Bodoni Moda Italic</strong>
+        <span>Luxo urbano</span>
+      </div>
+      <section class="sample opt-b">
+        <div class="sample-top">
+          <div class="brand">
+            <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+            <span><strong>Guia Vila Mascote</strong><span>Curadoria local</span></span>
+          </div>
+          <span class="pill">127 locais</span>
+        </div>
+        <div class="sample-body">
+          <h2>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h2>
+          <p>Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+          <form class="search">
+            <div class="field"><label>O que você busca?</label><input placeholder="Restaurante, café, serviço..."></div>
+            <div class="field"><label>Categoria</label><select><option>Todas</option><option>Gastronomia</option><option>Saúde</option></select></div>
+            <button>Buscar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+
+    <article class="option">
+      <div class="option-meta">
+        <strong>Opção C · Poppins ExtraBold + Cormorant Garamond Italic</strong>
+        <span>Startup premium</span>
+      </div>
+      <section class="sample opt-c">
+        <div class="sample-top">
+          <div class="brand">
+            <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+            <span><strong>Guia Vila Mascote</strong><span>Curadoria local</span></span>
+          </div>
+          <span class="pill">127 locais</span>
+        </div>
+        <div class="sample-body">
+          <h2>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h2>
+          <p>Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+          <form class="search">
+            <div class="field"><label>O que você busca?</label><input placeholder="Restaurante, café, serviço..."></div>
+            <div class="field"><label>Categoria</label><select><option>Todas</option><option>Gastronomia</option><option>Saúde</option></select></div>
+            <button>Buscar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+
+    <article class="option">
+      <div class="option-meta">
+        <strong>Opção D · Poppins ExtraBold + Bodoni Moda Italic</strong>
+        <span>Mais contrastada</span>
+      </div>
+      <section class="sample opt-d">
+        <div class="sample-top">
+          <div class="brand">
+            <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+            <span><strong>Guia Vila Mascote</strong><span>Curadoria local</span></span>
+          </div>
+          <span class="pill">127 locais</span>
+        </div>
+        <div class="sample-body">
+          <h2>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h2>
+          <p>Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+          <form class="search">
+            <div class="field"><label>O que você busca?</label><input placeholder="Restaurante, café, serviço..."></div>
+            <div class="field"><label>Categoria</label><select><option>Todas</option><option>Gastronomia</option><option>Saúde</option></select></div>
+            <button>Buscar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+
+    <article class="option">
+      <div class="option-meta">
+        <strong>Opção E · Urbanist ExtraBold + Playfair Display Italic</strong>
+        <span>Mais leve/editorial</span>
+      </div>
+      <section class="sample opt-e">
+        <div class="sample-top">
+          <div class="brand">
+            <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+            <span><strong>Guia Vila Mascote</strong><span>Curadoria local</span></span>
+          </div>
+          <span class="pill">127 locais</span>
+        </div>
+        <div class="sample-body">
+          <h2>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h2>
+          <p>Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+          <form class="search">
+            <div class="field"><label>O que você busca?</label><input placeholder="Restaurante, café, serviço..."></div>
+            <div class="field"><label>Categoria</label><select><option>Todas</option><option>Gastronomia</option><option>Saúde</option></select></div>
+            <button>Buscar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+
+    <article class="option">
+      <div class="option-meta">
+        <strong>Opção F · Raleway Black + Bodoni Moda Italic</strong>
+        <span>Mais sofisticada</span>
+      </div>
+      <section class="sample opt-f">
+        <div class="sample-top">
+          <div class="brand">
+            <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+            <span><strong>Guia Vila Mascote</strong><span>Curadoria local</span></span>
+          </div>
+          <span class="pill">127 locais</span>
+        </div>
+        <div class="sample-body">
+          <h2>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h2>
+          <p>Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+          <form class="search">
+            <div class="field"><label>O que você busca?</label><input placeholder="Restaurante, café, serviço..."></div>
+            <div class="field"><label>Categoria</label><select><option>Todas</option><option>Gastronomia</option><option>Saúde</option></select></div>
+            <button>Buscar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+
+    <article class="option">
+      <div class="option-meta">
+        <strong>Opção G · Montserrat ExtraBold + Libre Baskerville Italic</strong>
+        <span>Atual do site</span>
+      </div>
+      <section class="sample opt-g">
+        <div class="sample-top">
+          <div class="brand">
+            <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+            <span><strong>Guia Vila Mascote</strong><span>Curadoria local</span></span>
+          </div>
+          <span class="pill">127 locais</span>
+        </div>
+        <div class="sample-body">
+          <h2>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h2>
+          <p>Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+          <form class="search">
+            <div class="field"><label>O que você busca?</label><input placeholder="Restaurante, café, serviço..."></div>
+            <div class="field"><label>Categoria</label><select><option>Todas</option><option>Gastronomia</option><option>Saúde</option></select></div>
+            <button>Buscar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+
+    <article class="option">
+      <div class="option-meta">
+        <strong>Opção H · Poppins ExtraBold + Playfair Display Italic</strong>
+        <span>Mais revista/lifestyle</span>
+      </div>
+      <section class="sample opt-h">
+        <div class="sample-top">
+          <div class="brand">
+            <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+            <span><strong>Guia Vila Mascote</strong><span>Curadoria local</span></span>
+          </div>
+          <span class="pill">127 locais</span>
+        </div>
+        <div class="sample-body">
+          <h2>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h2>
+          <p>Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+          <form class="search">
+            <div class="field"><label>O que você busca?</label><input placeholder="Restaurante, café, serviço..."></div>
+            <div class="field"><label>Categoria</label><select><option>Todas</option><option>Gastronomia</option><option>Saúde</option></select></div>
+            <button>Buscar</button>
+          </form>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

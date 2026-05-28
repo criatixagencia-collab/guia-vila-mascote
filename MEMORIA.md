@@ -70,6 +70,7 @@ Contexto registrado em 16/05/2026.
 - Ajuste posterior: o `index.html` principal passou a usar o novo logo metalizado processado a partir de `logo_metal.PNG`, salvo como `assets/logo-vila-mascote-metal.png`; o prototipo em `test01/` permanece com o logo anterior.
 - Ajuste posterior: o topo do `test01` foi levado para o `index.html` principal em uma versão mais fina, com fundo azul limpo, sem a malha de quadrados, e com busca + seleção de categorias funcionando no hero.
 - Ajuste posterior: o principal voltou para o logo antigo `assets/logo-vila-mascote.png`, passou a usar duas fontes (`Montserrat` + `Libre Baskerville`), removeu o pill "São Paulo..." e mudou o texto do hero para "Guia Vila Mascote / tudo o que você precisa, aqui no bairro." com a linha "Restaurantes, serviços, saúde, beleza, pet, compras e muito mais."
+- Ajuste posterior: foi criada a pasta `teste 1/` com uma página de comparação de combinações de fontes e variações de dourado mais metálico. Os cards de categorias do site principal passaram a exibir somente o título, sem subtítulo.
 
 ---
 **Atualização (28/05/2026 - site V1):**
