@@ -76,3 +76,4 @@ Contexto registrado em 16/05/2026.
 - `scripts/build_site_data.py` gera `dados.js` a partir de `CATEGORIZACAO/estabelecimentos_categorizados_v1.csv`.
 - O `dados.js` usa somente itens com `acao_sugerida = Listar`, totalizando 127 estabelecimentos.
 - `index.html`, `style.css` e `script.js` implementam busca, filtros por macro-categoria, subcategorias, ordenação e cards com ações para WhatsApp, Instagram, mapa e post de origem quando disponíveis.
+- Repositório GitHub criado em `https://github.com/criatixagencia-collab/guia-vila-mascote`.
