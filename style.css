@@ -1,6 +1,7 @@
 :root {
-  --font-display: "Atkinson Hyperlegible", sans-serif;
-  --font-body: "Atkinson Hyperlegible", sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+  --font-accent: "Libre Baskerville", serif;
 
   --ink: oklch(22% 0.045 260);
   --ink-soft: oklch(42% 0.035 258);
@@ -92,8 +93,8 @@ a {
 }
 
 .brand-mark {
-  width: 62px;
-  height: 62px;
+  width: 54px;
+  height: 54px;
   display: block;
   object-fit: contain;
   flex: 0 0 auto;
@@ -106,7 +107,7 @@ a {
 
 .brand-copy strong {
   font-family: var(--font-display);
-  font-size: 1.25rem;
+  font-size: 1.08rem;
   line-height: 1.1;
   font-weight: 700;
   color: var(--surface);
@@ -147,12 +148,12 @@ main {
 }
 
 .hero {
-  min-height: clamp(350px, 44vh, 440px);
+  min-height: clamp(300px, 38vh, 380px);
   display: grid;
   grid-template-rows: auto 1fr;
   position: relative;
   overflow: hidden;
-  padding: var(--space-md) 0 clamp(34px, 5vw, 52px);
+  padding: var(--space-sm) 0 clamp(26px, 4vw, 40px);
   color: var(--surface);
   background: var(--blue-dark);
 }
@@ -160,50 +161,39 @@ main {
 .hero-content {
   width: min(1180px, 100%);
   margin: 0 auto;
-  padding: clamp(16px, 3vw, 30px) var(--space-md) 0;
+  padding: clamp(12px, 2vw, 22px) var(--space-md) 0;
   display: grid;
   justify-items: center;
   align-content: center;
   text-align: center;
 }
 
-.location-pill {
-  width: fit-content;
-  max-width: 100%;
-  margin: 0 0 var(--space-md);
-  border: 1px solid color-mix(in oklch, var(--gold), transparent 34%);
-  border-radius: 999px;
-  padding: 9px 18px;
-  color: color-mix(in oklch, var(--gold), var(--surface) 20%);
-  background: color-mix(in oklch, var(--blue-dark), transparent 18%);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 .hero h1 {
-  max-width: 880px;
+  max-width: 1000px;
   margin: 0;
   color: var(--surface);
   font-family: var(--font-display);
-  font-size: clamp(2.35rem, 4.9vw, 4.8rem);
-  font-weight: 700;
-  line-height: 0.98;
+  font-size: clamp(2.1rem, 4.8vw, 4.65rem);
+  font-weight: 800;
+  line-height: 1.02;
   letter-spacing: 0;
 }
 
 .hero h1 em {
+  display: block;
+  margin-top: 2px;
   color: var(--gold);
+  font-family: var(--font-accent);
+  font-size: 0.74em;
   font-style: italic;
   font-weight: 400;
 }
 
 .hero-deck {
   max-width: 58ch;
-  margin: var(--space-md) 0 var(--space-lg);
+  margin: var(--space-sm) 0 var(--space-md);
   color: color-mix(in oklch, var(--surface), transparent 18%);
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
   overflow-wrap: break-word;
 }
@@ -211,7 +201,7 @@ main {
 .search-panel {
   width: min(860px, 100%);
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(190px, 0.65fr) 142px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(190px, 0.65fr) 132px;
   align-items: stretch;
   overflow: hidden;
   background: var(--surface);
@@ -224,7 +214,7 @@ main {
   min-width: 0;
   display: grid;
   gap: 3px;
-  padding: 11px 18px 11px 24px;
+  padding: 10px 18px 10px 24px;
   text-align: left;
 }
 
@@ -263,7 +253,7 @@ main {
 }
 
 .search-panel button {
-  min-height: 62px;
+  min-height: 58px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -795,7 +785,7 @@ h2 {
   }
 
   .hero {
-    min-height: 470px;
+    min-height: 430px;
     padding-top: var(--space-sm);
   }
 
@@ -857,8 +847,8 @@ h2 {
   }
 
   .brand-mark {
-    width: 56px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
   }
 
   .brand-copy strong {
@@ -866,22 +856,18 @@ h2 {
   }
 
   .hero h1 {
-    max-width: 9ch;
-    font-size: clamp(2.15rem, 10vw, 2.75rem);
-    line-height: 0.98;
+    max-width: 11ch;
+    font-size: clamp(1.95rem, 9.2vw, 2.55rem);
+    line-height: 1.02;
+  }
+
+  .hero h1 em {
+    font-size: 0.66em;
   }
 
   .hero-deck {
     max-width: 27ch;
-    font-size: 0.96rem;
-  }
-
-  .location-pill {
-    max-width: calc(100vw - 32px);
-    padding: 8px 12px;
-    font-size: 0.66rem;
-    letter-spacing: 0.08em;
-    white-space: normal;
+    font-size: 0.92rem;
   }
 
   .business-card {

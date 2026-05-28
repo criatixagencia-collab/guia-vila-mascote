@@ -220,14 +220,14 @@ function getFilteredData() {
 
 function renderCategorySelect() {
   if (!categorySelect) return;
-  categorySelect.innerHTML = `<option value="">Selecione</option>`;
+  categorySelect.innerHTML = "";
   getAllCategoryEntries().forEach((category) => {
     const option = document.createElement("option");
     option.value = category.key;
-    option.textContent = category.label;
+    option.textContent = category.key === "Todos" ? "Todas" : category.label;
     categorySelect.appendChild(option);
   });
-  categorySelect.value = state.category || "";
+  categorySelect.value = state.category || "Todos";
 }
 
 function renderCategoryGrid() {
@@ -505,7 +505,7 @@ function init() {
   });
 
   categorySelect?.addEventListener("change", (event) => {
-    state.category = event.target.value || null;
+    state.category = event.target.value;
     state.subcategory = "Todos";
     render();
     if (hasActiveIntent()) {
@@ -516,7 +516,7 @@ function init() {
   searchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
     state.query = searchInput.value.trim();
-    state.category = categorySelect?.value || state.category;
+    state.category = categorySelect?.value || "Todos";
     state.subcategory = "Todos";
     render();
     if (hasActiveIntent()) {
