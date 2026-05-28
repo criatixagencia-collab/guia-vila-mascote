@@ -15,37 +15,46 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-shell">
-      <a class="brand" href="#" aria-label="Guia Vila Mascote">
-        <img src="assets/logo-vila-mascote-metal.png" alt="Vila Mascote" class="brand-mark">
-        <span class="brand-copy">
-          <strong>Guia Vila Mascote</strong>
-          <span>Curadoria local</span>
-        </span>
-      </a>
-
-      <div class="header-counts" aria-label="Resumo do guia">
-        <span id="totalCount">0 locais</span>
-        <span id="categoryCount">0 categorias</span>
-      </div>
-    </div>
-  </header>
-
   <main>
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Vila Mascote, São Paulo</p>
-        <h1>Guia Vila Mascote</h1>
-        <p class="hero-deck">Restaurantes, serviços, saúde, compras e rotina de bairro em uma curadoria só.</p>
-      </div>
+      <header class="hero-topbar" aria-label="Guia Vila Mascote">
+        <a class="brand" href="#" aria-label="Guia Vila Mascote">
+          <img src="assets/logo-vila-mascote-metal.png" alt="Vila Mascote" class="brand-mark">
+          <span class="brand-copy">
+            <strong>Guia Vila Mascote</strong>
+            <span>Curadoria local</span>
+          </span>
+        </a>
 
-      <div class="search-panel" role="search">
-        <label for="searchInput">Buscar</label>
-        <div class="search-row">
-          <input id="searchInput" type="search" placeholder="Nome, categoria, rua ou especialidade">
-          <button id="clearSearch" type="button">Limpar</button>
+        <div class="header-counts" aria-label="Resumo do guia">
+          <span id="totalCount">0 locais</span>
+          <span id="categoryCount">0 categorias</span>
         </div>
+      </header>
+
+      <div class="hero-content">
+        <p class="location-pill">São Paulo · Vila Mascote e região</p>
+        <h1>Encontre o melhor da <em>Vila Mascote</em></h1>
+        <p class="hero-deck">Curadoria de restaurantes, serviços, saúde, compras e experiências do bairro.</p>
+
+        <form class="search-panel" id="searchForm" role="search">
+          <div class="field search-field">
+            <label for="searchInput">O que você busca?</label>
+            <input id="searchInput" type="search" placeholder="Restaurante, clínica, serviço..." autocomplete="off">
+          </div>
+
+          <div class="field select-field">
+            <label for="categorySelect">Categoria</label>
+            <select id="categorySelect" aria-label="Selecionar categoria">
+              <option value="">Selecione</option>
+            </select>
+          </div>
+
+          <button type="submit" aria-label="Buscar">
+            <span aria-hidden="true">⌕</span>
+            Buscar
+          </button>
+        </form>
       </div>
     </section>
 

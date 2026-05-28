@@ -68,6 +68,7 @@ Contexto registrado em 16/05/2026.
 - Foi recortado somente o primeiro selo superior, conforme pedido, e salvo como `assets/logo-vila-mascote.png`.
 - Ajuste posterior: o logo estava visualmente tangenciado; a arte foi recentralizada em uma tela transparente de 640x640 com 128px de margem em todos os lados, e o CSS do header/footer foi ajustado para exibir a marca com mais respiro.
 - Ajuste posterior: o `index.html` principal passou a usar o novo logo metalizado processado a partir de `logo_metal.PNG`, salvo como `assets/logo-vila-mascote-metal.png`; o prototipo em `test01/` permanece com o logo anterior.
+- Ajuste posterior: o topo do `test01` foi levado para o `index.html` principal em uma versão mais fina, com fundo azul limpo, sem a malha de quadrados, e com busca + seleção de categorias funcionando no hero.
 
 ---
 **Atualização (28/05/2026 - site V1):**

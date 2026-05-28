@@ -107,8 +107,10 @@ const state = {
 const categoryGrid = document.getElementById("categoryGrid");
 const cardsList = document.getElementById("cardsList");
 const subnav = document.getElementById("subnav");
+const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
 const clearSearch = document.getElementById("clearSearch");
+const categorySelect = document.getElementById("categorySelect");
 const sortSelect = document.getElementById("sortSelect");
 const activeCategoryLabel = document.getElementById("activeCategoryLabel");
 const resultsHeading = document.getElementById("resultsHeading");
@@ -159,6 +161,24 @@ function getCategoryEntries() {
     .filter((category) => category.count > 0);
 }
 
+function getAllCategoryEntries() {
+  return [
+    ...getCategoryEntries(),
+    {
+      key: "Todos",
+      label: "Todos os locais",
+      kicker: "Ver guia completo",
+      tone: "navy",
+      img: "photo-1500530855697-b586d89ba3ee",
+      count: dados.length
+    }
+  ];
+}
+
+function hasActiveIntent() {
+  return Boolean(state.category || state.query);
+}
+
 function getSearchHaystack(item) {
   return normalizeText([
     item.nome,
@@ -172,14 +192,14 @@ function getSearchHaystack(item) {
 }
 
 function getFilteredData() {
-  if (!state.category) {
+  if (!hasActiveIntent()) {
     return [];
   }
 
   const query = normalizeText(state.query);
 
   let filtered = dados.filter((item) => {
-    const inCategory = state.category === "Todos" || item.categorias.includes(state.category);
+    const inCategory = !state.category || state.category === "Todos" || item.categorias.includes(state.category);
     const inSubcategory = state.subcategory === "Todos" || item.subcategoria === state.subcategory;
     const inSearch = !query || getSearchHaystack(item).includes(query);
     return inCategory && inSubcategory && inSearch;
@@ -198,20 +218,22 @@ function getFilteredData() {
   return filtered;
 }
 
+function renderCategorySelect() {
+  if (!categorySelect) return;
+  categorySelect.innerHTML = `<option value="">Selecione</option>`;
+  getAllCategoryEntries().forEach((category) => {
+    const option = document.createElement("option");
+    option.value = category.key;
+    option.textContent = category.label;
+    categorySelect.appendChild(option);
+  });
+  categorySelect.value = state.category || "";
+}
+
 function renderCategoryGrid() {
   categoryGrid.innerHTML = "";
 
-  const categories = [
-    ...getCategoryEntries(),
-    {
-      key: "Todos",
-      label: "Todos os locais",
-      kicker: "Ver guia completo",
-      tone: "navy",
-      img: "photo-1500530855697-b586d89ba3ee",
-      count: dados.length
-    }
-  ];
+  const categories = getAllCategoryEntries();
 
   categories.forEach((category) => {
     const button = document.createElement("button");
@@ -229,6 +251,7 @@ function renderCategoryGrid() {
     button.addEventListener("click", () => {
       state.category = category.key;
       state.subcategory = "Todos";
+      if (categorySelect) categorySelect.value = category.key;
       render();
       document.querySelector(".results-section").scrollIntoView({ behavior: "smooth", block: "start" });
     });
@@ -266,16 +289,20 @@ function renderSubnav() {
 }
 
 function renderResultsHeader(filtered) {
-  const categoryName = state.category === "Todos" ? "Todos os locais" : formatCategory(state.category);
+  const categoryName = state.category
+    ? state.category === "Todos" ? "Todos os locais" : formatCategory(state.category)
+    : "Busca";
   activeCategoryLabel.textContent = categoryName;
-  resultsHeading.textContent = state.subcategory === "Todos" ? "Estabelecimentos" : state.subcategory;
+  resultsHeading.textContent = !state.category
+    ? "Resultados"
+    : state.subcategory === "Todos" ? "Estabelecimentos" : state.subcategory;
 
   const searchLabel = state.query ? ` para "${state.query}"` : "";
   resultsMeta.textContent = `${filtered.length} resultado${filtered.length === 1 ? "" : "s"}${searchLabel}`;
 }
 
 function renderCards() {
-  if (!state.category) {
+  if (!hasActiveIntent()) {
     cardsList.innerHTML = "";
     resultsMeta.textContent = "";
     return;
@@ -337,10 +364,7 @@ function renderResults() {
 }
 
 function getMapData() {
-  if (!state.category) {
-    return dados;
-  }
-  return getFilteredData();
+  return hasActiveIntent() ? getFilteredData() : dados;
 }
 
 function getMapItems(filtered = getFilteredData()) {
@@ -373,7 +397,7 @@ function focusMapItem(item) {
 
 function renderMapList(items) {
   if (!mapList) return;
-  if (!state.category) {
+  if (!hasActiveIntent()) {
     mapList.innerHTML = "";
     mapList.hidden = true;
     mapLayout?.classList.add("map-only");
@@ -454,7 +478,8 @@ function initMap() {
 }
 
 function render() {
-  resultsSection.hidden = !state.category;
+  resultsSection.hidden = !hasActiveIntent();
+  renderCategorySelect();
   renderCategoryGrid();
   renderSubnav();
   renderResults();
@@ -467,14 +492,36 @@ function init() {
 
   searchInput.addEventListener("input", (event) => {
     state.query = event.target.value.trim();
-    renderResults();
+    if (!resultsSection.hidden || state.category) {
+      render();
+    }
   });
 
-  clearSearch.addEventListener("click", () => {
+  clearSearch?.addEventListener("click", () => {
     state.query = "";
     searchInput.value = "";
     render();
     searchInput.focus();
+  });
+
+  categorySelect?.addEventListener("change", (event) => {
+    state.category = event.target.value || null;
+    state.subcategory = "Todos";
+    render();
+    if (hasActiveIntent()) {
+      resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  });
+
+  searchForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    state.query = searchInput.value.trim();
+    state.category = categorySelect?.value || state.category;
+    state.subcategory = "Todos";
+    render();
+    if (hasActiveIntent()) {
+      resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   });
 
   sortSelect.addEventListener("change", (event) => {
