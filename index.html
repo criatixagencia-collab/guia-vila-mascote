@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Vila Mascote</title>
+  <meta name="description" content="Guia local da Vila Mascote com restaurantes, serviços, saúde, beleza, pets, imóveis, compras e muito mais.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <link rel="icon" href="assets/logo-vila-mascote-metal.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-shell">
+      <a class="brand" href="#" aria-label="Guia Vila Mascote">
+        <img src="assets/logo-vila-mascote-metal.png" alt="Vila Mascote" class="brand-mark">
+        <span class="brand-copy">
+          <strong>Guia Vila Mascote</strong>
+          <span>Curadoria local</span>
+        </span>
+      </a>
+
+      <div class="header-counts" aria-label="Resumo do guia">
+        <span id="totalCount">0 locais</span>
+        <span id="categoryCount">0 categorias</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Vila Mascote, São Paulo</p>
+        <h1>Guia Vila Mascote</h1>
+        <p class="hero-deck">Restaurantes, serviços, saúde, compras e rotina de bairro em uma curadoria só.</p>
+      </div>
+
+      <div class="search-panel" role="search">
+        <label for="searchInput">Buscar</label>
+        <div class="search-row">
+          <input id="searchInput" type="search" placeholder="Nome, categoria, rua ou especialidade">
+          <button id="clearSearch" type="button">Limpar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-section" aria-labelledby="categoryHeading">
+      <div class="section-heading">
+        <h2 id="categoryHeading">Categorias</h2>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+    </section>
+
+    <section class="results-section" aria-labelledby="resultsHeading">
+      <div class="results-topbar">
+        <div>
+          <p class="eyebrow" id="activeCategoryLabel">Todos os locais</p>
+          <h2 id="resultsHeading">Estabelecimentos</h2>
+        </div>
+        <select id="sortSelect" aria-label="Ordenar estabelecimentos">
+          <option value="recentes">Mais recentes</option>
+          <option value="citados">Mais citados</option>
+          <option value="az">A-Z</option>
+        </select>
+      </div>
+
+      <nav class="subnav" id="subnav" aria-label="Subcategorias"></nav>
+
+      <div class="results-meta" id="resultsMeta"></div>
+      <div class="cards-list" id="cardsList"></div>
+    </section>
+
+    <section class="map-section" aria-labelledby="mapHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Mapa real</p>
+          <h2 id="mapHeading">No mapa</h2>
+        </div>
+        <span class="map-count" id="mapCount">0 locais</span>
+      </div>
+      <div class="map-layout">
+        <div class="map-wrap">
+          <div id="map" aria-label="Mapa dos estabelecimentos da Vila Mascote"></div>
+        </div>
+        <div class="map-list" id="mapList" aria-label="Locais no mapa"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/logo-vila-mascote-metal.png" alt="" class="footer-mark" aria-hidden="true">
+    <p>Guia Vila Mascote</p>
+  </footer>
+
+  <script src="dados.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.DS_Store
+*.pyc
+__pycache__/
+.env
+.env.*
+node_modules/
+dist/
+build/
+data/
+SCRAP UM ANO/
+lista geral de estabelecimentos clientes.txt
+logo mascote.png
+guia_vila_mascote.csv
+guia_vila_mascote_all.csv
+logo_metal.*
+Logometal.*

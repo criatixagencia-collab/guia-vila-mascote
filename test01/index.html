@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste 01 · Guia Vila Mascote</title>
+  <meta name="description" content="Protótipo de topo com busca e categorias para o Guia Vila Mascote.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="../assets/logo-vila-mascote.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <header class="topbar" aria-label="Guia Vila Mascote">
+        <a class="brand" href="../index.html">
+          <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+          <span>
+            <strong>Guia Vila Mascote</strong>
+            <small>Curadoria local</small>
+          </span>
+        </a>
+      </header>
+
+      <div class="hero-content">
+        <p class="location-pill">São Paulo · Vila Mascote e região</p>
+        <h1>Encontre o melhor da <em>Vila Mascote</em></h1>
+        <p class="subtitle">Curadoria de restaurantes, serviços, saúde, compras e experiências do bairro.</p>
+
+        <form class="search-panel" id="searchForm" role="search">
+          <div class="field search-field">
+            <label for="searchInput">O que você busca?</label>
+            <input id="searchInput" type="search" placeholder="Restaurante, clínica, serviço..." autocomplete="off">
+          </div>
+
+          <div class="field select-field">
+            <label for="categorySelect">Categoria</label>
+            <select id="categorySelect">
+              <option value="">Selecione</option>
+            </select>
+          </div>
+
+          <button type="submit" aria-label="Buscar">
+            <span aria-hidden="true">⌕</span>
+            Buscar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="category-section" aria-labelledby="categoryTitle">
+      <div class="section-heading">
+        <p>Escolha um caminho</p>
+        <h2 id="categoryTitle">Categorias</h2>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+    </section>
+
+    <section class="results-section" id="resultsSection" aria-labelledby="resultsTitle" hidden>
+      <div class="section-heading">
+        <p id="resultsKicker">Resultados</p>
+        <h2 id="resultsTitle">Estabelecimentos</h2>
+      </div>
+      <div class="results-meta" id="resultsMeta"></div>
+      <div class="cards-list" id="cardsList"></div>
+    </section>
+  </main>
+
+  <script src="../dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
