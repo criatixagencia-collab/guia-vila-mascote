@@ -52,7 +52,7 @@ Contexto registrado em 16/05/2026.
 - **Objetivo:** revisar a taxonomia do Guia Vila Mascote antes de aplicar qualquer mudança no site.
 - **Arquivos:** `CATEGORIZACAO/taxonomia_categorias_v1.md`, `CATEGORIZACAO/estabelecimentos_categorizados_v1.md`, `CATEGORIZACAO/estabelecimentos_categorizados_v1.csv` e `CATEGORIZACAO/README.md`.
 - **Modelo adotado:** cada estabelecimento pode ter uma categoria principal e múltiplas categorias de exibição. Exemplo: ótica aparece em Saúde & Clínicas e também em Mercados/Conveniência; pilates aparece em Academias/Bem-Estar e Saúde.
-- **Resumo V1:** 147 itens analisados, 127 marcados como `Listar`, 8 como `Revisar` e 12 como `Nao listar`.
+- **Resumo V1:** 147 itens analisados, 126 marcados como `Listar`, 8 como `Revisar` e 13 como `Nao listar`.
 
 ---
 **Regra permanente de trabalho:**
@@ -60,6 +60,7 @@ Contexto registrado em 16/05/2026.
 - Todo desenvolvimento, curadoria, categorização, geração de dados e alteração de site do **Guia Vila Mascote** deve acontecer somente dentro da pasta `/Users/rafaeloliver/Downloads/guia cb/guia vila mascote`.
 - O projeto **Guia Campo Belo** pode ser usado apenas como referência visual/estrutural quando necessário, mas seus arquivos não devem ser alterados, movidos ou misturados com os arquivos da Vila Mascote.
 - Antes de aplicar mudanças grandes no site, explicar o plano e confirmar a direção com o usuário.
+- Sempre que o usuário pedir para excluir/remover um estabelecimento, atualizar a categorização, regenerar `dados.js` e ajustar os CSVs derivados em `SCRAP UM ANO` quando fizer sentido. Preservar os JSONs brutos do scrap como evidência original, salvo pedido explícito para reprocessar/remover também deles.
 
 ---
 **Atualização (28/05/2026 - logo):**
@@ -77,6 +78,6 @@ Contexto registrado em 16/05/2026.
 
 - O site inicial do **Guia Vila Mascote** foi montado dentro desta pasta, sem misturar arquivos do Guia Campo Belo.
 - `scripts/build_site_data.py` gera `dados.js` a partir de `CATEGORIZACAO/estabelecimentos_categorizados_v1.csv`.
-- O `dados.js` usa somente itens com `acao_sugerida = Listar`, totalizando 127 estabelecimentos.
+- O `dados.js` usa somente itens com `acao_sugerida = Listar`, totalizando 126 estabelecimentos.
 - `index.html`, `style.css` e `script.js` implementam busca, filtros por macro-categoria, subcategorias, ordenação e cards com ações para WhatsApp, Instagram, mapa e post de origem quando disponíveis.
 - Repositório GitHub criado em `https://github.com/criatixagencia-collab/guia-vila-mascote`.

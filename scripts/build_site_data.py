@@ -77,6 +77,139 @@ def compact_description(value):
     return value
 
 
+def strip_social_noise(value, mention_label=""):
+    value = re.sub(r"@\w+(?:[._]\w+)*", mention_label, value or "")
+    value = re.sub(r"#\w+", "", value)
+    value = re.sub(r"[\U00010000-\U0010ffff]", " ", value)
+    value = re.sub(r"[🎫⚠️✅✨🚨💪🤩😍☺️💈💞🏋️‍♀️🏋🏻💊🧘‍♀️💛🔥👀🍕🍟🕦📍🍣🇯🇵🍜😋🍽️🥰🤝💝🧖‍♀️🌿💆‍♀️🛋️🏠🪚🛠️📚🏫⚽🎈🛍️🧸🦷👄💉🩻❣️🧰❄️🧺🚀🎉]+", " ", value)
+    value = re.sub(r"\s+", " ", value).strip(" .-")
+    return value
+
+
+PROMO_RE = re.compile(
+    r"(?i)\b(?:off|desconto|cupom|promo(?:ção|cao)|gr[aá]tis|ganhe|brinde|condi(?:ç|c)(?:ões|oes)|"
+    r"valores promocionais|black friday|r\$\s*\d|isenc(?:ao|ão)|matr[ií]cula|bolsa exclusiva)\b"
+)
+
+
+def split_sentences(value):
+    value = normalize_space(value)
+    if not value:
+        return []
+    parts = re.split(r"(?<=[.!?])\s+|(?:\s+[•]\s+)", value)
+    return [normalize_space(part.strip(" -•")) for part in parts if normalize_space(part)]
+
+
+def cut_offer_context(value):
+    transition = re.compile(
+        r"(?i)\s+(?:se você|que tal|a gente|fomos|nessa época|na unidade|o studio|a loja|as pizzas|dica boa|"
+        r"você está|você não precisa|o que já era|tem dúvidas|hoje a gente|manter|precisa conhecer|"
+        r"você sabia|novidade|na escola|a unidade|a clínica|a empresa|a loja|o restaurante|para completar|"
+        r"e o melhor|corre porque|arraste|arrasta)\b"
+    )
+    match = transition.search(value)
+    if match and match.start() >= 24:
+        return value[:match.start()]
+    return value
+
+
+def clean_offer(value, mention_label=""):
+    value = strip_social_noise(value, mention_label)
+    special = re.search(r"(?i)promo(?:ção|cao) especial pra data:\s*(.+)", value)
+    if special:
+        value = special.group(1)
+    value = cut_offer_context(value)
+    value = re.sub(r"(?i)^cupom de desconto\s+", "Cupom ", value)
+    value = re.sub(r"(?i)\s+promoção válida.*$", "", value)
+    value = re.sub(r"(?i)\s+somente dia.*$", "", value)
+    value = re.sub(r"(?i)\s+válido somente.*$", "", value)
+    value = re.sub(r"\s+", " ", value).strip(" .-")
+    if len(value) > 150:
+        value = value[:147].rstrip(" ,;") + "..."
+    return value
+
+
+def extract_promotion(value, mention_label=""):
+    text = strip_social_noise(value, mention_label)
+    if not text or not PROMO_RE.search(text):
+        return ""
+
+    promo_words = re.compile(
+        r"(?i)\b(?:off|desconto|cupom|promo(?:ção|cao)|gr[aá]tis|ganhe|brinde|condi(?:ç|c)(?:ões|oes)|"
+        r"black friday|isenc(?:ao|ão)|matr[ií]cula|bolsa exclusiva)\b"
+    )
+    if re.search(r"(?i)\bvalor de venda\b", text[:320]) and not promo_words.search(text[:320]):
+        return ""
+
+    if PROMO_RE.search(text[:280]):
+        return clean_offer(text[:280], mention_label)
+
+    match = PROMO_RE.search(text)
+    start = max(0, match.start() - 50)
+    end = min(len(text), match.end() + 90)
+    window = text[start:end]
+    if re.search(r"(?i)\bvalor de venda\b", window) and not promo_words.search(window):
+        return ""
+    return clean_offer(window, mention_label)
+
+
+def summarize_description(value, category, subcategory, mention_label):
+    text = strip_social_noise(value, mention_label)
+    promotion = extract_promotion(value, mention_label)
+    if promotion:
+        text = normalize_space(text.replace(promotion, "", 1))
+
+    cleanup_patterns = [
+        r"(?i)^dica especial (?:para|pra) quem (?:é|mora) (?:da|na) vila mascote[!.]?\s*",
+        r"(?i)^fomos visitar\s+",
+        r"(?i)^a gente foi (?:conhecer|visitar|até)\s+",
+        r"(?i)^você sabia que\s+",
+        r"(?i)^arraste para o lado.*$",
+        r"(?i)^arrasta pro lado.*$",
+    ]
+    for pattern in cleanup_patterns:
+        text = re.sub(pattern, "", text).strip()
+    text = re.sub(r"(?i)^e quer .*?\ba gente\b", "A gente", text).strip()
+    text = re.sub(r"^a\s+(?=[A-ZÁÉÍÓÚ])", "", text).strip()
+
+    sentences = split_sentences(text)
+    chosen = []
+    for sentence in sentences:
+        if PROMO_RE.search(sentence):
+            continue
+        if re.search(r"(?i)\b(?:arraste|arrasta|confira|corre|link na bio|comenta aqui)\b", sentence):
+            continue
+        sentence = normalize_space(sentence)
+        if len(sentence) < 22:
+            continue
+        chosen.append(sentence)
+        if len(" ".join(chosen)) >= 170 or len(chosen) == 2:
+            break
+
+    base = f"{mention_label} é uma opção de {subcategory.lower()} na Vila Mascote."
+    detail = ""
+    for sentence in chosen:
+        if normalize_text := normalize_space(sentence):
+            if normalize_text.lower().startswith(mention_label.lower()):
+                continue
+            detail = normalize_text
+            break
+
+    if detail:
+        summary = f"{base} {detail}"
+    elif chosen:
+        summary = f"{base} {chosen[0]}"
+    else:
+        summary = base
+
+    summary = re.sub(r"\s+", " ", summary).strip(" .-")
+    if summary and summary[-1] not in ".!?":
+        summary += "."
+    if len(summary) > 240:
+        summary = summary[:237].rstrip(" ,;") + "..."
+    return summary
+
+
 def clean_name(value):
     value = re.sub(r"\s+", " ", value or "").strip()
     replacements = {
@@ -167,12 +300,13 @@ def main():
             if primary not in categories:
                 categories.insert(0, primary)
             raw_name = normalize_space(row["nome"])
+            display_name = clean_name(raw_name)
             address = extract_address(row["endereco"])
             geocode = geocodes.get(f"{raw_name}::{address}", {})
             records.append(
                 {
                     "id": len(records) + 1,
-                    "nome": clean_name(raw_name),
+                    "nome": display_name,
                     "categoriaPrincipal": primary,
                     "categorias": categories,
                     "subcategoria": row["subcategoria_final"],
@@ -182,7 +316,8 @@ def main():
                     "mapSource": geocode.get("source", ""),
                     "telefones": clean_phone(row["telefone"]),
                     "instagram": row["instagram"].lstrip("@"),
-                    "descricao": compact_description(row["resumo"]),
+                    "descricao": summarize_description(row["resumo"], primary, row["subcategoria_final"], display_name),
+                    "promocao": extract_promotion(row["resumo"], display_name),
                     "ultimoPost": row["ultimo_post"],
                     "postsAno": int(row["posts_no_ano"] or 0),
                     "jaNoGuia": row["ja_no_guia"] == "sim",

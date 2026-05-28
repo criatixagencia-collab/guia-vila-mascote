@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 127
+ * Total de estabelecimentos listaveis: 126
  */
 
 const dados = [
@@ -21,7 +21,8 @@ const dados = [
       "11999698754"
     ],
     "instagram": "fitclassvilamascote",
-    "descricao": "NOVIDADE NA REGIÃO! A @fitclassvilamascote está chegando por aqui e já promete movimentar a rotina com uma proposta cheia de energia. 💪🤩 A rede, que nasceu na zona sul de São Paulo, já soma 23 anos de história e agora inicia sua expansão com a nova unidade...",
+    "descricao": "FitClass Vila Mascote é uma opção de academia/fitness na Vila Mascote. A FitClass Vila Mascote está chegando por aqui e já promete movimentar a rotina com uma proposta cheia de energia.",
+    "promocao": "",
     "ultimoPost": "2026-05-04",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -48,7 +49,8 @@ const dados = [
       "1128944166"
     ],
     "instagram": "hipsuplementos",
-    "descricao": "Fomos visitar a @hipsuplementos, que é referência em suplementação esportiva e fica aqui pertinho, na Catarina. 🏋🏻💊 A loja tem mais de 10 anos de história e trabalha com whey, creatina, pré-treinos, termogênicos, géis de carboidrato e muito mais. Tudo com a...",
+    "descricao": "Hip Suplementos é uma opção de suplementos na Vila Mascote. A loja tem mais de 10 anos de história e trabalha com whey, creatina, pré-treinos, termogênicos, géis de carboidrato e muito mais.",
+    "promocao": "",
     "ultimoPost": "2026-01-30",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -72,7 +74,8 @@ const dados = [
     "mapSource": "nominatim",
     "telefones": [],
     "instagram": "studio_velocity",
-    "descricao": "A Velocity tá chegando na Vila Mascote pra alegria dos moradores, afinal essa notícia era muito aguardada aqui no bairro. A nova unidade vai ficar na Av. Mascote, 233, no ponto onde funcionava a Loftstyle. As obras já começaram e a previsão de inauguração é...",
+    "descricao": "Studio Velocity é uma opção de bike indoor na Vila Mascote. A Velocity tá chegando na Vila Mascote pra alegria dos moradores, afinal essa notícia era muito aguardada aqui no bairro.",
+    "promocao": "",
     "ultimoPost": "2026-02-04",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -97,7 +100,8 @@ const dados = [
       "11998046780"
     ],
     "instagram": "velocity.vilamascote",
-    "descricao": "Tem novidade chegando aqui no bairro!⚠️ A @velocity.vilamascote promete muito mais do que uma simples aula de bike. A proposta da nova unidade é unir música, movimento, corpo e mente em uma experiência totalmente imersiva. 🚴😍 Tudo isso com salas escuras, pl...",
+    "descricao": "Velocity Vila Mascote é uma opção de bike indoor na Vila Mascote. Tem novidade chegando aqui no bairro!",
+    "promocao": "",
     "ultimoPost": "2026-05-18",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -122,7 +126,8 @@ const dados = [
       "11999467026"
     ],
     "instagram": "yogavilamascote",
-    "descricao": "🌿 Dica especial para quem é da Vila Mascote! Se você busca um refúgio de bem-estar no bairro, precisa conhecer o @yogavilamascote, um espaço dedicado a aliviar dores, melhorar o sono e trazer mais foco e tranquilidade para o dia a dia. 🧘‍♀️✨ Presente na reg...",
+    "descricao": "Yogavilamascote é uma opção de academia/fitness na Vila Mascote. Se você busca um refúgio de bem-estar no bairro, precisa conhecer o Yogavilamascote, um espaço dedicado a aliviar dores, melhorar o sono e trazer mais foco e tranquilidade...",
+    "promocao": "",
     "ultimoPost": "2025-11-23",
     "postsAno": 4,
     "jaNoGuia": true,
@@ -150,7 +155,8 @@ const dados = [
       "11910718528"
     ],
     "instagram": "barbierobarbearia",
-    "descricao": "10% OFF NO PRIMEIRO SERVIÇO + 20% OFF NO CLUBE DE ASSINATURA Se você procura uma barbearia com serviço de qualidade aqui na Mascote, a @barbierobarbearia é uma ótima opção. ☺️💈 O espaço é voltado para o público masculino, com estrutura moderna, atendimento...",
+    "descricao": "Barbierobarbearia é uma opção de barbearia na Vila Mascote. Se você procura uma barbearia com serviço de qualidade aqui na Mascote, a Barbierobarbearia é uma ótima opção.",
+    "promocao": "10% OFF NO PRIMEIRO SERVIÇO + 20% OFF NO CLUBE DE ASSINATURA",
     "ultimoPost": "2025-10-29",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -178,7 +184,8 @@ const dados = [
       "11937230872"
     ],
     "instagram": "botocenter.vilamascote",
-    "descricao": "NA COMPRA DE 2 PROCEDIMENTOS OU MAIS, GANHE UMA BOLSA EXCLUSIVA BOTOCENTER Que tal presentear aquela pessoa que sempre esteve ao seu lado com o cartão-presente da @botocenter.vilamascote? 💞 Na unidade aqui do bairro, você encontra vários serviços, como toxi...",
+    "descricao": "Botocenter.vilamascote é uma opção de estetica clinica na Vila Mascote. Que tal presentear aquela pessoa que sempre esteve ao seu lado com o cartão-presente da Botocenter.vilamascote?",
+    "promocao": "NA COMPRA DE 2 PROCEDIMENTOS OU MAIS, GANHE UMA BOLSA EXCLUSIVA BOTOCENTER",
     "ultimoPost": "2026-05-07",
     "postsAno": 11,
     "jaNoGuia": true,
@@ -214,7 +221,8 @@ const dados = [
       "1155653434"
     ],
     "instagram": "buddhaspa.vilamascote",
-    "descricao": "Dica especial pra quem mora na Vila Mascote e quer acertar em cheio no presente de Dia das Mães 💝✨ A gente descobriu uma experiência linda no @buddhaspa.vilamascote: o Mini Day Spa Mãe e Filha 🧖‍♀️🌿 E olha… não é só um presente, é um momento que fica pra se...",
+    "descricao": "Buddha Spa Vila Mascote é uma opção de beleza & estetica na Vila Mascote. A gente descobriu uma experiência linda no Buddha Spa Vila Mascote: o Mini Day Spa Mãe e Filha E olha… não é só um presente, é um momento que fica pra sempre.",
+    "promocao": "",
     "ultimoPost": "2026-05-06",
     "postsAno": 8,
     "jaNoGuia": false,
@@ -247,7 +255,8 @@ const dados = [
       "11912480396"
     ],
     "instagram": "clinicamvbeauty",
-    "descricao": "10% OFF PARA OS NOSSOS SEGUIDORES Você sabia que a @clinicamvbeauty oferece o serviço de Head Spa? 🤔 Pra quem não conhece, é um ritual de relaxamento profundo que utiliza o toque e a água para proporcionar descanso mental e corporal. O serviço oferece uma i...",
+    "descricao": "Clínica MV Beauty é uma opção de estetica clinica na Vila Mascote. Pra quem não conhece, é um ritual de relaxamento profundo que utiliza o toque e a água para proporcionar descanso mental e corporal.",
+    "promocao": "10% OFF PARA OS NOSSOS SEGUIDORES",
     "ultimoPost": "2026-04-10",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -275,7 +284,8 @@ const dados = [
       "11996811716"
     ],
     "instagram": "espaco.artnails",
-    "descricao": "NOVIDADE NA MASCOTE O @espaco.artnails agora passa a se chamar Clínica MV Beauty! 🤩💫 A clínica entra em uma nova fase, com foco total em saúde, estética e bem-estar aqui no bairro. Entre os serviços que passam a fazer parte da clínica estão: • Head SPA • Tr...",
+    "descricao": "Espaco.artnails é uma opção de unhas / estetica na Vila Mascote. NOVIDADE NA MASCOTE O Espaco.artnails agora passa a se chamar Clínica MV Beauty!",
+    "promocao": "",
     "ultimoPost": "2026-01-17",
     "postsAno": 7,
     "jaNoGuia": true,
@@ -306,7 +316,8 @@ const dados = [
       "11978227978"
     ],
     "instagram": "fastescova.vilamascote",
-    "descricao": "Você já pensou como é a correria nos bastidores de um salão de beleza? 💇‍♀️ A gente acompanhou de perto um dia de trabalho da proprietária da @fastescova.vilamascote, Mariana Abreu (@marirabreu), um espaço que já conquistou as moradoras aqui do bairro. 💛 O...",
+    "descricao": "Fastescova Vilamascote é uma opção de salao / escovaria na Vila Mascote. Você já pensou como é a correria nos bastidores de um salão de beleza?",
+    "promocao": "",
     "ultimoPost": "2025-09-25",
     "postsAno": 4,
     "jaNoGuia": false,
@@ -334,7 +345,8 @@ const dados = [
       "11992815975"
     ],
     "instagram": "fecarvalho_makeup",
-    "descricao": "DESCONTOS ESPECIAIS DE BLACK FRIDAY DE ATÉ 50% O studio @fecarvalho_makeup é parada obrigatória para quem quer ficar linda e estilosa ao mesmo tempo. 😍💁🏻‍♀️ A Fernanda é maquiadora profissional com anos de experiência e tem um talento único pra realçar a be...",
+    "descricao": "Fecarvalho Makeup é uma opção de maquiagem na Vila Mascote. O studio Fecarvalho Makeup é parada obrigatória para quem quer ficar linda e estilosa ao mesmo tempo.",
+    "promocao": "DESCONTOS ESPECIAIS DE BLACK FRIDAY DE ATÉ 50%",
     "ultimoPost": "2025-11-19",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -361,7 +373,8 @@ const dados = [
       "11999120420"
     ],
     "instagram": "janasestetica",
-    "descricao": "Pensando em começar um tratamento estético? A dica é iniciar com uma boa limpeza de pele e o endereço certo é a clínica da Janaina Saraiva, aqui na Vila Mascote. 💆‍♀️✨ A @janasestetica oferece a Limpeza de Pele 4D Premium, que combina dois protocolos exclus...",
+    "descricao": "Janasestetica é uma opção de estetica clinica na Vila Mascote. Pensando em começar um tratamento estético?",
+    "promocao": "",
     "ultimoPost": "2025-09-17",
     "postsAno": 4,
     "jaNoGuia": true,
@@ -390,7 +403,8 @@ const dados = [
       "11982973631"
     ],
     "instagram": "lemesbarbearia",
-    "descricao": "Hoje o dia foi de festa na @lemesbarbearia 🎉 Comemorar uma década de sucesso não é para qualquer um, e ver um negócio local crescer e se fortalecer no bairro é motivo de orgulho para todos nós. A celebração foi completa: 🎶 Rock and Roll de primeira com o DJ...",
+    "descricao": "Lemesbarbearia é uma opção de barbearia na Vila Mascote. Hoje o dia foi de festa na Lemesbarbearia Comemorar uma década de sucesso não é para qualquer um, e ver um negócio local crescer e se fortalecer no bairro é motivo de orgulho para...",
+    "promocao": "",
     "ultimoPost": "2026-03-07",
     "postsAno": 1,
     "jaNoGuia": true,
@@ -415,7 +429,8 @@ const dados = [
       "11952466470"
     ],
     "instagram": "ted_barbearia",
-    "descricao": "A @ted_barbearia tem 5 anos de história e conta com 3 unidades na região, sempre mantendo aquele padrão que a gente valoriza. 💈☺️ Por lá, você encontra serviços completos de barbearia e corte masculino, tanto para adultos quanto para o público infantil, o q...",
+    "descricao": "Ted Barbearia é uma opção de barbearia na Vila Mascote. A Ted Barbearia tem 5 anos de história e conta com 3 unidades na região, sempre mantendo aquele padrão que a gente valoriza.",
+    "promocao": "",
     "ultimoPost": "2026-04-09",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -441,7 +456,8 @@ const dados = [
       "11981090765"
     ],
     "instagram": "valen.vilakidsebarber",
-    "descricao": "10% OFF EM QUALQUER SERVIÇO ⚠️ NOVIDADE NA MASCOTE! A @valen.vilakidsebarber acabou de inaugurar aqui no bairro e já chama atenção por uma proposta diferente: um espaço pensado especialmente para as crianças. 💈🧒🏽🥳 A barbearia conta com um ambiente totalment...",
+    "descricao": "Valen Vilakidsebarber é uma opção de barbearia infantil na Vila Mascote. A Valen Vilakidsebarber acabou de inaugurar aqui no bairro e já chama atenção por uma proposta diferente: um espaço pensado especialmente para as crianças.",
+    "promocao": "10% OFF EM QUALQUER SERVIÇO",
     "ultimoPost": "2026-03-13",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -467,7 +483,8 @@ const dados = [
       "11947284395"
     ],
     "instagram": "acaidabarravilamascote_",
-    "descricao": "Se você curte um açaí bem servido, mas não quer abrir mão da dieta, precisa experimentar a linha fitness do @acaidabarravilamascote_ .😋🍨 Serve tanto para pré quanto para pós-treino e vem com Whey Protein, Creatina, Glutamina e BCAA, pra te dar aquela força...",
+    "descricao": "Açaí da Barra Vila Mascote é uma opção de acai na Vila Mascote. Se você curte um açaí bem servido, mas não quer abrir mão da dieta, precisa experimentar a linha fitness do Açaí da Barra Vila Mascote.",
+    "promocao": "",
     "ultimoPost": "2026-03-01",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -494,7 +511,8 @@ const dados = [
       "11994139920"
     ],
     "instagram": "coffeelandia_",
-    "descricao": "Aqui no bairro tem um cantinho especial pra quem ama café e não abre mão da companhia do melhor amigo de quatro patas. A @coffeelandia_ é a primeira cafeteria pet-friendly, anexa a uma pet shop, da Mascote e já conquistou os nossos vizinhos.🍰🐕 O cardápio é...",
+    "descricao": "Coffeelândia é uma opção de cafe pet friendly na Vila Mascote. Aqui no bairro tem um cantinho especial pra quem ama café e não abre mão da companhia do melhor amigo de quatro patas.",
+    "promocao": "",
     "ultimoPost": "2025-06-12",
     "postsAno": 1,
     "jaNoGuia": true,
@@ -521,7 +539,8 @@ const dados = [
       "1155654009"
     ],
     "instagram": "kopenhagen_vila_mascote",
-    "descricao": "A gente foi visitar a @kopenhagen_vila_mascote e conferir todas as delícias para a Páscoa desse ano. 🐇😍 A loja aqui do bairro oferece uma grande variedade de ovos de Páscoa, desde tradicionais até recheados. 🍫🍪 Na @kopenhagen_vila_mascote, você também pode...",
+    "descricao": "Kopenhagen Vila Mascote é uma opção de chocolate / presentes na Vila Mascote. A loja aqui do bairro oferece uma grande variedade de ovos de Páscoa, desde tradicionais até recheados.",
+    "promocao": "",
     "ultimoPost": "2026-03-29",
     "postsAno": 4,
     "jaNoGuia": true,
@@ -548,7 +567,8 @@ const dados = [
     "mapSource": "nominatim",
     "telefones": [],
     "instagram": "vilamascote.thebestacai",
-    "descricao": "🍧✨ A gente foi conhecer a @vilamascote.thebestacai, uma novidade deliciosa na região! Experimentamos vários sabores e aprovamos. 💜 Inaugurada recentemente na Av. Santa Catarina, 2233, a The Best Açaí Vila Mascote chegou fazendo sucesso! São 12 sabores de aç...",
+    "descricao": "The Best Açaí Vila Mascote é uma opção de acai na Vila Mascote. Experimentamos vários sabores e aprovamos.",
+    "promocao": "",
     "ultimoPost": "2025-09-12",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -573,7 +593,8 @@ const dados = [
       "11994802596"
     ],
     "instagram": "casaelleganceprime",
-    "descricao": "Querendo renovar o ambiente da sua casa ou escritório nesse fim de ano? A @casaelleganceprime fica aqui pertinho e é uma ótima escolha. 🏠✨ A loja trabalha com móveis para todos os estilos, desde os convencionais até os modulados e planejados, além de sofás,...",
+    "descricao": "Casaelleganceprime é uma opção de marcenaria / moveis na Vila Mascote. Querendo renovar o ambiente da sua casa ou escritório nesse fim de ano?",
+    "promocao": "",
     "ultimoPost": "2025-12-05",
     "postsAno": 6,
     "jaNoGuia": false,
@@ -604,7 +625,8 @@ const dados = [
       "11988308225"
     ],
     "instagram": "girasole.boutiquedosaromas",
-    "descricao": "20% OFF NA COMPRA DE 3 AROMAS Que tal deixar sua casa ou estúdio com aquele perfume de spa? 🧴☺️ A @girasole.boutiquedosaromas é especializada em perfumaria de ambiente e tem tudo para transformar o clima do seu espaço. Por lá, você encontra difusores de var...",
+    "descricao": "Girasole Boutiquedosaromas é uma opção de aromas / presentes na Vila Mascote. Que tal deixar sua casa ou estúdio com aquele perfume de spa?",
+    "promocao": "20% OFF NA COMPRA DE 3 AROMAS",
     "ultimoPost": "2026-04-12",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -631,7 +653,8 @@ const dados = [
       "1152864150"
     ],
     "instagram": "luh.organizer",
-    "descricao": "Quer uma árvore de Natal linda, elegante e sem dor de cabeça? Alugue a sua com a @luh.organizer.🎄😍 Com o aluguel de árvore de Natal, você tem: • Praticidade total — ela entrega, monta e desmonta pra você. • Economia — evite gastar com uma árvore nova todo a...",
+    "descricao": "Luh Organizer é uma opção de organizacao na Vila Mascote. Quer uma árvore de Natal linda, elegante e sem dor de cabeça?",
+    "promocao": "",
     "ultimoPost": "2025-11-23",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -658,7 +681,8 @@ const dados = [
       "11964795530"
     ],
     "instagram": "nobre.marcenaria",
-    "descricao": "10% OFF NA CONFECÇÃO DE MÓVEIS PLANEJADOS Dica boa pra quem mora na Mascote e está pensando em dar aquele upgrade nos móveis de casa ou do escritório: a @nobre.marcenaria.🪚🛠️😊 A empresa tem 7 anos de história e vem transformando ambientes com móveis sob med...",
+    "descricao": "Nobre Marcenaria é uma opção de marcenaria / moveis na Vila Mascote. Dica boa pra quem mora na Mascote e está pensando em dar aquele upgrade nos móveis de casa ou do escritório: a Nobre Marcenaria.",
+    "promocao": "10% OFF NA CONFECÇÃO DE MÓVEIS PLANEJADOS",
     "ultimoPost": "2026-04-20",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -686,7 +710,8 @@ const dados = [
       "11996263725"
     ],
     "instagram": "seuestilodecor",
-    "descricao": "A @seuestilodecor já tem mais de 10 anos de história na Vila Mascote e segue como referência quando o assunto é decoração, cortinas e persianas sob medida. 💛 E a boa notícia? Ainda dá tempo de renovar sua casa, escritório ou comércio antes do fim do ano! A...",
+    "descricao": "Seuestilodecor é uma opção de decoracao na Vila Mascote. A Seuestilodecor já tem mais de 10 anos de história na Vila Mascote e segue como referência quando o assunto é decoração, cortinas e persianas sob medida.",
+    "promocao": "",
     "ultimoPost": "2025-11-05",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -713,7 +738,8 @@ const dados = [
       "11974603872"
     ],
     "instagram": "culturainglesa.vilamascote",
-    "descricao": "FAÇA SUA MATRÍCULA DURANTE O MÊS DE MAIO E GANHE UMA MOCHILA EXCLUSIVA Você está adiando seu início no curso de inglês? A teacher Luiza, da @culturainglesa.vilamascote, te ajuda a tomar uma decisão rápida! 👩🏻‍🏫📚😉 A unidade aqui do bairro te espera para dar...",
+    "descricao": "Cultura Inglesa Vila Mascote é uma opção de escola de idiomas na Vila Mascote. Você está adiando seu início no curso de inglês?",
+    "promocao": "FAÇA SUA MATRÍCULA DURANTE O MÊS DE MAIO E GANHE UMA MOCHILA EXCLUSIVA",
     "ultimoPost": "2026-05-11",
     "postsAno": 4,
     "jaNoGuia": false,
@@ -743,7 +769,8 @@ const dados = [
       "1125062322"
     ],
     "instagram": "escolaludus",
-    "descricao": "MATRÍCULA GRÁTIS + 15% OFF NA MENSALIDADE Na @escolaludus, o crescimento pessoal é a base para um amanhã cheio de possibilidades.🤩🏫 São 30 anos de tradição aqui no bairro, com muito profissionalismo e dedicação. 🥰 A Ludus Educere trabalha com berçário e edu...",
+    "descricao": "Escola Ludus é uma opção de escola de idiomas na Vila Mascote. Na Escola Ludus, o crescimento pessoal é a base para um amanhã cheio de possibilidades.",
+    "promocao": "MATRÍCULA GRÁTIS + 15% OFF NA MENSALIDADE",
     "ultimoPost": "2026-02-03",
     "postsAno": 3,
     "jaNoGuia": true,
@@ -771,7 +798,8 @@ const dados = [
       "1155240724"
     ],
     "instagram": "isec.idiomas",
-    "descricao": "50% OFF NAS 4 PRIMEIRAS MENSALIDADES Você não precisa morar fora do país para aprender inglês. Na @isec.idiomas, você aprende durante o ano todo. Veja o caso dessa aluna que está na escola desde os 7 anos. 🏫🥰 As aulas são para todas as idades, em grupo ou p...",
+    "descricao": "ISEC Idiomas é uma opção de escola de idiomas na Vila Mascote. Você não precisa morar fora do país para aprender inglês.",
+    "promocao": "50% OFF NAS 4 PRIMEIRAS MENSALIDADES",
     "ultimoPost": "2026-04-30",
     "postsAno": 11,
     "jaNoGuia": true,
@@ -808,7 +836,8 @@ const dados = [
       "11940368687"
     ],
     "instagram": "olimpiafutebol",
-    "descricao": "ISENÇÃO DE MATRÍCULA + 10% OFF NA MENSALIDADE A @olimpiafutebol tem mais de 30 anos de história, e desde então vem transformando o jeito de aprender e viver o futebol. 🏟⚽ A escola tem uma unidade aqui pertinho, no Jardim Aeroporto, e oferece aulas para cria...",
+    "descricao": "Olimpiafutebol é uma opção de academia/fitness na Vila Mascote. Além dos treinos, os alunos participam de campeonatos, torne.",
+    "promocao": "ISENÇÃO DE MATRÍCULA + 10% OFF NA MENSALIDADE A Olimpiafutebol tem mais de 30 anos de história, e desde então vem transformando o jeito de aprender...",
     "ultimoPost": "2025-06-06",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -834,7 +863,8 @@ const dados = [
       "1151983736"
     ],
     "instagram": "rededecisao",
-    "descricao": "Se você busca uma escola completa para o seu filho em 2026, precisa conhecer a @rededecisao. A unidade aqui da Mascote foi inaugurada em 2020, mas a rede já tem 41 anos de história e tradição na educação.🏫 Por lá, os alunos contam com professores experiente...",
+    "descricao": "Rede Decisão é uma opção de escola na Vila Mascote. Se você busca uma escola completa para o seu filho em 2026, precisa conhecer a Rede Decisão.",
+    "promocao": "",
     "ultimoPost": "2025-10-30",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -860,7 +890,8 @@ const dados = [
       "11954546867"
     ],
     "instagram": "kasportsoficial",
-    "descricao": "🎈✨ Diversão que conecta pessoas e cria memórias por onde passa! ✨🎈 A gente adora destacar quem espalha alegria e transforma momentos em pura diversão e a KA Sports é especialista nisso! 💖 Com uma equipe super animada e apaixonada pelo que faz, a @kasportsof...",
+    "descricao": "Kasportsoficial é uma opção de eventos / recreacao na Vila Mascote. Diversão que conecta pessoas e cria memórias por onde passa!",
+    "promocao": "",
     "ultimoPost": "2025-11-03",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -886,7 +917,8 @@ const dados = [
       "11947875908"
     ],
     "instagram": "projetosfesta",
-    "descricao": "DESCONTO ESPECIAL PARA OS NOSSOS SEGUIDORES A @projetosfesta atende em diversas regiões da cidade, inclusive aqui na Mascote, e já está há 4 anos no mercado, levando charme e praticidade para todo tipo de evento, inclusive fomos conferir de perto uma inaugu...",
+    "descricao": "Projetosfesta é uma opção de festas / decoracao na Vila Mascote. Com um toque de bom gosto, culinária de alta classe e aquele atendimento personalizado que faz toda a diferença, eles cuidam de tudo: desde o coffee br.",
+    "promocao": "DESCONTO ESPECIAL PARA OS NOSSOS SEGUIDORES A Projetosfesta atende em diversas regiões da cidade, inclusive aqui na Mascote, e já está há 4 anos no...",
     "ultimoPost": "2025-06-05",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -912,7 +944,8 @@ const dados = [
       "11948727758"
     ],
     "instagram": "arabianmixfood",
-    "descricao": "CUPOM DE DESCONTO MASCOTE Se você ama comida árabe, precisa ver isso 👀 🇦🇪 A gente foi até a cozinha do @arabianmixfood e acompanhou tudo de perto… e tem um detalhe que faz toda a diferença: lá tudo é feito na hora. Os kebabs e shawarmas estão com receitas r...",
+    "descricao": "Arabian Mix Food é uma opção de árabe na Vila Mascote. Os kebabs e shawarmas estão com receitas renovadas, o pão ficou mais generoso e o recheio é simplesmente impressionante!",
+    "promocao": "Cupom MASCOTE",
     "ultimoPost": "2026-05-23",
     "postsAno": 11,
     "jaNoGuia": true,
@@ -948,7 +981,8 @@ const dados = [
       "11976444588"
     ],
     "instagram": "atelie.juguedes",
-    "descricao": "Você sabia que o @atelie.juguedes tem tortas doces à pronta entrega? 🥧😋 São diversas opções: banoffe, limonoffe, choconoffe, mousse de maracujá e a trio perfeito, feita com 3 chocolates, branco, ao leite e meio amargo. 😍🍫 O ateliê fica aqui no bairro e cont...",
+    "descricao": "Ateliê Ju Guedes é uma opção de doces/bolos na Vila Mascote. o Ateliê Ju Guedes tem tortas doces à pronta entrega?",
+    "promocao": "",
     "ultimoPost": "2025-10-18",
     "postsAno": 5,
     "jaNoGuia": true,
@@ -978,7 +1012,8 @@ const dados = [
       "1123673536"
     ],
     "instagram": "babbogiovannivilamascote",
-    "descricao": "R$ 20,00 OFF NO PRIMEIRO PEDIDO+ R$ 10,00 OFF NO SEGUNDO PELO APP usando os cupons \"primeiropedido\" ou \"mascote\" As pizzas da @babbogiovannivilamascote são deliciosas e sempre fazem sucesso entre os vizinhos. 😍🍕 A pizzaria, que tem mais de 100 anos de tradi...",
+    "descricao": "Babbo Giovanni Vila Mascote é uma opção de pizzaria na Vila Mascote. As pizzas da Babbo Giovanni Vila Mascote são deliciosas e sempre fazem sucesso entre os vizinhos.",
+    "promocao": "R$ 20,00 OFF NO PRIMEIRO PEDIDO+ R$ 10,00 OFF NO SEGUNDO PELO APP usando os cupons \"primeiropedido\" ou \"mascote\"",
     "ultimoPost": "2026-05-15",
     "postsAno": 12,
     "jaNoGuia": true,
@@ -1015,7 +1050,8 @@ const dados = [
       "11966329332"
     ],
     "instagram": "bacalhaudoguga",
-    "descricao": "Pra comemorar os 13 anos do @bacalhaudoguga o restaurante está oferecendo 13% de desconto entre os dias 12 e 17 de maio! ✨🎉 A história do Bacalhau do Guga começou pequena, como delivery, lá em novembro de 2011. Mas foi em 12 de maio de 2013, em um Dia das M...",
+    "descricao": "Bacalhau do Guga é uma opção de português na Vila Mascote. A história do Bacalhau do Guga começou pequena, como delivery, lá em novembro de 2011.",
+    "promocao": "Pra comemorar os 13 anos do Bacalhau do Guga",
     "ultimoPost": "2026-05-12",
     "postsAno": 9,
     "jaNoGuia": true,
@@ -1049,7 +1085,8 @@ const dados = [
       "1138958222"
     ],
     "instagram": "capannopizzaria",
-    "descricao": "Mais de 25 anos de tradição direto para a sua mesa! 🍕✨ Na @capannopizzaria, que fica aqui na Mascote, cada fatia é feita com ingredientes premium e aquele sabor inconfundível do forno a lenha. Aproveite as pizzas, calzones e a harmonização perfeita com a ca...",
+    "descricao": "Capanno Pizzaria é uma opção de pizzaria na Vila Mascote. Mais de 25 anos de tradição direto para a sua mesa!",
+    "promocao": "",
     "ultimoPost": "2026-03-27",
     "postsAno": 3,
     "jaNoGuia": true,
@@ -1078,7 +1115,8 @@ const dados = [
       "1155650649"
     ],
     "instagram": "casadobentopaesartesanais",
-    "descricao": "O seu Dia das Mães começa com as delícias da @casadobentopaesartesanais. 🥰 🍝 A padaria fica aqui na Mascote e trabalha com pães artesanais sem aditivos químicos e com fermentação natural, com vários sabores incríveis, desde integrais até recheados. 🥐🥖 Por l...",
+    "descricao": "Casa do Bento Pães Artesanais é uma opção de padaria na Vila Mascote. O seu Dia das Mães começa com as delícias da Casa do Bento Pães Artesanais.",
+    "promocao": "",
     "ultimoPost": "2026-05-01",
     "postsAno": 12,
     "jaNoGuia": true,
@@ -1114,7 +1152,8 @@ const dados = [
       "11983945538"
     ],
     "instagram": "casapalmarestaurante",
-    "descricao": "Cupom de desconto VILAMASCOTE12. Válido somente no delivery. Se você gosta de comida caseira feita no capricho, precisa experimentar os pratos do @casapalmarestaurante.😋🍽️ A casa já soma quase 12 anos de história aqui na região, levando uma proposta de comi...",
+    "descricao": "Casapalma Restaurante é uma opção de restaurante na Vila Mascote. Válido somente no delivery.",
+    "promocao": "Cupom VILAMASCOTE12",
     "ultimoPost": "2026-03-10",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1139,7 +1178,8 @@ const dados = [
       "11933847569"
     ],
     "instagram": "fashiongrill_br",
-    "descricao": "10% OFF NOS COMBOS E NOS LANCHES, DURANTE TODO O MÊS DE MARÇO A gente adora descobrir lugares gostosos por perto, e dessa vez fomos conhecer um espaço que já está há 1 ano e meio aqui pela região: a @fashiongrill_br. 🍔😋 O clima é bem agradável e o espaço fu...",
+    "descricao": "Fashiongrill Br é uma opção de hamburgueria na Vila Mascote. A gente adora descobrir lugares gostosos por perto, e dessa vez fomos conhecer um espaço que já está há 1 ano e meio aqui pela região: a Fashiongrill Br.",
+    "promocao": "10% OFF NOS COMBOS E NOS LANCHES, DURANTE TODO O MÊS DE MARÇO",
     "ultimoPost": "2026-03-06",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1165,7 +1205,8 @@ const dados = [
       "1123627309"
     ],
     "instagram": "hakkasushibr",
-    "descricao": "🍣🏡 Quer saber como é pedir delivery do Hakka Sushi Vila Mascote? Esse vídeo mostra tudo: do preparo no restaurante até o pedido chegando na sua casa! O @hakkasushibr é uma das redes japonesas mais tradicionais de São Paulo, com um cardápio gigante e aquele...",
+    "descricao": "Hakkasushibr é uma opção de japonês na Vila Mascote. Quer saber como é pedir delivery do Hakka Sushi Vila Mascote?",
+    "promocao": "",
     "ultimoPost": "2025-11-19",
     "postsAno": 6,
     "jaNoGuia": false,
@@ -1195,7 +1236,8 @@ const dados = [
       "11951688538"
     ],
     "instagram": "hiatarivilamascote",
-    "descricao": "O @hiatarivilamascote está com uma ótima promoção no rodízio para casal ou dupla, e você precisa experimentar. 🍣🇯🇵🤩 O rodízio completo inclui sushis, sashimis, jhous, temakis, empanados, shimeji, yakisobas, camarão empanado, camarão na chapa, entre outros....",
+    "descricao": "Hiatari Vila Mascote é uma opção de japonês na Vila Mascote. O rodízio completo inclui sushis, sashimis, jhous, temakis, empanados, shimeji, yakisobas, camarão empanado, camarão na chapa, entre outros.",
+    "promocao": "O Hiatari Vila Mascote está com uma ótima promoção no rodízio para casal ou dupla, e você precisa experimentar. O rodízio completo inclui sushis, s...",
     "ultimoPost": "2026-05-12",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -1222,7 +1264,8 @@ const dados = [
       "11976444588"
     ],
     "instagram": "julianaguedes.confeitaria",
-    "descricao": "A Páscoa da @julianaguedes.confeitaria tá recheada de novidades deliciosas.🐇😍 São diversas opções de ovos: simples, recheados, trufados e de colher. Você pode fazer sua encomenda até o dia 28/03. 😋🍫 E pra quem ama um café com doce especial, o espaço é um ch...",
+    "descricao": "Juliana Guedes Confeitaria é uma opção de doces/bolos na Vila Mascote. A Páscoa da Juliana Guedes Confeitaria tá recheada de novidades deliciosas.",
+    "promocao": "",
     "ultimoPost": "2026-03-12",
     "postsAno": 5,
     "jaNoGuia": false,
@@ -1253,7 +1296,8 @@ const dados = [
       "11910068994"
     ],
     "instagram": "padariarecantodamascote",
-    "descricao": "Procurando o presente ideal para o Dia das Mães? 💐✨ A @padariarecantodamascote preparou cestas exclusivas para deixar o domingo ainda mais especial, com muito carinho em cada detalhe. Uma opção linda, deliciosa e perfeita para surpreender quem sempre cuidou...",
+    "descricao": "Padaria Recanto da Mascote é uma opção de padaria na Vila Mascote. Procurando o presente ideal para o Dia das Mães?",
+    "promocao": "",
     "ultimoPost": "2026-05-08",
     "postsAno": 4,
     "jaNoGuia": true,
@@ -1280,7 +1324,8 @@ const dados = [
     "mapSource": "nominatim",
     "telefones": [],
     "instagram": "pastelariavoze",
-    "descricao": "Desde que chegou na região, a @pastelariavoze vem conquistando corações e paladares por aqui. 💛 Os pastéis são super recheados e o cardápio tem mais de 150 combinações entre salgados e doces, com direito até a versões em formato de coração! Difícil escolher...",
+    "descricao": "Pastelariavoze é uma opção de doces / confeitaria na Vila Mascote. Desde que chegou na região, a Pastelariavoze vem conquistando corações e paladares por aqui.",
+    "promocao": "",
     "ultimoPost": "2025-11-06",
     "postsAno": 5,
     "jaNoGuia": false,
@@ -1311,7 +1356,8 @@ const dados = [
       "11912089819"
     ],
     "instagram": "queijariacave381",
-    "descricao": "Se você ainda não comprou o presente de Dia das Mães, a gente indica os produtos da @queijariacave381. 😍🧀 São diversas opções: cestas de café da manhã, kits que você pode montar na hora, na tábua em MDF, no caixote ou nas mini box. E se você já tiver compra...",
+    "descricao": "Queijaria Cave 381 é uma opção de padaria na Vila Mascote. Se você ainda não comprou o presente de Dia das Mães, a gente indica os produtos da Queijaria Cave 381.",
+    "promocao": "",
     "ultimoPost": "2026-05-08",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1337,7 +1383,8 @@ const dados = [
       "1155656133"
     ],
     "instagram": "saboriecozinhaartesanal",
-    "descricao": "10% OFF NO PRIMEIRO PEDIDO PARA CONSUMO NO LOCAL Nessa época de frio, nada melhor que uma sobremesa para adoçar. 😋🍪 E no @saboriecozinhaartesanal, você encontra diversas opções como bolos caseiros, bolos de pote, pavês, tortas, pudim, brigadeiro e muito mai...",
+    "descricao": "Saboriê Cozinha Artesanal é uma opção de doces/bolos na Vila Mascote. Nessa época de frio, nada melhor que uma sobremesa para adoçar.",
+    "promocao": "10% OFF NO PRIMEIRO PEDIDO PARA CONSUMO NO LOCAL",
     "ultimoPost": "2026-05-25",
     "postsAno": 11,
     "jaNoGuia": true,
@@ -1373,7 +1420,8 @@ const dados = [
       "11994389717"
     ],
     "instagram": "vittelisrestaurante",
-    "descricao": "Quem já conhece a Chef Lia, proprietária do @vittelisrestaurante, sabe que ela coloca amor em cada detalhe. ❤️ E quem ainda não teve o prazer de conhecer, aqui está o convite perfeito para viver essa experiência. 🍷✨ O Vittelis | Restaurante Contemporâneo pr...",
+    "descricao": "Vittelis Restaurante é uma opção de doces/bolos na Vila Mascote. Quem já conhece a Chef Lia, proprietária do Vittelis Restaurante, sabe que ela coloca amor em cada detalhe.",
+    "promocao": "",
     "ultimoPost": "2026-05-23",
     "postsAno": 10,
     "jaNoGuia": false,
@@ -1405,7 +1453,8 @@ const dados = [
     "mapSource": "nominatim",
     "telefones": [],
     "instagram": "winnerburger",
-    "descricao": "O Dia Mundial do Hambúrguer vai ser comemorado em grande estilo na Vila Mascote! A @winnerburger preparou uma promoção especial pra data: 🔥 Cheeseburger de R$33,90 por apenas R$14,90 🍟 Combo com batata + bebida de R$54,90 por só R$28,90 ⚠️ Promoção válida a...",
+    "descricao": "Winnerburger é uma opção de hamburgueria na Vila Mascote. O Dia Mundial do Hambúrguer vai ser comemorado em grande estilo na Vila Mascote!",
+    "promocao": "Cheeseburger de R$33,90 por apenas R$14,90 Combo com batata + bebida de R$54,90 por só R$28,90",
     "ultimoPost": "2026-05-27",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -1431,7 +1480,8 @@ const dados = [
       "11977836971"
     ],
     "instagram": "adautofilhodedeus",
-    "descricao": "A Vila Mascote acaba de ganhar um novo e exclusivo lançamento da Cyrela ✨ No encontro da natureza com a arquitetura, o Mediterranée by Living revela a verdadeira essência do wellness, trazendo um projeto que combina leveza, sofisticação e bem-estar em todos...",
+    "descricao": "Adautofilhodedeus é uma opção de imobiliária na Vila Mascote. A Vila Mascote acaba de ganhar um novo e exclusivo lançamento da Cyrela No encontro da natureza com a arquitetura, o Mediterranée by Living revela a verdadeira essência do wel...",
+    "promocao": "",
     "ultimoPost": "2025-09-28",
     "postsAno": 4,
     "jaNoGuia": false,
@@ -1459,7 +1509,8 @@ const dados = [
       "11914672584"
     ],
     "instagram": "ceciliateixeira",
-    "descricao": "Um lançamento que já está dando o que falar aqui no bairro! 💫 O Mediterranée by Living Vila Mascote, da Cyrela, chegou trazendo um conceito diferenciado de moradia.🌃 São apartamentos de 76m², 89m² e até 149m², com opções de 2 a 3 suítes e 2 vagas de garagem...",
+    "descricao": "Ceciliateixeira é uma opção de imobiliária na Vila Mascote. Um lançamento que já está dando o que falar aqui no bairro!",
+    "promocao": "1.171. E tem mais: moradores da região contam com condições especiais e bônus",
     "ultimoPost": "2025-10-02",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1482,7 +1533,8 @@ const dados = [
     "mapSource": "nominatim",
     "telefones": [],
     "instagram": "econconstrutora",
-    "descricao": "Quem passa pela Avenida Vereador João de Luca já deve ter percebido a movimentação no espaço onde funcionava a antiga Americanas Express, no número 483. O ponto, que muitos moradores da região lembram por já ter abrigado uma Blockbuster nos anos 2000, terá...",
+    "descricao": "Econ Construtora é uma opção de imobiliaria / corretor na Vila Mascote. Quem passa pela Avenida Vereador João de Luca já deve ter percebido a movimentação no espaço onde funcionava a antiga Americanas Express, no número 483.",
+    "promocao": "",
     "ultimoPost": "2026-05-20",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1505,7 +1557,8 @@ const dados = [
     "mapSource": "fallback",
     "telefones": [],
     "instagram": "elitufanini.remax",
-    "descricao": "Se você busca um imóvel residencial aqui na Mascote, dá uma olhada nessa excelente oportunidade que a @elitufanini.remax trouxe: O apartamento fica na Rua Praia do Castelo e tem 101 m² de área útil, com espaços bem distribuídos para quem busca conforto e pr...",
+    "descricao": "Eli Tufanini Remax é uma opção de imobiliária na Vila Mascote. Se você busca um imóvel residencial aqui na Mascote, dá uma olhada nessa excelente oportunidade que a Eli Tufanini Remax trouxe: O apartamento fica na Rua Praia do Castelo e...",
+    "promocao": "",
     "ultimoPost": "2026-03-06",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1530,7 +1583,8 @@ const dados = [
       "11958511441"
     ],
     "instagram": "flora.barretoimoveis",
-    "descricao": "Tem lançamento especial aqui na Mascote! 🤩 Você já pode visitar o stand Mediterranée by Living e conhecer o decorado com a @flora.barretoimoveis, corretora oficial. 🌆😍 Os apartamentos têm metragens de 76m², 89m² e até 149m², com opções de 2 a 3 suítes e até...",
+    "descricao": "Flora Barretoimoveis é uma opção de imobiliária na Vila Mascote. Tem lançamento especial aqui na Mascote!",
+    "promocao": "g. Pra quem gosta de morar bem e ainda aproveitar condições es",
     "ultimoPost": "2025-09-30",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -1558,7 +1612,8 @@ const dados = [
       "11956367353"
     ],
     "instagram": "imoveismoedaforte",
-    "descricao": "🏡 Imóvel para locação na Vila Alexandria Pra quem tá procurando um novo lar aqui na região, esse apê de 65 m² tá disponível para alugar pela @imoveismoedaforte e tem tudo pra encantar: dois dormitórios (sendo uma suíte), sala com varanda fechada com vidro,...",
+    "descricao": "Imóveis Moeda Forte é uma opção de imobiliária na Vila Mascote. Imóvel para locação na Vila Alexandria Pra quem tá procurando um novo lar aqui na região, esse apê de 65 m² tá disponível para alugar pela Imóveis Moeda Forte e tem tudo pra...",
+    "promocao": "",
     "ultimoPost": "2025-10-14",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1583,7 +1638,8 @@ const dados = [
       "11983891682"
     ],
     "instagram": "jzmconst",
-    "descricao": "A @jzmconst, Incorporadora reconhecida por qualidade, confiança e excelência, preparou DUAS campanhas especiais para este Black November! O mês inteiro está recheado de condições exclusivas para você e sua família começarem o próximo ano em grande estilo. 🥰...",
+    "descricao": "Jzmconst é uma opção de construtora / lancamento na Vila Mascote. A Jzmconst, Incorporadora reconhecida por qualidade, confiança e excelência, preparou DUAS campanhas especiais para este Black November!",
+    "promocao": "A Jzmconst, Incorporadora reconhecida por qualidade, confiança e excelência, preparou DUAS campanhas especiais para este Black November! O mês inte...",
     "ultimoPost": "2025-11-22",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1608,7 +1664,8 @@ const dados = [
       "11985150317"
     ],
     "instagram": "karinamustafaimoveis",
-    "descricao": "Se você busca um imóvel de alto padrão aqui na Mascote, a @karinamustafaimoveis e a @sabrynaferraz_consultoria, corretoras da @remaxstudio76, têm uma excelente opção. 🤩 Localizado na Avenida Damasceno Vieira, o imóvel oferece vista livre, andar alto e face...",
+    "descricao": "Karina Mustafa Imóveis é uma opção de imobiliaria / corretor na Vila Mascote. Se você busca um imóvel de alto padrão aqui na Mascote, a Karina Mustafa Imóveis e a Karina Mustafa Imóveis, corretoras da Karina Mustafa Imóveis, têm uma exce...",
+    "promocao": "",
     "ultimoPost": "2025-11-05",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1633,7 +1690,8 @@ const dados = [
       "1141182280"
     ],
     "instagram": "livingempreendimentos",
-    "descricao": "No coração da Vila Mascote, nasce um projeto que une exclusividade, leveza e bem-estar. 🌿✨ O Mediterranée by @livingempreendimentos é um verdadeiro convite para viver com mais qualidade de vida. 🏝️💙 Visite o decorado e descubra um wellness center completo:...",
+    "descricao": "Living Empreendimentos é uma opção de construtora / lancamento na Vila Mascote. No coração da Vila Mascote, nasce um projeto que une exclusividade, leveza e bem-estar.",
+    "promocao": "",
     "ultimoPost": "2025-12-04",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -1659,7 +1717,8 @@ const dados = [
       "11995066130"
     ],
     "instagram": "louimoveis",
-    "descricao": "Se você procura um imóvel de alto padrão aqui na Mascote, o corretor Adriano Lourenço, da @louimoveis, está com uma ótima oportunidade: Arrasta pro lado pra conferir. 👉 Apartamento de 126 m² na Avenida Mascote, com 3 suítes, 3 vagas de garagem, depósito pri...",
+    "descricao": "Louimoveis é uma opção de imobiliária na Vila Mascote. Apartamento de 126 m² na Avenida Mascote, com 3 suítes, 3 vagas de garagem, depósito privativo de 3 m², sala ampla e varanda gourmet integrada.",
+    "promocao": "",
     "ultimoPost": "2025-10-21",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -1671,32 +1730,6 @@ const dados = [
   },
   {
     "id": 60,
-    "nome": "Marcus Almeida Imóveis",
-    "categoriaPrincipal": "Imoveis & Construcao",
-    "categorias": [
-      "Imoveis & Construcao",
-      "Instituicoes & Comunidade"
-    ],
-    "subcategoria": "Imobiliária",
-    "endereco": "",
-    "lat": -23.6495898,
-    "lng": -46.6643817,
-    "mapSource": "fallback",
-    "telefones": [
-      "11991441707"
-    ],
-    "instagram": "marcusalmeida.imoveis",
-    "descricao": "BREVE LANÇAMENTO NA MASCOTE 🚨 Um novo empreendimento moderno, com lazer completo e plantas que se encaixam direitinho em diferentes perfis de famílias.🌆😊 E sabe o melhor? Fica ao lado da Paróquia N. Sra. do Perpétuo Socorro e Santa Rosália, numa localização...",
-    "ultimoPost": "2025-07-04",
-    "postsAno": 1,
-    "jaNoGuia": false,
-    "origem": "Instagram @vila.mascote",
-    "linksPosts": [
-      "https://www.instagram.com/p/DLsKZABuG3o/"
-    ]
-  },
-  {
-    "id": 61,
     "nome": "Scheid Imóveis Vila Mascote",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
@@ -1713,7 +1746,8 @@ const dados = [
       "11988689740"
     ],
     "instagram": "scheidimoveisvilamascote",
-    "descricao": "Se você procura um imóvel residencial aqui na Mascote, dá uma olhada nessa excelente oportunidade da @scheidimoveisvilamascote: ✅ Apartamento à venda na Rua Palestina. São 100 m² com 3 dormitórios, sendo 1 suíte, 3 banheiros, 2 salas e 2 vagas de garagem. O...",
+    "descricao": "Scheid Imóveis Vila Mascote é uma opção de imobiliária na Vila Mascote. Se você procura um imóvel residencial aqui na Mascote, dá uma olhada nessa excelente oportunidade da Scheid Imóveis Vila Mascote: Apartamento à venda na Rua Palestina.",
+    "promocao": "",
     "ultimoPost": "2026-04-25",
     "postsAno": 11,
     "jaNoGuia": false,
@@ -1733,7 +1767,7 @@ const dados = [
     ]
   },
   {
-    "id": 62,
+    "id": 61,
     "nome": "Sellerspoficial",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
@@ -1748,7 +1782,8 @@ const dados = [
       "11958886413"
     ],
     "instagram": "sellerspoficial",
-    "descricao": "Sofisticação, conforto e versatilidade em um único endereço.✅ O Mediterranée by Living foi pensado para quem busca qualidade de vida em uma das regiões mais desejadas da zona sul, com plantas inteligentes e ambientes que valorizam o bem-estar no dia a dia....",
+    "descricao": "Sellerspoficial é uma opção de imobiliaria / corretor na Vila Mascote. Sofisticação, conforto e versatilidade em um único endereço.",
+    "promocao": "",
     "ultimoPost": "2026-03-20",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1758,7 +1793,7 @@ const dados = [
     ]
   },
   {
-    "id": 63,
+    "id": 62,
     "nome": "Sou a Sua Corretora",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
@@ -1773,7 +1808,8 @@ const dados = [
       "11932086342"
     ],
     "instagram": "souasuacorretora",
-    "descricao": "Se você procura um imóvel residencial aqui na região, dá uma olhada nessa ótima oportunidade que a Fabiana @souasuacorretora trouxe pra gente: Apartamento reformado, moderno e pronto para morar na Vila Alexandria.✨🌆 Localizado na Rua Albuquerque Sousa Muniz...",
+    "descricao": "Sou a Sua Corretora é uma opção de imobiliaria / corretor na Vila Mascote. Se você procura um imóvel residencial aqui na região, dá uma olhada nessa ótima oportunidade que a Fabiana Sou a Sua Corretora trouxe pra gente: Apartamento refor...",
+    "promocao": "",
     "ultimoPost": "2026-05-16",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1783,7 +1819,7 @@ const dados = [
     ]
   },
   {
-    "id": 64,
+    "id": 63,
     "nome": "Vieira Negócios",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
@@ -1799,7 +1835,8 @@ const dados = [
       "11995579684"
     ],
     "instagram": "vieiranegocios",
-    "descricao": "Hoje a @vieiranegocios trouxe mais uma excelente opção de imóvel residencial, aqui na Mascote: ✅ Apartamento de 80m² à venda na Avenida Damasceno Vieira. São 2 dormitórios, sala ampla com dois ambientes, armários embutidos, cozinha planejada e 1 vaga na gar...",
+    "descricao": "Vieira Negócios é uma opção de imobiliária na Vila Mascote. Hoje a Vieira Negócios trouxe mais uma excelente opção de imóvel residencial, aqui na Mascote: Apartamento de 80m² à venda na Avenida Damasceno Vieira.",
+    "promocao": "",
     "ultimoPost": "2026-05-23",
     "postsAno": 12,
     "jaNoGuia": false,
@@ -1820,7 +1857,7 @@ const dados = [
     ]
   },
   {
-    "id": 65,
+    "id": 64,
     "nome": "Bicho Batata Brinquedos",
     "categoriaPrincipal": "Infantil & Familia",
     "categorias": [
@@ -1836,7 +1873,8 @@ const dados = [
       "11913608956"
     ],
     "instagram": "bichobatata_brinquedos",
-    "descricao": "Se você ainda não garantiu os presentes de Natal para a criançada, a @bichobatata_brinquedos é a nossa sugestão. 🎁🎅 A loja fica aqui no bairro e é impossível não se encantar com a seleção especial de brinquedos educativos, pedagógicos e inclusivos que eles...",
+    "descricao": "Bicho Batata Brinquedos é uma opção de loja de brinquedos na Vila Mascote. Se você ainda não garantiu os presentes de Natal para a criançada, a Bicho Batata Brinquedos é a nossa sugestão.",
+    "promocao": "",
     "ultimoPost": "2025-12-02",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -1848,7 +1886,7 @@ const dados = [
     ]
   },
   {
-    "id": 66,
+    "id": 65,
     "nome": "Buffet Vale da Diversão",
     "categoriaPrincipal": "Infantil & Familia",
     "categorias": [
@@ -1864,7 +1902,8 @@ const dados = [
       "11988041477"
     ],
     "instagram": "buffet.vale.da.diversao",
-    "descricao": "BLOQUINHO DE CARNAVAL INFANTIL DIA 17/02 DAS 15H ÀS 19H O @buffet.vale.da.diversao fica aqui pertinho da gente, na Catarina, e é o único 100% lúdico da região, sem eletrônicos. 🤩🥳🛝 Lá, os pequenos podem se divertir em brinquedos como cama elástica, pula-pul...",
+    "descricao": "Buffet Vale da Diversão é uma opção de buffet infantil na Vila Mascote. BLOQUINHO DE CARNAVAL INFANTIL DIA 17/02 DAS 15H ÀS 19H O Buffet Vale da Diversão fica aqui pertinho da gente, na Catarina, e é o único 100% lúdico da região, sem el...",
+    "promocao": "",
     "ultimoPost": "2026-01-10",
     "postsAno": 5,
     "jaNoGuia": false,
@@ -1878,7 +1917,7 @@ const dados = [
     ]
   },
   {
-    "id": 67,
+    "id": 66,
     "nome": "Calmy Clínica",
     "categoriaPrincipal": "Infantil & Familia",
     "categorias": [
@@ -1895,7 +1934,8 @@ const dados = [
       "11966137878"
     ],
     "instagram": "calmyclinica",
-    "descricao": "CONDIÇÕES ESPECIAIS PARA OS NOSSOS SEGUIDORES A @calmyclinica é uma referência em diagnóstico e intervenções voltadas ao público infantil, e fica aqui bem pertinho da gente. ☺️💞 São diversas áreas essenciais para o desenvolvimento: fonoaudiologia, psicologi...",
+    "descricao": "Calmy Clínica é uma opção de clínica multidisciplinar na Vila Mascote. São diversas áreas essenciais para o desenvolvimento: fonoaudiologia, psicologia, terapia alimentar, terapia ocupacional, neuropsicologia, psicopedagogia, psicomotric...",
+    "promocao": "CONDIÇÕES ESPECIAIS PARA OS NOSSOS SEGUIDORES A Calmy Clínica é uma referência em diagnóstico e intervenções voltadas ao público infantil, e fica a...",
     "ultimoPost": "2026-04-21",
     "postsAno": 7,
     "jaNoGuia": false,
@@ -1911,7 +1951,7 @@ const dados = [
     ]
   },
   {
-    "id": 68,
+    "id": 67,
     "nome": "Eespaconeuroaprender",
     "categoriaPrincipal": "Infantil & Familia",
     "categorias": [
@@ -1927,7 +1967,8 @@ const dados = [
       "11989024490"
     ],
     "instagram": "eespaconeuroaprender",
-    "descricao": "10% OFF PARA OS NOSSOS SEGUIDORES Nessas férias, tem uma opção que deixa a criançada feliz da vida pertinho da gente: o day use do @eespaconeuroaprender!🛝😍🥳 Arrasta pro lado pra ver. 👉 Por lá, tudo foi pensado com carinho para o desenvolvimento e aprendizad...",
+    "descricao": "Eespaconeuroaprender é uma opção de infantil & familia na Vila Mascote. Por lá, tudo foi pensado com carinho para o desenvolvimento e aprendizado infantil.",
+    "promocao": "10% OFF PARA OS NOSSOS SEGUIDORES Nessas férias, tem uma opção que deixa a criançada feliz da vida pertinho da gente: o day use do Eespaconeuroapre...",
     "ultimoPost": "2025-12-13",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -1939,7 +1980,7 @@ const dados = [
     ]
   },
   {
-    "id": 69,
+    "id": 68,
     "nome": "Espacosallesxavier",
     "categoriaPrincipal": "Infantil & Familia",
     "categorias": [
@@ -1955,7 +1996,8 @@ const dados = [
       "11914268634"
     ],
     "instagram": "espacosallesxavier",
-    "descricao": "10% OFF PARA AS NOSSAS SEGUIDORAS O @espacosallesxavier que fica aqui na Mascote, é aquele lugar que conquista pelo cuidado nos mínimos detalhes, moderno, aconchegante e cheio de serviços que deixam a gente ainda mais linda.💅🏻💖 Tem manicure, pedicure, lash...",
+    "descricao": "Espacosallesxavier é uma opção de reformas na Vila Mascote. Tem manicure, pedicure, lash lifting, design de sobrancelhas, makes incríveis e produtos de altíssima qualidade.",
+    "promocao": "10% OFF PARA AS NOSSAS SEGUIDORAS O Espacosallesxavier que fica aqui na Mascote, é aquele lugar que conquista pelo cuidado nos mínimos detalhes, mo...",
     "ultimoPost": "2025-06-13",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1965,7 +2007,7 @@ const dados = [
     ]
   },
   {
-    "id": 70,
+    "id": 69,
     "nome": "Guigo Jiu-Jitsu Vila Mascote",
     "categoriaPrincipal": "Infantil & Familia",
     "categorias": [
@@ -1981,7 +2023,8 @@ const dados = [
       "11999098337"
     ],
     "instagram": "guigojj_vilamascote",
-    "descricao": "15% OFF EM QUALQUER PLANO ATÉ 15 DE SETEMBRO ⚠️NOVIDADE NA MASCOTE⚠️ A academia de Jiu-Jitsu @guigojj_vilamascote (filial da Guigo Jiu-Jitsu) acabou de inaugurar com um espaço amplo, com infraestrutura completa e ainda equipado com os melhores aparelhos de...",
+    "descricao": "Guigo Jiu-Jitsu Vila Mascote é uma opção de academia/fitness na Vila Mascote. NOVIDADE NA MASCOTE A academia de Jiu-Jitsu Guigo Jiu-Jitsu Vila Mascote (filial da Guigo Jiu-Jitsu) acabou de inaugurar com um espaço amplo, com infraestrutur...",
+    "promocao": "15% OFF EM QUALQUER PLANO ATÉ 15 DE SETEMBRO",
     "ultimoPost": "2025-08-22",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -1991,7 +2034,7 @@ const dados = [
     ]
   },
   {
-    "id": 71,
+    "id": 70,
     "nome": "Institutogabioficial",
     "categoriaPrincipal": "Instituicoes & Comunidade",
     "categorias": [
@@ -2008,7 +2051,8 @@ const dados = [
       "11975651750"
     ],
     "instagram": "institutogabioficial",
-    "descricao": "Quando a dor vira propósito! O @institutogabioficial é um verdadeiro exemplo de amor e dedicação ao próximo! ❤️ Conheça o Gabi! “QUEM AJUDA AS PESSOAS É FELIZ” @negociosapartets Sede do Instituto Gabi: 📍Rua Palacete das Águias, 735 Vila Alexandria São Paulo...",
+    "descricao": "Institutogabioficial é uma opção de instituicao / comunidade na Vila Mascote. Quando a dor vira propósito!",
+    "promocao": "",
     "ultimoPost": "2025-10-19",
     "postsAno": 3,
     "jaNoGuia": true,
@@ -2020,7 +2064,7 @@ const dados = [
     ]
   },
   {
-    "id": 72,
+    "id": 71,
     "nome": "Paroquianspsestarosalia",
     "categoriaPrincipal": "Instituicoes & Comunidade",
     "categorias": [
@@ -2033,7 +2077,8 @@ const dados = [
     "mapSource": "",
     "telefones": [],
     "instagram": "paroquianspsestarosalia",
-    "descricao": "Agora pelas ruas da Mascote: Procissão do Senhor Morto, realizada pela @paroquianspsestarosalia",
+    "descricao": "Paroquianspsestarosalia é uma opção de instituicao / comunidade na Vila Mascote. Agora pelas ruas da Mascote: Procissão do Senhor Morto, realizada pela Paroquianspsestarosalia.",
+    "promocao": "",
     "ultimoPost": "2026-04-04",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -2044,7 +2089,7 @@ const dados = [
     ]
   },
   {
-    "id": 73,
+    "id": 72,
     "nome": "Bazardoinstitutogabi",
     "categoriaPrincipal": "Lojas & Presentes",
     "categorias": [
@@ -2058,7 +2103,8 @@ const dados = [
     "mapSource": "nominatim",
     "telefones": [],
     "instagram": "bazardoinstitutogabi",
-    "descricao": "Comprar também pode ser um ato de amor 💙✨ Aqui na região o @bazardoinstitutogabi une estilo, economia e solidariedade em um só lugar. Cada compra realizada no bazar se transforma em uma boa ação, com toda a renda destinada integralmente ao atendimento de pe...",
+    "descricao": "Bazardoinstitutogabi é uma opção de instituicao / comunidade na Vila Mascote. Comprar também pode ser um ato de amor Aqui na região o Bazardoinstitutogabi une estilo, economia e solidariedade em um só lugar.",
+    "promocao": "",
     "ultimoPost": "2026-04-26",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2068,7 +2114,7 @@ const dados = [
     ]
   },
   {
-    "id": 74,
+    "id": 73,
     "nome": "Musicinplay",
     "categoriaPrincipal": "Lojas & Presentes",
     "categorias": [
@@ -2083,7 +2129,8 @@ const dados = [
       "11914986096"
     ],
     "instagram": "musicinplay",
-    "descricao": "A @musicinplay, que já tem uma unidade aqui na Mascote, acaba de dar mais um passo no seu universo musical e apresenta a Inplay Music Store, uma loja de instrumentos criada por quem realmente vive e respira música. 🎸😍 Por lá dá pra encontrar instrumentos no...",
+    "descricao": "Musicinplay é uma opção de loja de musica na Vila Mascote. A Musicinplay, que já tem uma unidade aqui na Mascote, acaba de dar mais um passo no seu universo musical e apresenta a Inplay Music Store, uma loja de instrumentos criada por qu...",
+    "promocao": "",
     "ultimoPost": "2025-11-04",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2093,7 +2140,7 @@ const dados = [
     ]
   },
   {
-    "id": 75,
+    "id": 74,
     "nome": "Chef Viking Boutique de Carnes",
     "categoriaPrincipal": "Mercados, Emporios & Conveniencia",
     "categorias": [
@@ -2109,7 +2156,8 @@ const dados = [
       "11916560322"
     ],
     "instagram": "chefviking_boutiquedecarnes",
-    "descricao": "Você precisa experimentar o hambúrguer viking da @chefviking_boutiquedecarnes! 😋 Ele tem um sabor único e é uma exclusividade aqui do bairro que você não encontra em nenhum outro lugar. 🍔✨ Além do hambúrguer, a casa trabalha com cortes Black Angus e diversa...",
+    "descricao": "Chef Viking Boutique de Carnes é uma opção de boutique de carnes na Vila Mascote. Você precisa experimentar o hambúrguer viking da Chef Viking Boutique de Carnes!",
+    "promocao": "",
     "ultimoPost": "2026-04-11",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -2121,7 +2169,7 @@ const dados = [
     ]
   },
   {
-    "id": 76,
+    "id": 75,
     "nome": "Grão da Mascote",
     "categoriaPrincipal": "Mercados, Emporios & Conveniencia",
     "categorias": [
@@ -2137,7 +2185,8 @@ const dados = [
       "11932323859"
     ],
     "instagram": "grao_da_mascote",
-    "descricao": "CUPOM BEMVINDO10 10% OFF NA PRIMEIRA COMPRA 🛒✨ Agora a Mascote tem um Empório que é puro bem-estar! 💚 O @grao_da_mascote é aquele espaço pensado com carinho pra quem busca saúde, sabor e qualidade no dia a dia. Você encontra: 🌾 mais de 350 itens a granel 🥛...",
+    "descricao": "Grão da Mascote é uma opção de emporio na Vila Mascote. O Grão da Mascote é aquele espaço pensado com carinho pra quem busca saúde, sabor e qualidade no dia a dia.",
+    "promocao": "CUPOM BEMVINDO10 10% OFF NA PRIMEIRA COMPRA Agora a Mascote tem um Empório que é puro bem-estar! O Grão da Mascote é aquele espaço pensado com cari...",
     "ultimoPost": "2025-10-17",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2147,7 +2196,7 @@ const dados = [
     ]
   },
   {
-    "id": 77,
+    "id": 76,
     "nome": "Grão da Mascote",
     "categoriaPrincipal": "Mercados, Emporios & Conveniencia",
     "categorias": [
@@ -2162,7 +2211,8 @@ const dados = [
       "11932323859"
     ],
     "instagram": "graodamascote1",
-    "descricao": "👉 Entrega GRATUITA da feira orgânica nos 3 primeiros meses para endereços em até 7 km da Vila Mascote! Seus hortifrútis fresquinhos chegando na sua casa com todo cuidado 🥕🌿💚 O Empório Grão da Mascote chegou trazendo bem-estar, sabor e muita qualidade pro no...",
+    "descricao": "Grão da Mascote é uma opção de hortifruti / organicos na Vila Mascote. Entrega GRATUITA da feira orgânica nos 3 primeiros meses para endereços em até 7 km da Vila Mascote!",
+    "promocao": "",
     "ultimoPost": "2025-11-17",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2172,7 +2222,7 @@ const dados = [
     ]
   },
   {
-    "id": 78,
+    "id": 77,
     "nome": "Vem da Horta SP",
     "categoriaPrincipal": "Mercados, Emporios & Conveniencia",
     "categorias": [
@@ -2187,7 +2237,8 @@ const dados = [
       "11989428080"
     ],
     "instagram": "vemdahortasp",
-    "descricao": "10% OFF NA PRIMEIRA COMPRA NA LOJA Se você busca alimentos saudáveis e fresquinhos para as suas ceias, a @vemdahortasp é uma ótima opção. 🍓😉 A loja que fica no Jardim Prudência, trabalha com produtos 100% orgânicos e certificados: frutas, verduras, legumes,...",
+    "descricao": "Vem da Horta SP é uma opção de hortifruti na Vila Mascote. Se você busca alimentos saudáveis e fresquinhos para as suas ceias, a Vem da Horta SP é uma ótima opção.",
+    "promocao": "10% OFF NA PRIMEIRA COMPRA NA LOJA",
     "ultimoPost": "2025-12-16",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -2199,7 +2250,7 @@ const dados = [
     ]
   },
   {
-    "id": 79,
+    "id": 78,
     "nome": "Camarimstar",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2215,7 +2266,8 @@ const dados = [
       "11983388038"
     ],
     "instagram": "camarimstar",
-    "descricao": "O Dia das Mães está chegando e a nossa dica de hoje para quem mora na Vila Mascote é a @camarimstar! ✨💖 A loja está repleta de peças incríveis, cheias de elegância, charme e personalidade. Daquelas lojas que a gente entra e quer levar tudo! 👗🌸 E nesta sexta...",
+    "descricao": "Camarimstar é uma opção de moda feminina na Vila Mascote. O Dia das Mães está chegando e a nossa dica de hoje para quem mora na Vila Mascote é a Camarimstar!",
+    "promocao": "",
     "ultimoPost": "2026-05-07",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -2227,7 +2279,7 @@ const dados = [
     ]
   },
   {
-    "id": 80,
+    "id": 79,
     "nome": "Crescente Store",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2242,7 +2294,8 @@ const dados = [
       "11991536097"
     ],
     "instagram": "crescente.store",
-    "descricao": "A Crescente Store convida você para viver uma experiência de moda única na Vila Mascote! A @crescente.store é especializada em roupas e acessórios pra meninas e meninos dos 10 aos 18 anos. Um espaço cheio de estilo, com peças modernas e cheias de personalid...",
+    "descricao": "Crescente Store é uma opção de moda feminina na Vila Mascote. A Crescente Store convida você para viver uma experiência de moda única na Vila Mascote!",
+    "promocao": "",
     "ultimoPost": "2025-06-14",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2252,7 +2305,7 @@ const dados = [
     ]
   },
   {
-    "id": 81,
+    "id": 80,
     "nome": "Garimpodesmeralda",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2268,7 +2321,8 @@ const dados = [
       "11992254276"
     ],
     "instagram": "garimpodesmeralda",
-    "descricao": "Dica boa pra quem mora na Mascote e adora garimpar achadinhos especiais! 🌸 O @garimpodesmeralda é um brechó boutique de moda circular que une beleza, consciência e charme em cada detalhe 🌿 No Garimpo d’Esmeralda dá pra encontrar roupas em ótimo estado, muit...",
+    "descricao": "Garimpodesmeralda é uma opção de brecho boutique na Vila Mascote. Dica boa pra quem mora na Mascote e adora garimpar achadinhos especiais!",
+    "promocao": "",
     "ultimoPost": "2025-11-05",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2278,7 +2332,7 @@ const dados = [
     ]
   },
   {
-    "id": 82,
+    "id": 81,
     "nome": "Hering Vila Mascote",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2293,7 +2347,8 @@ const dados = [
       "1155629348"
     ],
     "instagram": "hering_vilamascote",
-    "descricao": "[🚨É NESTE DOMINGO!] Quem mora na Vila Mascote não precisa enfrentar correria de shopping pra resolver os presentes de Natal. A Hering Vila Mascote (@hering_vilamascote) preparou tudo pra facilitar a vida de quem quer se antecipar. No próximo domingo, dia 14...",
+    "descricao": "Hering Vila Mascote é uma opção de moda na Vila Mascote. [ É NESTE DOMINGO!] Quem mora na Vila Mascote não precisa enfrentar correria de shopping pra resolver os presentes de Natal.",
+    "promocao": "",
     "ultimoPost": "2025-12-10",
     "postsAno": 1,
     "jaNoGuia": true,
@@ -2303,7 +2358,7 @@ const dados = [
     ]
   },
   {
-    "id": 83,
+    "id": 82,
     "nome": "Hope Vila Mascote",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2318,7 +2373,8 @@ const dados = [
       "11910984249"
     ],
     "instagram": "hope.vilamascote",
-    "descricao": "Dia das Mães chegando… e já bate aquela vontade de surpreender com um presente especial, né? 💝✨ A @hope.vilamascote preparou uma seleção linda pra deixar esse momento ainda mais inesquecível! Tem lingerie, pijamas e peças confortáveis que unem beleza, quali...",
+    "descricao": "Hope Vila Mascote é uma opção de lingerie / moda na Vila Mascote. Dia das Mães chegando… e já bate aquela vontade de surpreender com um presente especial, né?",
+    "promocao": "",
     "ultimoPost": "2026-05-06",
     "postsAno": 16,
     "jaNoGuia": false,
@@ -2343,7 +2399,7 @@ const dados = [
     ]
   },
   {
-    "id": 84,
+    "id": 83,
     "nome": "Infinita Outlet",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2358,7 +2414,8 @@ const dados = [
       "11953890159"
     ],
     "instagram": "infinita_outlet",
-    "descricao": "Elegância, exclusividade e moda autoral por aqui! ✨ A @infinitastore possui 8 unidades e a da Vila Mascote, é referência na região. Atendimento acolhedor, peças sofisticadas e uma experiência de compra que faz toda a diferença. 💖 🌟 Diferencial que só tem po...",
+    "descricao": "Infinita Outlet é uma opção de outlet na Vila Mascote. Elegância, exclusividade e moda autoral por aqui!",
+    "promocao": "s anteriores com descontos que podem chegar a 50% OFF. E a Black Friday promete ainda mais! Na com",
     "ultimoPost": "2025-11-02",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2368,7 +2425,7 @@ const dados = [
     ]
   },
   {
-    "id": 85,
+    "id": 84,
     "nome": "Infinitastore",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2383,7 +2440,8 @@ const dados = [
       "11953890159"
     ],
     "instagram": "infinitastore",
-    "descricao": "Festas de fim de ano chegando… e a elegância mora aqui na Vila Mascote! ✨ A @infinitastore já é referência por aqui quando o assunto é moda autoral, peças sofisticadas e aquele atendimento acolhedor que faz toda a diferença! 💖 🌟 Com a temporada de festas ba...",
+    "descricao": "Infinitastore é uma opção de moda feminina na Vila Mascote. Festas de fim de ano chegando… e a elegância mora aqui na Vila Mascote!",
+    "promocao": "",
     "ultimoPost": "2025-12-04",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2393,7 +2451,7 @@ const dados = [
     ]
   },
   {
-    "id": 86,
+    "id": 85,
     "nome": "LIVE! Vila Mascote",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2407,7 +2465,8 @@ const dados = [
     "mapSource": "nominatim",
     "telefones": [],
     "instagram": "livevilamascote",
-    "descricao": "A @livevilamascote acaba de chegar ao bairro trazendo toda a proposta que transformou a LIVE! em uma das maiores referências de moda fitness e lifestyle do Brasil. São peças que unem tecnologia, bem-estar e aquele visual moderno que vai da academia ao café,...",
+    "descricao": "LIVE! Vila Mascote é uma opção de moda fitness na Vila Mascote. Vila Mascote acaba de chegar ao bairro trazendo toda a proposta que transformou a LIVE!",
+    "promocao": "",
     "ultimoPost": "2026-05-14",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2417,7 +2476,7 @@ const dados = [
     ]
   },
   {
-    "id": 87,
+    "id": 86,
     "nome": "Plakianca_plaadulto",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2432,7 +2491,8 @@ const dados = [
       "11982011429"
     ],
     "instagram": "plakianca_plaadulto",
-    "descricao": "A coleção primavera-verão da @plakianca_plaadulto está imperdível! Tem descontos de até 50% OFF em várias peças! 🥳🛍️ A loja fica aqui no bairro e trabalha com moda infantil e adulta feminina, tudo de alta qualidade das marcas mais desejadas, como Malwee, He...",
+    "descricao": "Plakianca_plaadulto é uma opção de moda na Vila Mascote. A loja fica aqui no bairro e trabalha com moda infantil e adulta feminina, tudo de alta qualidade das marcas mais desejadas, como Malwee, Hering, Lupo, Kyly, Milon, Carinhoso, entr...",
+    "promocao": "A coleção primavera-verão da Plakianca_plaadulto está imperdível! Tem descontos de até 50% OFF em várias peças!",
     "ultimoPost": "2025-09-06",
     "postsAno": 4,
     "jaNoGuia": true,
@@ -2445,7 +2505,7 @@ const dados = [
     ]
   },
   {
-    "id": 88,
+    "id": 87,
     "nome": "Santa Lolla Vila Mascote",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2460,7 +2520,8 @@ const dados = [
       "11972660767"
     ],
     "instagram": "santalolla_vilamascote",
-    "descricao": "10% OFF PARA AS NOSSAS SEGUIDORAS A @santalolla_vilamascote é aquela loja pra quem gosta de ficar estilosa e confortável ao mesmo tempo. 👠😉 A loja fica na Catarina, dentro @thaliaperfumaria e oferece uma grande variedade de calçados femininos e bolsas de al...",
+    "descricao": "Santa Lolla Vila Mascote é uma opção de calcados / acessorios na Vila Mascote. A loja fica na Catarina, dentro Santa Lolla Vila Mascote e oferece uma grande variedade de calçados femininos e bolsas de altíssima qualidade, com design excl...",
+    "promocao": "10% OFF PARA AS NOSSAS SEGUIDORAS A Santa Lolla Vila Mascote é aquela loja pra quem gosta de ficar estilosa e confortável ao mesmo tempo",
     "ultimoPost": "2025-08-26",
     "postsAno": 1,
     "jaNoGuia": true,
@@ -2470,7 +2531,7 @@ const dados = [
     ]
   },
   {
-    "id": 89,
+    "id": 88,
     "nome": "Tres Chic Acessórios",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2487,7 +2548,8 @@ const dados = [
       "11930339928"
     ],
     "instagram": "tres_chic_acessorios",
-    "descricao": "ENTREGA GRÁTIS NA REGIÃO ACIMA DE R$ 200,00 A @tres_chic_acessorios é aquele tipo de lugar que transforma o básico em algo marcante ✨💍 Sabe aquela produção mais simples do dia a dia? Ela ganha outra energia quando entra um acessório bem escolhido.💁🏻‍♀️ A lo...",
+    "descricao": "Tres Chic Acessórios é uma opção de otica na Vila Mascote. Ela ganha outra energia quando entra um acessório bem escolhido.",
+    "promocao": "ENTREGA GRÁTIS NA REGIÃO ACIMA DE R$ 200,00 A Tres Chic Acessórios é aquele tipo de lugar que transforma o básico em algo marcante Sabe aquela prod...",
     "ultimoPost": "2026-05-27",
     "postsAno": 12,
     "jaNoGuia": false,
@@ -2508,7 +2570,7 @@ const dados = [
     ]
   },
   {
-    "id": 90,
+    "id": 89,
     "nome": "Usetboy",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2523,7 +2585,8 @@ const dados = [
       "11988318811"
     ],
     "instagram": "usetboy",
-    "descricao": "A LOJA TODA EM LIQUIDAÇÃO DE ATÉ 40% OFF NO PIX Em breve, a @usetboy vai mudar para um novo endereço aqui no bairro e a gente foi conferir a liquidação especial de fim de ano! 🤩🎄 A The Boy Clothing é uma loja masculina multimarca cheia de estilo e com peças...",
+    "descricao": "Usetboy é uma opção de moda masculina na Vila Mascote. a gente foi conferir a liquidação especial de fim de ano!",
+    "promocao": "A LOJA TODA EM LIQUIDAÇÃO DE ATÉ 40% OFF NO PIX Em breve, a Usetboy vai mudar para um novo endereço aqui no bairro e",
     "ultimoPost": "2025-12-09",
     "postsAno": 2,
     "jaNoGuia": true,
@@ -2534,7 +2597,7 @@ const dados = [
     ]
   },
   {
-    "id": 91,
+    "id": 90,
     "nome": "Zophimodas",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
@@ -2551,7 +2614,8 @@ const dados = [
       "11914048383"
     ],
     "instagram": "zophimodas",
-    "descricao": "CONDIÇÕES ESPECIAIS NO PAGAMENTO À VISTA VIA PIX OU DINHEIRO A @zophimodas já está há 4 anos por aqui na Mascote e a gente foi visitar. Por lá, você encontra peças que unem moda, conforto e estilo.👗😍 O diferencial começa no espaço: um living superconfortáve...",
+    "descricao": "Zophimodas é uma opção de moda feminina na Vila Mascote. Por lá, você encontra peças que unem moda, conforto e estilo.",
+    "promocao": "CONDIÇÕES ESPECIAIS NO PAGAMENTO À VISTA VIA PIX OU DINHEIRO A Zophimodas já está há 4 anos por aqui na Mascote e",
     "ultimoPost": "2026-03-07",
     "postsAno": 1,
     "jaNoGuia": true,
@@ -2561,7 +2625,7 @@ const dados = [
     ]
   },
   {
-    "id": 92,
+    "id": 91,
     "nome": "Doglândia Daycare",
     "categoriaPrincipal": "Pets",
     "categorias": [
@@ -2577,7 +2641,8 @@ const dados = [
       "11966273221"
     ],
     "instagram": "doglandiadaycare",
-    "descricao": "A @doglandiadaycare está desde 2016 aqui no bairro. São duas casas com mais de 600m², onde os pets aproveitam o daycare e o hotel com atividades diárias, sempre separados por porte e acompanhados com muito carinho. 🐩🛝😍 Foram pioneiros no banho com ozônio e,...",
+    "descricao": "Doglândia Daycare é uma opção de psicologia / terapias na Vila Mascote. A Doglândia Daycare está desde 2016 aqui no bairro.",
+    "promocao": "",
     "ultimoPost": "2026-03-19",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -2589,7 +2654,7 @@ const dados = [
     ]
   },
   {
-    "id": 93,
+    "id": 92,
     "nome": "Hovet Mascote",
     "categoriaPrincipal": "Pets",
     "categorias": [
@@ -2606,7 +2671,8 @@ const dados = [
       "11948687641"
     ],
     "instagram": "hovetmascote",
-    "descricao": "O @hovetmascote está completando 7 anos de história aqui na Vila Mascote. 🥳😍🐾 São 7 anos de muita dedicação e profissionalismo, com uma equipe multidisciplinar e especializada, sempre buscando os melhores tratamentos e resultados para o seu animal. ✅🤝 Para...",
+    "descricao": "Hovet Mascote é uma opção de hospital veterinário na Vila Mascote. O Hovet Mascote está completando 7 anos de história aqui na Vila Mascote.",
+    "promocao": "",
     "ultimoPost": "2026-05-21",
     "postsAno": 7,
     "jaNoGuia": false,
@@ -2622,7 +2688,7 @@ const dados = [
     ]
   },
   {
-    "id": 94,
+    "id": 93,
     "nome": "Katia Csilva",
     "categoriaPrincipal": "Pets",
     "categorias": [
@@ -2638,7 +2704,8 @@ const dados = [
       "11948687641"
     ],
     "instagram": "katia.csilva",
-    "descricao": "Quer melhorar a qualidade de vida do seu gato? 🐈🤔 A Dra. @katia.csilva, médica veterinária especializada em medicina felina do @hovetmascote, explica pra gente no vídeo 5 cuidados essenciais. ☺️🏥 O hospital veterinário que fica aqui no bairro funciona 24 ho...",
+    "descricao": "Katia Csilva é uma opção de veterinario na Vila Mascote. Quer melhorar a qualidade de vida do seu gato?",
+    "promocao": "",
     "ultimoPost": "2026-04-17",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -2649,7 +2716,7 @@ const dados = [
     ]
   },
   {
-    "id": 95,
+    "id": 94,
     "nome": "Mundinho Animal",
     "categoriaPrincipal": "Pets",
     "categorias": [
@@ -2665,7 +2732,8 @@ const dados = [
       "11946029518"
     ],
     "instagram": "mundinhooanimal",
-    "descricao": "Já se prepara porque vai rolar a Festa Julina Pet mais fofa da Vila Mascote! 💛🐾 O @mundinhooanimal e a @vetcareclinicaanimal organizaram um arraiá pra lá de especial, e quem tem pet por aqui não vai querer ficar de fora!🐕🌽 Vai ter quadrilhinha pet, comidinh...",
+    "descricao": "Mundinho Animal é uma opção de pet / evento pet na Vila Mascote. Já se prepara porque vai rolar a Festa Julina Pet mais fofa da Vila Mascote!",
+    "promocao": "",
     "ultimoPost": "2025-07-03",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2675,7 +2743,7 @@ const dados = [
     ]
   },
   {
-    "id": 96,
+    "id": 95,
     "nome": "Petland Vila Mascote",
     "categoriaPrincipal": "Pets",
     "categorias": [
@@ -2691,7 +2759,8 @@ const dados = [
       "11964739793"
     ],
     "instagram": "petlandsp.vilamascote",
-    "descricao": "Já pode anotar aí: no dia 16/05, próximo sábado, tem mais uma Feira de Adoção de cães aqui na Mascote! 🐕🥰 A @petlandsp.vilamascote vai receber uma edição cheia de amor, patinhas e boas ações. É aquele tipo de evento que aquece o coração: dá pra adotar um no...",
+    "descricao": "Petland Vila Mascote é uma opção de pet shop na Vila Mascote. Já pode anotar aí: no dia 16/05, próximo sábado, tem mais uma Feira de Adoção de cães aqui na Mascote!",
+    "promocao": "",
     "ultimoPost": "2026-05-13",
     "postsAno": 5,
     "jaNoGuia": false,
@@ -2705,7 +2774,7 @@ const dados = [
     ]
   },
   {
-    "id": 97,
+    "id": 96,
     "nome": "Your Hero Pets",
     "categoriaPrincipal": "Pets",
     "categorias": [
@@ -2720,7 +2789,8 @@ const dados = [
       "11944576999"
     ],
     "instagram": "yourheropets",
-    "descricao": "🐾 O @yourheropets é referência na Vila Mascote quando o assunto é cuidado e bem-estar dos pets! 💛🐶🐱 Há mais de dois anos na região, o espaço conquista tutores e peludos com um atendimento acolhedor e serviços de qualidade. Não é à toa que tem tanta procura!...",
+    "descricao": "Your Hero Pets é uma opção de pet shop / cuidados pet na Vila Mascote. O Your Hero Pets é referência na Vila Mascote quando o assunto é cuidado e bem-estar dos pets!",
+    "promocao": "",
     "ultimoPost": "2025-11-09",
     "postsAno": 6,
     "jaNoGuia": true,
@@ -2735,7 +2805,7 @@ const dados = [
     ]
   },
   {
-    "id": 98,
+    "id": 97,
     "nome": "Aline Navega Nutri",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2750,7 +2820,8 @@ const dados = [
       "1123658919"
     ],
     "instagram": "alinenaveganutri",
-    "descricao": "10% OFF APRESENTANDO UM PRINT DESSE POST Tem dúvidas sobre como utilizar o Mounjaro para emagrecer? A @alinenaveganutri explica pra gente. 😊💉 Arraste para o lado e confira. 👉✅ A Dra. Aline atende aqui no bairro e tem mais de 10 anos de experiência como nutr...",
+    "descricao": "Aline Navega Nutri é uma opção de nutricionista na Vila Mascote. Tem dúvidas sobre como utilizar o Mounjaro para emagrecer?",
+    "promocao": "10% OFF APRESENTANDO UM PRINT DESSE POST",
     "ultimoPost": "2026-05-13",
     "postsAno": 10,
     "jaNoGuia": false,
@@ -2769,7 +2840,7 @@ const dados = [
     ]
   },
   {
-    "id": 99,
+    "id": 98,
     "nome": "Carlaazevedogm",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2784,7 +2855,8 @@ const dados = [
       "11952733424"
     ],
     "instagram": "carlaazevedogm",
-    "descricao": "Cuidar da saúde mental faz toda a diferença na forma como a gente vive o dia a dia. 💛🤝 A @carlaazevedogm é psicóloga, nossa vizinha, com mais de 10 anos de experiência na área. O atendimento é totalmente online, ideal para quem busca praticidade sem abrir m...",
+    "descricao": "Carlaazevedogm é uma opção de psicologia / terapias na Vila Mascote. Cuidar da saúde mental faz toda a diferença na forma como a gente vive o dia a dia.",
+    "promocao": "",
     "ultimoPost": "2026-01-26",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2794,7 +2866,7 @@ const dados = [
     ]
   },
   {
-    "id": 100,
+    "id": 99,
     "nome": "Clínica Amanda Beauty",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2811,7 +2883,8 @@ const dados = [
       "11972007414"
     ],
     "instagram": "clinicaamandabeauty",
-    "descricao": "Novidade na Vila Mascote! A gente ama compartilhar lugares que deixam momentos especiais ainda mais completos e cheios de praticidade. 🤍 A @clinicaamandabeauty acaba de criar o Studio Concept, um novo ambiente pensado especialmente para receber noivas, madr...",
+    "descricao": "Clínica Amanda Beauty é uma opção de clínica/estética na Vila Mascote. Novidade na Vila Mascote!",
+    "promocao": "",
     "ultimoPost": "2026-05-17",
     "postsAno": 11,
     "jaNoGuia": false,
@@ -2831,7 +2904,7 @@ const dados = [
     ]
   },
   {
-    "id": 101,
+    "id": 100,
     "nome": "Clínica NAV Saúde",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2846,7 +2919,8 @@ const dados = [
       "1123658919"
     ],
     "instagram": "clinicanavsaude",
-    "descricao": "10% OFF APRESENTANDO UM PRINT DESSE POST Hoje a gente foi visitar a @clinicanavsaude da Dra. @alinenaveganutri, que fica aqui na Mascote e também fizemos uma consulta com ela que foi excelente. 🤩🍊 A proposta da clínica é oferecer um atendimento nutricional...",
+    "descricao": "Clínica NAV Saúde é uma opção de nutricionista na Vila Mascote. Hoje a gente foi visitar a Clínica NAV Saúde da Dra.",
+    "promocao": "10% OFF APRESENTANDO UM PRINT DESSE POST",
     "ultimoPost": "2025-08-11",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2856,7 +2930,7 @@ const dados = [
     ]
   },
   {
-    "id": 102,
+    "id": 101,
     "nome": "Clínica Toyomoto",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2871,7 +2945,8 @@ const dados = [
       "11937011698"
     ],
     "instagram": "clinicatoyomoto",
-    "descricao": "AVALIAÇÃO COM RAIO-X PANORÂMICO Já conhece a @clinicatoyomoto? A clínica odontológica está há quase 10 anos aqui pertinho, na Catarina, e conta com profissionais com mais de 20 anos de experiência. 🦷😁 Com raio-x panorâmico, scanner iTero e especialistas em...",
+    "descricao": "Clínica Toyomoto é uma opção de odontologia na Vila Mascote. AVALIAÇÃO COM RAIO-X PANORÂMICO Já conhece a Clínica Toyomoto?",
+    "promocao": "",
     "ultimoPost": "2025-09-22",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -2881,7 +2956,7 @@ const dados = [
     ]
   },
   {
-    "id": 103,
+    "id": 102,
     "nome": "Corpus Balance",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2899,7 +2974,8 @@ const dados = [
       "11949357078"
     ],
     "instagram": "corpus.balance",
-    "descricao": "Na @corpus.balance, saúde, desempenho e estética caminham juntos. 🤩😍 Você pode fazer treinos acompanhados por profissionais e tratamentos estéticos focados em resultados reais.✅ Na academia, você conta com o acompanhamento do professor em todos os treinos....",
+    "descricao": "Corpus Balance é uma opção de clinica / academia na Vila Mascote. Na Corpus Balance, saúde, desempenho e estética caminham juntos.",
+    "promocao": "",
     "ultimoPost": "2026-05-25",
     "postsAno": 9,
     "jaNoGuia": false,
@@ -2917,7 +2993,7 @@ const dados = [
     ]
   },
   {
-    "id": 104,
+    "id": 103,
     "nome": "Curumim Clínica",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2933,7 +3009,8 @@ const dados = [
       "11939181962"
     ],
     "instagram": "curumim.clinica",
-    "descricao": "A @curumim.clinica oferece diversas especialidades: terapia ABA, psicoterapia, avaliação neuropsicológica, integração sensorial, musicoterapia, fisioterapia, terapia ocupacional, nutrição, judô e educação física adaptados. 🧠✨ A clínica trabalha com um atend...",
+    "descricao": "Curumim Clínica é uma opção de clinica multidisciplinar na Vila Mascote. A Curumim Clínica oferece diversas especialidades: terapia ABA, psicoterapia, avaliação neuropsicológica, integração sensorial, musicoterapia, fisioterapia, terapia...",
+    "promocao": "",
     "ultimoPost": "2026-05-26",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -2944,7 +3021,7 @@ const dados = [
     ]
   },
   {
-    "id": 105,
+    "id": 104,
     "nome": "Dra.juliana.nakashima",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2960,7 +3037,8 @@ const dados = [
       "11920170738"
     ],
     "instagram": "dra.juliana.nakashima",
-    "descricao": "Se você quer se livrar daquelas dores chatas no corpo, a gente indica a @dra.juliana.nakashima. ☺️🩻 Ela é fisioterapeuta osteopata com mais de 15 anos de experiência e atende aqui na Mascote. ❣️ A Dra. Juliana atende desde bebês até adultos e realiza avalia...",
+    "descricao": "Dra.juliana.nakashima é uma opção de pilates/fisioterapia na Vila Mascote. Se você quer se livrar daquelas dores chatas no corpo, a gente indica a Dra.juliana.nakashima.",
+    "promocao": "",
     "ultimoPost": "2026-05-04",
     "postsAno": 11,
     "jaNoGuia": true,
@@ -2980,7 +3058,7 @@ const dados = [
     ]
   },
   {
-    "id": 106,
+    "id": 105,
     "nome": "Dra. Débora Souza",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -2996,7 +3074,8 @@ const dados = [
       "11949357078"
     ],
     "instagram": "dradeboradsouza",
-    "descricao": "VALORES PROMOCIONAIS + AVALIAÇÃO GRÁTIS DURANTE O MÊS DE AGOSTO A gente foi conhecer a clínica da @dradeboradsouza, que fica aqui na Mascote, e aproveitamos pra fazer o peeling químico.💆🏽 O procedimento ajuda a renovar a pele de forma controlada, trazendo m...",
+    "descricao": "Dra. Débora Souza é uma opção de clínica/estética na Vila Mascote. Débora Souza, que fica aqui na Mascote, e aproveitamos pra fazer o peeling químico.",
+    "promocao": "VALORES PROMOCIONAIS + AVALIAÇÃO GRÁTIS DURANTE O MÊS DE AGOSTO",
     "ultimoPost": "2025-08-20",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -3008,7 +3087,7 @@ const dados = [
     ]
   },
   {
-    "id": 107,
+    "id": 106,
     "nome": "Dra. Márcia Busato",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3024,7 +3103,8 @@ const dados = [
       "11916289918"
     ],
     "instagram": "dramarciabusato",
-    "descricao": "Se você quer dar ou receber um presente especial no dia dos namorados, a @dramarciabusato pode te ajudar com o preenchimento labial. 👄💉 Esse procedimento é minimamente invasivo e utiliza ácido hialurônico para aumentar o volume, melhorar o contorno, corrigi...",
+    "descricao": "Dra. Márcia Busato é uma opção de clínica/estética na Vila Mascote. Se você quer dar ou receber um presente especial no dia dos namorados, a Dra.",
+    "promocao": "",
     "ultimoPost": "2026-05-26",
     "postsAno": 13,
     "jaNoGuia": true,
@@ -3046,7 +3126,7 @@ const dados = [
     ]
   },
   {
-    "id": 108,
+    "id": 107,
     "nome": "Esteticamarianab",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3062,7 +3142,8 @@ const dados = [
       "11997701995"
     ],
     "instagram": "esteticamarianab",
-    "descricao": "Spa em casa? Aqui na Vila Mascote isso já é realidade!🌿 A @esteticamarianab é referência em cuidados faciais e corporais. Ela oferece tudo o que você precisa pra eliminar toxinas, reduzir medidas e recuperar aquela leveza que transforma o dia a dia! ✨ Forma...",
+    "descricao": "Esteticamarianab é uma opção de clínica/estética na Vila Mascote. Aqui na Vila Mascote isso já é realidade!",
+    "promocao": "",
     "ultimoPost": "2025-10-26",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -3074,7 +3155,7 @@ const dados = [
     ]
   },
   {
-    "id": 109,
+    "id": 108,
     "nome": "Hugopainodeoliveira",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3089,7 +3170,8 @@ const dados = [
       "11985880856"
     ],
     "instagram": "hugopainodeoliveira",
-    "descricao": "O Consultório de Acupuntura @hugopainodeoliveira está aqui no bairro há mais de 12 anos, junto com o @estudiotheos, cuidando da saúde e do bem-estar. Com técnicas de Acupuntura, Reiki, Barras de Access e Terapia das Origens, o Hugo Paino de Oliveira transfo...",
+    "descricao": "Hugopainodeoliveira é uma opção de odontologia na Vila Mascote. O Consultório de Acupuntura Hugopainodeoliveira está aqui no bairro há mais de 12 anos, junto com o Hugopainodeoliveira, cuidando da saúde e do bem-estar.",
+    "promocao": "",
     "ultimoPost": "2025-11-11",
     "postsAno": 1,
     "jaNoGuia": true,
@@ -3099,7 +3181,7 @@ const dados = [
     ]
   },
   {
-    "id": 110,
+    "id": 109,
     "nome": "Keila Xn",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3115,7 +3197,8 @@ const dados = [
       "1156779171"
     ],
     "instagram": "keila.xn",
-    "descricao": "10% OFF NO PRIMEIRO SERVIÇO Quem busca renovar o visual, precisa conhecer a @keila.xn. Ela é cabeleireira e visagista, especialista em valorizar a identidade e a personalidade através dos fios.💇🏻‍♀️😍 O atendimento acontece aqui pertinho, no Jardim Prudência...",
+    "descricao": "Keila Xn é uma opção de clínica/estética na Vila Mascote. precisa conhecer a Keila Xn.",
+    "promocao": "10% OFF NO PRIMEIRO SERVIÇO Quem busca renovar o visual,",
     "ultimoPost": "2025-10-01",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3125,7 +3208,7 @@ const dados = [
     ]
   },
   {
-    "id": 111,
+    "id": 110,
     "nome": "Krav Maga Vila Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3142,7 +3225,8 @@ const dados = [
       "11970419797"
     ],
     "instagram": "kravmagavilamascote",
-    "descricao": "A gente foi visitar o @kravmagavilamascote, que já está no bairro desde 2019 e é o único centro da federação internacional de Krav Magá aqui no bairro. 🥊🇮🇱 Pra quem ainda não conhece, o Krav Magá é um sistema israelense de defesa pessoal. O objetivo princip...",
+    "descricao": "Krav Maga Vila Mascote é uma opção de pilates/fisioterapia na Vila Mascote. o Krav Maga Vila Mascote, que já está no bairro desde 2019 e é o único centro da federação internacional de Krav Magá aqui no bairro.",
+    "promocao": "",
     "ultimoPost": "2025-09-05",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3152,7 +3236,7 @@ const dados = [
     ]
   },
   {
-    "id": 112,
+    "id": 111,
     "nome": "Oralsinsaopaulo Vila Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3167,7 +3251,8 @@ const dados = [
       "11930249566"
     ],
     "instagram": "oralsinsaopaulovilamascote",
-    "descricao": "CONDIÇÕES ESPECIAIS PARA OS NOSSOS SEGUIDORES O que já era referência aqui na Mascote agora tem um novo nome! O Núcleo Première agora é @oralsinsaopaulovilamascote. ☺️🦷 A mudança é só na marca, porque a equipe, o atendimento acolhedor e a qualidade continua...",
+    "descricao": "Oralsinsaopaulo Vila Mascote é uma opção de odontologia na Vila Mascote. O que já era referência aqui na Mascote agora tem um novo nome!",
+    "promocao": "CONDIÇÕES ESPECIAIS PARA OS NOSSOS SEGUIDORES",
     "ultimoPost": "2025-05-29",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3177,7 +3262,7 @@ const dados = [
     ]
   },
   {
-    "id": 113,
+    "id": 112,
     "nome": "Óticas Diniz Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3194,7 +3279,8 @@ const dados = [
       "11916186879"
     ],
     "instagram": "oticasdinizmascote",
-    "descricao": "5% OFF PARA OS NOSSOS SEGUIDORES Manter a saúde dos seus olhos em dia começa com a escolha certa dos seus acessórios. Na @oticasdinizmascote, você encontra o suporte completo para cuidar da sua visão com excelência. 🤓🥰 A loja que fica aqui pertinho, na Cata...",
+    "descricao": "Óticas Diniz Mascote é uma opção de otica na Vila Mascote. Manter a saúde dos seus olhos em dia começa com a escolha certa dos seus acessórios.",
+    "promocao": "5% OFF PARA OS NOSSOS SEGUIDORES",
     "ultimoPost": "2026-04-01",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -3206,7 +3292,7 @@ const dados = [
     ]
   },
   {
-    "id": 114,
+    "id": 113,
     "nome": "Óticas Diniz Catarina",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3223,7 +3309,8 @@ const dados = [
       "1155655554"
     ],
     "instagram": "oticasdinizcatarina",
-    "descricao": "BLACK FRIDAY COM DESCONTOS DE ATÉ 70% EM ARMAÇÕES E ÓCULOS DE SOL Se você precisa de lentes de contato, na @oticasdinizcatarina você encontra uma opção exclusiva: a DNZ. 😍😎 A marca possui um excelente custo-benefício e uma tecnologia inovadora. E se você nu...",
+    "descricao": "Óticas Diniz Catarina é uma opção de otica na Vila Mascote. Se você precisa de lentes de contato, na Óticas Diniz Catarina você encontra uma opção exclusiva: a DNZ.",
+    "promocao": "BLACK FRIDAY COM DESCONTOS DE ATÉ 70% EM ARMAÇÕES E ÓCULOS DE SOL",
     "ultimoPost": "2025-11-06",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -3235,7 +3322,7 @@ const dados = [
     ]
   },
   {
-    "id": 115,
+    "id": 114,
     "nome": "Pilates Spaço Equilibrium",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3252,7 +3339,8 @@ const dados = [
       "11999216214"
     ],
     "instagram": "pilatesspacoequilibrium",
-    "descricao": "Se você sente dores no corpo, principalmente na região da lombar, a terapia de onda de choque do @pilatesspacoequilibrium pode ser uma solução. 😉💚🧘🏻‍♀️ A terapia de onda de choque é um tratamento não invasivo e altamente eficaz para dores crônicas musculoes...",
+    "descricao": "Pilates Spaço Equilibrium é uma opção de pilates/fisioterapia na Vila Mascote. Se você sente dores no corpo, principalmente na região da lombar, a terapia de onda de choque do Pilates Spaço Equilibrium pode ser uma solução.",
+    "promocao": "",
     "ultimoPost": "2026-05-15",
     "postsAno": 12,
     "jaNoGuia": true,
@@ -3273,7 +3361,7 @@ const dados = [
     ]
   },
   {
-    "id": 116,
+    "id": 115,
     "nome": "Studiovitabemestar",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3289,7 +3377,8 @@ const dados = [
       "11993344116"
     ],
     "instagram": "studiovitabemestar",
-    "descricao": "50% OFF NA PRIMEIRA MENSALIDADE Se você está pensando em começar Pilates ou já faz e quer evoluir, precisa conhecer o @studiovitabemestar, que fica aqui na Mascote. 💪😉 São mais de 13 anos de história, com aulas feitas por fisioterapeutas e acompanhamento be...",
+    "descricao": "Studiovitabemestar é uma opção de pilates/fisioterapia na Vila Mascote. Se você está pensando em começar Pilates ou já faz e quer evoluir, precisa conhecer o Studiovitabemestar, que fica aqui na Mascote.",
+    "promocao": "50% OFF NA PRIMEIRA MENSALIDADE",
     "ultimoPost": "2026-05-06",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3299,7 +3388,7 @@ const dados = [
     ]
   },
   {
-    "id": 117,
+    "id": 116,
     "nome": "Vanessapieri",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3314,7 +3403,8 @@ const dados = [
       "11948762438"
     ],
     "instagram": "vanessapieri",
-    "descricao": "A @vanessapieri, da @ecco.ah_psicanalise, é nossa vizinha e psicanalista com mais de 05 anos de experiência, trabalha com a abordagem Junguiana e atende quem busca compreender melhor suas emoções, padrões e conflitos internos.💞🤝 Arrasta pro lado pra ver. 👉...",
+    "descricao": "Vanessapieri é uma opção de psicologia / terapias na Vila Mascote. A Vanessapieri, da Vanessapieri, é nossa vizinha e psicanalista com mais de 05 anos de experiência, trabalha com a abordagem Junguiana e atende quem busca compreender mel...",
+    "promocao": "",
     "ultimoPost": "2025-11-16",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3324,7 +3414,7 @@ const dados = [
     ]
   },
   {
-    "id": 118,
+    "id": 117,
     "nome": "Voll Studios Vila Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3340,7 +3430,8 @@ const dados = [
       "11913731530"
     ],
     "instagram": "vollstudiosvilamascote",
-    "descricao": "CONDIÇÕES ESPECIAIS PARA OS NOSSOS SEGUIDORES Se você quer ter uma rotina mais saudável, a gente indica a @vollstudiosvilamascote.🤩💪 O Pilates melhora a postura, o alongamento e ainda fortalece o corpo. Além da estrutura completa e do acompanhamento profiss...",
+    "descricao": "Voll Studios Vila Mascote é uma opção de pilates/fisioterapia na Vila Mascote. Se você quer ter uma rotina mais saudável, a gente indica a Voll Studios Vila Mascote.",
+    "promocao": "CONDIÇÕES ESPECIAIS PARA OS NOSSOS SEGUIDORES",
     "ultimoPost": "2026-05-11",
     "postsAno": 12,
     "jaNoGuia": true,
@@ -3361,7 +3452,7 @@ const dados = [
     ]
   },
   {
-    "id": 119,
+    "id": 118,
     "nome": "Arranjos Express Vila Mascote",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3378,7 +3469,8 @@ const dados = [
       "1132840621"
     ],
     "instagram": "arranjosexpress_vilamascote",
-    "descricao": "10% OFF EM QUALQUER SERVIÇO A @arranjosexpress_vilamascote está comemorando 1 ano aqui no bairro. 🎈🥳 Especialista em sapataria e costura express, a loja também faz customização de roupas, conserto de bolsas e malas, revitalização de sapatos e tênis, imperme...",
+    "descricao": "Arranjos Express Vila Mascote é uma opção de limpeza de estofados na Vila Mascote. a loja também faz customização de roupas, conserto de bolsas e malas, revitalização de sapatos e tênis, impermeabilização e engraxe.",
+    "promocao": "10% OFF EM QUALQUER SERVIÇO A Arranjos Express Vila Mascote está comemorando 1 ano aqui no bairro. Especialista em sapataria e costura express,",
     "ultimoPost": "2026-02-05",
     "postsAno": 9,
     "jaNoGuia": false,
@@ -3396,7 +3488,7 @@ const dados = [
     ]
   },
   {
-    "id": 120,
+    "id": 119,
     "nome": "Ecoville Vilamascotesp",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3412,7 +3504,8 @@ const dados = [
       "11936197956"
     ],
     "instagram": "ecoville.vilamascotesp",
-    "descricao": "A gente aqui na Vila Mascote adora ver quando uma empresa do bairro faz a diferença de verdade! A @ecoville.vilamascotesp não vende só produtos de limpeza — ela ensina como usar cada um de forma inteligente, pra reduzir desperdício, aumentar a eficiência e...",
+    "descricao": "Ecoville Vilamascotesp é uma opção de reformas na Vila Mascote. A gente aqui na Vila Mascote adora ver quando uma empresa do bairro faz a diferença de verdade!",
+    "promocao": "",
     "ultimoPost": "2025-10-17",
     "postsAno": 2,
     "jaNoGuia": false,
@@ -3423,7 +3516,7 @@ const dados = [
     ]
   },
   {
-    "id": 121,
+    "id": 120,
     "nome": "Especialista Limpeza",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3438,7 +3531,8 @@ const dados = [
       "11936197956"
     ],
     "instagram": "especialista.limpeza",
-    "descricao": "🚀 A Ecoville, maior especialista em limpeza do Brasil, chegou na Vila Mascote! 🎉 A inauguração foi um sucesso e contou com a presença de Mauro Sátros (@especialista.limpeza), o primeiro especialista em limpeza do país. O workshop foi incrível, cheio de dica...",
+    "descricao": "Especialista Limpeza é uma opção de limpeza / higienizacao na Vila Mascote. A Ecoville, maior especialista em limpeza do Brasil, chegou na Vila Mascote!",
+    "promocao": "",
     "ultimoPost": "2025-08-16",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3448,7 +3542,7 @@ const dados = [
     ]
   },
   {
-    "id": 122,
+    "id": 121,
     "nome": "LavUp Vila Mascote",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3464,7 +3558,8 @@ const dados = [
       "11988279216"
     ],
     "instagram": "lavupsp.vlmascote",
-    "descricao": "A @lavupsp.vlmascote tá completando 3 meses aqui no bairro, e quem mora na Mascote já descobriu como é prático ter uma lavanderia de autoatendimento pertinho de casa.🧺☺️ Além de usar sabão Omo e amaciante Comfort nas máquinas profissionais e econômicas, o e...",
+    "descricao": "LavUp Vila Mascote é uma opção de lavanderia na Vila Mascote. A LavUp Vila Mascote tá completando 3 meses aqui no bairro, e quem mora na Mascote já descobriu como é prático ter uma lavanderia de autoatendimento pertinho de casa.",
+    "promocao": "",
     "ultimoPost": "2025-05-31",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3474,7 +3569,7 @@ const dados = [
     ]
   },
   {
-    "id": 123,
+    "id": 122,
     "nome": "Lucianaserer",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3490,7 +3585,8 @@ const dados = [
       "11999569053"
     ],
     "instagram": "lucianaserer",
-    "descricao": "A @lucianaserer é designer de interiores, nossa vizinha e desenvolve projetos personalizados residenciais e comerciais, sugerindo soluções criativas e funcionais que refletem o estilo de vida do cliente. 😊📐 Arraste para o lado e confira. 👉✅ Ela te assessora...",
+    "descricao": "Lucianaserer é uma opção de reformas na Vila Mascote. A Lucianaserer é designer de interiores, nossa vizinha e desenvolve projetos personalizados residenciais e comerciais, sugerindo soluções criativas e funcionais que refletem o estilo...",
+    "promocao": "",
     "ultimoPost": "2026-03-18",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3500,7 +3596,7 @@ const dados = [
     ]
   },
   {
-    "id": 124,
+    "id": 123,
     "nome": "OMO Lavanderia Vila Mascote",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3516,7 +3612,8 @@ const dados = [
       "11959772577"
     ],
     "instagram": "omolavanderia_vila_mascote",
-    "descricao": "15% OFF PARA OS NOSSOS SEGUIDORES A gente foi conhecer a @omolavanderia_vila_mascote, que já está há quase 10 anos aqui no bairro. 💧☺️ A lavanderia é completa, daquelas que facilitam muito a rotina dos vizinhos. E o melhor: com toda a qualidade OMO que a ge...",
+    "descricao": "OMO Lavanderia Vila Mascote é uma opção de lavanderia na Vila Mascote. A lavanderia é completa, daquelas que facilitam muito a rotina dos vizinhos.",
+    "promocao": "15% OFF PARA OS NOSSOS SEGUIDORES",
     "ultimoPost": "2026-04-03",
     "postsAno": 1,
     "jaNoGuia": false,
@@ -3526,7 +3623,7 @@ const dados = [
     ]
   },
   {
-    "id": 125,
+    "id": 124,
     "nome": "OtoClean Higienização",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3541,7 +3638,8 @@ const dados = [
       "11934276910"
     ],
     "instagram": "otocleanhigienizacao",
-    "descricao": "10% OFF EXCLUSIVO PARA NOSSOS SEGUIDORES! Sabe aquele cuidado com a casa que faz diferença no dia a dia? A @otocleanhigienizacao é daquelas indicações que a gente faz com tranquilidade. 🛋️✨ A empresa atende a Vila Mascote e toda a Grande SP com higienização...",
+    "descricao": "OtoClean Higienização é uma opção de limpeza de estofados na Vila Mascote. Sabe aquele cuidado com a casa que faz diferença no dia a dia?",
+    "promocao": "10% OFF EXCLUSIVO PARA NOSSOS SEGUIDORES! Sabe aquele cuidado com a casa que faz diferença no dia a dia? A OtoClean Higienização é daquelas indicaç...",
     "ultimoPost": "2026-05-14",
     "postsAno": 12,
     "jaNoGuia": true,
@@ -3562,7 +3660,7 @@ const dados = [
     ]
   },
   {
-    "id": 126,
+    "id": 125,
     "nome": "Restauratto",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3577,7 +3675,8 @@ const dados = [
       "11974641848"
     ],
     "instagram": "restauratto",
-    "descricao": "R$ 15,00 DE DESCONTO EM QUALQUER SERVIÇO ACIMA DE R$ 100,00 Sabia que na @restauratto, seu tênis ganha um tratamento especial? 🤩✅ É o tênis day; se ele está desgastado, com cores apagadas, descolado, perdendo até alguns pedaços, vai sair renovado e radiante...",
+    "descricao": "Restauratto é uma opção de costura / sapataria na Vila Mascote. É o tênis day; se ele está desgastado, com cores apagadas, descolado, perdendo até alguns pedaços, vai sair renovado e radiante.",
+    "promocao": "R$ 15,00 DE DESCONTO EM QUALQUER SERVIÇO ACIMA DE R$ 100,00 Sabia que na Restauratto, seu tênis ganha um tratamento especial? É o tênis day; se ele...",
     "ultimoPost": "2026-05-14",
     "postsAno": 3,
     "jaNoGuia": false,
@@ -3589,7 +3688,7 @@ const dados = [
     ]
   },
   {
-    "id": 127,
+    "id": 126,
     "nome": "Thermo Tagg",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3604,7 +3703,8 @@ const dados = [
       "11985665727"
     ],
     "instagram": "thermo_tagg",
-    "descricao": "10% OFF NA LIMPEZA Precisa de instalação, manutenção, limpeza ou higienização no seu ar-condicionado? Chama a @thermo_tagg! ☺️ A empresa atende em diversas regiões, inclusive aqui na Mascote e vai até a sua residência ou escritório. ❄️🧰 O diferencial da @th...",
+    "descricao": "Thermo Tagg é uma opção de ar-condicionado na Vila Mascote. A empresa atende em diversas regiões, inclusive aqui na Mascote e vai até a sua residência ou escritório.",
+    "promocao": "10% OFF NA LIMPEZA Precisa de instalação, manutenção, limpeza ou higienização no seu ar-condicionado? Chama a Thermo Tagg!",
     "ultimoPost": "2026-05-05",
     "postsAno": 12,
     "jaNoGuia": true,

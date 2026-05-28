@@ -11,8 +11,8 @@ Arquivos principais:
 Resumo da V1:
 
 - 147 estabelecimentos/itens analisados.
-- 127 marcados como `Listar`.
+- 126 marcados como `Listar`.
 - 8 marcados como `Revisar`.
-- 12 marcados como `Nao listar`, por parecerem posts editoriais, eventos sem estabelecimento claro ou duplicidades.
+- 13 marcados como `Nao listar`, por parecerem posts editoriais, eventos sem estabelecimento claro, duplicidades ou remocao solicitada.
 
-Observacao: esta categorizacao ainda e uma proposta de curadoria. Nada foi aplicado ao `dados.js` ou ao site.
+Observacao: esta categorizacao e a base de curadoria usada para gerar o `dados.js` do site.

@@ -169,7 +169,7 @@ function getAllCategoryEntries() {
       label: "Todos os locais",
       kicker: "Ver guia completo",
       tone: "navy",
-      img: "photo-1500530855697-b586d89ba3ee",
+      img: "photo-1642188537432-41c8a331ebdb",
       count: dados.length
     }
   ];
@@ -185,6 +185,7 @@ function getSearchHaystack(item) {
     item.subcategoria,
     item.endereco,
     item.descricao,
+    item.promocao,
     item.instagram,
     item.categoriaPrincipal,
     ...(item.categorias || [])
@@ -335,6 +336,12 @@ function renderCards() {
           <span class="card-category">${formatCategory(item.categoriaPrincipal)}</span>
           <h3>${item.nome}</h3>
           <p>${item.descricao || "Estabelecimento da Vila Mascote."}</p>
+          ${item.promocao ? `
+            <div class="promo-callout">
+              <span>Promoção</span>
+              <strong>${item.promocao}</strong>
+            </div>
+          ` : ""}
         </div>
 
         <div class="card-tags">
@@ -349,7 +356,7 @@ function renderCards() {
           ${phone ? `<a href="https://wa.me/55${phone}" target="_blank" rel="noopener">WhatsApp</a>` : ""}
           ${item.instagram ? `<a href="https://instagram.com/${item.instagram}" target="_blank" rel="noopener">Instagram</a>` : ""}
           ${item.endereco ? `<a href="https://maps.google.com/?q=${mapsQuery}" target="_blank" rel="noopener">Mapa</a>` : ""}
-          ${postUrl ? `<a href="${postUrl}" target="_blank" rel="noopener">Post</a>` : ""}
+          ${postUrl ? `<a href="${postUrl}" target="_blank" rel="noopener">Veja Post</a>` : ""}
         </div>
       </div>
     `;

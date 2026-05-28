@@ -8,10 +8,10 @@
   --paper: oklch(98% 0.012 93);
   --surface: oklch(100% 0.006 96);
   --line: oklch(88% 0.018 92);
-  --blue: oklch(43% 0.18 263);
-  --blue-dark: oklch(25% 0.12 263);
-  --gold: oklch(82% 0.18 90);
-  --gold-deep: oklch(58% 0.14 82);
+  --blue: #11347a;
+  --blue-dark: #11347a;
+  --gold: #c9ae24;
+  --gold-deep: #9a8219;
   --green: oklch(64% 0.12 152);
   --rose: oklch(66% 0.14 18);
   --mint: oklch(76% 0.11 170);
@@ -93,8 +93,8 @@ a {
 }
 
 .brand-mark {
-  width: 54px;
-  height: 54px;
+  width: 44px;
+  height: 44px;
   display: block;
   object-fit: contain;
   flex: 0 0 auto;
@@ -107,7 +107,7 @@ a {
 
 .brand-copy strong {
   font-family: var(--font-display);
-  font-size: 1.08rem;
+  font-size: 0.98rem;
   line-height: 1.1;
   font-weight: 700;
   color: var(--surface);
@@ -119,7 +119,7 @@ label,
 .category-count,
 .results-meta {
   color: var(--ink-soft);
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -130,14 +130,14 @@ label,
   align-items: center;
   gap: var(--space-xs);
   color: var(--surface);
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   font-weight: 700;
 }
 
 .header-counts span {
   border: 1px solid color-mix(in oklch, var(--surface), transparent 74%);
   border-radius: 999px;
-  padding: 7px 10px;
+  padding: 5px 9px;
   background: color-mix(in oklch, var(--blue-dark), transparent 22%);
 }
 
@@ -148,12 +148,12 @@ main {
 }
 
 .hero {
-  min-height: clamp(300px, 38vh, 380px);
+  min-height: clamp(245px, 31vh, 320px);
   display: grid;
   grid-template-rows: auto 1fr;
   position: relative;
   overflow: hidden;
-  padding: var(--space-sm) 0 clamp(26px, 4vw, 40px);
+  padding: 6px 0 clamp(18px, 3vw, 28px);
   color: var(--surface);
   background: var(--blue-dark);
 }
@@ -161,7 +161,7 @@ main {
 .hero-content {
   width: min(1180px, 100%);
   margin: 0 auto;
-  padding: clamp(12px, 2vw, 22px) var(--space-md) 0;
+  padding: clamp(6px, 1.4vw, 14px) var(--space-md) 0;
   display: grid;
   justify-items: center;
   align-content: center;
@@ -169,11 +169,11 @@ main {
 }
 
 .hero h1 {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0;
   color: var(--surface);
   font-family: var(--font-display);
-  font-size: clamp(2.1rem, 4.8vw, 4.65rem);
+  font-size: clamp(1.85rem, 3.9vw, 3.8rem);
   font-weight: 800;
   line-height: 1.02;
   letter-spacing: 0;
@@ -181,27 +181,27 @@ main {
 
 .hero h1 em {
   display: block;
-  margin-top: 2px;
+  margin-top: 0;
   color: var(--gold);
   font-family: var(--font-accent);
-  font-size: 0.74em;
+  font-size: 0.68em;
   font-style: italic;
   font-weight: 400;
 }
 
 .hero-deck {
   max-width: 58ch;
-  margin: var(--space-sm) 0 var(--space-md);
+  margin: var(--space-xs) 0 var(--space-sm);
   color: color-mix(in oklch, var(--surface), transparent 18%);
-  font-size: 1rem;
+  font-size: 0.92rem;
   font-weight: 600;
   overflow-wrap: break-word;
 }
 
 .search-panel {
-  width: min(860px, 100%);
+  width: min(800px, 100%);
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(190px, 0.65fr) 132px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(180px, 0.65fr) 122px;
   align-items: stretch;
   overflow: hidden;
   background: var(--surface);
@@ -214,7 +214,7 @@ main {
   min-width: 0;
   display: grid;
   gap: 3px;
-  padding: 10px 18px 10px 24px;
+  padding: 7px 16px 7px 22px;
   text-align: left;
 }
 
@@ -225,7 +225,7 @@ main {
 
 .field label {
   color: var(--gold-deep);
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   font-weight: 900;
   letter-spacing: 0.11em;
   text-transform: uppercase;
@@ -239,7 +239,7 @@ main {
   outline: 0;
   background: transparent;
   color: var(--ink);
-  font-size: 1rem;
+  font-size: 0.92rem;
 }
 
 .field input::placeholder {
@@ -253,7 +253,7 @@ main {
 }
 
 .search-panel button {
-  min-height: 58px;
+  min-height: 48px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -262,7 +262,7 @@ main {
   color: var(--blue-dark);
   background: var(--gold);
   padding: 0 var(--space-md);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: 900;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -501,6 +501,32 @@ h2 {
   max-width: 72ch;
   color: var(--ink-soft);
   font-size: 0.95rem;
+}
+
+.promo-callout {
+  display: grid;
+  gap: 3px;
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid color-mix(in oklch, var(--gold), var(--blue-dark) 26%);
+  border-radius: var(--radius);
+  padding: 9px 11px;
+  color: var(--blue-dark);
+  background: color-mix(in oklch, var(--gold), var(--surface) 76%);
+}
+
+.promo-callout span {
+  color: var(--gold-deep);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.promo-callout strong {
+  max-width: 62ch;
+  font-size: 0.88rem;
+  line-height: 1.28;
 }
 
 .card-tags,
@@ -777,8 +803,8 @@ h2 {
   }
 
   .hero {
-    min-height: 430px;
-    padding-top: var(--space-sm);
+    min-height: 365px;
+    padding-top: 6px;
   }
 
   .hero h1 {
@@ -794,7 +820,7 @@ h2 {
   .select-field {
     border-left: 0;
     border-bottom: 1px solid var(--line);
-    padding: var(--space-sm) var(--space-md);
+    padding: 9px var(--space-md);
   }
 
   .section-heading,
@@ -839,27 +865,27 @@ h2 {
   }
 
   .brand-mark {
-    width: 50px;
-    height: 50px;
+    width: 42px;
+    height: 42px;
   }
 
   .brand-copy strong {
-    font-size: 1.08rem;
+    font-size: 0.98rem;
   }
 
   .hero h1 {
-    max-width: 11ch;
-    font-size: clamp(1.95rem, 9.2vw, 2.55rem);
+    max-width: 12ch;
+    font-size: clamp(1.72rem, 8.4vw, 2.28rem);
     line-height: 1.02;
   }
 
   .hero h1 em {
-    font-size: 0.66em;
+    font-size: 0.62em;
   }
 
   .hero-deck {
-    max-width: 27ch;
-    font-size: 0.92rem;
+    max-width: 30ch;
+    font-size: 0.84rem;
   }
 
   .business-card {

@@ -142,7 +142,7 @@ Esta lista e uma proposta inicial para revisao. Nada foi aplicado ao site ainda.
 | Restauratto | @restauratto | Costura / sapataria |  | Listar |  |
 | Thermo_tagg | @thermo_tagg | Ar-condicionado |  | Listar |  |
 
-## Imoveis & Construcao (15)
+## Imoveis & Construcao (14)
 
 | Estabelecimento | Instagram | Subcategoria | Aparece tambem em | Acao | Obs |
 |---|---|---|---|---|---|
@@ -156,7 +156,6 @@ Esta lista e uma proposta inicial para revisao. Nada foi aplicado ao site ainda.
 | Karinamustafaimoveis | @karinamustafaimoveis | Imobiliaria / corretor |  | Listar |  |
 | Livingempreendimentos | @livingempreendimentos | Construtora / lancamento |  | Listar |  |
 | Louimoveis | @louimoveis | Imobiliária |  | Listar |  |
-| Marcusalmeida Imoveis | @marcusalmeida.imoveis | Imobiliária | Instituicoes & Comunidade | Listar |  |
 | Scheidimoveis Vila Mascote | @scheidimoveisvilamascote | Imobiliária | Gastronomia & Delivery | Listar |  |
 | Sellerspoficial | @sellerspoficial | Imobiliaria / corretor |  | Listar |  |
 | Souasuacorretora | @souasuacorretora | Imobiliaria / corretor |  | Listar |  |
@@ -218,7 +217,7 @@ Esta lista e uma proposta inicial para revisao. Nada foi aplicado ao site ainda.
 | Institutogabioficial | @institutogabioficial | Instituicao / comunidade |  | Listar |  |
 | Paroquianspsestarosalia | @paroquianspsestarosalia | Instituicao / comunidade |  | Listar |  |
 
-## Revisar / Nao listar (13)
+## Revisar / Nao listar (14)
 
 | Estabelecimento | Instagram | Subcategoria | Aparece tambem em | Acao | Obs |
 |---|---|---|---|---|---|
@@ -227,6 +226,7 @@ Esta lista e uma proposta inicial para revisao. Nada foi aplicado ao site ainda.
 | Cortaz | @cortaz | Conteudo / post editorial |  | Nao listar | Nao parece estabelecimento independente; manter apenas como referencia do scrap. |
 | ENCONTROU SEU PRÉDIO AÍ? |  | Conteudo / post editorial |  | Nao listar | Nao parece estabelecimento independente; manter apenas como referencia do scrap. |
 | Gostou da versão congelada da Mascote? Comenta aqui! 🧤👇 |  | Conteudo / post editorial |  | Nao listar | Nao parece estabelecimento independente; manter apenas como referencia do scrap. |
+| Marcusalmeida Imoveis | @marcusalmeida.imoveis | Imobiliária | Imoveis & Construcao / Instituicoes & Comunidade | Nao listar | Removido do Guia Vila Mascote a pedido do usuário em 2026-05-28. |
 | Natal |  | Conteudo / post editorial |  | Nao listar | Nao parece estabelecimento independente; manter apenas como referencia do scrap. |
 | O condomínio conta com piscina, quadra, salão de festas e churrasqueira.😍 |  | Conteudo / post editorial |  | Nao listar | Nao parece estabelecimento independente; manter apenas como referencia do scrap. |
 | Seu Bebelier Vila Mascote 2026 aconteceu hoje |  | Conteudo / post editorial |  | Nao listar | Nao parece estabelecimento independente; manter apenas como referencia do scrap. |
