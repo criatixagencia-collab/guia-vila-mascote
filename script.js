@@ -115,10 +115,12 @@ const sortSelect = document.getElementById("sortSelect");
 const activeCategoryLabel = document.getElementById("activeCategoryLabel");
 const resultsHeading = document.getElementById("resultsHeading");
 const resultsMeta = document.getElementById("resultsMeta");
-const totalCount = document.getElementById("totalCount");
-const categoryCount = document.getElementById("categoryCount");
 const mapCount = document.getElementById("mapCount");
 const mapList = document.getElementById("mapList");
+const weatherWidget = document.getElementById("weatherWidget");
+const weatherIcon = document.getElementById("weatherIcon");
+const weatherTemp = document.getElementById("weatherTemp");
+const weatherDesc = document.getElementById("weatherDesc");
 const resultsSection = document.querySelector(".results-section");
 const mapLayout = document.querySelector(".map-layout");
 
@@ -188,7 +190,8 @@ function getSearchHaystack(item) {
     item.promocao,
     item.instagram,
     item.categoriaPrincipal,
-    ...(item.categorias || [])
+    ...(item.categorias || []),
+    ...(item.termosBusca || [])
   ].join(" "));
 }
 
@@ -336,12 +339,7 @@ function renderCards() {
           <span class="card-category">${formatCategory(item.categoriaPrincipal)}</span>
           <h3>${item.nome}</h3>
           <p>${item.descricao || "Estabelecimento da Vila Mascote."}</p>
-          ${item.promocao ? `
-            <div class="promo-callout">
-              <span>Promoção</span>
-              <strong>${item.promocao}</strong>
-            </div>
-          ` : ""}
+          ${item.promocao ? `<div class="promo-callout">${item.promocao}</div>` : ""}
         </div>
 
         <div class="card-tags">
@@ -483,6 +481,56 @@ function initMap() {
   renderMap();
 }
 
+async function loadWeather() {
+  if (!weatherWidget || !weatherIcon || !weatherTemp || !weatherDesc) return;
+
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 6000);
+
+  try {
+    const res = await fetch("https://wttr.in/Vila+Mascote,Sao+Paulo?format=j1", { signal: ctrl.signal });
+    clearTimeout(timer);
+    if (!res.ok) return;
+
+    const data = await res.json();
+    const current = data.current_condition[0];
+    const today = data.weather[0];
+    const code = Number.parseInt(current.weatherCode, 10);
+    const rainChance = Math.max(...today.hourly.map((hour) => Number.parseInt(hour.chanceofrain, 10)));
+    const willRain = rainChance > 40;
+
+    const icon =
+      code === 113 ? "☀️" :
+      code === 116 ? "⛅" :
+      code === 119 || code === 122 ? "☁️" :
+      code === 143 || code === 248 || code === 260 ? "🌫️" :
+      code === 200 || code >= 386 ? "⛈️" :
+      code >= 263 && code <= 308 ? "🌧️" :
+      code >= 311 && code <= 338 ? "🌨️" :
+      code >= 353 && code <= 381 ? "🌦️" : "🌤️";
+
+    weatherIcon.textContent = icon;
+    weatherTemp.textContent = `${current.temp_C}°`;
+    weatherDesc.textContent = `${willRain ? "🌧 " : ""}↑${today.maxtempC}° ↓${today.mintempC}°`;
+    weatherWidget.classList.add("loaded");
+  } catch {
+    clearTimeout(timer);
+    try {
+      const res = await fetch("https://wttr.in/Vila+Mascote,Sao+Paulo?format=%c+%t");
+      if (!res.ok) return;
+      const text = (await res.text()).trim();
+      const splitAt = text.indexOf(" ");
+      if (splitAt === -1) return;
+      weatherIcon.textContent = text.slice(0, splitAt);
+      weatherTemp.textContent = text.slice(splitAt + 1).replace(/^\+/, "");
+      weatherDesc.textContent = "";
+      weatherWidget.classList.add("loaded");
+    } catch {
+      weatherDesc.textContent = "";
+    }
+  }
+}
+
 function render() {
   resultsSection.hidden = !hasActiveIntent();
   renderCategorySelect();
@@ -493,9 +541,6 @@ function render() {
 }
 
 function init() {
-  totalCount.textContent = `${dados.length} locais`;
-  categoryCount.textContent = `${getCategoryEntries().length} categorias`;
-
   searchInput.addEventListener("input", (event) => {
     state.query = event.target.value.trim();
     if (!resultsSection.hidden || state.category) {
@@ -522,7 +567,6 @@ function init() {
   searchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
     state.query = searchInput.value.trim();
-    state.category = categorySelect?.value || "Todos";
     state.subcategory = "Todos";
     render();
     if (hasActiveIntent()) {
@@ -537,6 +581,7 @@ function init() {
 
   render();
   initMap();
+  loadWeather();
 }
 
 document.addEventListener("DOMContentLoaded", init);

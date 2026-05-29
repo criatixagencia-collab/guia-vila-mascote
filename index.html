@@ -17,36 +17,33 @@
 <body>
   <main>
     <section class="hero">
-      <header class="hero-topbar" aria-label="Guia Vila Mascote">
-        <a class="brand" href="#" aria-label="Guia Vila Mascote">
+      <header class="hero-topbar" aria-label="Revista Digital Vila Mascote">
+        <a class="brand" href="https://instagram.com/vila.mascote" target="_blank" rel="noopener" aria-label="Instagram da Revista Digital Vila Mascote">
           <img src="assets/logo-vila-mascote.png" alt="Vila Mascote" class="brand-mark">
           <span class="brand-copy">
-            <strong>Guia Vila Mascote</strong>
-            <span>Curadoria local</span>
+            <strong>Revista Digital Vila Mascote</strong>
+            <span>@vila.mascote</span>
           </span>
         </a>
 
-        <div class="header-counts" aria-label="Resumo do guia">
-          <span id="totalCount">0 locais</span>
-          <span id="categoryCount">0 categorias</span>
+        <div class="weather-widget" id="weatherWidget" aria-label="Previsão do Tempo na Vila Mascote" aria-live="polite">
+          <span class="weather-title">Previsão do Tempo na Vila Mascote</span>
+          <span class="weather-now">
+            <span class="weather-icon" id="weatherIcon" aria-hidden="true"></span>
+            <span class="weather-temp" id="weatherTemp"></span>
+            <span class="weather-sep" aria-hidden="true"></span>
+            <span class="weather-desc" id="weatherDesc">Carregando previsão...</span>
+          </span>
         </div>
       </header>
 
       <div class="hero-content">
-        <h1>Guia Vila Mascote <em>tudo o que você precisa, aqui no bairro.</em></h1>
-        <p class="hero-deck">Restaurantes, serviços, saúde, beleza, pet, compras e muito mais.</p>
+        <h1><span>Guia Vila Mascote</span> <em>tudo o que você precisa, aqui no bairro.</em></h1>
 
         <form class="search-panel" id="searchForm" role="search">
           <div class="field search-field">
-            <label for="searchInput">O que você busca?</label>
-            <input id="searchInput" type="search" placeholder="Restaurante, clínica, serviço..." autocomplete="off">
-          </div>
-
-          <div class="field select-field">
-            <label for="categorySelect">Categoria</label>
-            <select id="categorySelect" aria-label="Selecionar categoria">
-              <option value="">Selecione</option>
-            </select>
+            <label for="searchInput">Escreva ou explore as categorias abaixo</label>
+            <input id="searchInput" type="search" placeholder="nome do lugar ou palavra-chave" autocomplete="off">
           </div>
 
           <button type="submit" aria-label="Buscar">
@@ -59,7 +56,7 @@
 
     <section class="category-section" aria-labelledby="categoryHeading">
       <div class="section-heading">
-        <h2 id="categoryHeading">Categorias</h2>
+        <h2 id="categoryHeading">Explore as categorias</h2>
       </div>
       <div class="category-grid" id="categoryGrid"></div>
     </section>

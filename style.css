@@ -3,13 +3,13 @@
   --font-body: "Montserrat", sans-serif;
   --font-accent: "Libre Baskerville", serif;
 
-  --ink: oklch(22% 0.045 260);
-  --ink-soft: oklch(42% 0.035 258);
+  --ink: #102347;
+  --ink-soft: color-mix(in oklch, #102347, transparent 18%);
   --paper: oklch(98% 0.012 93);
   --surface: oklch(100% 0.006 96);
   --line: oklch(88% 0.018 92);
-  --blue: #11347a;
-  --blue-dark: #11347a;
+  --blue: #102347;
+  --blue-dark: #102347;
   --gold: #c9ae24;
   --gold-deep: #9a8219;
   --green: oklch(64% 0.12 152);
@@ -38,6 +38,8 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -81,6 +83,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: var(--space-md);
 }
 
@@ -88,13 +91,14 @@ a {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
+  min-width: 0;
   color: var(--surface);
   text-decoration: none;
 }
 
 .brand-mark {
-  width: 44px;
-  height: 44px;
+  width: 54px;
+  height: 54px;
   display: block;
   object-fit: contain;
   flex: 0 0 auto;
@@ -125,20 +129,61 @@ label,
   text-transform: uppercase;
 }
 
-.header-counts {
-  display: flex;
-  align-items: center;
-  gap: var(--space-xs);
-  color: var(--surface);
-  font-size: 0.76rem;
-  font-weight: 700;
+.brand-copy span {
+  color: color-mix(in oklch, var(--surface), transparent 8%);
+  letter-spacing: 0.04em;
+  text-transform: none;
 }
 
-.header-counts span {
-  border: 1px solid color-mix(in oklch, var(--surface), transparent 74%);
+.weather-widget {
+  min-width: min(280px, 42vw);
+  flex: 0 0 auto;
+  display: grid;
+  justify-items: end;
+  gap: 2px;
+  color: var(--surface);
+  border: 1px solid color-mix(in oklch, var(--surface), transparent 76%);
   border-radius: 999px;
-  padding: 5px 9px;
+  padding: 7px 13px;
   background: color-mix(in oklch, var(--blue-dark), transparent 22%);
+}
+
+.weather-title {
+  font-size: 0.66rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+.weather-now {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  color: color-mix(in oklch, var(--surface), transparent 8%);
+}
+
+.weather-icon {
+  font-size: 0.86rem;
+  line-height: 1;
+}
+
+.weather-temp {
+  color: var(--surface);
+}
+
+.weather-sep {
+  width: 1px;
+  height: 10px;
+  background: color-mix(in oklch, var(--surface), transparent 74%);
+}
+
+.weather-widget:not(.loaded) .weather-now {
+  opacity: 0.78;
+}
+
+.weather-widget:not(.loaded) .weather-sep {
+  display: none;
 }
 
 main {
@@ -155,7 +200,25 @@ main {
   overflow: hidden;
   padding: 6px 0 clamp(18px, 3vw, 28px);
   color: var(--surface);
-  background: var(--blue-dark);
+  background-color: var(--blue-dark);
+  background-image: url("header.png");
+  background-position: center 48%;
+  background-size: cover;
+  isolation: isolate;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: color-mix(in oklch, black, transparent 72%);
+}
+
+.hero-topbar,
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-content {
@@ -179,6 +242,10 @@ main {
   letter-spacing: 0;
 }
 
+.hero h1 > span {
+  display: block;
+}
+
 .hero h1 em {
   display: block;
   margin-top: 0;
@@ -200,8 +267,9 @@ main {
 
 .search-panel {
   width: min(800px, 100%);
+  margin-top: var(--space-md);
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(180px, 0.65fr) 122px;
+  grid-template-columns: minmax(0, 1fr) 122px;
   align-items: stretch;
   overflow: hidden;
   background: var(--surface);
@@ -479,7 +547,7 @@ h2 {
 
 .card-category {
   width: fit-content;
-  color: var(--gold-deep);
+  color: var(--blue-dark);
   font-size: 0.76rem;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -504,29 +572,18 @@ h2 {
 }
 
 .promo-callout {
-  display: grid;
-  gap: 3px;
+  display: inline-flex;
+  align-items: center;
   width: fit-content;
   max-width: 100%;
   border: 1px solid color-mix(in oklch, var(--gold), var(--blue-dark) 26%);
-  border-radius: var(--radius);
-  padding: 9px 11px;
+  border-radius: 999px;
+  padding: 7px 11px;
   color: var(--blue-dark);
   background: color-mix(in oklch, var(--gold), var(--surface) 76%);
-}
-
-.promo-callout span {
-  color: var(--gold-deep);
-  font-size: 0.68rem;
+  font-size: 0.84rem;
   font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.promo-callout strong {
-  max-width: 62ch;
-  font-size: 0.88rem;
-  line-height: 1.28;
+  line-height: 1.2;
 }
 
 .card-tags,
@@ -573,11 +630,6 @@ h2 {
   text-decoration: none;
   font-size: 0.82rem;
   font-weight: 900;
-}
-
-.card-actions a:first-child {
-  background: var(--blue-dark);
-  color: var(--paper);
 }
 
 .empty-state {
@@ -798,10 +850,6 @@ h2 {
     max-width: calc(100vw - 24px);
   }
 
-  .header-counts {
-    display: none;
-  }
-
   .hero {
     min-height: 365px;
     padding-top: 6px;
@@ -860,32 +908,58 @@ h2 {
   .hero-topbar,
   .site-footer {
     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: var(--space-xs);
+    padding-right: var(--space-xs);
+  }
+
+  .brand {
+    gap: 6px;
   }
 
   .brand-mark {
-    width: 42px;
-    height: 42px;
+    width: 30px;
+    height: 30px;
   }
 
   .brand-copy strong {
-    font-size: 0.98rem;
+    font-size: 0.68rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .brand-copy span {
+    font-size: 0.58rem;
+    line-height: 1;
+  }
+
+  .weather-widget {
+    display: none;
   }
 
   .hero h1 {
-    max-width: 12ch;
-    font-size: clamp(1.72rem, 8.4vw, 2.28rem);
+    max-width: none;
+    white-space: normal;
+    font-size: clamp(1.65rem, 8.1vw, 2rem);
     line-height: 1.02;
+  }
+
+  .hero h1 > span {
+    white-space: nowrap;
   }
 
   .hero h1 em {
     font-size: 0.62em;
+    white-space: normal;
   }
 
   .hero-deck {
     max-width: 30ch;
     font-size: 0.84rem;
+  }
+
+  .field input,
+  .field select {
+    font-size: 1rem;
   }
 
   .business-card {
