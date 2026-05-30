@@ -212,7 +212,20 @@ main {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: color-mix(in oklch, black, transparent 72%);
+  background:
+    radial-gradient(
+      ellipse at 50% 43%,
+      color-mix(in oklch, black, transparent 28%) 0%,
+      color-mix(in oklch, black, transparent 46%) 30%,
+      color-mix(in oklch, black, transparent 76%) 58%,
+      color-mix(in oklch, black, transparent 88%) 100%
+    ),
+    linear-gradient(
+      180deg,
+      color-mix(in oklch, black, transparent 62%) 0%,
+      color-mix(in oklch, black, transparent 82%) 45%,
+      color-mix(in oklch, black, transparent 72%) 100%
+    );
 }
 
 .hero-topbar,
@@ -229,9 +242,32 @@ main {
   justify-items: center;
   align-content: center;
   text-align: center;
+  position: relative;
+}
+
+.hero-content::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 36%;
+  width: min(880px, calc(100% - 24px));
+  height: clamp(118px, 15vw, 170px);
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  background:
+    radial-gradient(
+      ellipse at center,
+      color-mix(in oklch, black, transparent 32%) 0%,
+      color-mix(in oklch, black, transparent 52%) 48%,
+      transparent 74%
+    );
+  filter: blur(10px);
+  opacity: .92;
+  pointer-events: none;
 }
 
 .hero h1 {
+  position: relative;
   max-width: 900px;
   margin: 0;
   color: var(--surface);
@@ -240,6 +276,10 @@ main {
   font-weight: 800;
   line-height: 1.02;
   letter-spacing: 0;
+  text-shadow:
+    0 2px 4px color-mix(in oklch, black, transparent 18%),
+    0 14px 34px color-mix(in oklch, black, transparent 18%),
+    0 0 72px color-mix(in oklch, black, transparent 36%);
 }
 
 .hero h1 > span {
@@ -254,6 +294,10 @@ main {
   font-size: 0.68em;
   font-style: italic;
   font-weight: 400;
+  text-shadow:
+    0 2px 4px color-mix(in oklch, black, transparent 14%),
+    0 12px 30px color-mix(in oklch, black, transparent 18%),
+    0 0 52px color-mix(in oklch, black, transparent 30%);
 }
 
 .hero-deck {
