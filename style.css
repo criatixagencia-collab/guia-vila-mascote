@@ -219,12 +219,6 @@ main {
       color-mix(in oklch, black, transparent 46%) 30%,
       color-mix(in oklch, black, transparent 76%) 58%,
       color-mix(in oklch, black, transparent 88%) 100%
-    ),
-    linear-gradient(
-      180deg,
-      color-mix(in oklch, black, transparent 62%) 0%,
-      color-mix(in oklch, black, transparent 82%) 45%,
-      color-mix(in oklch, black, transparent 72%) 100%
     );
 }
 
