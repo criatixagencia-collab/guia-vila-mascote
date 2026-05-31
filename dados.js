@@ -3102,7 +3102,7 @@ const dados = [
   },
   {
     "id": 97,
-    "nome": "Padaria orquídea Ouro",
+    "nome": "Orquídea ouro",
     "categoriaPrincipal": "A confirmar",
     "categorias": [
       "A confirmar"
@@ -3114,7 +3114,7 @@ const dados = [
     "mapSource": "",
     "telefones": [],
     "instagram": "",
-    "descricao": "Padaria orquídea Ouro: a confirmar na Vila Mascote.",
+    "descricao": "Orquídea ouro: a confirmar na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
