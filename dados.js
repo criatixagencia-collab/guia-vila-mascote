@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 128
+ * Total de estabelecimentos listaveis: 129
  */
 
 const dados = [
@@ -4184,5 +4184,28 @@ const dados = [
     "linksPosts": [
       "https://www.paodeacucar.com/nossas-lojas/av.sdx?filter=Minuto&utm_source=openai,https://www.paodeacucar.com/nossas-lojas/vila-mascote.sdx?filter=Minuto&utm_source=openai,https://www.paodeacucar.com/todas-as-unidades.sdx?utm_source=openai"
     ]
+  },
+  {
+    "id": 129,
+    "nome": "Padaria do João",
+    "categoriaPrincipal": "A confirmar",
+    "categorias": [
+      "A confirmar"
+    ],
+    "subcategoria": "A confirmar",
+    "endereco": "",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [],
+    "instagram": "",
+    "descricao": "Padaria do João: a confirmar na Vila Mascote.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
   }
 ];
