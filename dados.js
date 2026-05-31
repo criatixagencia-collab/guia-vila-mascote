@@ -3102,30 +3102,26 @@ const dados = [
   },
   {
     "id": 97,
-    "nome": "Padaria Orquídea Pérola",
-    "categoriaPrincipal": "Padaria",
+    "nome": "Padaria orquídea Ouro",
+    "categoriaPrincipal": "A confirmar",
     "categorias": [
-      "Padaria"
+      "A confirmar"
     ],
     "subcategoria": "A confirmar",
-    "endereco": "Rua Palestina, 552 – Vila Mascote",
+    "endereco": "",
     "lat": null,
     "lng": null,
     "mapSource": "",
-    "telefones": [
-      "1155646901"
-    ],
+    "telefones": [],
     "instagram": "",
-    "descricao": "Padaria Orquídea Pérola: a confirmar na Vila Mascote.",
+    "descricao": "Padaria orquídea Ouro: a confirmar na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
     "postsAno": 0,
     "jaNoGuia": true,
     "origem": "Instagram @vila.mascote",
-    "linksPosts": [
-      "https://vilamascote.com.br/index.php/nosso-bairro/delivery/3914/padaria-orquidea-perola?utm_source=openai"
-    ]
+    "linksPosts": []
   },
   {
     "id": 98,
