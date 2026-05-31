@@ -440,7 +440,7 @@ const dados = [
       "11982973631"
     ],
     "instagram": "lemesbarbearia",
-    "descricao": "Lemes Barbearia: barbearia na Vila Mascote. Barbearia tradicional da Vila Mascote localizada na Rua Palestina, 136 Atende cortes masculinos, barba e cortes infantis, e ja apareceu no perfil Lemes Barbearia em comemoracao aos seus 10 anos de historia no bairro.",
+    "descricao": "Barbearia tradicional da Vila Mascote localizada na Rua Palestina, 136. Atende cortes masculinos, barba e cortes infantis, e ja apareceu no perfil @vila.mascote em comemoracao aos seus 10 anos de historia no bairro.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-03-07",
@@ -4174,7 +4174,7 @@ const dados = [
       "8007796761"
     ],
     "instagram": "",
-    "descricao": "Minuto Pão de Açúcar: mercado de proximidade na Vila Mascote. Unidade Minuto Vila Mascote do Pão de Açúcar, com perfil de mercado de proximidade/supermercado e oferta de conveniência, mercearia, hortifruti e bebidas.",
+    "descricao": "Unidade Minuto Vila Mascote do Pão de Açúcar, com perfil de mercado de proximidade/supermercado e oferta de conveniência, mercearia, hortifruti e bebidas.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
@@ -4221,9 +4221,12 @@ const dados = [
     "lat": null,
     "lng": null,
     "mapSource": "",
-    "telefones": [],
+    "telefones": [
+      "1156718888",
+      "1155638588"
+    ],
     "instagram": "",
-    "descricao": "Colégio Emilie de Villeneuve: colégio particular na Vila Mascote.",
+    "descricao": "Colégio particular da Rede Azul de Educação na Vila Mascote, com educação infantil, ensino fundamental e ensino médio.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
@@ -4245,9 +4248,12 @@ const dados = [
     "lat": null,
     "lng": null,
     "mapSource": "",
-    "telefones": [],
+    "telefones": [
+      "11974281150",
+      "1150349999"
+    ],
     "instagram": "jedeletrica",
-    "descricao": "Jed elétrica: iluminação na Vila Mascote.",
+    "descricao": "Loja de elétrica e iluminação elétrica.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",

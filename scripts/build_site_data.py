@@ -12,7 +12,16 @@ OUTPUT = Path("dados.js")
 
 def clean_phone(value):
     phones = []
-    for part in (value or "").split(";"):
+
+    candidates = re.findall(
+        r"(?:\+?55\s*)?(?:\(?\d{2}\)?\s*)?(?:9\s*)?\d{4}[-\s]?\d{4}",
+        value or "",
+    )
+
+    if not candidates:
+        candidates = re.split(r";|/|,|\n", value or "")
+
+    for part in candidates:
         digits = re.sub(r"\D", "", part)
         if digits.startswith("55"):
             digits = digits[2:]
@@ -381,6 +390,13 @@ def extract_service_details(text, mention_label):
 
 
 def summarize_description(value, category, subcategory, mention_label):
+    direct_description = compact_description(value)
+
+    if is_direct_description(direct_description):
+        if direct_description[-1] not in ".!?":
+            direct_description += "."
+        return direct_description
+
     base = f"{mention_label}: {subcategory.lower()} na Vila Mascote."
     details = extract_service_details(value, mention_label)
     summary = f"{base} {' '.join(details)}" if details else base
@@ -391,6 +407,25 @@ def summarize_description(value, category, subcategory, mention_label):
         summary = summary[:337].rstrip(" ,;")
         summary = summary.rsplit(" ", 1)[0].rstrip(" ,;") + "."
     return summary
+
+
+def is_direct_description(value):
+    value = normalize_space(value)
+
+    if not value or len(value) > 220:
+        return False
+    if PROMO_RE.search(value) or CTA_RE.search(value):
+        return False
+    if len(split_sentences(value)) > 2:
+        return False
+
+    return bool(
+        re.search(
+            r"(?i)\b(?:loja|empresa|col[eé]gio|escola|restaurante|cl[ií]nica|barbearia|caf[eé]|"
+            r"padaria|mercado|servi[cç]os?|materiais|ilumina[cç][aã]o|presentes|pet|academia)\b",
+            value,
+        )
+    )
 
 
 def clean_name(value):
