@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 129
+ * Total de estabelecimentos listaveis: 130
  */
 
 const dados = [
@@ -4200,6 +4200,30 @@ const dados = [
     "telefones": [],
     "instagram": "",
     "descricao": "Padaria do João: a confirmar na Vila Mascote.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 130,
+    "nome": "Colégio Emilie de Villeneuve",
+    "categoriaPrincipal": "Educação",
+    "categorias": [
+      "Educação",
+      "Colégio particular,Educação infantil,Ensino fundamental,Ensino médio"
+    ],
+    "subcategoria": "Colégio particular",
+    "endereco": "Rua Madre Emilie de Villeneuve, 331 - Vila Mascote",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [],
+    "instagram": "",
+    "descricao": "Colégio Emilie de Villeneuve: colégio particular na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
