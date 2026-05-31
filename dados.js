@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 127
+ * Total de estabelecimentos listaveis: 128
  */
 
 const dados = [
@@ -4155,6 +4155,34 @@ const dados = [
       "https://www.instagram.com/p/DM-hZLeuOhw/",
       "https://www.instagram.com/p/DLnj5UwuZhc/",
       "https://www.instagram.com/p/DKc4ODiOduK/"
+    ]
+  },
+  {
+    "id": 128,
+    "nome": "Minuto Pão de Açúcar",
+    "categoriaPrincipal": "supermercado",
+    "categorias": [
+      "supermercado",
+      "supermercado,mercado de proximidade,minimercado,hortifruti,mercearia,bebidas,conveniência"
+    ],
+    "subcategoria": "mercado de proximidade",
+    "endereco": "Av. Mascote, 910",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [
+      "8007796761"
+    ],
+    "instagram": "",
+    "descricao": "Minuto Pão de Açúcar: mercado de proximidade na Vila Mascote. Unidade Minuto Vila Mascote do Pão de Açúcar, com perfil de mercado de proximidade/supermercado e oferta de conveniência, mercearia, hortifruti e bebidas.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": [
+      "https://www.paodeacucar.com/nossas-lojas/av.sdx?filter=Minuto&utm_source=openai,https://www.paodeacucar.com/nossas-lojas/vila-mascote.sdx?filter=Minuto&utm_source=openai,https://www.paodeacucar.com/todas-as-unidades.sdx?utm_source=openai"
     ]
   }
 ];
