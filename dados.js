@@ -4235,19 +4235,19 @@ const dados = [
   {
     "id": 131,
     "nome": "JED Elétrica e Iluminação Ltda",
-    "categoriaPrincipal": "Casa e Construção",
+    "categoriaPrincipal": "Materiais elétricos",
     "categorias": [
-      "Casa e Construção",
-      "Material Elétrico, Iluminação"
+      "Materiais elétricos",
+      "Materiais elétricos, Iluminação"
     ],
-    "subcategoria": "Material elétrico e iluminação",
+    "subcategoria": "Iluminação",
     "endereco": "Rua Walter Fontana, 40 - Jardim Brasil (Zona Sul)",
     "lat": null,
     "lng": null,
     "mapSource": "",
     "telefones": [],
-    "instagram": "",
-    "descricao": "JED Elétrica e Iluminação Ltda: material elétrico e iluminação na Vila Mascote. Empresa com CNPJ ativo em São Paulo, atuação ligada a material elétrico e iluminação, localizada em bairro vizinho da Vila Mascote.",
+    "instagram": "jedeletrica",
+    "descricao": "JED Elétrica e Iluminação Ltda: iluminação na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
