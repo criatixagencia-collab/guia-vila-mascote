@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 126
+ * Total de estabelecimentos listaveis: 127
  */
 
 const dados = [
@@ -425,7 +425,7 @@ const dados = [
   },
   {
     "id": 14,
-    "nome": "Lemesbarbearia",
+    "nome": "Lemes Barbearia",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
       "Beleza & Estetica"
@@ -440,7 +440,7 @@ const dados = [
       "11982973631"
     ],
     "instagram": "lemesbarbearia",
-    "descricao": "Lemesbarbearia: barbearia na Vila Mascote.",
+    "descricao": "Lemes Barbearia: barbearia na Vila Mascote. Barbearia tradicional da Vila Mascote localizada na Rua Palestina, 136 Atende cortes masculinos, barba e cortes infantis, e ja apareceu no perfil Lemes Barbearia em comemoracao aos seus 10 anos de historia no bairro.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-03-07",
@@ -3102,6 +3102,29 @@ const dados = [
   },
   {
     "id": 97,
+    "nome": "Mania de quilt",
+    "categoriaPrincipal": "A confirmar",
+    "categorias": [
+      "A confirmar"
+    ],
+    "subcategoria": "A confirmar",
+    "endereco": "",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [],
+    "instagram": "",
+    "descricao": "Mania de quilt: a confirmar na Vila Mascote.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 98,
     "nome": "Aline Navega Nutri",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3143,7 +3166,7 @@ const dados = [
     ]
   },
   {
-    "id": 98,
+    "id": 99,
     "nome": "Carlaazevedogm",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3170,7 +3193,7 @@ const dados = [
     ]
   },
   {
-    "id": 99,
+    "id": 100,
     "nome": "Clínica Amanda Beauty",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3209,7 +3232,7 @@ const dados = [
     ]
   },
   {
-    "id": 100,
+    "id": 101,
     "nome": "Clínica NAV Saúde",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3242,7 +3265,7 @@ const dados = [
     ]
   },
   {
-    "id": 101,
+    "id": 102,
     "nome": "Clínica Toyomoto",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3269,7 +3292,7 @@ const dados = [
     ]
   },
   {
-    "id": 102,
+    "id": 103,
     "nome": "Corpus Balance",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3307,7 +3330,7 @@ const dados = [
     ]
   },
   {
-    "id": 103,
+    "id": 104,
     "nome": "Curumim Clínica",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3336,7 +3359,7 @@ const dados = [
     ]
   },
   {
-    "id": 104,
+    "id": 105,
     "nome": "Dra.juliana.nakashima",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3374,7 +3397,7 @@ const dados = [
     ]
   },
   {
-    "id": 105,
+    "id": 106,
     "nome": "Dra. Débora Souza",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3410,7 +3433,7 @@ const dados = [
     ]
   },
   {
-    "id": 106,
+    "id": 107,
     "nome": "Dra. Márcia Busato",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3450,7 +3473,7 @@ const dados = [
     ]
   },
   {
-    "id": 107,
+    "id": 108,
     "nome": "Esteticamarianab",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3480,7 +3503,7 @@ const dados = [
     ]
   },
   {
-    "id": 108,
+    "id": 109,
     "nome": "Hugopainodeoliveira",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3507,7 +3530,7 @@ const dados = [
     ]
   },
   {
-    "id": 109,
+    "id": 110,
     "nome": "Keila Xn",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3541,7 +3564,7 @@ const dados = [
     ]
   },
   {
-    "id": 110,
+    "id": 111,
     "nome": "Krav Maga Vila Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3570,7 +3593,7 @@ const dados = [
     ]
   },
   {
-    "id": 111,
+    "id": 112,
     "nome": "Oralsinsaopaulo Vila Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3603,7 +3626,7 @@ const dados = [
     ]
   },
   {
-    "id": 112,
+    "id": 113,
     "nome": "Óticas Diniz Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3640,7 +3663,7 @@ const dados = [
     ]
   },
   {
-    "id": 113,
+    "id": 114,
     "nome": "Óticas Diniz Catarina",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3677,7 +3700,7 @@ const dados = [
     ]
   },
   {
-    "id": 114,
+    "id": 115,
     "nome": "Pilates Spaço Equilibrium",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3717,7 +3740,7 @@ const dados = [
     ]
   },
   {
-    "id": 115,
+    "id": 116,
     "nome": "Studiovitabemestar",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3751,7 +3774,7 @@ const dados = [
     ]
   },
   {
-    "id": 116,
+    "id": 117,
     "nome": "Vanessapieri",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3778,7 +3801,7 @@ const dados = [
     ]
   },
   {
-    "id": 117,
+    "id": 118,
     "nome": "Voll Studios Vila Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
@@ -3823,7 +3846,7 @@ const dados = [
     ]
   },
   {
-    "id": 118,
+    "id": 119,
     "nome": "Arranjos Express Vila Mascote",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3866,7 +3889,7 @@ const dados = [
     ]
   },
   {
-    "id": 119,
+    "id": 120,
     "nome": "Ecoville Vilamascotesp",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3895,7 +3918,7 @@ const dados = [
     ]
   },
   {
-    "id": 120,
+    "id": 121,
     "nome": "Especialista Limpeza",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3922,7 +3945,7 @@ const dados = [
     ]
   },
   {
-    "id": 121,
+    "id": 122,
     "nome": "LavUp Vila Mascote",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3950,7 +3973,7 @@ const dados = [
     ]
   },
   {
-    "id": 122,
+    "id": 123,
     "nome": "Lucianaserer",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -3978,7 +4001,7 @@ const dados = [
     ]
   },
   {
-    "id": 123,
+    "id": 124,
     "nome": "OMO Lavanderia Vila Mascote",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -4012,7 +4035,7 @@ const dados = [
     ]
   },
   {
-    "id": 124,
+    "id": 125,
     "nome": "OtoClean Higienização",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -4056,7 +4079,7 @@ const dados = [
     ]
   },
   {
-    "id": 125,
+    "id": 126,
     "nome": "Restauratto",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
@@ -4091,7 +4114,7 @@ const dados = [
     ]
   },
   {
-    "id": 126,
+    "id": 127,
     "nome": "Thermo Tagg",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
