@@ -1002,6 +1002,48 @@ h2 {
 
   .business-card {
     padding: var(--space-md);
+    overflow: hidden;
+  }
+
+  .business-card,
+  .business-card *,
+  .card-main,
+  .card-heading,
+  .card-side,
+  .card-tags,
+  .card-actions {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .business-card h3,
+  .business-card p,
+  .address,
+  .promo-callout,
+  .card-tags span {
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .business-card p {
+    width: 100%;
+    max-width: 100%;
+    line-height: 1.45;
+  }
+
+  .card-tags {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .card-tags span {
+    white-space: normal;
+    line-height: 1.25;
+  }
+
+  .card-actions a {
+    flex: 1 1 auto;
+    min-width: min(130px, 100%);
   }
 
   .category-grid {
