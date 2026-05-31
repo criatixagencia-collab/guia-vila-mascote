@@ -4234,7 +4234,7 @@ const dados = [
   },
   {
     "id": 131,
-    "nome": "JED Elétrica e Iluminação Ltda",
+    "nome": "Jed elétrica",
     "categoriaPrincipal": "Materiais elétricos",
     "categorias": [
       "Materiais elétricos",
@@ -4247,7 +4247,7 @@ const dados = [
     "mapSource": "",
     "telefones": [],
     "instagram": "jedeletrica",
-    "descricao": "JED Elétrica e Iluminação Ltda: iluminação na Vila Mascote.",
+    "descricao": "Jed elétrica: iluminação na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
