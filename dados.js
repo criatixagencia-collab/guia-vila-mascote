@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 130
+ * Total de estabelecimentos listaveis: 131
  */
 
 const dados = [
@@ -4224,6 +4224,30 @@ const dados = [
     "telefones": [],
     "instagram": "",
     "descricao": "Colégio Emilie de Villeneuve: colégio particular na Vila Mascote.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 131,
+    "nome": "JED Elétrica e Iluminação Ltda",
+    "categoriaPrincipal": "Casa e Construção",
+    "categorias": [
+      "Casa e Construção",
+      "Material Elétrico, Iluminação"
+    ],
+    "subcategoria": "Material elétrico e iluminação",
+    "endereco": "Rua Walter Fontana, 40 - Jardim Brasil (Zona Sul)",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [],
+    "instagram": "",
+    "descricao": "JED Elétrica e Iluminação Ltda: material elétrico e iluminação na Vila Mascote. Empresa com CNPJ ativo em São Paulo, atuação ligada a material elétrico e iluminação, localizada em bairro vizinho da Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
