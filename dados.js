@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 131
+ * Total de estabelecimentos listaveis: 132
  */
 
 const dados = [
@@ -4261,5 +4261,33 @@ const dados = [
     "jaNoGuia": true,
     "origem": "Instagram @vila.mascote",
     "linksPosts": []
+  },
+  {
+    "id": 132,
+    "nome": "Borgê Presentes Personalizados",
+    "categoriaPrincipal": "Presentes e flores",
+    "categorias": [
+      "Presentes e flores"
+    ],
+    "subcategoria": "presentes personalizados",
+    "endereco": "Rua Fernandes Reis, 38",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [
+      "11994352018",
+      "1155655204"
+    ],
+    "instagram": "",
+    "descricao": "Parece ser a loja certa para “Borgê presentes” na Vila Mascote. Loja online/familiar, com foco em presentes personalizados, flores e suculentas.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": [
+      "https://www.instagram.com/reel/DY-gZGwuW_i/?igsh=NWRtZ2s0OXhnazBk"
+    ]
   }
 ];
