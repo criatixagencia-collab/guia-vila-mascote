@@ -3103,18 +3103,18 @@ const dados = [
   {
     "id": 97,
     "nome": "Orquídea ouro",
-    "categoriaPrincipal": "A confirmar",
+    "categoriaPrincipal": "Mercados Emporios & Conveniencia",
     "categorias": [
-      "A confirmar"
+      "Mercados Emporios & Conveniencia"
     ],
-    "subcategoria": "A confirmar",
+    "subcategoria": "Padaria",
     "endereco": "",
     "lat": null,
     "lng": null,
     "mapSource": "",
     "telefones": [],
     "instagram": "",
-    "descricao": "Orquídea ouro: a confirmar na Vila Mascote.",
+    "descricao": "Orquídea ouro: padaria na Vila Mascote. Oferece pães, doces, bolos e salgados.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
