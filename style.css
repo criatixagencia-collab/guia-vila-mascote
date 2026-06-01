@@ -749,24 +749,33 @@ h2 {
 }
 
 .map-pin {
-  width: 40px;
-  height: 40px;
+  width: 28px;
+  height: 28px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid color-mix(in oklch, var(--paper), transparent 4%);
+  border: 1.5px solid color-mix(in oklch, var(--paper), transparent 4%);
   border-radius: 50%;
   color: var(--paper);
   background: var(--blue-dark);
-  box-shadow: 0 10px 22px color-mix(in oklch, var(--blue-dark), transparent 58%);
-  font-size: 0.72rem;
-  font-weight: 700;
+  box-shadow: 0 7px 16px color-mix(in oklch, var(--blue-dark), transparent 68%);
+}
+
+.map-pin svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.85;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .map-pin.selected {
   background: var(--gold);
   color: var(--blue-dark);
-  transform: scale(1.08);
+  transform: scale(1.16);
+  box-shadow: 0 9px 18px color-mix(in oklch, var(--gold), transparent 50%);
 }
 
 .map-list {
@@ -780,7 +789,7 @@ h2 {
 
 .map-list-item {
   display: grid;
-  grid-template-columns: 38px minmax(0, 1fr);
+  grid-template-columns: 32px minmax(0, 1fr);
   gap: var(--space-xs);
   align-items: center;
   border: 1px solid var(--line);
@@ -791,18 +800,11 @@ h2 {
   text-align: left;
 }
 
-.map-list-item span {
+.map-list-item > .map-pin {
   grid-row: span 2;
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  color: var(--paper);
-  background: var(--blue-dark);
-  font-size: 0.7rem;
-  font-weight: 700;
+  width: 28px;
+  height: 28px;
+  box-shadow: none;
 }
 
 .map-list-item strong,

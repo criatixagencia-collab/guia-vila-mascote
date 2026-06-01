@@ -10,7 +10,6 @@ from urllib.request import Request, urlopen
 
 SOURCE = Path("CATEGORIZACAO/estabelecimentos_categorizados_v1.csv")
 OUTPUT = Path("data/vila_mascote_geocodes.json")
-CENTER = (-23.6489, -46.6656)
 
 
 def normalize_space(value):
@@ -55,18 +54,6 @@ def query_for(address):
     if "sao paulo" not in address.lower() and "são paulo" not in address.lower():
         address = f"{address}, Vila Mascote, Sao Paulo, SP, Brasil"
     return address
-
-
-def fallback_coord(index, total):
-    # Keep ungeocoded items visible around Vila Mascote instead of hiding them.
-    ring = max(1, total)
-    angle = (index * 137.508) % 360
-    radius = 0.0014 + (index % 6) * 0.00035
-    import math
-
-    lat = CENTER[0] + math.sin(math.radians(angle)) * radius
-    lng = CENTER[1] + math.cos(math.radians(angle)) * radius
-    return round(lat, 7), round(lng, 7)
 
 
 def geocode(address):
@@ -121,7 +108,7 @@ def main():
             "lat": None,
             "lng": None,
             "display_name": "",
-            "source": "fallback",
+            "source": "",
         }
 
         if address:
@@ -133,14 +120,10 @@ def main():
             except Exception as error:
                 entry["error"] = str(error)
 
-        if entry["lat"] is None or entry["lng"] is None:
-            lat, lng = fallback_coord(index, len(rows))
-            entry["lat"] = lat
-            entry["lng"] = lng
-
         cache[key] = entry
         changed = True
-        print(f"{index:03d}/{len(rows)} {name}: {entry['source']} {entry['lat']},{entry['lng']}")
+        status = entry["source"] or "sem coordenada confiavel"
+        print(f"{index:03d}/{len(rows)} {name}: {status} {entry['lat']},{entry['lng']}")
 
     if changed:
         OUTPUT.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

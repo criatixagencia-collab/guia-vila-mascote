@@ -375,13 +375,64 @@ function getMapItems(filtered = getFilteredData()) {
   return filtered.filter((item) => Number.isFinite(item.lat) && Number.isFinite(item.lng));
 }
 
+function mapIconName(item) {
+  const text = normalizeSearch([
+    item.categoriaPrincipal,
+    item.subcategoria,
+    ...(item.categorias || [])
+  ].join(" "));
+
+  if (text.includes("gastronomia") || text.includes("delivery") || text.includes("restaurante")) return "food";
+  if (text.includes("cafe") || text.includes("padaria") || text.includes("doce")) return "coffee";
+  if (text.includes("mercado") || text.includes("emporio") || text.includes("conveniencia")) return "market";
+  if (text.includes("saude") || text.includes("clinica")) return "health";
+  if (text.includes("beleza") || text.includes("estetica")) return "spark";
+  if (text.includes("academia") || text.includes("esporte") || text.includes("bem-estar")) return "wellness";
+  if (text.includes("moda") || text.includes("calcado") || text.includes("acessorio")) return "bag";
+  if (text.includes("casa") || text.includes("decoracao") || text.includes("servicos para casa")) return "home";
+  if (text.includes("imoveis") || text.includes("construcao")) return "building";
+  if (text.includes("pet")) return "pet";
+  if (text.includes("educacao") || text.includes("curso")) return "book";
+  if (text.includes("infantil") || text.includes("familia")) return "family";
+  if (text.includes("festa") || text.includes("evento")) return "party";
+  if (text.includes("presente") || text.includes("loja")) return "gift";
+  if (text.includes("instituicao") || text.includes("comunidade")) return "community";
+  return "place";
+}
+
+function mapIconSvg(name) {
+  const icons = {
+    food: '<path d="M8 3v18"/><path d="M5 3v5a3 3 0 0 0 6 0V3"/><path d="M16 3v18"/><path d="M16 3c2 2 3 4 3 7 0 2-1 3-3 3"/>',
+    coffee: '<path d="M5 7h10v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4Z"/><path d="M15 8h2a2 2 0 0 1 0 4h-2"/><path d="M6 20h11"/><path d="M8 3v2"/><path d="M12 3v2"/>',
+    market: '<path d="M6 8h13l-2 8H8Z"/><path d="M6 8 5 5H3"/><circle cx="9" cy="19" r="1"/><circle cx="16" cy="19" r="1"/>',
+    health: '<path d="M12 5v14"/><path d="M5 12h14"/>',
+    spark: '<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8Z"/><path d="M18 15l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7Z"/>',
+    wellness: '<path d="M6 16c3-5 9-5 12 0"/><path d="M9 12a3 3 0 1 1 6 0"/><path d="M4 19h16"/>',
+    bag: '<path d="M6 8h12l-1 12H7Z"/><path d="M9 8a3 3 0 0 1 6 0"/>',
+    home: '<path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-6h4v6"/>',
+    building: '<path d="M6 20V5h9v15"/><path d="M15 9h3v11"/><path d="M9 8h3"/><path d="M9 12h3"/><path d="M9 16h3"/>',
+    pet: '<circle cx="7" cy="9" r="1.5"/><circle cx="12" cy="6" r="1.5"/><circle cx="17" cy="9" r="1.5"/><path d="M7.5 16a4.5 4.5 0 0 1 9 0c0 2-2 3-4.5 3s-4.5-1-4.5-3Z"/>',
+    book: '<path d="M5 5h6a3 3 0 0 1 3 3v11a3 3 0 0 0-3-3H5Z"/><path d="M19 5h-5a3 3 0 0 0-3 3"/>',
+    family: '<circle cx="9" cy="8" r="2"/><circle cx="15" cy="8" r="2"/><path d="M5 18a4 4 0 0 1 8 0"/><path d="M11 18a4 4 0 0 1 8 0"/>',
+    party: '<path d="m5 20 4-14 10 10Z"/><path d="M14 5h.01"/><path d="M18 3h.01"/><path d="M20 8h.01"/>',
+    gift: '<path d="M4 10h16v10H4Z"/><path d="M12 10v10"/><path d="M4 14h16"/><path d="M8 10c-2 0-3-1-3-2s1-2 2-2c2 0 3 4 5 4"/><path d="M16 10c2 0 3-1 3-2s-1-2-2-2c-2 0-3 4-5 4"/>',
+    community: '<path d="M5 20V9l7-5 7 5v11"/><path d="M9 20v-6h6v6"/><path d="M9 10h6"/>',
+    place: '<path d="M12 21s6-5.5 6-11a6 6 0 0 0-12 0c0 5.5 6 11 6 11Z"/><circle cx="12" cy="10" r="2"/>'
+  };
+  return `<svg viewBox="0 0 24 24" aria-hidden="true">${icons[name] || icons.place}</svg>`;
+}
+
+function mapSymbol(item, selected = false) {
+  return `<span class="map-pin${selected ? " selected" : ""}">${mapIconSvg(mapIconName(item))}</span>`;
+}
+
 function markerIcon(item, selected = false) {
   return L.divIcon({
     className: "",
-    html: `<span class="map-pin${selected ? " selected" : ""}">${initials(item.nome)}</span>`,
-    iconSize: [40, 40],
-    iconAnchor: [20, 20],
-    popupAnchor: [0, -18]
+    html: mapSymbol(item, selected),
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -13]
   });
 }
 
@@ -417,7 +468,7 @@ function renderMapList(items) {
 
   mapList.innerHTML = items.slice(0, 36).map((item) => `
     <button class="map-list-item" type="button" data-id="${item.id}">
-      <span>${initials(item.nome)}</span>
+      ${mapSymbol(item)}
       <strong>${item.nome}</strong>
       <small>${item.endereco || "Vila Mascote"}</small>
     </button>

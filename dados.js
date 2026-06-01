@@ -42,9 +42,9 @@ const dados = [
     ],
     "subcategoria": "Suplementos",
     "endereco": "Av. Santa Catarina, 915 - Loja 4 (ao lado da Smart Fit e Academia Pano Bianco)",
-    "lat": -23.650992,
-    "lng": -46.6654164,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11940750757",
       "1128944166"
@@ -123,9 +123,9 @@ const dados = [
     ],
     "subcategoria": "Academia/Fitness",
     "endereco": "Av. Mascote, 486 – sala 12",
-    "lat": -23.6505906,
-    "lng": -46.6629421,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11999467026"
     ],
@@ -367,9 +367,9 @@ const dados = [
     ],
     "subcategoria": "Maquiagem",
     "endereco": "Rua Palestina, 18 - sala 01",
-    "lat": -23.649602,
-    "lng": -46.6668113,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11992815975"
     ],
@@ -402,9 +402,9 @@ const dados = [
     ],
     "subcategoria": "Estetica clinica",
     "endereco": "Av. Mascote, 1291 - sala 2",
-    "lat": -23.6492757,
-    "lng": -46.6638908,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11999120420"
     ],
@@ -460,9 +460,9 @@ const dados = [
     ],
     "subcategoria": "Barbearia",
     "endereco": "Rua Coriolano Durand, 655",
-    "lat": -23.6513297,
-    "lng": -46.6659147,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11952466470"
     ],
@@ -551,9 +551,9 @@ const dados = [
     ],
     "subcategoria": "Cafe pet friendly",
     "endereco": "Rua Lacedemônia, 413",
-    "lat": -23.6498875,
-    "lng": -46.6646076,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11994139920"
     ],
@@ -636,9 +636,9 @@ const dados = [
     ],
     "subcategoria": "Marcenaria / moveis",
     "endereco": "Av. Prof. Vicente Ráo, 2077",
-    "lat": -23.6485731,
-    "lng": -46.6631719,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11994802596"
     ],
@@ -669,9 +669,9 @@ const dados = [
     ],
     "subcategoria": "Aromas / presentes",
     "endereco": "Avenida Vereador João de Lucca, 627 – Sobreloja da Zophi Modas",
-    "lat": -23.647301,
-    "lng": -46.6678985,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11988308225"
     ],
@@ -704,9 +704,9 @@ const dados = [
     ],
     "subcategoria": "Organizacao",
     "endereco": "",
-    "lat": -23.6519731,
-    "lng": -46.6649083,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1152864150"
     ],
@@ -733,9 +733,9 @@ const dados = [
     ],
     "subcategoria": "Marcenaria / moveis",
     "endereco": "",
-    "lat": -23.6476852,
-    "lng": -46.6649041,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11964795530"
     ],
@@ -835,9 +835,9 @@ const dados = [
     ],
     "subcategoria": "Escola de idiomas",
     "endereco": "Avenida Jônia, 655",
-    "lat": -23.64664,
-    "lng": -46.6665461,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1150319992",
       "1125062322"
@@ -917,9 +917,9 @@ const dados = [
     ],
     "subcategoria": "Academia/Fitness",
     "endereco": "Rua Viaza, 834 – Jardim Aeroporto",
-    "lat": -23.6474342,
-    "lng": -46.6628118,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11940368687"
     ],
@@ -979,9 +979,9 @@ const dados = [
     ],
     "subcategoria": "Eventos / recreacao",
     "endereco": "",
-    "lat": -23.6503719,
-    "lng": -46.6646533,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11954546867"
     ],
@@ -1007,9 +1007,9 @@ const dados = [
     ],
     "subcategoria": "Festas / decoracao",
     "endereco": "",
-    "lat": -23.6468303,
-    "lng": -46.6652446,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11947875908"
     ],
@@ -1110,9 +1110,9 @@ const dados = [
     ],
     "subcategoria": "Pizzaria",
     "endereco": "Avenida Washington Luís, 3512",
-    "lat": -23.646588,
-    "lng": -46.6677394,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1123674145",
       "1123673536"
@@ -1275,9 +1275,9 @@ const dados = [
     ],
     "subcategoria": "Restaurante",
     "endereco": "Rua Professor Azevedo Antunes, 130",
-    "lat": -23.6503809,
-    "lng": -46.6636482,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11983945538"
     ],
@@ -1308,9 +1308,9 @@ const dados = [
     ],
     "subcategoria": "Hamburgueria",
     "endereco": "Rua Rishin Matsuda, 763 – próximo à Kalunga",
-    "lat": -23.6461453,
-    "lng": -46.6661016,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11933847569"
     ],
@@ -1726,9 +1726,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Rua Praia do Castelo e tem 101",
-    "lat": -23.6457521,
-    "lng": -46.6654859,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "elitufanini.remax",
     "descricao": "Eli Tufanini Remax: imobiliária na Vila Mascote. Conta com 101 m² de área útil, com espaços bem distribuídos para quem busca conforto e praticidade aqui no bairro. Conta com sala de TV, varanda, lavanderia e a sala de est. Imóvel com Residencial aqui na Mascote, dá uma olhada nessa oportunidade que a Eli Tufanini Remax trouxe: O.",
@@ -1751,9 +1751,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "",
-    "lat": -23.6498974,
-    "lng": -46.6665825,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11958511441"
     ],
@@ -1780,9 +1780,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Rua Albuquerque Sousa Muniz, 40",
-    "lat": -23.6488102,
-    "lng": -46.6638523,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1150320333",
       "11956367353"
@@ -1896,9 +1896,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Avenida Mascote, com 3 suítes, 3 vagas de garagem, depósito privativo de 3 m², sala ampla e varanda gourmet integrada",
-    "lat": -23.6496071,
-    "lng": -46.6686696,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11995066130"
     ],
@@ -1990,9 +1990,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliaria / corretor",
     "endereco": "Localizado na Rua Albuquerque Sousa Muniz. 📍",
-    "lat": -23.6479426,
-    "lng": -46.6633448,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11932086342"
     ],
@@ -2087,9 +2087,9 @@ const dados = [
     ],
     "subcategoria": "Buffet infantil",
     "endereco": "Rua Emílio de Sousa Docca, 615",
-    "lat": -23.6475444,
-    "lng": -46.6652501,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11988041477"
     ],
@@ -2196,9 +2196,9 @@ const dados = [
     ],
     "subcategoria": "Reformas",
     "endereco": "Avenida Damasceno Vieira, 1027 - Sala 03",
-    "lat": -23.6469707,
-    "lng": -46.6671101,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11914268634"
     ],
@@ -2464,9 +2464,9 @@ const dados = [
     ],
     "subcategoria": "Hortifruti",
     "endereco": "Rua das Flechas, 739 - Jardim Prudência",
-    "lat": -23.6502483,
-    "lng": -46.6652229,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11989428080"
     ],
@@ -2529,9 +2529,9 @@ const dados = [
     ],
     "subcategoria": "Moda feminina",
     "endereco": "Av. Mascote, 84 – loja 3 (entrada pela Rua Tianguá) Vila Mascote SP",
-    "lat": -23.6496402,
-    "lng": -46.6675652,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11991536097"
     ],
@@ -2775,9 +2775,9 @@ const dados = [
     ],
     "subcategoria": "Calcados / acessorios",
     "endereco": "Avenida Santa Catarina, 1929 - Dentro do Shopping Thalia",
-    "lat": -23.650726,
-    "lng": -46.6677226,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11972660767"
     ],
@@ -2888,9 +2888,9 @@ const dados = [
     ],
     "subcategoria": "Moda feminina",
     "endereco": "Avenida Vereador João de Lucca, 627 – em frente ao Colégio Emilie",
-    "lat": -23.6506472,
-    "lng": -46.6655015,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11972724433",
       "11941874997",
@@ -2924,9 +2924,9 @@ const dados = [
     ],
     "subcategoria": "Psicologia / terapias",
     "endereco": "Rua Lacedemônia, 425",
-    "lat": -23.6472741,
-    "lng": -46.6642709,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11966273221"
     ],
@@ -3132,9 +3132,9 @@ const dados = [
     ],
     "subcategoria": "Nutricionista",
     "endereco": "Rua Albuquerque Sousa Muniz, 299",
-    "lat": -23.6480386,
-    "lng": -46.6675152,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1123658919"
     ],
@@ -3174,9 +3174,9 @@ const dados = [
     ],
     "subcategoria": "Psicologia / terapias",
     "endereco": "",
-    "lat": -23.6511503,
-    "lng": -46.6646312,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11952733424"
     ],
@@ -3240,9 +3240,9 @@ const dados = [
     ],
     "subcategoria": "Nutricionista",
     "endereco": "Rua Albuquerque Sousa Muniz, 299",
-    "lat": -23.6503938,
-    "lng": -46.6683733,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1123658919"
     ],
@@ -3339,9 +3339,9 @@ const dados = [
     ],
     "subcategoria": "Clinica multidisciplinar",
     "endereco": "Rua Albuquerque Sousa Muniz, 53",
-    "lat": -23.6509732,
-    "lng": -46.6659346,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11939181962"
     ],
@@ -3539,9 +3539,9 @@ const dados = [
     ],
     "subcategoria": "Clínica/Estética",
     "endereco": "Rua Ossian Terceiro Teles, 43 – Jardim Prudência",
-    "lat": -23.6486849,
-    "lng": -46.663511,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1156779171"
     ],
@@ -3782,9 +3782,9 @@ const dados = [
     ],
     "subcategoria": "Psicologia / terapias",
     "endereco": "",
-    "lat": -23.6511785,
-    "lng": -46.6665005,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11948762438"
     ],
@@ -3855,9 +3855,9 @@ const dados = [
     ],
     "subcategoria": "Limpeza de estofados",
     "endereco": "Av. Mascote, 490 - Loja 2",
-    "lat": -23.6480028,
-    "lng": -46.6686195,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11956841848",
       "1132840621"
@@ -3982,9 +3982,9 @@ const dados = [
     ],
     "subcategoria": "Reformas",
     "endereco": "",
-    "lat": -23.649178,
-    "lng": -46.6631658,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11999569053"
     ],
@@ -4043,9 +4043,9 @@ const dados = [
     ],
     "subcategoria": "Limpeza de estofados",
     "endereco": "",
-    "lat": -23.6520489,
-    "lng": -46.6656825,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11934276910"
     ],
@@ -4087,9 +4087,9 @@ const dados = [
     ],
     "subcategoria": "Costura / sapataria",
     "endereco": "Av. Mascote, 889 - sobreloja da 5àSec",
-    "lat": -23.6478928,
-    "lng": -46.6646276,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11974641848"
     ],
@@ -4122,9 +4122,9 @@ const dados = [
     ],
     "subcategoria": "Ar-condicionado",
     "endereco": "",
-    "lat": -23.6490073,
-    "lng": -46.6673467,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11985665727"
     ],

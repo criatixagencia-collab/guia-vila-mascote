@@ -563,6 +563,8 @@ def main():
             geocode = geocodes.get(f"{raw_name}::{address}", {})
             description = summarize_description(row["resumo"], primary, row["subcategoria_final"], display_name)
             promotion = extract_promotion(row["resumo"], display_name)
+            geocode_source = geocode.get("source", "")
+            has_trusted_map_point = geocode_source and geocode_source != "fallback"
             records.append(
                 {
                     "id": len(records) + 1,
@@ -571,9 +573,9 @@ def main():
                     "categorias": categories,
                     "subcategoria": row["subcategoria_final"],
                     "endereco": address,
-                    "lat": geocode.get("lat"),
-                    "lng": geocode.get("lng"),
-                    "mapSource": geocode.get("source", ""),
+                    "lat": geocode.get("lat") if has_trusted_map_point else None,
+                    "lng": geocode.get("lng") if has_trusted_map_point else None,
+                    "mapSource": geocode_source if has_trusted_map_point else "",
                     "telefones": clean_phone(row["telefone"]),
                     "instagram": row["instagram"].lstrip("@"),
                     "descricao": description,
