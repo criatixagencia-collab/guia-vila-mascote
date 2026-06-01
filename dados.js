@@ -4241,7 +4241,8 @@ const dados = [
     "categoriaPrincipal": "Casa, Decoracao & Organizacao",
     "categorias": [
       "Casa, Decoracao & Organizacao",
-      "Casa & Decoração, Serviços para Casa"
+      "Casa & Decoração, Serviços para Casa",
+      "Imoveis & Construcao"
     ],
     "subcategoria": "Iluminação",
     "endereco": "Rua Walter Fontana, 40 - Jardim Brasil (Zona Sul)",
