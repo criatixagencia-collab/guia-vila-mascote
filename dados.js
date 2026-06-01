@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 134
+ * Total de estabelecimentos listaveis: 135
  */
 
 const dados = [
@@ -4332,6 +4332,31 @@ const dados = [
     ],
     "instagram": "",
     "descricao": "Colégio Dominus: colegio particular na Vila Mascote. Colegio particular da Vila Mascote com oferta de educacao infantil, ensino fundamental, ensino medio e periodo integral.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 135,
+    "nome": "Pasta Gialla",
+    "categoriaPrincipal": "Gastronomia & Delivery",
+    "categorias": [
+      "Gastronomia & Delivery"
+    ],
+    "subcategoria": "Restaurante italiano",
+    "endereco": "Av. Mascote, 986",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [
+      "1123610322"
+    ],
+    "instagram": "",
+    "descricao": "Restaurante italiano tradicional, conhecido pelas massas artesanais, molhos classicos e ambiente acolhedor para almoco e jantar.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
