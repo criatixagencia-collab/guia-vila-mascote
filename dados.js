@@ -4238,10 +4238,10 @@ const dados = [
   {
     "id": 131,
     "nome": "Jed elétrica",
-    "categoriaPrincipal": "Materiais elétricos",
+    "categoriaPrincipal": "Casa, Decoracao & Organizacao",
     "categorias": [
-      "Materiais elétricos",
-      "Materiais elétricos, Iluminação"
+      "Casa, Decoracao & Organizacao",
+      "Casa & Decoração, Serviços para Casa"
     ],
     "subcategoria": "Iluminação",
     "endereco": "Rua Walter Fontana, 40 - Jardim Brasil (Zona Sul)",
