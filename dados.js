@@ -4265,8 +4265,9 @@ const dados = [
   {
     "id": 132,
     "nome": "Borgê Presentes Personalizados",
-    "categoriaPrincipal": "Presentes e flores",
+    "categoriaPrincipal": "Lojas & Presentes",
     "categorias": [
+      "Lojas & Presentes",
       "Presentes e flores"
     ],
     "subcategoria": "presentes personalizados",
