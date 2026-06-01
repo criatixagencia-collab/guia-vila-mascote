@@ -439,7 +439,7 @@ const dados = [
       "1125975373",
       "11982973631"
     ],
-    "instagram": "lemesbarbearia",
+    "instagram": "borgepresentes",
     "descricao": "Barbearia tradicional da Vila Mascote localizada na Rua Palestina, 136. Atende cortes masculinos, barba e cortes infantis, e ja apareceu no perfil @vila.mascote em comemoracao aos seus 10 anos de historia no bairro.",
     "promocao": "",
     "termosBusca": [],
@@ -448,7 +448,7 @@ const dados = [
     "jaNoGuia": true,
     "origem": "Instagram @vila.mascote",
     "linksPosts": [
-      "https://www.instagram.com/p/DVmS07hDl83/"
+      "https://lemesbarbearia.com.br"
     ]
   },
   {
