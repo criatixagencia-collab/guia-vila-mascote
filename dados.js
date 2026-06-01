@@ -4342,7 +4342,7 @@ const dados = [
   },
   {
     "id": 135,
-    "nome": "Pasta Gialla",
+    "nome": "La Pasta Gialla",
     "categoriaPrincipal": "Gastronomia & Delivery",
     "categorias": [
       "Gastronomia & Delivery"
