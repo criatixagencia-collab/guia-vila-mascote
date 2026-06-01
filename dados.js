@@ -4353,9 +4353,9 @@ const dados = [
     "lng": null,
     "mapSource": "",
     "telefones": [
-      "1123610322"
+      "11991808532"
     ],
-    "instagram": "",
+    "instagram": "https://www.instagram.com/lapastagiallaoficial?igsh=MXNxcXNveGU0cDBmaA==",
     "descricao": "Restaurante italiano tradicional, conhecido pelas massas artesanais, molhos classicos e ambiente acolhedor para almoco e jantar.",
     "promocao": "",
     "termosBusca": [],
