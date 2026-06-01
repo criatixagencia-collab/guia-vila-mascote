@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 133
+ * Total de estabelecimentos listaveis: 134
  */
 
 const dados = [
@@ -4307,6 +4307,31 @@ const dados = [
     ],
     "instagram": "naturaldaterra_",
     "descricao": "Natural da Terra: supermercado na Vila Mascote. Rede de supermercado e hortifruti com foco em produtos frescos, naturais e organicos, alem de mercearia, bebidas e itens de conveniencia.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 134,
+    "nome": "Colégio Dominus",
+    "categoriaPrincipal": "Educacao & Cursos",
+    "categorias": [
+      "Educacao & Cursos"
+    ],
+    "subcategoria": "colegio particular",
+    "endereco": "Av. Mascote, 913 - Vila Mascote",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [
+      "1155643466"
+    ],
+    "instagram": "",
+    "descricao": "Colégio Dominus: colegio particular na Vila Mascote. Colegio particular da Vila Mascote com oferta de educacao infantil, ensino fundamental, ensino medio e periodo integral.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
