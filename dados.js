@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 132
+ * Total de estabelecimentos listaveis: 133
  */
 
 const dados = [
@@ -4289,5 +4289,30 @@ const dados = [
     "linksPosts": [
       "https://www.instagram.com/reel/DY-gZGwuW_i/?igsh=NWRtZ2s0OXhnazBk"
     ]
+  },
+  {
+    "id": 133,
+    "nome": "Natural da Terra",
+    "categoriaPrincipal": "Mercados, Emporios & Conveniencia",
+    "categorias": [
+      "Mercados, Emporios & Conveniencia"
+    ],
+    "subcategoria": "supermercado",
+    "endereco": "Rua Eng. Jorge Oliva, 381 - Vila Mascote, Sao Paulo - SP, 04362-060",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [
+      "11930092000"
+    ],
+    "instagram": "naturaldaterra_",
+    "descricao": "Natural da Terra: supermercado na Vila Mascote. Rede de supermercado e hortifruti com foco em produtos frescos, naturais e organicos, alem de mercearia, bebidas e itens de conveniencia.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
   }
 ];
