@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 135
+ * Total de estabelecimentos listaveis: 137
  */
 
 const dados = [
@@ -4359,6 +4359,54 @@ const dados = [
     ],
     "instagram": "https://www.instagram.com/lapastagiallaoficial?igsh=MXNxcXNveGU0cDBmaA==",
     "descricao": "Restaurante italiano tradicional, conhecido pelas massas artesanais, molhos classicos e ambiente acolhedor para almoco e jantar.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 136,
+    "nome": "Mariana Berti",
+    "categoriaPrincipal": "Beleza & Estetica",
+    "categorias": [
+      "Beleza & Estetica"
+    ],
+    "subcategoria": "A confirmar",
+    "endereco": "",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [],
+    "instagram": "",
+    "descricao": "Mariana Berti: a confirmar na Vila Mascote.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 137,
+    "nome": "CNA Aeroporto – Vila Mascote",
+    "categoriaPrincipal": "Educacao & Cursos",
+    "categorias": [
+      "Educacao & Cursos"
+    ],
+    "subcategoria": "Escola de idiomas",
+    "endereco": "Avenida Vereador João de Luca, 539",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [
+      "11989635334"
+    ],
+    "instagram": "",
+    "descricao": "Escola de idiomas do CNA na Vila Mascote, com cursos de inglês e espanhol para crianças, jovens e adultos, com aulas presenciais e online ao vivo.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
