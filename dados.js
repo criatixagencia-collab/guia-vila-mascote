@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 137
+ * Total de estabelecimentos listaveis: 138
  */
 
 const dados = [
@@ -4407,6 +4407,29 @@ const dados = [
     ],
     "instagram": "",
     "descricao": "Escola de idiomas do CNA na Vila Mascote, com cursos de inglês e espanhol para crianças, jovens e adultos, com aulas presenciais e online ao vivo.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 138,
+    "nome": "Iago",
+    "categoriaPrincipal": "Instituicoes & Comunidade",
+    "categorias": [
+      "Instituicoes & Comunidade"
+    ],
+    "subcategoria": "A confirmar",
+    "endereco": "",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [],
+    "instagram": "",
+    "descricao": "Iago: a confirmar na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
