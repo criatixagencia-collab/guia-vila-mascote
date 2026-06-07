@@ -4437,5 +4437,28 @@ const dados = [
     "jaNoGuia": true,
     "origem": "Instagram @vila.mascote",
     "linksPosts": []
+  },
+  {
+    "id": 139,
+    "nome": "Padaria do Joaquim",
+    "categoriaPrincipal": "Cafes, Padarias & Doces",
+    "categorias": [
+      "Cafes, Padarias & Doces"
+    ],
+    "subcategoria": "Padaria",
+    "endereco": "",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [],
+    "instagram": "",
+    "descricao": "",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Adicionado por Rafael via Iago",
+    "linksPosts": []
   }
 ];
