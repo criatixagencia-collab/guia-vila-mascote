@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 138
+ * Total de estabelecimentos listaveis: 137
  */
 
 const dados = [
@@ -4187,29 +4187,6 @@ const dados = [
   },
   {
     "id": 129,
-    "nome": "Padaria do Joaquim",
-    "categoriaPrincipal": "Cafes, Padarias & Doces",
-    "categorias": [
-      "Cafes, Padarias & Doces"
-    ],
-    "subcategoria": "Padaria",
-    "endereco": "",
-    "lat": null,
-    "lng": null,
-    "mapSource": "",
-    "telefones": [],
-    "instagram": "",
-    "descricao": "Padaria do Joaquim: padaria na Vila Mascote.",
-    "promocao": "",
-    "termosBusca": [],
-    "ultimoPost": "",
-    "postsAno": 0,
-    "jaNoGuia": true,
-    "origem": "Instagram @vila.mascote",
-    "linksPosts": []
-  },
-  {
-    "id": 130,
     "nome": "Colégio Emilie de Villeneuve",
     "categoriaPrincipal": "Educação",
     "categorias": [
@@ -4236,7 +4213,7 @@ const dados = [
     "linksPosts": []
   },
   {
-    "id": 131,
+    "id": 130,
     "nome": "Jed elétrica",
     "categoriaPrincipal": "Casa, Decoracao & Organizacao",
     "categorias": [
@@ -4264,7 +4241,7 @@ const dados = [
     "linksPosts": []
   },
   {
-    "id": 132,
+    "id": 131,
     "nome": "Borgê Presentes Personalizados",
     "categoriaPrincipal": "Lojas & Presentes",
     "categorias": [
@@ -4293,7 +4270,7 @@ const dados = [
     ]
   },
   {
-    "id": 133,
+    "id": 132,
     "nome": "Natural da Terra",
     "categoriaPrincipal": "Mercados, Emporios & Conveniencia",
     "categorias": [
@@ -4318,7 +4295,7 @@ const dados = [
     "linksPosts": []
   },
   {
-    "id": 134,
+    "id": 133,
     "nome": "Colégio Dominus",
     "categoriaPrincipal": "Educacao & Cursos",
     "categorias": [
@@ -4343,7 +4320,7 @@ const dados = [
     "linksPosts": []
   },
   {
-    "id": 135,
+    "id": 134,
     "nome": "La Pasta Gialla",
     "categoriaPrincipal": "Gastronomia & Delivery",
     "categorias": [
@@ -4368,7 +4345,7 @@ const dados = [
     "linksPosts": []
   },
   {
-    "id": 136,
+    "id": 135,
     "nome": "Mariana Berti",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
@@ -4391,7 +4368,7 @@ const dados = [
     "linksPosts": []
   },
   {
-    "id": 137,
+    "id": 136,
     "nome": "CNA Aeroporto – Vila Mascote",
     "categoriaPrincipal": "Educacao & Cursos",
     "categorias": [
@@ -4416,7 +4393,7 @@ const dados = [
     "linksPosts": []
   },
   {
-    "id": 138,
+    "id": 137,
     "nome": "Iago",
     "categoriaPrincipal": "Instituicoes & Comunidade",
     "categorias": [
