@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 137
+ * Total de estabelecimentos listaveis: 136
  */
 
 const dados = [
@@ -2293,7 +2293,7 @@ const dados = [
       "Instituicoes & Comunidade"
     ],
     "subcategoria": "Instituicao / comunidade",
-    "endereco": "Foi só um susto na @paroquianspsestarosalia , mas a situação foi resolvida rapidamente com a ajuda dos bombeiros e da polícia que isolou a área. Um fio externo de energia do muro da igreja, na rua Paslestina, pegou fogo e percorreu a fiação. A igreja foi evacuada por conta da fumaça. Ninguém se feriu.",
+    "endereco": "",
     "lat": null,
     "lng": null,
     "mapSource": "",
@@ -4250,9 +4250,9 @@ const dados = [
     ],
     "subcategoria": "presentes personalizados",
     "endereco": "Rua Fernandes Reis, 38",
-    "lat": -23.5742551,
-    "lng": -48.0494876,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11994352018",
       "1155655204"
@@ -4384,29 +4384,6 @@ const dados = [
     ],
     "instagram": "",
     "descricao": "Escola de idiomas do CNA na Vila Mascote, com cursos de inglês e espanhol para crianças, jovens e adultos, com aulas presenciais e online ao vivo.",
-    "promocao": "",
-    "termosBusca": [],
-    "ultimoPost": "",
-    "postsAno": 0,
-    "jaNoGuia": true,
-    "origem": "Instagram @vila.mascote",
-    "linksPosts": []
-  },
-  {
-    "id": 137,
-    "nome": "Iago",
-    "categoriaPrincipal": "Instituicoes & Comunidade",
-    "categorias": [
-      "Instituicoes & Comunidade"
-    ],
-    "subcategoria": "A confirmar",
-    "endereco": "",
-    "lat": null,
-    "lng": null,
-    "mapSource": "",
-    "telefones": [],
-    "instagram": "",
-    "descricao": "Iago: a confirmar na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",

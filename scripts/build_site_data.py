@@ -9,6 +9,11 @@ SOURCE = Path("CATEGORIZACAO/estabelecimentos_categorizados_v1.csv")
 GEOCODES = Path("data/vila_mascote_geocodes.json")
 OUTPUT = Path("dados.js")
 
+MAP_LAT_MIN = -23.666
+MAP_LAT_MAX = -23.630
+MAP_LNG_MIN = -46.678
+MAP_LNG_MAX = -46.652
+
 
 def clean_phone(value):
     phones = []
@@ -76,6 +81,14 @@ def split_categories(value):
         if part and part not in categories:
             categories.append(part)
     return categories
+
+
+def is_in_map_bounds(geocode):
+    lat = geocode.get("lat")
+    lng = geocode.get("lng")
+    if not isinstance(lat, (int, float)) or not isinstance(lng, (int, float)):
+        return False
+    return MAP_LAT_MIN <= lat <= MAP_LAT_MAX and MAP_LNG_MIN <= lng <= MAP_LNG_MAX
 
 
 def compact_description(value):
@@ -564,7 +577,7 @@ def main():
             description = summarize_description(row["resumo"], primary, row["subcategoria_final"], display_name)
             promotion = extract_promotion(row["resumo"], display_name)
             geocode_source = geocode.get("source", "")
-            has_trusted_map_point = bool(geocode_source)
+            has_trusted_map_point = bool(geocode_source) and is_in_map_bounds(geocode)
             records.append(
                 {
                     "id": len(records) + 1,

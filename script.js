@@ -125,6 +125,10 @@ const resultsSection = document.querySelector(".results-section");
 const mapLayout = document.querySelector(".map-layout");
 
 const MAP_CENTER = [-23.6489, -46.6656];
+const MAP_NEIGHBORHOOD_BOUNDS = [
+  [-23.666, -46.678],
+  [-23.63, -46.652]
+];
 const mapState = {
   map: null,
   markers: new Map()
@@ -371,8 +375,14 @@ function getMapData() {
   return hasActiveIntent() ? getFilteredData() : dados;
 }
 
-function getMapItems(filtered = getFilteredData()) {
-  return filtered.filter((item) => Number.isFinite(item.lat) && Number.isFinite(item.lng));
+function isInsideMapBounds(item) {
+  if (!Number.isFinite(item.lat) || !Number.isFinite(item.lng)) return false;
+  const [[south, west], [north, east]] = MAP_NEIGHBORHOOD_BOUNDS;
+  return item.lat >= south && item.lat <= north && item.lng >= west && item.lng <= east;
+}
+
+function getMapItems(filtered = getMapData()) {
+  return filtered.filter(isInsideMapBounds);
 }
 
 function mapIconName(item) {
@@ -452,13 +462,6 @@ function focusMapItem(item) {
 
 function renderMapList(items) {
   if (!mapList) return;
-  if (!hasActiveIntent()) {
-    mapList.innerHTML = "";
-    mapList.hidden = true;
-    mapLayout?.classList.add("map-only");
-    return;
-  }
-
   mapList.hidden = false;
   mapLayout?.classList.remove("map-only");
   if (!items.length) {
@@ -466,7 +469,7 @@ function renderMapList(items) {
     return;
   }
 
-  mapList.innerHTML = items.slice(0, 36).map((item) => `
+  mapList.innerHTML = items.map((item) => `
     <button class="map-list-item" type="button" data-id="${item.id}">
       ${mapSymbol(item)}
       <strong>${item.nome}</strong>
@@ -485,7 +488,7 @@ function renderMapList(items) {
 function renderMap(filtered = getMapData()) {
   const items = getMapItems(filtered);
   if (mapCount) {
-    mapCount.textContent = `${items.length} local${items.length === 1 ? "" : "is"}`;
+    mapCount.textContent = `${items.length} ${items.length === 1 ? "local" : "locais"}`;
   }
   renderMapList(items);
 
@@ -494,7 +497,7 @@ function renderMap(filtered = getMapData()) {
   mapState.markers.forEach((marker) => marker.remove());
   mapState.markers.clear();
 
-  const bounds = [];
+  const bounds = L.latLngBounds([]);
   items.forEach((item) => {
     const marker = L.marker([item.lat, item.lng], { icon: markerIcon(item) })
       .addTo(mapState.map)
@@ -505,13 +508,13 @@ function renderMap(filtered = getMapData()) {
       `);
     marker.on("click", () => focusMapItem(item));
     mapState.markers.set(item.id, marker);
-    bounds.push([item.lat, item.lng]);
+    bounds.extend([item.lat, item.lng]);
   });
 
-  if (bounds.length > 1) {
+  if (items.length > 1 && bounds.isValid()) {
     mapState.map.fitBounds(bounds, { padding: [26, 26], maxZoom: 15 });
-  } else if (bounds.length === 1) {
-    mapState.map.setView(bounds[0], 16);
+  } else if (items.length === 1) {
+    mapState.map.setView([items[0].lat, items[0].lng], 16);
   } else {
     mapState.map.setView(MAP_CENTER, 14);
   }
@@ -519,9 +522,12 @@ function renderMap(filtered = getMapData()) {
 
 function initMap() {
   if (!window.L || !document.getElementById("map")) return;
+  const neighborhoodBounds = L.latLngBounds(MAP_NEIGHBORHOOD_BOUNDS);
   mapState.map = L.map("map", {
     scrollWheelZoom: false,
-    zoomControl: true
+    zoomControl: true,
+    maxBounds: neighborhoodBounds.pad(0.35),
+    maxBoundsViscosity: 0.65
   }).setView(MAP_CENTER, 14);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
