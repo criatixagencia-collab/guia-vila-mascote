@@ -564,7 +564,7 @@ def main():
             description = summarize_description(row["resumo"], primary, row["subcategoria_final"], display_name)
             promotion = extract_promotion(row["resumo"], display_name)
             geocode_source = geocode.get("source", "")
-            has_trusted_map_point = geocode_source and geocode_source != "fallback"
+            has_trusted_map_point = bool(geocode_source)
             records.append(
                 {
                     "id": len(records) + 1,

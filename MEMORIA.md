@@ -59,6 +59,7 @@ Contexto registrado em 16/05/2026.
 
 - Todo desenvolvimento, curadoria, categorização, geração de dados e alteração de site do **Guia Vila Mascote** deve acontecer somente dentro da pasta `/Users/rafaeloliver/Downloads/guia cb/guia vila mascote`.
 - O projeto **Guia Campo Belo** pode ser usado apenas como referência visual/estrutural quando necessário, mas seus arquivos não devem ser alterados, movidos ou misturados com os arquivos da Vila Mascote.
+- Antes de corrigir ou publicar o Guia Vila Mascote, verificar o GitHub remoto com `git fetch origin` porque o usuário pode ter usado outro agente/aplicativo para adicionar itens diretamente no GitHub. Trazer essas mudanças para o computador e reconciliar com os arquivos fonte locais antes de publicar novas correções.
 - Antes de aplicar mudanças grandes no site, explicar o plano e confirmar a direção com o usuário.
 - Sempre que o usuário pedir para excluir/remover um estabelecimento, atualizar a categorização, regenerar `dados.js` e ajustar os CSVs derivados em `SCRAP UM ANO` quando fizer sentido. Preservar os JSONs brutos do scrap como evidência original, salvo pedido explícito para reprocessar/remover também deles.
 

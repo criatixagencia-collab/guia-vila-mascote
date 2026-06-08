@@ -376,7 +376,7 @@ function getMapItems(filtered = getFilteredData()) {
 }
 
 function mapIconName(item) {
-  const text = normalizeSearch([
+  const text = normalizeText([
     item.categoriaPrincipal,
     item.subcategoria,
     ...(item.categorias || [])
