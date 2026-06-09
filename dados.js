@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 136
+ * Total de estabelecimentos listaveis: 137
  */
 
 const dados = [
@@ -4384,6 +4384,29 @@ const dados = [
     ],
     "instagram": "",
     "descricao": "Escola de idiomas do CNA na Vila Mascote, com cursos de inglês e espanhol para crianças, jovens e adultos, com aulas presenciais e online ao vivo.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": true,
+    "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 137,
+    "nome": "Padaria do Plinio",
+    "categoriaPrincipal": "Cafes, Padarias & Doces",
+    "categorias": [
+      "Cafes, Padarias & Doces"
+    ],
+    "subcategoria": "Padaria",
+    "endereco": "Vila Mascote",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [],
+    "instagram": "",
+    "descricao": "Padaria tradicional da Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
