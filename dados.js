@@ -14,9 +14,9 @@ const dados = [
     ],
     "subcategoria": "Academia/Fitness",
     "endereco": "Av. Santa Catarina, 2",
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11999698754"
     ],
@@ -42,9 +42,9 @@ const dados = [
     ],
     "subcategoria": "Suplementos",
     "endereco": "Av. Santa Catarina, 915 - Loja 4 (ao lado da Smart Fit e Academia Pano Bianco)",
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11940750757",
       "1128944166"
@@ -71,9 +71,9 @@ const dados = [
     ],
     "subcategoria": "Bike indoor",
     "endereco": "Av. Mascote, 233",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "studio_velocity",
     "descricao": "Studio Velocity: bike indoor na Vila Mascote. A nova unidade vai ficar na Av Mascote, 233, no ponto onde funcionava a Loftstyle A Velocity (Studio Velocity) é uma das redes mais conhecidas de bike indoor do país, com estúdios espalhados por várias cidades, aulas coletivas.",
@@ -96,9 +96,9 @@ const dados = [
     ],
     "subcategoria": "Bike indoor",
     "endereco": "Avenida Mascote, 233",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11998046780"
     ],
@@ -123,9 +123,9 @@ const dados = [
     ],
     "subcategoria": "Academia/Fitness",
     "endereco": "Av. Mascote, 486 – sala 12",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11999467026"
     ],
@@ -153,9 +153,9 @@ const dados = [
     ],
     "subcategoria": "Barbearia",
     "endereco": "Av. Mascote, 501",
-    "lat": -23.6466769,
-    "lng": -46.6702926,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11910718528"
     ],
@@ -189,9 +189,9 @@ const dados = [
     ],
     "subcategoria": "Estetica clinica",
     "endereco": "Rua Nilo Guerra, 160",
-    "lat": -23.6434112,
-    "lng": -46.6665439,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11937230872"
     ],
@@ -232,9 +232,9 @@ const dados = [
     ],
     "subcategoria": "Beleza & Estetica",
     "endereco": "Av. Mascote, 843 – Vila Mascote",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11933479978",
       "1155653434"
@@ -268,9 +268,9 @@ const dados = [
     ],
     "subcategoria": "Estetica clinica",
     "endereco": "Avenida Mascote, 151",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11912480396"
     ],
@@ -303,9 +303,9 @@ const dados = [
     ],
     "subcategoria": "Unhas / estetica",
     "endereco": "Avenida Mascote, 151",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11912480396",
       "11996811716"
@@ -337,9 +337,9 @@ const dados = [
     ],
     "subcategoria": "Salao / escovaria",
     "endereco": "Av. Mascote, 419 – São Paulo/SP",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11978227978"
     ],
@@ -367,9 +367,9 @@ const dados = [
     ],
     "subcategoria": "Maquiagem",
     "endereco": "Rua Palestina, 18 - sala 01",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11992815975"
     ],
@@ -402,9 +402,9 @@ const dados = [
     ],
     "subcategoria": "Estetica clinica",
     "endereco": "Av. Mascote, 1291 - sala 2",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11999120420"
     ],
@@ -432,9 +432,9 @@ const dados = [
     ],
     "subcategoria": "Barbearia",
     "endereco": "Rua Palestina 136",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1125975373",
       "11982973631"
@@ -460,9 +460,9 @@ const dados = [
     ],
     "subcategoria": "Barbearia",
     "endereco": "Rua Coriolano Durand, 655",
-    "lat": -23.6523239,
-    "lng": -46.6551976,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11952466470"
     ],
@@ -488,9 +488,9 @@ const dados = [
     ],
     "subcategoria": "Barbearia infantil",
     "endereco": "Avenida Damasceno Vieira, 1027",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11981090765"
     ],
@@ -522,9 +522,9 @@ const dados = [
     ],
     "subcategoria": "Acai",
     "endereco": "Avenida Santa Catarina, 797",
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11947284395"
     ],
@@ -551,9 +551,9 @@ const dados = [
     ],
     "subcategoria": "Cafe pet friendly",
     "endereco": "Rua Lacedemônia, 413",
-    "lat": -23.6477179,
-    "lng": -46.6668904,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11994139920"
     ],
@@ -579,9 +579,9 @@ const dados = [
     ],
     "subcategoria": "Chocolate / presentes",
     "endereco": "Rua Jovina, 190",
-    "lat": -23.6467364,
-    "lng": -46.6652479,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11994434389",
       "1155654009"
@@ -611,9 +611,9 @@ const dados = [
     ],
     "subcategoria": "Acai",
     "endereco": "Av. Santa Catarina, 2233",
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "vilamascote.thebestacai",
     "descricao": "The Best Açaí Vila Mascote: acai na Vila Mascote. Santa Catarina, 2233, a The Best Açaí Vila Mascote chegou fazendo sucesso! São 12 sabores de açaí, 24 opções de sorvete e mais de 40 acompanhamentos.",
@@ -636,9 +636,9 @@ const dados = [
     ],
     "subcategoria": "Marcenaria / moveis",
     "endereco": "Av. Prof. Vicente Ráo, 2077",
-    "lat": -23.650992,
-    "lng": -46.6654164,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11994802596"
     ],
@@ -669,9 +669,9 @@ const dados = [
     ],
     "subcategoria": "Aromas / presentes",
     "endereco": "Avenida Vereador João de Lucca, 627 – Sobreloja da Zophi Modas",
-    "lat": -23.6469557,
-    "lng": -46.6641093,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11988308225"
     ],
@@ -767,9 +767,9 @@ const dados = [
     ],
     "subcategoria": "Decoracao",
     "endereco": "Rua Palestina, 172 – Vila Mascote",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155631751",
       "11996263724",
@@ -798,9 +798,9 @@ const dados = [
     ],
     "subcategoria": "Escola de idiomas",
     "endereco": "Rua Palacete das Águias, 877",
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11974603872"
     ],
@@ -835,9 +835,9 @@ const dados = [
     ],
     "subcategoria": "Escola de idiomas",
     "endereco": "Avenida Jônia, 655",
-    "lat": -23.6493878,
-    "lng": -46.6683572,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1150319992",
       "1125062322"
@@ -871,9 +871,9 @@ const dados = [
     ],
     "subcategoria": "Escola de idiomas",
     "endereco": "Avenida Santa Catarina, 1",
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11982106862",
       "1155240724"
@@ -917,9 +917,9 @@ const dados = [
     ],
     "subcategoria": "Academia/Fitness",
     "endereco": "Rua Viaza, 834 – Jardim Aeroporto",
-    "lat": -23.6339143,
-    "lng": -46.6649995,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11940368687"
     ],
@@ -951,9 +951,9 @@ const dados = [
     ],
     "subcategoria": "Escola",
     "endereco": "Rua Jorge Duprat Figueiredo, 304",
-    "lat": -23.6444134,
-    "lng": -46.6604512,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1151983736"
     ],
@@ -1034,9 +1034,9 @@ const dados = [
     ],
     "subcategoria": "Árabe",
     "endereco": "Rua Derval, 111",
-    "lat": -23.6446264,
-    "lng": -46.6690435,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1156797300",
       "11948727758"
@@ -1079,9 +1079,9 @@ const dados = [
     ],
     "subcategoria": "Doces/Bolos",
     "endereco": "Avenida Damasceno Vieira, 853",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11976444588"
     ],
@@ -1110,9 +1110,9 @@ const dados = [
     ],
     "subcategoria": "Pizzaria",
     "endereco": "Avenida Washington Luís, 3512",
-    "lat": -23.6505906,
-    "lng": -46.6629421,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1123674145",
       "1123673536"
@@ -1155,9 +1155,9 @@ const dados = [
     ],
     "subcategoria": "Português",
     "endereco": "Rua Palestina, 260 - Vila Mascote",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155638008",
       "11966329332"
@@ -1205,9 +1205,9 @@ const dados = [
     ],
     "subcategoria": "Pizzaria",
     "endereco": "Rua Eng. Jorge Oliva, 352",
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11996611475",
       "1138958222"
@@ -1236,9 +1236,9 @@ const dados = [
     ],
     "subcategoria": "Padaria",
     "endereco": "Rua Eng. Jorge Oliva, 362",
-    "lat": -23.6445238,
-    "lng": -46.6658565,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11937341344",
       "1155650649"
@@ -1275,9 +1275,9 @@ const dados = [
     ],
     "subcategoria": "Restaurante",
     "endereco": "Rua Professor Azevedo Antunes, 130",
-    "lat": -23.6605284,
-    "lng": -46.6627392,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11983945538"
     ],
@@ -1308,9 +1308,9 @@ const dados = [
     ],
     "subcategoria": "Hamburgueria",
     "endereco": "Rua Rishin Matsuda, 763 – próximo à Kalunga",
-    "lat": -23.6449922,
-    "lng": -46.656015,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11933847569"
     ],
@@ -1341,9 +1341,9 @@ const dados = [
     ],
     "subcategoria": "Japonês",
     "endereco": "Rua Palestina, 286",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11966028904",
       "1123627309"
@@ -1374,9 +1374,9 @@ const dados = [
     ],
     "subcategoria": "Japonês",
     "endereco": "Avenida Mascote, 1454",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11951688538"
     ],
@@ -1403,9 +1403,9 @@ const dados = [
     ],
     "subcategoria": "Doces/Bolos",
     "endereco": "Avenida Damasceno Vieira, 853",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11976444588"
     ],
@@ -1435,9 +1435,9 @@ const dados = [
     ],
     "subcategoria": "Padaria",
     "endereco": "Av. Mascote, 952 – Vila Mascote São Paulo/SP",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155636400",
       "11910068994"
@@ -1467,9 +1467,9 @@ const dados = [
     ],
     "subcategoria": "Doces / confeitaria",
     "endereco": "Rua Doutor Djalma Pinheiro Franco, 115",
-    "lat": -23.6522903,
-    "lng": -46.6656109,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "pastelariavoze",
     "descricao": "Pastelaria Vó Zé: doces / confeitaria na Vila Mascote. Conta com mais de 150 combinações entre salgados e doces, com direito até a versões em formato de coração. Conta com caldo de cana geladinho, porções, cervejas artesanais e até açaí.",
@@ -1498,9 +1498,9 @@ const dados = [
     ],
     "subcategoria": "Padaria",
     "endereco": "Avenida Mascote, 664",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11912089819"
     ],
@@ -1526,9 +1526,9 @@ const dados = [
     ],
     "subcategoria": "Doces/Bolos",
     "endereco": "Avenida Mascote, 299",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155656133"
     ],
@@ -1570,9 +1570,9 @@ const dados = [
     ],
     "subcategoria": "Doces/Bolos",
     "endereco": "Av. Mascote, 717",
-    "lat": -23.6486721,
-    "lng": -46.6690378,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11994389717"
     ],
@@ -1606,9 +1606,9 @@ const dados = [
     ],
     "subcategoria": "Hamburgueria",
     "endereco": "Av. Damasceno Vieira, 1181",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "winnerburger",
     "descricao": "Winnerburger: hamburgueria na Vila Mascote.",
@@ -1638,9 +1638,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Avenida Mascote, 1",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11977836971"
     ],
@@ -1668,9 +1668,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Avenida Mascote, 1",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11914672584"
     ],
@@ -1701,9 +1701,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliaria / corretor",
     "endereco": "Av. Vereador João de Luca, 483",
-    "lat": -23.6501593,
-    "lng": -46.6697968,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "econconstrutora",
     "descricao": "Econ Construtora: imobiliaria / corretor na Vila Mascote. Imóvel com Residencial que será construído ao. Quem passa pela Avenida Vereador João de Luca já deve ter percebido a movimentação no espaço onde funcionava a antiga Americanas Express, no número 483 O ponto, que muitos moradores da região lembram por já ter abrigado uma.",
@@ -1726,9 +1726,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Rua Praia do Castelo e tem 101",
-    "lat": -23.647548,
-    "lng": -46.6659635,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "elitufanini.remax",
     "descricao": "Eli Tufanini Remax: imobiliária na Vila Mascote. Conta com 101 m² de área útil, com espaços bem distribuídos para quem busca conforto e praticidade aqui no bairro. Conta com sala de TV, varanda, lavanderia e a sala de est. Imóvel com Residencial aqui na Mascote, dá uma olhada nessa oportunidade que a Eli Tufanini Remax trouxe: O.",
@@ -1780,9 +1780,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Rua Albuquerque Sousa Muniz, 40",
-    "lat": -23.6504531,
-    "lng": -46.6664065,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1150320333",
       "11956367353"
@@ -1808,9 +1808,9 @@ const dados = [
     ],
     "subcategoria": "Construtora / lancamento",
     "endereco": "Rua Arapá, 131",
-    "lat": -23.6474848,
-    "lng": -46.6669603,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11983891682"
     ],
@@ -1841,9 +1841,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliaria / corretor",
     "endereco": "Avenida Damasceno Vieira, 1",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11985150317"
     ],
@@ -1868,9 +1868,9 @@ const dados = [
     ],
     "subcategoria": "Construtora / lancamento",
     "endereco": "Av. Mascote, 1171 – Vila Mascote",
-    "lat": -23.6450496,
-    "lng": -46.671197,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1141182280"
     ],
@@ -1896,9 +1896,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Avenida Mascote, com 3 suítes, 3 vagas de garagem, depósito privativo de 3 m², sala ampla e varanda gourmet integrada",
-    "lat": -23.6481796,
-    "lng": -46.6636274,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11995066130"
     ],
@@ -1925,9 +1925,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Avenida Mascote, 855",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155644044",
       "11988689740"
@@ -1963,9 +1963,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliaria / corretor",
     "endereco": "Av. Mascote, 1",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11958886413"
     ],
@@ -1990,9 +1990,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliaria / corretor",
     "endereco": "Localizado na Rua Albuquerque Sousa Muniz. 📍",
-    "lat": -23.6479653,
-    "lng": -46.6678647,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11932086342"
     ],
@@ -2017,9 +2017,9 @@ const dados = [
     ],
     "subcategoria": "Imobiliária",
     "endereco": "Rua Madre Emilie de Villeneuve, 509",
-    "lat": -23.6496336,
-    "lng": -46.667321,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155661351",
       "11995579684"
@@ -2057,9 +2057,9 @@ const dados = [
     ],
     "subcategoria": "Loja de brinquedos",
     "endereco": "Rua Palestina, 435",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11913608956"
     ],
@@ -2087,9 +2087,9 @@ const dados = [
     ],
     "subcategoria": "Buffet infantil",
     "endereco": "Rua Emílio de Sousa Docca, 615",
-    "lat": -23.651436,
-    "lng": -46.6644131,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11988041477"
     ],
@@ -2119,9 +2119,9 @@ const dados = [
     ],
     "subcategoria": "Clínica multidisciplinar",
     "endereco": "Avenida Damasceno Vieira, 699",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11945828169",
       "11966137878"
@@ -2160,9 +2160,9 @@ const dados = [
     ],
     "subcategoria": "Infantil & Familia",
     "endereco": "Rua Engenheiro Jorge Oliva, 238",
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11989024490"
     ],
@@ -2196,9 +2196,9 @@ const dados = [
     ],
     "subcategoria": "Reformas",
     "endereco": "Avenida Damasceno Vieira, 1027 - Sala 03",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11914268634"
     ],
@@ -2230,9 +2230,9 @@ const dados = [
     ],
     "subcategoria": "Academia/Fitness",
     "endereco": "Av. Mascote, 1535",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11999098337"
     ],
@@ -2263,9 +2263,9 @@ const dados = [
     ],
     "subcategoria": "Instituicao / comunidade",
     "endereco": "Rua Palacete das Águias, 735",
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1150311765",
       "11991567835",
@@ -2321,9 +2321,9 @@ const dados = [
     ],
     "subcategoria": "Instituicao / comunidade",
     "endereco": "Av. Sta Catarina, 324",
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "bazardoinstitutogabi",
     "descricao": "Bazardoinstitutogabi: instituicao / comunidade na Vila Mascote.",
@@ -2346,9 +2346,9 @@ const dados = [
     ],
     "subcategoria": "Loja de musica",
     "endereco": "Rua Palestina, 234",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11914986096"
     ],
@@ -2374,9 +2374,9 @@ const dados = [
     ],
     "subcategoria": "Boutique de carnes",
     "endereco": "Rua Palacete das Águias, 687",
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11916560322"
     ],
@@ -2404,9 +2404,9 @@ const dados = [
     ],
     "subcategoria": "Emporio",
     "endereco": "Av. Mascote, 867",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11932323859"
     ],
@@ -2437,9 +2437,9 @@ const dados = [
     ],
     "subcategoria": "Hortifruti / organicos",
     "endereco": "Av. Mascote, 867 – Vila Mascote",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11932323859"
     ],
@@ -2464,9 +2464,9 @@ const dados = [
     ],
     "subcategoria": "Hortifruti",
     "endereco": "Rua das Flechas, 739 - Jardim Prudência",
-    "lat": -23.651471,
-    "lng": -46.6706701,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11989428080"
     ],
@@ -2500,9 +2500,9 @@ const dados = [
     ],
     "subcategoria": "Moda feminina",
     "endereco": "Av. Mascote, 997",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11983388038"
     ],
@@ -2529,9 +2529,9 @@ const dados = [
     ],
     "subcategoria": "Moda feminina",
     "endereco": "Av. Mascote, 84 – loja 3 (entrada pela Rua Tianguá) Vila Mascote SP",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11991536097"
     ],
@@ -2557,9 +2557,9 @@ const dados = [
     ],
     "subcategoria": "Brecho boutique",
     "endereco": "Rua Palestina, 407 – Vila Mascote",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11992254276"
     ],
@@ -2584,9 +2584,9 @@ const dados = [
     ],
     "subcategoria": "Moda",
     "endereco": "Rua Jovina, 192 – Vila Mascote",
-    "lat": -23.6467364,
-    "lng": -46.6652479,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155629348"
     ],
@@ -2611,9 +2611,9 @@ const dados = [
     ],
     "subcategoria": "Lingerie / moda",
     "endereco": "Rua Palestina, 178 – Vila Mascote",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11910984249"
     ],
@@ -2653,9 +2653,9 @@ const dados = [
     ],
     "subcategoria": "Outlet",
     "endereco": "Av. Mascote, 859",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11953890159"
     ],
@@ -2686,9 +2686,9 @@ const dados = [
     ],
     "subcategoria": "Moda feminina",
     "endereco": "Av. Mascote, 859 – Vila Mascote",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11953890159"
     ],
@@ -2714,9 +2714,9 @@ const dados = [
     ],
     "subcategoria": "Moda fitness",
     "endereco": "Rua Palestina, 227",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [],
     "instagram": "livevilamascote",
     "descricao": "LIVE! Vila Mascote: moda fitness na Vila Mascote. Conta com opções casuais, acessórios e coleções cheias de personalidade para quem acredita que viver be. São peças que unem tecnologia, bem-estar e aquele visual moderno que vai da academia ao café, do treino à rotina.",
@@ -2739,9 +2739,9 @@ const dados = [
     ],
     "subcategoria": "Moda",
     "endereco": "Avenida Santa Catarina, 372",
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11982011429"
     ],
@@ -2775,9 +2775,9 @@ const dados = [
     ],
     "subcategoria": "Calcados / acessorios",
     "endereco": "Avenida Santa Catarina, 1929 - Dentro do Shopping Thalia",
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11972660767"
     ],
@@ -2810,9 +2810,9 @@ const dados = [
     ],
     "subcategoria": "Otica",
     "endereco": "Avenida Mascote, 871",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11930339928"
     ],
@@ -2854,9 +2854,9 @@ const dados = [
     ],
     "subcategoria": "Moda masculina",
     "endereco": "Avenida Santa Catarina, 1321",
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11988318811"
     ],
@@ -2888,9 +2888,9 @@ const dados = [
     ],
     "subcategoria": "Moda feminina",
     "endereco": "Avenida Vereador João de Lucca, 627 – em frente ao Colégio Emilie",
-    "lat": -23.649602,
-    "lng": -46.6668113,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11972724433",
       "11941874997",
@@ -2924,9 +2924,9 @@ const dados = [
     ],
     "subcategoria": "Psicologia / terapias",
     "endereco": "Rua Lacedemônia, 425",
-    "lat": -23.6492757,
-    "lng": -46.6638908,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11966273221"
     ],
@@ -2954,9 +2954,9 @@ const dados = [
     ],
     "subcategoria": "Hospital veterinário",
     "endereco": "Avenida Damasceno Vieira, 711",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155658980",
       "11948687641"
@@ -2988,9 +2988,9 @@ const dados = [
     ],
     "subcategoria": "Veterinario",
     "endereco": "Avenida Damasceno Vieira, 711",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155658980",
       "11948687641"
@@ -3018,9 +3018,9 @@ const dados = [
     ],
     "subcategoria": "Pet / evento pet",
     "endereco": "Rua Palestina, 80",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11946029518"
     ],
@@ -3046,9 +3046,9 @@ const dados = [
     ],
     "subcategoria": "Pet shop",
     "endereco": "Avenida Santa Catarina, 1",
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11964739793"
     ],
@@ -3077,9 +3077,9 @@ const dados = [
     ],
     "subcategoria": "Pet shop / cuidados pet",
     "endereco": "Rua Palacete das Águias, 909",
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11944576999"
     ],
@@ -3132,9 +3132,9 @@ const dados = [
     ],
     "subcategoria": "Nutricionista",
     "endereco": "Rua Albuquerque Sousa Muniz, 299",
-    "lat": -23.6471821,
-    "lng": -46.6668079,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1123658919"
     ],
@@ -3202,9 +3202,9 @@ const dados = [
     ],
     "subcategoria": "Clínica/Estética",
     "endereco": "Rua Tianguá, 135 - Vila Mascote São Paulo SP",
-    "lat": -23.6470843,
-    "lng": -46.6640124,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1156773341",
       "11972007414"
@@ -3240,9 +3240,9 @@ const dados = [
     ],
     "subcategoria": "Nutricionista",
     "endereco": "Rua Albuquerque Sousa Muniz, 299",
-    "lat": -23.6513297,
-    "lng": -46.6659147,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1123658919"
     ],
@@ -3273,9 +3273,9 @@ const dados = [
     ],
     "subcategoria": "Odontologia",
     "endereco": "Av. Santa Catarina, 2005",
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11937011698"
     ],
@@ -3302,9 +3302,9 @@ const dados = [
     ],
     "subcategoria": "Clinica / academia",
     "endereco": "Rua Lamelas, 41",
-    "lat": -23.648904,
-    "lng": -46.6693944,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11952200850",
       "11949357078"
@@ -3339,9 +3339,9 @@ const dados = [
     ],
     "subcategoria": "Clinica multidisciplinar",
     "endereco": "Rua Albuquerque Sousa Muniz, 53",
-    "lat": -23.6470954,
-    "lng": -46.6634591,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11939181962"
     ],
@@ -3368,9 +3368,9 @@ const dados = [
     ],
     "subcategoria": "Pilates/Fisioterapia",
     "endereco": "Rua Palestina, 359",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11920170738"
     ],
@@ -3406,9 +3406,9 @@ const dados = [
     ],
     "subcategoria": "Clínica/Estética",
     "endereco": "Rua Lamelas, 41",
-    "lat": -23.648904,
-    "lng": -46.6693944,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11949357078"
     ],
@@ -3442,9 +3442,9 @@ const dados = [
     ],
     "subcategoria": "Clínica/Estética",
     "endereco": "Rua Engenheiro Jorge Oliva, 354",
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11916289918"
     ],
@@ -3482,9 +3482,9 @@ const dados = [
     ],
     "subcategoria": "Clínica/Estética",
     "endereco": "Av. Mascote, 486",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11997701995"
     ],
@@ -3511,9 +3511,9 @@ const dados = [
     ],
     "subcategoria": "Odontologia",
     "endereco": "Av. Mascote, 877 – Vila Mascote",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11985880856"
     ],
@@ -3539,9 +3539,9 @@ const dados = [
     ],
     "subcategoria": "Clínica/Estética",
     "endereco": "Rua Ossian Terceiro Teles, 43 – Jardim Prudência",
-    "lat": -23.6487701,
-    "lng": -46.6687473,
-    "mapSource": "fallback",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1156779171"
     ],
@@ -3574,9 +3574,9 @@ const dados = [
     ],
     "subcategoria": "Pilates/Fisioterapia",
     "endereco": "Avenida Santa Catarina,788",
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11970419797"
     ],
@@ -3601,9 +3601,9 @@ const dados = [
     ],
     "subcategoria": "Odontologia",
     "endereco": "Rua Palacete das Águias, 211",
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11930249566"
     ],
@@ -3635,9 +3635,9 @@ const dados = [
     ],
     "subcategoria": "Otica",
     "endereco": "Avenida Santa Catarina, 1",
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155655554",
       "11916186879"
@@ -3672,9 +3672,9 @@ const dados = [
     ],
     "subcategoria": "Otica",
     "endereco": "Avenida Santa Catarina, 1",
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11916186879",
       "1155655554"
@@ -3709,9 +3709,9 @@ const dados = [
     ],
     "subcategoria": "Pilates/Fisioterapia",
     "endereco": "Rua Palestina, 235",
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1156773560",
       "11999216214"
@@ -3749,9 +3749,9 @@ const dados = [
     ],
     "subcategoria": "Pilates/Fisioterapia",
     "endereco": "Rua Engenheiro Jorge Oliva, 424",
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11993344116"
     ],
@@ -3810,9 +3810,9 @@ const dados = [
     ],
     "subcategoria": "Pilates/Fisioterapia",
     "endereco": "Avenida Mascote, 486",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11913731530"
     ],
@@ -3855,9 +3855,9 @@ const dados = [
     ],
     "subcategoria": "Limpeza de estofados",
     "endereco": "Av. Mascote, 490 - Loja 2",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11956841848",
       "1132840621"
@@ -3897,9 +3897,9 @@ const dados = [
     ],
     "subcategoria": "Reformas",
     "endereco": "Av. Mascote, 493 – Vila Mascote",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11999268813",
       "11936197956"
@@ -3926,9 +3926,9 @@ const dados = [
     ],
     "subcategoria": "Limpeza / higienizacao",
     "endereco": "Av. Mascote, 493 – Vila Mascote",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11936197956"
     ],
@@ -3954,9 +3954,9 @@ const dados = [
     ],
     "subcategoria": "Lavanderia",
     "endereco": "Av. Damasceno Vieira, 1027",
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11988279216"
     ],
@@ -4010,9 +4010,9 @@ const dados = [
     ],
     "subcategoria": "Lavanderia",
     "endereco": "Avenida Santa Catarina, 851",
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11959772577"
     ],
@@ -4087,9 +4087,9 @@ const dados = [
     ],
     "subcategoria": "Costura / sapataria",
     "endereco": "Av. Mascote, 889 - sobreloja da 5àSec",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11974641848"
     ],
@@ -4167,9 +4167,9 @@ const dados = [
     ],
     "subcategoria": "mercado de proximidade",
     "endereco": "Av. Mascote, 910",
-    "lat": -23.6466769,
-    "lng": -46.6702926,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "8007796761"
     ],
@@ -4195,9 +4195,9 @@ const dados = [
     ],
     "subcategoria": "Colégio particular",
     "endereco": "Rua Madre Emilie de Villeneuve, 331 - Vila Mascote",
-    "lat": -23.6492495,
-    "lng": -46.6698284,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1156718888",
       "1155638588"
@@ -4223,9 +4223,9 @@ const dados = [
     ],
     "subcategoria": "Iluminação",
     "endereco": "Rua Walter Fontana, 40 - Jardim Brasil (Zona Sul)",
-    "lat": -23.6373906,
-    "lng": -46.6705898,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11974281150",
       "1150349999"
@@ -4278,9 +4278,9 @@ const dados = [
     ],
     "subcategoria": "supermercado",
     "endereco": "Rua Eng. Jorge Oliva, 381 - Vila Mascote, Sao Paulo - SP, 04362-060",
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11930092000"
     ],
@@ -4303,9 +4303,9 @@ const dados = [
     ],
     "subcategoria": "colegio particular",
     "endereco": "Av. Mascote, 913 - Vila Mascote",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "1155643466"
     ],
@@ -4328,9 +4328,9 @@ const dados = [
     ],
     "subcategoria": "Restaurante italiano",
     "endereco": "Av. Mascote, 986",
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11991808532"
     ],
@@ -4376,9 +4376,9 @@ const dados = [
     ],
     "subcategoria": "Escola de idiomas",
     "endereco": "Avenida Vereador João de Luca, 539",
-    "lat": -23.6530248,
-    "lng": -46.6687942,
-    "mapSource": "nominatim",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11989635334"
     ],
