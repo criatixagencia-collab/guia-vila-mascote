@@ -533,10 +533,28 @@ function initMap() {
     maxBoundsViscosity: 0.65
   }).setView(MAP_CENTER, MAP_INITIAL_ZOOM);
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  const streetLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
     attribution: "&copy; OpenStreetMap contributors"
-  }).addTo(mapState.map);
+  });
+
+  const satelliteLayer = L.tileLayer(
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    {
+      maxZoom: 19,
+      attribution: "Tiles &copy; Esri, Maxar, Earthstar Geographics, and the GIS User Community"
+    }
+  );
+
+  streetLayer.addTo(mapState.map);
+  L.control.layers(
+    {
+      "Mapa": streetLayer,
+      "Satélite": satelliteLayer
+    },
+    null,
+    { collapsed: false }
+  ).addTo(mapState.map);
 
   renderMap();
 }
