@@ -47,6 +47,65 @@ def normalize_space(value):
     return re.sub(r"\s+", " ", value or "").strip()
 
 
+def normalize_address(value):
+    value = normalize_space(value)
+    value = re.sub(r"[–—]", "-", value)
+    value = re.sub(r"(?<=\d)\.(?=\d{3}\b)", "", value)
+    value = re.sub(r"\s*/\s*\d{1,5}\b", "", value)
+    value = re.sub(
+        r"(?i)\s*[-–,]\s*(?:sala|loja|conjunto?|apto|bloco|casa|fundos)\s+\d{1,3}.*$",
+        "",
+        value,
+    )
+    return value.strip(" ,.-")
+
+
+def normalize_street_label(value):
+    value = normalize_address(value)
+    replacements = [
+        (r"(?i)\bav\.?\s+", "Avenida "),
+        (r"(?i)\br\.?\s+", "Rua "),
+        (r"(?i)\bsta\.?\s+", "Santa "),
+        (r"(?i)\beng\.?\s+", "Engenheiro "),
+        (r"(?i)\bprof\.?\s+", "Professor "),
+    ]
+    for pattern, replacement in replacements:
+        value = re.sub(pattern, replacement, value)
+    return normalize_address(value)
+
+
+def extract_address_from_part(part):
+    part = normalize_address(part)
+    if not part:
+        return ""
+
+    number = r"(?:\d{1,3}(?:\.\d{3})+|\d{1,5})(?:\s*/\s*(?:\d{1,3}(?:\.\d{3})+|\d{1,5}))?"
+    street_prefix = r"(?:av\.?|avenida|r\.?|rua|alameda|travessa|estrada|praca|praça|rodovia)"
+    pattern = re.compile(
+        rf"(?i)\b({street_prefix}\s+[^;]+?)\s*,?\s+({number})\b"
+    )
+
+    match = pattern.search(part)
+    if not match:
+        pattern = re.compile(
+            rf"(?i)\b({street_prefix}\s+[^;]*?),\s*({number})\b"
+        )
+        match = pattern.search(part)
+
+    if not match:
+        return ""
+
+    street = normalize_street_label(match.group(1))
+    if len(street) > 70 or re.search(
+        r"(?i)\b(?:quem passa|percebid[ao]|movimenta[cç][aã]o|funcionava|antiga|n[uú]mero|onde)\b",
+        street,
+    ):
+        return ""
+    house_number = normalize_address(match.group(2))
+    house_number = re.sub(r"/.*$", "", house_number)
+    return normalize_address(f"{street}, {house_number}")
+
+
 def extract_address(value):
     value = normalize_space(value)
     if not value:
@@ -58,20 +117,16 @@ def extract_address(value):
         if part:
             candidates.append(part)
 
-    pattern = re.compile(
-        r"(?i)\b(?:av\.?|avenida|r\.?|rua|alameda|travessa|estrada)\s+"
-        r"[^;,.]+?(?:,\s*)?\d{1,5}(?:\s*[-–]\s*[^;,.]+)?"
-    )
     for part in candidates:
-        match = pattern.search(part)
-        if match:
-            return normalize_space(match.group(0))
+        address = extract_address_from_part(part)
+        if address:
+            return address
 
     for part in candidates:
         if re.search(r"(?i)\b(?:av\.?|avenida|r\.?|rua)\b", part) and re.search(r"\d", part):
-            return part
+            return normalize_street_label(part)
 
-    return first_part(value)
+    return normalize_street_label(first_part(value))
 
 
 def split_categories(value):

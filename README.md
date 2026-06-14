@@ -9,7 +9,8 @@ Site local do Guia Vila Mascote, com estabelecimentos categorizados a partir da 
 - `script.js`: busca, filtros, cards e mapa.
 - `dados.js`: dados gerados para o site.
 - `scripts/build_site_data.py`: gera `dados.js` a partir da categorização.
-- `scripts/geocode_vila_mascote.py`: gera coordenadas para o mapa.
+- `scripts/geocode.py`: gera coordenadas confiaveis para o mapa usando pontos por endereco.
+- `scripts/geocode_vila_mascote.py`: atalho compativel para `scripts/geocode.py`.
 
 ## Dados
 

@@ -1,638 +1,1211 @@
 {
-  "Fitclass Vila Mascote::Av. Santa Catarina, 2": {
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Fitclass Vila Mascote::Avenida Santa Catarina, 2209": {
+    "lat": -23.653298,
+    "lng": -46.65767,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 2209, Jabaquara, São Paulo, 04378-400",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 2209, São Paulo - SP, Brasil"
   },
-  "Hipsuplementos::Av. Santa Catarina, 915": {
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Hipsuplementos::Avenida Santa Catarina, 915": {
+    "lat": -23.643679,
+    "lng": -46.66523,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 915, Jabaquara, São Paulo, 04378-300",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 915, São Paulo - SP, Brasil"
   },
-  "Studio Velocity::Av. Mascote, 233": {
-    "lat": -23.6487102,
-    "lng": -46.664366,
-    "source": "nominatim",
-    "display_name": "Studio Velocity / Tonus Gym Vila Mascote, 233, Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Studio Velocity::Avenida Mascote, 233": {
+    "lat": -23.6486246,
+    "lng": -46.6643724,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 233, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 233, São Paulo - SP, Brasil"
   },
   "Velocity Vilamascote::Avenida Mascote, 233": {
-    "lat": -23.6487102,
-    "lng": -46.664366,
-    "source": "nominatim",
-    "display_name": "Studio Velocity / Tonus Gym Vila Mascote, 233, Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.6486246,
+    "lng": -46.6643724,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 233, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 233, São Paulo - SP, Brasil"
   },
-  "Yogavilamascote::Av. Mascote, 486": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Yogavilamascote::Avenida Mascote, 486": {
+    "lat": -23.6484768,
+    "lng": -46.6669221,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 486, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 486, São Paulo - SP, Brasil"
   },
-  "Barbierobarbearia::Av. Mascote, 501": {
-    "lat": -23.6466769,
-    "lng": -46.6702926,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-001, Brasil"
+  "Barbierobarbearia::Avenida Mascote, 501": {
+    "lat": -23.6488142,
+    "lng": -46.6669631,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 501, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 501, São Paulo - SP, Brasil"
   },
   "Botocenter.vilamascote::Rua Nilo Guerra, 160": {
-    "lat": -23.6434112,
-    "lng": -46.6665439,
-    "source": "nominatim",
-    "display_name": "Rua Nilo Guerra, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.64359,
+    "lng": -46.666527,
+    "source": "arcgis",
+    "display_name": "Rua Nilo Guerra 160, Jabaquara, São Paulo, 04362-010",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Nilo Guerra, 160, São Paulo - SP, Brasil"
   },
-  "Buddhaspa Vilamascote::Av. Mascote, 843 - Vila Mascote": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Buddhaspa Vilamascote::Avenida Mascote, 843": {
+    "lat": -23.6477602,
+    "lng": -46.6699508,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 843, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 843, São Paulo - SP, Brasil"
   },
   "Clínicamvbeauty::Avenida Mascote, 151": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.648244,
+    "lng": -46.663579,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 151, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 151, São Paulo - SP, Brasil"
   },
   "Espaco.artnails::Avenida Mascote, 151": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.648244,
+    "lng": -46.663579,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 151, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 151, São Paulo - SP, Brasil"
   },
-  "Fastescova Vilamascote::Av. Mascote, 419 - São Paulo/SP": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Fastescova Vilamascote::Avenida Mascote, 419": {
+    "lat": -23.648678,
+    "lng": -46.666196,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 419, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 419, São Paulo - SP, Brasil"
   },
   "Fecarvalho Makeup::Rua Palestina, 18": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.64313,
+    "lng": -46.665877,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 18, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 18, São Paulo - SP, Brasil"
   },
-  "Janasestetica::Av. Mascote, 1291": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Janasestetica::Avenida Mascote, 1291": {
+    "lat": -23.64402,
+    "lng": -46.670729,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 1291, Campo Belo, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 1291, São Paulo - SP, Brasil"
   },
-  "Lemes Barbearia::Rua Palestina 136": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Lemes Barbearia::Rua Palestina, 136": {
+    "lat": -23.643631,
+    "lng": -46.66685,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 136, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 136, São Paulo - SP, Brasil"
+  },
+  "Ted Barbearia::Rua Coriolano Durand, 655": {
+    "lat": -23.653801,
+    "lng": -46.6571605,
+    "source": "arcgis",
+    "display_name": "Rua Coriolano Durand 655, Jabaquara, São Paulo, 04375-050",
+    "score": 100.0,
+    "addr_type": "StreetAddress",
+    "query": "Rua Coriolano Durand, 655, São Paulo - SP, Brasil"
   },
   "Valen Vilakidsebarber::Avenida Damasceno Vieira, 1027": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.647664,
+    "lng": -46.667215,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 1027, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 1027, São Paulo - SP, Brasil"
   },
   "Acaidabarravilamascote::Avenida Santa Catarina, 797": {
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.643022,
+    "lng": -46.665737,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 797, Jabaquara, São Paulo, 04378-300",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 797, São Paulo - SP, Brasil"
+  },
+  "Coffeelandia_::Rua Lacedemônia, 413": {
+    "lat": -23.639125,
+    "lng": -46.670134,
+    "source": "arcgis",
+    "display_name": "Rua Lacedemonia 413, Campo Belo, São Paulo, 04634-020",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Lacedemônia, 413, São Paulo - SP, Brasil"
   },
   "Kopenhagen_vila_mascote::Rua Jovina, 190": {
-    "lat": -23.6467364,
-    "lng": -46.6652479,
-    "source": "nominatim",
-    "display_name": "Rua Jovina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.6468218,
+    "lng": -46.6653607,
+    "source": "arcgis",
+    "display_name": "Rua Jovina 190, Jabaquara, São Paulo, 04363-080",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Jovina, 190, São Paulo - SP, Brasil"
   },
-  "Vilamascote Thebestacai::Av. Santa Catarina, 2233": {
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Vilamascote Thebestacai::Avenida Santa Catarina, 2233": {
+    "lat": -23.653474,
+    "lng": -46.65741,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 2233, Jabaquara, São Paulo, 04378-400",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 2233, São Paulo - SP, Brasil"
   },
-  "Seuestilodecor::Rua Palestina, 172 - Vila Mascote": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Casaelleganceprime::Avenida Professor Vicente Ráo, 2077": {
+    "lat": -23.63889,
+    "lng": -46.676622,
+    "source": "arcgis",
+    "display_name": "Avenida Professor Vicente Rao 2077, Campo Belo, São Paulo, 04636-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Professor Vicente Ráo, 2077, São Paulo - SP, Brasil"
+  },
+  "Girasole Boutiquedosaromas::Avenida Vereador João de Lucca, 627": {
+    "lat": -23.648677,
+    "lng": -46.669261,
+    "source": "arcgis",
+    "display_name": "Avenida Vereador Joao De Luca 627, Jabaquara, São Paulo, 04381-000",
+    "score": 99.87,
+    "addr_type": "PointAddress",
+    "query": "Avenida Vereador João de Lucca, 627, São Paulo - SP, Brasil"
+  },
+  "Seuestilodecor::Rua Palestina, 172": {
+    "lat": -23.6438,
+    "lng": -46.667146,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 172, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 172, São Paulo - SP, Brasil"
   },
   "Culturainglesa Vilamascote::Rua Palacete das Águias, 877": {
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "source": "nominatim",
-    "display_name": "Rua Palacete das Águias, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.644318,
+    "lng": -46.6667939,
+    "source": "arcgis",
+    "display_name": "Rua Palacete das Águias 877, Jabaquara, São Paulo, 04635-023",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palacete das Águias, 877, São Paulo - SP, Brasil"
   },
-  "Isec.idiomas::Avenida Santa Catarina, 1": {
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Escolaludus::Avenida Jônia, 655": {
+    "lat": -23.64042,
+    "lng": -46.665588,
+    "source": "arcgis",
+    "display_name": "Avenida Jonia 655, Campo Belo, São Paulo, 04634-011",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Jônia, 655, São Paulo - SP, Brasil"
+  },
+  "Isec.idiomas::Avenida Santa Catarina, 1447": {
+    "lat": -23.6477719,
+    "lng": -46.6622793,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 1447, Jabaquara, São Paulo, 04378-300",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 1447, São Paulo - SP, Brasil"
+  },
+  "Olimpiafutebol::Rua Viaza, 834": {
+    "lat": -23.634873,
+    "lng": -46.663125,
+    "source": "arcgis",
+    "display_name": "Rua Viaza 834, Campo Belo, São Paulo, 04633-051",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Viaza, 834, São Paulo - SP, Brasil"
   },
   "Rededecisao::Rua Jorge Duprat Figueiredo, 304": {
-    "lat": -23.6444134,
-    "lng": -46.6604512,
-    "source": "nominatim",
-    "display_name": "Rua Jorge Duprat Figueiredo, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.642681,
+    "lng": -46.660121,
+    "source": "arcgis",
+    "display_name": "Rua Jorge Duprat Figueiredo 304, Jabaquara, São Paulo, 04361-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Jorge Duprat Figueiredo, 304, São Paulo - SP, Brasil"
   },
-  "Arabianmixfood::Rua Derval, 111": {
-    "lat": -23.6446264,
-    "lng": -46.6690435,
-    "source": "nominatim",
-    "display_name": "Rua Derval, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-020, Brasil"
+  "Arabianmixfood::Rua Derval, 111B - Vila Mascote São Paulo/SP": {
+    "lat": -23.64472,
+    "lng": -46.669107,
+    "source": "arcgis",
+    "display_name": "Rua Derval 111, Jabaquara, São Paulo, 04362-050",
+    "score": 97.25,
+    "addr_type": "PointAddress",
+    "query": "Rua Derval, 111B - Vila Mascote São Paulo/SP"
   },
   "Atelie.juguedes::Avenida Damasceno Vieira, 853": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646775,
+    "lng": -46.665883,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 853, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 853, São Paulo - SP, Brasil"
   },
-  "Bacalhaudoguga::Rua Palestina, 260 - Vila Mascote": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Babbogiovannivilamascote::Avenida Washington Luís, 3512": {
+    "lat": -23.6483194,
+    "lng": -46.6756463,
+    "source": "arcgis",
+    "display_name": "Avenida Washington Luís 3512, Bairro Jardim Prudência, São Paulo, 04627-003",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Washington Luís, 3512, São Paulo - SP, Brasil"
   },
-  "Capanno Pizzaria::Rua Eng. Jorge Oliva, 352": {
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "source": "nominatim",
-    "display_name": "Rua Engenheiro Jorge Oliva, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-020, Brasil"
+  "Bacalhaudoguga::Rua Palestina, 260": {
+    "lat": -23.644002,
+    "lng": -46.66799,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 260, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 260, São Paulo - SP, Brasil"
   },
-  "Casadobentopaesartesanais::Rua Eng. Jorge Oliva, 362": {
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "source": "nominatim",
-    "display_name": "Rua Engenheiro Jorge Oliva, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-020, Brasil"
+  "Capanno Pizzaria::Rua Engenheiro Jorge Oliva, 352": {
+    "lat": -23.645684,
+    "lng": -46.668131,
+    "source": "arcgis",
+    "display_name": "Rua Engenheiro Jorge Oliva 352, Jabaquara, São Paulo, 04362-060",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Engenheiro Jorge Oliva, 352, São Paulo - SP, Brasil"
+  },
+  "Casadobentopaesartesanais::Rua Engenheiro Jorge Oliva, 362": {
+    "lat": -23.645755,
+    "lng": -46.668295,
+    "source": "arcgis",
+    "display_name": "Rua Engenheiro Jorge Oliva 362, Jabaquara, São Paulo, 04362-060",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Engenheiro Jorge Oliva, 362, São Paulo - SP, Brasil"
+  },
+  "Casapalma Restaurante::Rua Professor Azevedo Antunes, 130": {
+    "lat": -23.6606296,
+    "lng": -46.6625207,
+    "source": "arcgis",
+    "display_name": "Rua Professor Azevedo Antunes 130, Jabaquara, São Paulo, 04384-070",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Professor Azevedo Antunes, 130, São Paulo - SP, Brasil"
+  },
+  "Fashiongrill Br::Rua Rishin Matsuda, 763": {
+    "lat": -23.6506308,
+    "lng": -46.6599781,
+    "source": "arcgis",
+    "display_name": "Rua Rishin Matsuda 763, Jabaquara, São Paulo, 04371-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Rishin Matsuda, 763, São Paulo - SP, Brasil"
   },
   "Hakkasushibr::Rua Palestina, 286": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.644057,
+    "lng": -46.668268,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 286, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 286, São Paulo - SP, Brasil"
   },
   "Hiatari Vila Mascote::Avenida Mascote, 1454": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.643415,
+    "lng": -46.66923,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 1454, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 1454, São Paulo - SP, Brasil"
   },
   "Julianaguedes Confeitaria::Avenida Damasceno Vieira, 853": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646775,
+    "lng": -46.665883,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 853, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 853, São Paulo - SP, Brasil"
   },
-  "Padariarecantodamascote::Av. Mascote, 952 - Vila Mascote São Paulo/SP": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Padariarecantodamascote::Avenida Mascote, 952": {
+    "lat": -23.6468278,
+    "lng": -46.6701319,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 952, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 952, São Paulo - SP, Brasil"
   },
-  "Pastelariavoze::Rua Doutor Djalma Pinheiro Franco, 115": {
-    "lat": -23.6522903,
-    "lng": -46.6656109,
-    "source": "nominatim",
-    "display_name": "Rua Doutor Djalma Pinheiro Franco, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-971, Brasil"
+  "Pastelariavoze::Rua Dr. Djalma Pinheiro Franco, 115": {
+    "lat": -23.649114,
+    "lng": -46.663161,
+    "source": "arcgis",
+    "display_name": "Rua Doutor Djalma Pinheiro Franco 115, Jabaquara, São Paulo, 04368-003",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Dr. Djalma Pinheiro Franco, 115, São Paulo - SP, Brasil"
   },
   "Queijariacave381::Avenida Mascote, 664": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.6483755,
+    "lng": -46.6686642,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 664, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 664, São Paulo - SP, Brasil"
   },
-  "Saboriecozinhaartesanal::Avenida Mascote, 299": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Saboriecozinhaartesanal::Rua Engenheiro Jorge Oliva, 208": {
+    "lat": -23.644953,
+    "lng": -46.666953,
+    "source": "arcgis",
+    "display_name": "Rua Engenheiro Jorge Oliva 208, Jabaquara, São Paulo, 04362-060",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Engenheiro Jorge Oliva, 208, São Paulo - SP, Brasil"
   },
-  "Vittelis Restaurante::Av. Mascote, 717": {
-    "lat": -23.6486721,
-    "lng": -46.6690378,
-    "source": "nominatim",
-    "display_name": "Vittelis | Restaurante Contemporâneo, 717, Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Vittelis Restaurante::Avenida Mascote, 717": {
+    "lat": -23.64853,
+    "lng": -46.669013,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 717, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 717, São Paulo - SP, Brasil"
   },
-  "Winnerburger::Av. Damasceno Vieira, 1181": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Winnerburger::Avenida Damasceno Vieira, 1181": {
+    "lat": -23.64818,
+    "lng": -46.668798,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 1181, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 1181, São Paulo - SP, Brasil"
   },
-  "Adautofilhodedeus::Avenida Mascote, 1": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Adautofilhodedeus::Avenida Mascote, 1171": {
+    "lat": -23.645132,
+    "lng": -46.6710187,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 1171, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 1171, São Paulo - SP, Brasil"
   },
-  "Ceciliateixeira::Avenida Mascote, 1": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Ceciliateixeira::Avenida Mascote, 1171": {
+    "lat": -23.645132,
+    "lng": -46.6710187,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 1171, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 1171, São Paulo - SP, Brasil"
   },
-  "Econconstrutora::Av. Vereador João de Luca, 483": {
-    "lat": -23.6469546,
-    "lng": -46.6708085,
-    "source": "nominatim",
-    "display_name": "Avenida Vereador João de Luca, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04381-000, Brasil"
+  "Econconstrutora::Avenida Vereador João de Luca, 483": {
+    "lat": -23.647792,
+    "lng": -46.670436,
+    "source": "arcgis",
+    "display_name": "Avenida Vereador Joao De Luca 483, Jabaquara, São Paulo, 04381-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Vereador João de Luca, 483, São Paulo - SP, Brasil"
+  },
+  "Elitufanini Remax::Rua Praia do Castelo e tem, 101": {
+    "lat": -23.6469807,
+    "lng": -46.6689376,
+    "source": "arcgis",
+    "display_name": "Rua Praia do Castelo 101, Jabaquara, São Paulo, 04362-020",
+    "score": 96.34,
+    "addr_type": "StreetAddress",
+    "query": "Rua Praia do Castelo e tem, 101, São Paulo - SP, Brasil"
+  },
+  "Imoveismoedaforte::Rua Albuquerque Sousa Muniz, 40": {
+    "lat": -23.63952,
+    "lng": -46.667398,
+    "source": "arcgis",
+    "display_name": "Rua Albuquerque Sousa Muniz 40, Campo Belo, São Paulo, 04635-010",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Albuquerque Sousa Muniz, 40, São Paulo - SP, Brasil"
   },
   "Jzmconst::Rua Arapá, 131": {
-    "lat": -23.6474848,
-    "lng": -46.6669603,
-    "source": "nominatim",
-    "display_name": "Rua Arapá, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.648135,
+    "lng": -46.666443,
+    "source": "arcgis",
+    "display_name": "Rua Arapa 131, Jabaquara, São Paulo, 04363-060",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Arapá, 131, São Paulo - SP, Brasil"
   },
-  "Karinamustafaimoveis::Avenida Damasceno Vieira, 1": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Karinamustafaimoveis::Avenida Damasceno Vieira, 1068": {
+    "lat": -23.6479386,
+    "lng": -46.6684838,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 1068, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 1068, São Paulo - SP, Brasil"
   },
-  "Livingempreendimentos::Av. Mascote, 1171 - Vila Mascote": {
-    "lat": -23.6450496,
-    "lng": -46.671197,
-    "source": "nominatim",
-    "display_name": "Diocese de Santo Amaro, 1171, Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-001, Brasil"
+  "Livingempreendimentos::Avenida Mascote, 1171": {
+    "lat": -23.645132,
+    "lng": -46.6710187,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 1171, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 1171, São Paulo - SP, Brasil"
+  },
+  "Louimoveis::Avenida Mascote, com, 3": {
+    "lat": -23.647125,
+    "lng": -46.6628833,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 3, Jabaquara, São Paulo, 04363-000",
+    "score": 98.13,
+    "addr_type": "StreetAddress",
+    "query": "Avenida Mascote, com, 3, São Paulo - SP, Brasil"
   },
   "Scheidimoveis Vila Mascote::Avenida Mascote, 855": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.647561,
+    "lng": -46.669856,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 855, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 855, São Paulo - SP, Brasil"
   },
-  "Sellerspoficial::Av. Mascote, 1": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Sellerspoficial::Avenida Mascote, 1171": {
+    "lat": -23.645132,
+    "lng": -46.6710187,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 1171, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 1171, São Paulo - SP, Brasil"
+  },
+  "Souasuacorretora::Localizado na Rua Albuquerque Sousa Muniz. 📍": {
+    "lat": -23.641387,
+    "lng": -46.6690975,
+    "source": "",
+    "display_name": "Rua Albuquerque Sousa Muniz, Campo Belo, São Paulo, 04635",
+    "score": 90.93,
+    "addr_type": "StreetName",
+    "query": "Localizado na Rua Albuquerque Sousa Muniz. 📍, São Paulo - SP, Brasil",
+    "rejected": "low_score_or_out_of_bounds"
   },
   "Vieiranegocios::Rua Madre Emilie de Villeneuve, 509": {
-    "lat": -23.6496336,
-    "lng": -46.667321,
-    "source": "nominatim",
-    "display_name": "Rua Madre Emilie de Villeneuve, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04367-090, Brasil"
+    "lat": -23.649237,
+    "lng": -46.669794,
+    "source": "arcgis",
+    "display_name": "Rua Madre Emilie De Villeneuve 509, Jabaquara, São Paulo, 04367-090",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Madre Emilie de Villeneuve, 509, São Paulo - SP, Brasil"
   },
   "Bichobatata Brinquedos::Rua Palestina, 435": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.644407,
+    "lng": -46.669645,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 435, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 435, São Paulo - SP, Brasil"
+  },
+  "Buffet Vale Da Diversao::Rua Emílio de Sousa Docca, 615": {
+    "lat": -23.656447,
+    "lng": -46.657745,
+    "source": "arcgis",
+    "display_name": "Rua Emilio De Sousa Docca 615, Jabaquara, São Paulo, 04379-026",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Emílio de Sousa Docca, 615, São Paulo - SP, Brasil"
   },
   "Calmy Clínica::Avenida Damasceno Vieira, 699": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646243,
+    "lng": -46.664678,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 699, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 699, São Paulo - SP, Brasil"
   },
   "Eespaconeuroaprender::Rua Engenheiro Jorge Oliva, 238": {
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "source": "nominatim",
-    "display_name": "Rua Engenheiro Jorge Oliva, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-020, Brasil"
+    "lat": -23.645087,
+    "lng": -46.66717,
+    "source": "arcgis",
+    "display_name": "Rua Engenheiro Jorge Oliva 238, Jabaquara, São Paulo, 04362-060",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Engenheiro Jorge Oliva, 238, São Paulo - SP, Brasil"
   },
   "Espacosallesxavier::Avenida Damasceno Vieira, 1027": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.647664,
+    "lng": -46.667215,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 1027, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 1027, São Paulo - SP, Brasil"
   },
-  "Guigojj Vilamascote::Av. Mascote, 1535": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Guigojj Vilamascote::Avenida Mascote, 1535": {
+    "lat": -23.643187,
+    "lng": -46.668552,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 1535, Campo Belo, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 1535, São Paulo - SP, Brasil"
   },
   "Institutogabioficial::Rua Palacete das Águias, 735": {
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "source": "nominatim",
-    "display_name": "Rua Palacete das Águias, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.6432855,
+    "lng": -46.6674766,
+    "source": "arcgis",
+    "display_name": "Rua Palacete das Águias 735, Jabaquara, São Paulo, 04635-023",
+    "score": 100.0,
+    "addr_type": "StreetAddress",
+    "query": "Rua Palacete das Águias, 735, São Paulo - SP, Brasil"
   },
-  "Bazardoinstitutogabi::Av. Sta Catarina, 324": {
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Bazardoinstitutogabi::Avenida Santa Catarina, 324": {
+    "lat": -23.639542,
+    "lng": -46.66925,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 324, Campo Belo, São Paulo, 04635-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 324, São Paulo - SP, Brasil"
   },
   "Musicinplay::Rua Palestina, 234": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.643867,
+    "lng": -46.667742,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 234, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 234, São Paulo - SP, Brasil"
   },
   "Chefviking Boutiquedecarnes::Rua Palacete das Águias, 687": {
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "source": "nominatim",
-    "display_name": "Rua Palacete das Águias, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.64284,
+    "lng": -46.667657,
+    "source": "arcgis",
+    "display_name": "Rua Palacete Das Aguias 687, Jabaquara, São Paulo, 04635-023",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palacete das Águias, 687, São Paulo - SP, Brasil"
   },
-  "Grao Da Mascote::Av. Mascote, 867": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Grao Da Mascote::Avenida Mascote, 867": {
+    "lat": -23.647517,
+    "lng": -46.669903,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 867, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 867, São Paulo - SP, Brasil"
   },
-  "Graoda Mascote1::Av. Mascote, 867 - Vila Mascote": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Graoda Mascote1::Avenida Mascote, 867": {
+    "lat": -23.647517,
+    "lng": -46.669903,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 867, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 867, São Paulo - SP, Brasil"
   },
-  "Camarimstar::Av. Mascote, 997": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Vemdahortasp::Rua das Flechas, 739": {
+    "lat": -23.652153,
+    "lng": -46.670438,
+    "source": "arcgis",
+    "display_name": "Rua Das Flechas 739, Cidade Ademar, São Paulo, 04364-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua das Flechas, 739, São Paulo - SP, Brasil"
   },
-  "Crescente Store::Av. Mascote, 84": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Camarimstar::Avenida Mascote, 997": {
+    "lat": -23.645569,
+    "lng": -46.670538,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 997, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 997, São Paulo - SP, Brasil"
   },
-  "Garimpodesmeralda::Rua Palestina, 407 - Vila Mascote": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Crescente Store::Avenida Mascote, 84": {
+    "lat": -23.64763,
+    "lng": -46.663376,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 84, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 84, São Paulo - SP, Brasil"
   },
-  "Hering_vilamascote::Rua Jovina, 192 - Vila Mascote": {
-    "lat": -23.6467364,
-    "lng": -46.6652479,
-    "source": "nominatim",
-    "display_name": "Rua Jovina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Garimpodesmeralda::Rua Palestina, 407": {
+    "lat": -23.644466,
+    "lng": -46.669378,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 407, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 407, São Paulo - SP, Brasil"
   },
-  "Hope Vilamascote::Rua Palestina, 178 - Vila Mascote": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Hering_vilamascote::Rua Jovina, 192": {
+    "lat": -23.646723,
+    "lng": -46.665133,
+    "source": "arcgis",
+    "display_name": "Rua Jovina 192, Jabaquara, São Paulo, 04363-080",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Jovina, 192, São Paulo - SP, Brasil"
   },
-  "Infinita Outlet::Av. Mascote, 859": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Hope Vilamascote::Rua Palestina, 178": {
+    "lat": -23.643795,
+    "lng": -46.667215,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 178, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 178, São Paulo - SP, Brasil"
   },
-  "Infinitastore::Av. Mascote, 859 - Vila Mascote": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Infinita Outlet::Avenida Mascote, 859": {
+    "lat": -23.647533,
+    "lng": -46.669843,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 859, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 859, São Paulo - SP, Brasil"
+  },
+  "Infinitastore::Avenida Mascote, 859": {
+    "lat": -23.647533,
+    "lng": -46.669843,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 859, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 859, São Paulo - SP, Brasil"
   },
   "Live Vila Mascote::Rua Palestina, 227": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.644048,
+    "lng": -46.667544,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 227, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 227, São Paulo - SP, Brasil"
   },
-  "Marigonzalez::Rua Palestina, 178 - Vila Mascote": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Marigonzalez::Rua Palestina, 178": {
+    "lat": -23.643795,
+    "lng": -46.667215,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 178, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 178, São Paulo - SP, Brasil"
   },
   "Plakianca_plaadulto::Avenida Santa Catarina, 372": {
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.639868,
+    "lng": -46.668815,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 372, Campo Belo, São Paulo, 04635-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 372, São Paulo - SP, Brasil"
+  },
+  "Santalolla_vilamascote::Avenida Santa Catarina, 1929": {
+    "lat": -23.651401,
+    "lng": -46.659365,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 1929, Jabaquara, São Paulo, 04378-400",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 1929, São Paulo - SP, Brasil"
   },
   "Tres Chic Acessorios::Avenida Mascote, 871": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.6474634,
+    "lng": -46.6699608,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 871, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 871, São Paulo - SP, Brasil"
   },
   "Usetboy::Avenida Santa Catarina, 1321": {
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646786,
+    "lng": -46.663207,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 1321, Jabaquara, São Paulo, 04378-300",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 1321, São Paulo - SP, Brasil"
+  },
+  "Zophimodas::Avenida Vereador João de Lucca, 627": {
+    "lat": -23.648677,
+    "lng": -46.669261,
+    "source": "arcgis",
+    "display_name": "Avenida Vereador Joao De Luca 627, Jabaquara, São Paulo, 04381-000",
+    "score": 99.87,
+    "addr_type": "PointAddress",
+    "query": "Avenida Vereador João de Lucca, 627, São Paulo - SP, Brasil"
   },
   "1 Ferrari::Avenida Damasceno Vieira, 711": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646317,
+    "lng": -46.66472,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 711, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
+  },
+  "Doglandiadaycare::Rua Lacedemônia, 425": {
+    "lat": -23.639059,
+    "lng": -46.670103,
+    "source": "arcgis",
+    "display_name": "Rua Lacedemonia 425, Campo Belo, São Paulo, 04634-020",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Lacedemônia, 425, São Paulo - SP, Brasil"
   },
   "Hovet Mascote::Avenida Damasceno Vieira, 711": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646317,
+    "lng": -46.66472,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 711, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
   },
   "Katia Csilva::Avenida Damasceno Vieira, 711": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646317,
+    "lng": -46.66472,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 711, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
   },
   "M Leticia::Avenida Damasceno Vieira, 711": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646317,
+    "lng": -46.66472,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 711, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
   },
   "Mundinhooanimal::Rua Palestina, 80": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.643274,
+    "lng": -46.666309,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 80, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 80, São Paulo - SP, Brasil"
   },
   "Palomatsclerici::Avenida Damasceno Vieira, 711": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.646317,
+    "lng": -46.66472,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 711, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
   },
-  "Petlandsp Vilamascote::Avenida Santa Catarina, 1": {
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Petlandsp Vilamascote::Avenida Santa Catarina, 1246": {
+    "lat": -23.6461226,
+    "lng": -46.6636813,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 1246, Jabaquara, São Paulo, 04378-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 1246, São Paulo - SP, Brasil"
   },
   "Yourheropets::Rua Palacete das Águias, 909": {
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "source": "nominatim",
-    "display_name": "Rua Palacete das Águias, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.644801,
+    "lng": -46.666846,
+    "source": "arcgis",
+    "display_name": "Rua Palacete Das Aguias 909, Jabaquara, São Paulo, 04635-023",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palacete das Águias, 909, São Paulo - SP, Brasil"
   },
-  "Tá chegando o Festival de baguete na Recanto da Mascote!::Av. Mascote, 952": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Brazucas::Avenida Damasceno Vieira, 751": {
+    "lat": -23.646512,
+    "lng": -46.665249,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 751, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 751, São Paulo - SP, Brasil"
+  },
+  "O condomínio conta com piscina, quadra, salão de festas e churrasqueira.😍::Rua Engenheiro Jorge Oliva, com, 3": {
+    "lat": -23.6446536,
+    "lng": -46.6659705,
+    "source": "arcgis",
+    "display_name": "Rua Engenheiro Jorge Oliva 3, Jabaquara, São Paulo, 04362-060",
+    "score": 98.31,
+    "addr_type": "StreetAddress",
+    "query": "Rua Engenheiro Jorge Oliva, com, 3, São Paulo - SP, Brasil"
+  },
+  "Seu Bebelier Vila Mascote 2026 aconteceu hoje::Rua cheia, vizinhos juntos, comércio participando e aquela energia que só quem mora aqui entende": {
+    "lat": -23.6450005,
+    "lng": -46.6650009,
+    "source": "",
+    "display_name": "São Paulo",
+    "score": 80.0,
+    "addr_type": "Locality",
+    "query": "Rua cheia, vizinhos juntos, comércio participando e aquela energia que só quem mora aqui entende, São Paulo - SP, Brasil",
+    "rejected": "low_score_or_out_of_bounds"
+  },
+  "Tá chegando o Festival de baguete na Recanto da Mascote!::Avenida Mascote, 952": {
+    "lat": -23.6468278,
+    "lng": -46.6701319,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 952, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 952, São Paulo - SP, Brasil"
   },
   "Vilamascote.hightorque::Rua Lamelas, 61": {
-    "lat": -23.648904,
-    "lng": -46.6693944,
-    "source": "nominatim",
-    "display_name": "Rua Lamelas, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-010, Brasil"
+    "lat": -23.648907,
+    "lng": -46.669434,
+    "source": "arcgis",
+    "display_name": "Rua Lamelas 61, Jabaquara, São Paulo, 04363-010",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Lamelas, 61, São Paulo - SP, Brasil"
   },
-  "🍴 Entradas::Rua Palestina, 260 - Vila Mascote": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "🍴 Entradas::Rua Palestina, 260": {
+    "lat": -23.644002,
+    "lng": -46.66799,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 260, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 260, São Paulo - SP, Brasil"
   },
-  "Clínicaamandabeauty::Rua Tianguá, 135 - Vila Mascote São Paulo SP": {
-    "lat": -23.6470843,
-    "lng": -46.6640124,
-    "source": "nominatim",
-    "display_name": "Rua Tianguá, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Alinenaveganutri::Rua Albuquerque Sousa Muniz, 299": {
+    "lat": -23.641299,
+    "lng": -46.668974,
+    "source": "arcgis",
+    "display_name": "Rua Albuquerque Sousa Muniz 299, Campo Belo, São Paulo, 04635-010",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Albuquerque Sousa Muniz, 299, São Paulo - SP, Brasil"
   },
-  "Clínicatoyomoto::Av. Santa Catarina, 2005": {
-    "lat": -23.6446138,
-    "lng": -46.6649141,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+  "Clínicaamandabeauty::Rua Tianguá, 135": {
+    "lat": -23.647182,
+    "lng": -46.663906,
+    "source": "arcgis",
+    "display_name": "Rua Tiangua 135, Jabaquara, São Paulo, 04363-100",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Tianguá, 135, São Paulo - SP, Brasil"
+  },
+  "Clínicanavsaude::Rua Albuquerque Sousa Muniz, 299": {
+    "lat": -23.641299,
+    "lng": -46.668974,
+    "source": "arcgis",
+    "display_name": "Rua Albuquerque Sousa Muniz 299, Campo Belo, São Paulo, 04635-010",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Albuquerque Sousa Muniz, 299, São Paulo - SP, Brasil"
+  },
+  "Clínicatoyomoto::Avenida Santa Catarina, 2005": {
+    "lat": -23.6517294,
+    "lng": -46.6590325,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 2005, Jabaquara, São Paulo, 04378-400",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 2005, São Paulo - SP, Brasil"
   },
   "Corpus Balance::Rua Lamelas, 41": {
-    "lat": -23.648904,
-    "lng": -46.6693944,
-    "source": "nominatim",
-    "display_name": "Rua Lamelas, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-010, Brasil"
+    "lat": -23.6487675,
+    "lng": -46.6692756,
+    "source": "arcgis",
+    "display_name": "Rua Lamelas 41, Jabaquara, São Paulo, 03944-140",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Lamelas, 41, São Paulo - SP, Brasil"
+  },
+  "Curumim Clinica::Rua Albuquerque Sousa Muniz, 53": {
+    "lat": -23.639632,
+    "lng": -46.667387,
+    "source": "arcgis",
+    "display_name": "Rua Albuquerque Sousa Muniz 53, Campo Belo, São Paulo, 04635-010",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Albuquerque Sousa Muniz, 53, São Paulo - SP, Brasil"
   },
   "Dra.juliana.nakashima::Rua Palestina, 359": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.644213,
+    "lng": -46.669025,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 359, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 359, São Paulo - SP, Brasil"
   },
   "Dradeboradsouza::Rua Lamelas, 41": {
-    "lat": -23.648904,
-    "lng": -46.6693944,
-    "source": "nominatim",
-    "display_name": "Rua Lamelas, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-010, Brasil"
+    "lat": -23.6487675,
+    "lng": -46.6692756,
+    "source": "arcgis",
+    "display_name": "Rua Lamelas 41, Jabaquara, São Paulo, 03944-140",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Lamelas, 41, São Paulo - SP, Brasil"
   },
   "Dramarciabusato::Rua Engenheiro Jorge Oliva, 354": {
-    "lat": -23.6445238,
-    "lng": -46.6658565,
-    "source": "nominatim",
-    "display_name": "Rua Engenheiro Jorge Oliva, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.645634,
+    "lng": -46.668287,
+    "source": "arcgis",
+    "display_name": "Rua Engenheiro Jorge Oliva 354, Jabaquara, São Paulo, 04362-060",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Engenheiro Jorge Oliva, 354, São Paulo - SP, Brasil"
   },
-  "Esteticamarianab::Av. Mascote, 486": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Esteticamarianab::Avenida Mascote, 486": {
+    "lat": -23.6484768,
+    "lng": -46.6669221,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 486, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 486, São Paulo - SP, Brasil"
   },
-  "Hugopainodeoliveira::Av. Mascote, 877 - Vila Mascote": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Hugopainodeoliveira::Avenida Mascote, 877": {
+    "lat": -23.647408,
+    "lng": -46.669969,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 877, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 877, São Paulo - SP, Brasil"
   },
-  "Kravmaga Vila Mascote::Avenida Santa Catarina,788": {
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Keila Xn::Rua Ossian Terceiro Teles, 43": {
+    "lat": -23.649324,
+    "lng": -46.67258,
+    "source": "arcgis",
+    "display_name": "Rua Ossian Terceiro Teles 43, Cidade Ademar, São Paulo, 04649-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Ossian Terceiro Teles, 43, São Paulo - SP, Brasil"
+  },
+  "Kravmaga Vila Mascote::Avenida Santa Catarina, 788": {
+    "lat": -23.6428687,
+    "lng": -46.6662197,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 788, Jabaquara, São Paulo, 04378-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 788, São Paulo - SP, Brasil"
   },
   "Oralsinsaopaulo Vila Mascote::Rua Palacete das Águias, 211": {
-    "lat": -23.6448222,
-    "lng": -46.6667987,
-    "source": "nominatim",
-    "display_name": "Rua Palacete das Águias, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.64,
+    "lng": -46.671105,
+    "source": "arcgis",
+    "display_name": "Rua Palacete Das Aguias 211, Campo Belo, São Paulo, 04635-020",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palacete das Águias, 211, São Paulo - SP, Brasil"
   },
-  "Oticasdiniz Mascote::Avenida Santa Catarina, 1": {
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Oticasdiniz Mascote::Avenida Santa Catarina, 1870": {
+    "lat": -23.6510366,
+    "lng": -46.6600648,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 1870, Jabaquara, São Paulo, 04378-100",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 1870, São Paulo - SP, Brasil"
   },
-  "Oticasdinizcatarina::Avenida Santa Catarina, 1": {
-    "lat": -23.6476557,
-    "lng": -46.6624679,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Oticasdinizcatarina::Avenida Santa Catarina, 1870": {
+    "lat": -23.6510366,
+    "lng": -46.6600648,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 1870, Jabaquara, São Paulo, 04378-100",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 1870, São Paulo - SP, Brasil"
   },
   "Pilatesspacoequilibrium::Rua Palestina, 235": {
-    "lat": -23.6440518,
-    "lng": -46.6682835,
-    "source": "nominatim",
-    "display_name": "Rua Palestina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-000, Brasil"
+    "lat": -23.64415,
+    "lng": -46.667629,
+    "source": "arcgis",
+    "display_name": "Rua Palestina 235, Jabaquara, São Paulo, 04362-030",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Palestina, 235, São Paulo - SP, Brasil"
   },
   "Studiovitabemestar::Rua Engenheiro Jorge Oliva, 424": {
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "source": "nominatim",
-    "display_name": "Rua Engenheiro Jorge Oliva, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-020, Brasil"
+    "lat": -23.645832,
+    "lng": -46.668717,
+    "source": "arcgis",
+    "display_name": "Rua Engenheiro Jorge Oliva 424, Jabaquara, São Paulo, 04362-060",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Engenheiro Jorge Oliva, 424, São Paulo - SP, Brasil"
   },
   "Vollstudiosvilamascote::Avenida Mascote, 486": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+    "lat": -23.6484768,
+    "lng": -46.6669221,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 486, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 486, São Paulo - SP, Brasil"
   },
-  "Arranjosexpress Vilamascote::Av. Mascote, 490": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Arranjosexpress Vilamascote::Avenida Mascote, 490": {
+    "lat": -23.648342,
+    "lng": -46.666913,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 490, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 490, São Paulo - SP, Brasil"
   },
-  "Ecoville Vilamascotesp::Av. Mascote, 493 - Vila Mascote": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Ecoville Vilamascotesp::Avenida Mascote, 493": {
+    "lat": -23.648661,
+    "lng": -46.666834,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 493, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 493, São Paulo - SP, Brasil"
   },
-  "Especialista Limpeza::Av. Mascote, 493 - Vila Mascote": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Especialista Limpeza::Avenida Mascote, 493": {
+    "lat": -23.648661,
+    "lng": -46.666834,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 493, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 493, São Paulo - SP, Brasil"
   },
-  "Lavupsp Vlmascote::Av. Damasceno Vieira, 1027": {
-    "lat": -23.6462516,
-    "lng": -46.6646988,
-    "source": "nominatim",
-    "display_name": "Avenida Damasceno Vieira, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+  "Lavupsp Vlmascote::Avenida Damasceno Vieira, 1027": {
+    "lat": -23.647664,
+    "lng": -46.667215,
+    "source": "arcgis",
+    "display_name": "Avenida Damasceno Vieira 1027, Jabaquara, São Paulo, 04363-040",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Damasceno Vieira, 1027, São Paulo - SP, Brasil"
   },
   "Omolavanderia Vila Mascote::Avenida Santa Catarina, 851": {
-    "lat": -23.6470652,
-    "lng": -46.662824,
-    "source": "nominatim",
-    "display_name": "Avenida Santa Catarina, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04368-000, Brasil"
+    "lat": -23.643294,
+    "lng": -46.66545,
+    "source": "arcgis",
+    "display_name": "Avenida Santa Catarina 851, Jabaquara, São Paulo, 04378-300",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Santa Catarina, 851, São Paulo - SP, Brasil"
   },
-  "Minuto Pão de Açúcar::Av. Mascote, 910": {
-    "lat": -23.6466769,
-    "lng": -46.6702926,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-001, Brasil"
+  "Restauratto::Avenida Mascote, 889": {
+    "lat": -23.647305,
+    "lng": -46.669969,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 889, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 889, São Paulo - SP, Brasil"
   },
-  "Colégio Emilie de Villeneuve::Rua Madre Emilie de Villeneuve, 331 - Vila Mascote": {
-    "lat": -23.6492495,
-    "lng": -46.6698284,
-    "source": "nominatim",
-    "display_name": "Rua Madre Emilie de Villeneuve, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-010, Brasil"
+  "Minuto Pão de Açúcar::Avenida Mascote, 910": {
+    "lat": -23.6470694,
+    "lng": -46.6697756,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 910, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 910, São Paulo - SP, Brasil"
   },
-  "Natural da Terra::Rua Eng. Jorge Oliva, 381 - Vila Mascote, Sao Paulo - SP, 04362-060": {
-    "lat": -23.6458321,
-    "lng": -46.6686174,
-    "source": "nominatim",
-    "display_name": "Rua Engenheiro Jorge Oliva, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-020, Brasil"
+  "Colégio Emilie de Villeneuve::Rua Madre Emilie de Villeneuve, 331": {
+    "lat": -23.6501833,
+    "lng": -46.668896,
+    "source": "arcgis",
+    "display_name": "Rua Madre Emilie de Villeneuve 331, Jabaquara, São Paulo, 04367-090",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Madre Emilie de Villeneuve, 331, São Paulo - SP, Brasil"
   },
-  "Colégio Dominus::Av. Mascote, 913 - Vila Mascote": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Jed elétrica::Rua Walter Fontana, 40": {
+    "lat": -23.637227,
+    "lng": -46.670404,
+    "source": "arcgis",
+    "display_name": "Rua Walter Fontana 40, Campo Belo, São Paulo, 04634-045",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Walter Fontana, 40, São Paulo - SP, Brasil"
   },
-  "La Pasta Gialla::Av. Mascote, 986": {
-    "lat": -23.6486173,
-    "lng": -46.6656941,
-    "source": "nominatim",
-    "display_name": "Avenida Mascote, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-000, Brasil"
+  "Borgê Presentes Personalizados::Rua Fernandes Reis, 38": {
+    "lat": -23.644537,
+    "lng": -46.671842,
+    "source": "arcgis",
+    "display_name": "Rua Fernandes Reis 38, Campo Belo, São Paulo, 04362-080",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Fernandes Reis, 38, São Paulo - SP, Brasil"
+  },
+  "Natural da Terra::Rua Engenheiro Jorge Oliva, 381": {
+    "lat": -23.6458116,
+    "lng": -46.6683142,
+    "source": "arcgis",
+    "display_name": "Rua Engenheiro Jorge Oliva 381, Jabaquara, São Paulo, 04362-060",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Rua Engenheiro Jorge Oliva, 381, São Paulo - SP, Brasil"
+  },
+  "Colégio Dominus::Avenida Mascote, 913": {
+    "lat": -23.647034,
+    "lng": -46.670217,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 913, Jabaquara, São Paulo, 04363-001",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 913, São Paulo - SP, Brasil"
+  },
+  "La Pasta Gialla::Avenida Mascote, 986": {
+    "lat": -23.646498,
+    "lng": -46.670265,
+    "source": "arcgis",
+    "display_name": "Avenida Mascote 986, Jabaquara, São Paulo, 04363-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Mascote, 986, São Paulo - SP, Brasil"
   },
   "CNA Aeroporto – Vila Mascote::Avenida Vereador João de Luca, 539": {
-    "lat": -23.6501593,
-    "lng": -46.6697968,
-    "source": "nominatim",
-    "display_name": "Avenida Vereador João de Luca, Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04363-010, Brasil"
+    "lat": -23.648269,
+    "lng": -46.670237,
+    "source": "arcgis",
+    "display_name": "Avenida Vereador Joao De Luca 539, Jabaquara, São Paulo, 04381-000",
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "query": "Avenida Vereador João de Luca, 539, São Paulo - SP, Brasil"
   },
   "Padaria do Plinio::Vila Mascote": {
-    "lat": -23.6459168,
-    "lng": -46.6675551,
-    "source": "nominatim",
-    "display_name": "Vila Mascote, Jabaquara, São Paulo, Região Sudeste, 04362-020, Brasil"
+    "lat": -23.6501027,
+    "lng": -46.6652813,
+    "source": "",
+    "display_name": "Vila Mascote, São Paulo",
+    "score": 100.0,
+    "addr_type": "Locality",
+    "query": "Vila Mascote, São Paulo - SP, Brasil",
+    "rejected": "low_score_or_out_of_bounds"
   }
 }
