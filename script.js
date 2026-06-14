@@ -124,7 +124,8 @@ const weatherDesc = document.getElementById("weatherDesc");
 const resultsSection = document.querySelector(".results-section");
 const mapLayout = document.querySelector(".map-layout");
 
-const MAP_CENTER = [-23.6489, -46.6656];
+const MAP_CENTER = [-23.645684, -46.668131];
+const MAP_INITIAL_ZOOM = 15;
 const MAP_NEIGHBORHOOD_BOUNDS = [
   [-23.666, -46.678],
   [-23.63, -46.652]
@@ -511,12 +512,14 @@ function renderMap(filtered = getMapData()) {
     bounds.extend([item.lat, item.lng]);
   });
 
-  if (items.length > 1 && bounds.isValid()) {
+  if (!hasActiveIntent()) {
+    mapState.map.setView(MAP_CENTER, MAP_INITIAL_ZOOM);
+  } else if (items.length > 1 && bounds.isValid()) {
     mapState.map.fitBounds(bounds, { padding: [26, 26], maxZoom: 15 });
   } else if (items.length === 1) {
     mapState.map.setView([items[0].lat, items[0].lng], 16);
   } else {
-    mapState.map.setView(MAP_CENTER, 14);
+    mapState.map.setView(MAP_CENTER, MAP_INITIAL_ZOOM);
   }
 }
 
@@ -528,7 +531,7 @@ function initMap() {
     zoomControl: true,
     maxBounds: neighborhoodBounds.pad(0.35),
     maxBoundsViscosity: 0.65
-  }).setView(MAP_CENTER, 14);
+  }).setView(MAP_CENTER, MAP_INITIAL_ZOOM);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
