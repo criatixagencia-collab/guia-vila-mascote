@@ -1,5 +1,5 @@
 {
-  "Fitclass Vila Mascote::Avenida Santa Catarina, 2209": {
+  "FitClass Vila Mascote::Avenida Santa Catarina, 2209": {
     "lat": -23.653298,
     "lng": -46.65767,
     "source": "arcgis",
@@ -8,7 +8,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 2209, São Paulo - SP, Brasil"
   },
-  "Hipsuplementos::Avenida Santa Catarina, 915": {
+  "Hip Suplementos::Avenida Santa Catarina, 915": {
     "lat": -23.643679,
     "lng": -46.66523,
     "source": "arcgis",
@@ -26,7 +26,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 233, São Paulo - SP, Brasil"
   },
-  "Velocity Vilamascote::Avenida Mascote, 233": {
+  "Velocity Vila Mascote::Avenida Mascote, 233": {
     "lat": -23.6486246,
     "lng": -46.6643724,
     "source": "arcgis",
@@ -35,7 +35,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 233, São Paulo - SP, Brasil"
   },
-  "Yogavilamascote::Avenida Mascote, 486": {
+  "Yoga Vila Mascote::Avenida Mascote, 486": {
     "lat": -23.6484768,
     "lng": -46.6669221,
     "source": "arcgis",
@@ -44,7 +44,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 486, São Paulo - SP, Brasil"
   },
-  "Barbierobarbearia::Avenida Mascote, 501": {
+  "Barbiero Barbearia::Avenida Mascote, 501": {
     "lat": -23.6488142,
     "lng": -46.6669631,
     "source": "arcgis",
@@ -53,7 +53,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 501, São Paulo - SP, Brasil"
   },
-  "Botocenter.vilamascote::Rua Nilo Guerra, 160": {
+  "Botocenter Vila Mascote::Rua Nilo Guerra, 160": {
     "lat": -23.64359,
     "lng": -46.666527,
     "source": "arcgis",
@@ -62,7 +62,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Nilo Guerra, 160, São Paulo - SP, Brasil"
   },
-  "Buddhaspa Vilamascote::Avenida Mascote, 843": {
+  "Buddha Spa Vila Mascote::Avenida Mascote, 843": {
     "lat": -23.6477602,
     "lng": -46.6699508,
     "source": "arcgis",
@@ -71,7 +71,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 843, São Paulo - SP, Brasil"
   },
-  "Clínicamvbeauty::Avenida Mascote, 151": {
+  "Clínica MV Beauty::Avenida Mascote, 151": {
     "lat": -23.648244,
     "lng": -46.663579,
     "source": "arcgis",
@@ -80,7 +80,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 151, São Paulo - SP, Brasil"
   },
-  "Espaco.artnails::Avenida Mascote, 151": {
+  "Espaço Art Nails::Avenida Mascote, 151": {
     "lat": -23.648244,
     "lng": -46.663579,
     "source": "arcgis",
@@ -89,7 +89,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 151, São Paulo - SP, Brasil"
   },
-  "Fastescova Vilamascote::Avenida Mascote, 419": {
+  "Fast Escova Vila Mascote::Avenida Mascote, 419": {
     "lat": -23.648678,
     "lng": -46.666196,
     "source": "arcgis",
@@ -98,7 +98,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 419, São Paulo - SP, Brasil"
   },
-  "Fecarvalho Makeup::Rua Palestina, 18": {
+  "Fê Carvalho Makeup::Rua Palestina, 18": {
     "lat": -23.64313,
     "lng": -46.665877,
     "source": "arcgis",
@@ -107,7 +107,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 18, São Paulo - SP, Brasil"
   },
-  "Janasestetica::Avenida Mascote, 1291": {
+  "Jana's Estética::Avenida Mascote, 1291": {
     "lat": -23.64402,
     "lng": -46.670729,
     "source": "arcgis",
@@ -134,7 +134,7 @@
     "addr_type": "StreetAddress",
     "query": "Rua Coriolano Durand, 655, São Paulo - SP, Brasil"
   },
-  "Valen Vilakidsebarber::Avenida Damasceno Vieira, 1027": {
+  "Valen Vila Kids e Barber::Avenida Damasceno Vieira, 1027": {
     "lat": -23.647664,
     "lng": -46.667215,
     "source": "arcgis",
@@ -143,7 +143,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 1027, São Paulo - SP, Brasil"
   },
-  "Acaidabarravilamascote::Avenida Santa Catarina, 797": {
+  "Açaí da Barra Vila Mascote::Avenida Santa Catarina, 797": {
     "lat": -23.643022,
     "lng": -46.665737,
     "source": "arcgis",
@@ -152,7 +152,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 797, São Paulo - SP, Brasil"
   },
-  "Coffeelandia_::Rua Lacedemônia, 413": {
+  "Coffeelândia::Rua Lacedemônia, 413": {
     "lat": -23.639125,
     "lng": -46.670134,
     "source": "arcgis",
@@ -161,7 +161,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Lacedemônia, 413, São Paulo - SP, Brasil"
   },
-  "Kopenhagen_vila_mascote::Rua Jovina, 190": {
+  "Kopenhagen Vila Mascote::Rua Jovina, 190": {
     "lat": -23.6468218,
     "lng": -46.6653607,
     "source": "arcgis",
@@ -170,7 +170,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Jovina, 190, São Paulo - SP, Brasil"
   },
-  "Vilamascote Thebestacai::Avenida Santa Catarina, 2233": {
+  "The Best Açaí Vila Mascote::Avenida Santa Catarina, 2233": {
     "lat": -23.653474,
     "lng": -46.65741,
     "source": "arcgis",
@@ -179,7 +179,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 2233, São Paulo - SP, Brasil"
   },
-  "Casaelleganceprime::Avenida Professor Vicente Ráo, 2077": {
+  "Casa Ellegance Prime::Avenida Professor Vicente Ráo, 2077": {
     "lat": -23.63889,
     "lng": -46.676622,
     "source": "arcgis",
@@ -188,7 +188,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Professor Vicente Ráo, 2077, São Paulo - SP, Brasil"
   },
-  "Girasole Boutiquedosaromas::Avenida Vereador João de Lucca, 627": {
+  "Girasole Boutique dos Aromas::Avenida Vereador João de Lucca, 627": {
     "lat": -23.648677,
     "lng": -46.669261,
     "source": "arcgis",
@@ -197,7 +197,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Vereador João de Lucca, 627, São Paulo - SP, Brasil"
   },
-  "Seuestilodecor::Rua Palestina, 172": {
+  "Seu Estilo Decor::Rua Palestina, 172": {
     "lat": -23.6438,
     "lng": -46.667146,
     "source": "arcgis",
@@ -206,7 +206,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 172, São Paulo - SP, Brasil"
   },
-  "Culturainglesa Vilamascote::Rua Palacete das Águias, 877": {
+  "Cultura Inglesa Vila Mascote::Rua Palacete das Águias, 877": {
     "lat": -23.644318,
     "lng": -46.6667939,
     "source": "arcgis",
@@ -215,7 +215,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palacete das Águias, 877, São Paulo - SP, Brasil"
   },
-  "Escolaludus::Avenida Jônia, 655": {
+  "Escola Ludus::Avenida Jônia, 655": {
     "lat": -23.64042,
     "lng": -46.665588,
     "source": "arcgis",
@@ -224,7 +224,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Jônia, 655, São Paulo - SP, Brasil"
   },
-  "Isec.idiomas::Avenida Santa Catarina, 1447": {
+  "ISEC Idiomas::Avenida Santa Catarina, 1447": {
     "lat": -23.6477719,
     "lng": -46.6622793,
     "source": "arcgis",
@@ -233,7 +233,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 1447, São Paulo - SP, Brasil"
   },
-  "Olimpiafutebol::Rua Viaza, 834": {
+  "Olímpia Futebol::Rua Viaza, 834": {
     "lat": -23.634873,
     "lng": -46.663125,
     "source": "arcgis",
@@ -242,7 +242,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Viaza, 834, São Paulo - SP, Brasil"
   },
-  "Rededecisao::Rua Jorge Duprat Figueiredo, 304": {
+  "Rede Decisão::Rua Jorge Duprat Figueiredo, 304": {
     "lat": -23.642681,
     "lng": -46.660121,
     "source": "arcgis",
@@ -251,7 +251,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Jorge Duprat Figueiredo, 304, São Paulo - SP, Brasil"
   },
-  "Arabianmixfood::Rua Derval, 111B - Vila Mascote São Paulo/SP": {
+  "Arabian Mix Food::Rua Derval, 111B - Vila Mascote São Paulo/SP": {
     "lat": -23.64472,
     "lng": -46.669107,
     "source": "arcgis",
@@ -260,7 +260,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Derval, 111B - Vila Mascote São Paulo/SP"
   },
-  "Atelie.juguedes::Avenida Damasceno Vieira, 853": {
+  "Ateliê Ju Guedes::Avenida Damasceno Vieira, 853": {
     "lat": -23.646775,
     "lng": -46.665883,
     "source": "arcgis",
@@ -269,7 +269,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 853, São Paulo - SP, Brasil"
   },
-  "Babbogiovannivilamascote::Avenida Washington Luís, 3512": {
+  "Babbo Giovanni Vila Mascote::Avenida Washington Luís, 3512": {
     "lat": -23.6483194,
     "lng": -46.6756463,
     "source": "arcgis",
@@ -278,7 +278,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Washington Luís, 3512, São Paulo - SP, Brasil"
   },
-  "Bacalhaudoguga::Rua Palestina, 260": {
+  "Bacalhau do Guga::Rua Palestina, 260": {
     "lat": -23.644002,
     "lng": -46.66799,
     "source": "arcgis",
@@ -296,7 +296,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Engenheiro Jorge Oliva, 352, São Paulo - SP, Brasil"
   },
-  "Casadobentopaesartesanais::Rua Engenheiro Jorge Oliva, 362": {
+  "Casa do Bento Pães Artesanais::Rua Engenheiro Jorge Oliva, 362": {
     "lat": -23.645755,
     "lng": -46.668295,
     "source": "arcgis",
@@ -305,7 +305,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Engenheiro Jorge Oliva, 362, São Paulo - SP, Brasil"
   },
-  "Casapalma Restaurante::Rua Professor Azevedo Antunes, 130": {
+  "Casa Palma Restaurante::Rua Professor Azevedo Antunes, 130": {
     "lat": -23.6606296,
     "lng": -46.6625207,
     "source": "arcgis",
@@ -314,7 +314,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Professor Azevedo Antunes, 130, São Paulo - SP, Brasil"
   },
-  "Fashiongrill Br::Rua Rishin Matsuda, 763": {
+  "Fashion Grill BR::Rua Rishin Matsuda, 763": {
     "lat": -23.6506308,
     "lng": -46.6599781,
     "source": "arcgis",
@@ -323,7 +323,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Rishin Matsuda, 763, São Paulo - SP, Brasil"
   },
-  "Hakkasushibr::Rua Palestina, 286": {
+  "Hakka Sushi Vila Mascote::Rua Palestina, 286": {
     "lat": -23.644057,
     "lng": -46.668268,
     "source": "arcgis",
@@ -341,7 +341,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 1454, São Paulo - SP, Brasil"
   },
-  "Julianaguedes Confeitaria::Avenida Damasceno Vieira, 853": {
+  "Juliana Guedes Confeitaria::Avenida Damasceno Vieira, 853": {
     "lat": -23.646775,
     "lng": -46.665883,
     "source": "arcgis",
@@ -350,7 +350,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 853, São Paulo - SP, Brasil"
   },
-  "Padariarecantodamascote::Avenida Mascote, 952": {
+  "Padaria Recanto da Mascote::Avenida Mascote, 952": {
     "lat": -23.6468278,
     "lng": -46.6701319,
     "source": "arcgis",
@@ -359,7 +359,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 952, São Paulo - SP, Brasil"
   },
-  "Pastelariavoze::Rua Dr. Djalma Pinheiro Franco, 115": {
+  "Pastelaria Vó Zé::Rua Dr. Djalma Pinheiro Franco, 115": {
     "lat": -23.649114,
     "lng": -46.663161,
     "source": "arcgis",
@@ -368,7 +368,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Dr. Djalma Pinheiro Franco, 115, São Paulo - SP, Brasil"
   },
-  "Queijariacave381::Avenida Mascote, 664": {
+  "Queijaria Cave 381::Avenida Mascote, 664": {
     "lat": -23.6483755,
     "lng": -46.6686642,
     "source": "arcgis",
@@ -377,7 +377,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 664, São Paulo - SP, Brasil"
   },
-  "Saboriecozinhaartesanal::Rua Engenheiro Jorge Oliva, 208": {
+  "Saboriê Cozinha Artesanal::Rua Engenheiro Jorge Oliva, 208": {
     "lat": -23.644953,
     "lng": -46.666953,
     "source": "arcgis",
@@ -395,7 +395,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 717, São Paulo - SP, Brasil"
   },
-  "Winnerburger::Avenida Damasceno Vieira, 1181": {
+  "Winner Burger::Avenida Damasceno Vieira, 1181": {
     "lat": -23.64818,
     "lng": -46.668798,
     "source": "arcgis",
@@ -404,7 +404,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 1181, São Paulo - SP, Brasil"
   },
-  "Adautofilhodedeus::Avenida Mascote, 1171": {
+  "Adauto Filho de Deus::Avenida Mascote, 1171": {
     "lat": -23.645132,
     "lng": -46.6710187,
     "source": "arcgis",
@@ -413,7 +413,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 1171, São Paulo - SP, Brasil"
   },
-  "Ceciliateixeira::Avenida Mascote, 1171": {
+  "Cecília Teixeira::Avenida Mascote, 1171": {
     "lat": -23.645132,
     "lng": -46.6710187,
     "source": "arcgis",
@@ -422,7 +422,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 1171, São Paulo - SP, Brasil"
   },
-  "Econconstrutora::Avenida Vereador João de Luca, 483": {
+  "Econ Construtora::Avenida Vereador João de Luca, 483": {
     "lat": -23.647792,
     "lng": -46.670436,
     "source": "arcgis",
@@ -431,7 +431,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Vereador João de Luca, 483, São Paulo - SP, Brasil"
   },
-  "Elitufanini Remax::Rua Praia do Castelo e tem, 101": {
+  "Eli Tufanini Remax::Rua Praia do Castelo e tem, 101": {
     "lat": -23.6469807,
     "lng": -46.6689376,
     "source": "arcgis",
@@ -440,7 +440,7 @@
     "addr_type": "StreetAddress",
     "query": "Rua Praia do Castelo e tem, 101, São Paulo - SP, Brasil"
   },
-  "Imoveismoedaforte::Rua Albuquerque Sousa Muniz, 40": {
+  "Imóveis Moeda Forte::Rua Albuquerque Sousa Muniz, 40": {
     "lat": -23.63952,
     "lng": -46.667398,
     "source": "arcgis",
@@ -449,7 +449,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Albuquerque Sousa Muniz, 40, São Paulo - SP, Brasil"
   },
-  "Jzmconst::Rua Arapá, 131": {
+  "JZM Construtora::Rua Arapá, 131": {
     "lat": -23.648135,
     "lng": -46.666443,
     "source": "arcgis",
@@ -458,7 +458,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Arapá, 131, São Paulo - SP, Brasil"
   },
-  "Karinamustafaimoveis::Avenida Damasceno Vieira, 1068": {
+  "Karina Mustafa Imóveis::Avenida Damasceno Vieira, 1068": {
     "lat": -23.6479386,
     "lng": -46.6684838,
     "source": "arcgis",
@@ -467,7 +467,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 1068, São Paulo - SP, Brasil"
   },
-  "Livingempreendimentos::Avenida Mascote, 1171": {
+  "Living Empreendimentos::Avenida Mascote, 1171": {
     "lat": -23.645132,
     "lng": -46.6710187,
     "source": "arcgis",
@@ -476,7 +476,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 1171, São Paulo - SP, Brasil"
   },
-  "Louimoveis::Avenida Mascote, com, 3": {
+  "Lou Imóveis::Avenida Mascote, com, 3": {
     "lat": -23.647125,
     "lng": -46.6628833,
     "source": "arcgis",
@@ -485,7 +485,7 @@
     "addr_type": "StreetAddress",
     "query": "Avenida Mascote, com, 3, São Paulo - SP, Brasil"
   },
-  "Scheidimoveis Vila Mascote::Avenida Mascote, 855": {
+  "Scheid Imóveis Vila Mascote::Avenida Mascote, 855": {
     "lat": -23.647561,
     "lng": -46.669856,
     "source": "arcgis",
@@ -494,7 +494,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 855, São Paulo - SP, Brasil"
   },
-  "Sellerspoficial::Avenida Mascote, 1171": {
+  "Seller SP Oficial::Avenida Mascote, 1171": {
     "lat": -23.645132,
     "lng": -46.6710187,
     "source": "arcgis",
@@ -503,7 +503,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 1171, São Paulo - SP, Brasil"
   },
-  "Souasuacorretora::Localizado na Rua Albuquerque Sousa Muniz. 📍": {
+  "Sou a Sua Corretora::Localizado na Rua Albuquerque Sousa Muniz. 📍": {
     "lat": -23.641387,
     "lng": -46.6690975,
     "source": "",
@@ -513,7 +513,7 @@
     "query": "Localizado na Rua Albuquerque Sousa Muniz. 📍, São Paulo - SP, Brasil",
     "rejected": "low_score_or_out_of_bounds"
   },
-  "Vieiranegocios::Rua Madre Emilie de Villeneuve, 509": {
+  "Vieira Negócios::Rua Madre Emilie de Villeneuve, 509": {
     "lat": -23.649237,
     "lng": -46.669794,
     "source": "arcgis",
@@ -522,7 +522,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Madre Emilie de Villeneuve, 509, São Paulo - SP, Brasil"
   },
-  "Bichobatata Brinquedos::Rua Palestina, 435": {
+  "Bicho Batata Brinquedos::Rua Palestina, 435": {
     "lat": -23.644407,
     "lng": -46.669645,
     "source": "arcgis",
@@ -531,7 +531,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 435, São Paulo - SP, Brasil"
   },
-  "Buffet Vale Da Diversao::Rua Emílio de Sousa Docca, 615": {
+  "Buffet Vale da Diversão::Rua Emílio de Sousa Docca, 615": {
     "lat": -23.656447,
     "lng": -46.657745,
     "source": "arcgis",
@@ -549,7 +549,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 699, São Paulo - SP, Brasil"
   },
-  "Eespaconeuroaprender::Rua Engenheiro Jorge Oliva, 238": {
+  "Espaço Neuro Aprender::Rua Engenheiro Jorge Oliva, 238": {
     "lat": -23.645087,
     "lng": -46.66717,
     "source": "arcgis",
@@ -558,7 +558,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Engenheiro Jorge Oliva, 238, São Paulo - SP, Brasil"
   },
-  "Espacosallesxavier::Avenida Damasceno Vieira, 1027": {
+  "Espaço Salles Xavier::Avenida Damasceno Vieira, 1027": {
     "lat": -23.647664,
     "lng": -46.667215,
     "source": "arcgis",
@@ -567,7 +567,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 1027, São Paulo - SP, Brasil"
   },
-  "Guigojj Vilamascote::Avenida Mascote, 1535": {
+  "Guigo Jiu-Jitsu Vila Mascote::Avenida Mascote, 1535": {
     "lat": -23.643187,
     "lng": -46.668552,
     "source": "arcgis",
@@ -576,7 +576,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 1535, São Paulo - SP, Brasil"
   },
-  "Institutogabioficial::Rua Palacete das Águias, 735": {
+  "Instituto Gabi::Rua Palacete das Águias, 735": {
     "lat": -23.6432855,
     "lng": -46.6674766,
     "source": "arcgis",
@@ -585,7 +585,7 @@
     "addr_type": "StreetAddress",
     "query": "Rua Palacete das Águias, 735, São Paulo - SP, Brasil"
   },
-  "Bazardoinstitutogabi::Avenida Santa Catarina, 324": {
+  "Bazar do Instituto Gabi::Avenida Santa Catarina, 324": {
     "lat": -23.639542,
     "lng": -46.66925,
     "source": "arcgis",
@@ -594,7 +594,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 324, São Paulo - SP, Brasil"
   },
-  "Musicinplay::Rua Palestina, 234": {
+  "Music in Play::Rua Palestina, 234": {
     "lat": -23.643867,
     "lng": -46.667742,
     "source": "arcgis",
@@ -603,7 +603,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 234, São Paulo - SP, Brasil"
   },
-  "Chefviking Boutiquedecarnes::Rua Palacete das Águias, 687": {
+  "Chef Viking Boutique de Carnes::Rua Palacete das Águias, 687": {
     "lat": -23.64284,
     "lng": -46.667657,
     "source": "arcgis",
@@ -612,7 +612,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palacete das Águias, 687, São Paulo - SP, Brasil"
   },
-  "Grao Da Mascote::Avenida Mascote, 867": {
+  "Grão da Mascote::Avenida Mascote, 867": {
     "lat": -23.647517,
     "lng": -46.669903,
     "source": "arcgis",
@@ -621,16 +621,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 867, São Paulo - SP, Brasil"
   },
-  "Graoda Mascote1::Avenida Mascote, 867": {
-    "lat": -23.647517,
-    "lng": -46.669903,
-    "source": "arcgis",
-    "display_name": "Avenida Mascote 867, Jabaquara, São Paulo, 04363-001",
-    "score": 100.0,
-    "addr_type": "PointAddress",
-    "query": "Avenida Mascote, 867, São Paulo - SP, Brasil"
-  },
-  "Vemdahortasp::Rua das Flechas, 739": {
+  "Vem da Horta SP::Rua das Flechas, 739": {
     "lat": -23.652153,
     "lng": -46.670438,
     "source": "arcgis",
@@ -639,7 +630,7 @@
     "addr_type": "PointAddress",
     "query": "Rua das Flechas, 739, São Paulo - SP, Brasil"
   },
-  "Camarimstar::Avenida Mascote, 997": {
+  "Camarim Star::Avenida Mascote, 997": {
     "lat": -23.645569,
     "lng": -46.670538,
     "source": "arcgis",
@@ -657,7 +648,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 84, São Paulo - SP, Brasil"
   },
-  "Garimpodesmeralda::Rua Palestina, 407": {
+  "Garimpo de Esmeralda::Rua Palestina, 407": {
     "lat": -23.644466,
     "lng": -46.669378,
     "source": "arcgis",
@@ -666,7 +657,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 407, São Paulo - SP, Brasil"
   },
-  "Hering_vilamascote::Rua Jovina, 192": {
+  "Hering Vila Mascote::Rua Jovina, 192": {
     "lat": -23.646723,
     "lng": -46.665133,
     "source": "arcgis",
@@ -675,7 +666,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Jovina, 192, São Paulo - SP, Brasil"
   },
-  "Hope Vilamascote::Rua Palestina, 178": {
+  "Hope Vila Mascote::Rua Palestina, 178": {
     "lat": -23.643795,
     "lng": -46.667215,
     "source": "arcgis",
@@ -693,7 +684,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 859, São Paulo - SP, Brasil"
   },
-  "Infinitastore::Avenida Mascote, 859": {
+  "Infinita Store::Avenida Mascote, 859": {
     "lat": -23.647533,
     "lng": -46.669843,
     "source": "arcgis",
@@ -702,7 +693,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 859, São Paulo - SP, Brasil"
   },
-  "Live Vila Mascote::Rua Palestina, 227": {
+  "LIVE! Vila Mascote::Rua Palestina, 227": {
     "lat": -23.644048,
     "lng": -46.667544,
     "source": "arcgis",
@@ -720,7 +711,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 178, São Paulo - SP, Brasil"
   },
-  "Plakianca_plaadulto::Avenida Santa Catarina, 372": {
+  "Plá Kiança Plá Adulto::Avenida Santa Catarina, 372": {
     "lat": -23.639868,
     "lng": -46.668815,
     "source": "arcgis",
@@ -729,7 +720,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 372, São Paulo - SP, Brasil"
   },
-  "Santalolla_vilamascote::Avenida Santa Catarina, 1929": {
+  "Santa Lolla Vila Mascote::Avenida Santa Catarina, 1929": {
     "lat": -23.651401,
     "lng": -46.659365,
     "source": "arcgis",
@@ -738,7 +729,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 1929, São Paulo - SP, Brasil"
   },
-  "Tres Chic Acessorios::Avenida Mascote, 871": {
+  "Tres Chic Acessórios::Avenida Mascote, 871": {
     "lat": -23.6474634,
     "lng": -46.6699608,
     "source": "arcgis",
@@ -747,16 +738,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 871, São Paulo - SP, Brasil"
   },
-  "Usetboy::Avenida Santa Catarina, 1321": {
-    "lat": -23.646786,
-    "lng": -46.663207,
-    "source": "arcgis",
-    "display_name": "Avenida Santa Catarina 1321, Jabaquara, São Paulo, 04378-300",
-    "score": 100.0,
-    "addr_type": "PointAddress",
-    "query": "Avenida Santa Catarina, 1321, São Paulo - SP, Brasil"
-  },
-  "Zophimodas::Avenida Vereador João de Lucca, 627": {
+  "Zophi Modas::Avenida Vereador João de Lucca, 627": {
     "lat": -23.648677,
     "lng": -46.669261,
     "source": "arcgis",
@@ -774,7 +756,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
   },
-  "Doglandiadaycare::Rua Lacedemônia, 425": {
+  "Doglândia Daycare::Rua Lacedemônia, 425": {
     "lat": -23.639059,
     "lng": -46.670103,
     "source": "arcgis",
@@ -792,7 +774,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
   },
-  "Katia Csilva::Avenida Damasceno Vieira, 711": {
+  "Kátia C. Silva::Avenida Damasceno Vieira, 711": {
     "lat": -23.646317,
     "lng": -46.66472,
     "source": "arcgis",
@@ -810,7 +792,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
   },
-  "Mundinhooanimal::Rua Palestina, 80": {
+  "Mundinho Animal::Rua Palestina, 80": {
     "lat": -23.643274,
     "lng": -46.666309,
     "source": "arcgis",
@@ -828,7 +810,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 711, São Paulo - SP, Brasil"
   },
-  "Petlandsp Vilamascote::Avenida Santa Catarina, 1246": {
+  "Petland Vila Mascote::Avenida Santa Catarina, 1246": {
     "lat": -23.6461226,
     "lng": -46.6636813,
     "source": "arcgis",
@@ -837,7 +819,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 1246, São Paulo - SP, Brasil"
   },
-  "Yourheropets::Rua Palacete das Águias, 909": {
+  "Your Hero Pets::Rua Palacete das Águias, 909": {
     "lat": -23.644801,
     "lng": -46.666846,
     "source": "arcgis",
@@ -901,7 +883,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 260, São Paulo - SP, Brasil"
   },
-  "Alinenaveganutri::Rua Albuquerque Sousa Muniz, 299": {
+  "Aline Navega Nutri::Rua Albuquerque Sousa Muniz, 299": {
     "lat": -23.641299,
     "lng": -46.668974,
     "source": "arcgis",
@@ -910,7 +892,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Albuquerque Sousa Muniz, 299, São Paulo - SP, Brasil"
   },
-  "Clínicaamandabeauty::Rua Tianguá, 135": {
+  "Clínica Amanda Beauty::Rua Tianguá, 135": {
     "lat": -23.647182,
     "lng": -46.663906,
     "source": "arcgis",
@@ -919,7 +901,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Tianguá, 135, São Paulo - SP, Brasil"
   },
-  "Clínicanavsaude::Rua Albuquerque Sousa Muniz, 299": {
+  "Clínica NAV Saúde::Rua Albuquerque Sousa Muniz, 299": {
     "lat": -23.641299,
     "lng": -46.668974,
     "source": "arcgis",
@@ -928,7 +910,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Albuquerque Sousa Muniz, 299, São Paulo - SP, Brasil"
   },
-  "Clínicatoyomoto::Avenida Santa Catarina, 2005": {
+  "Clínica Toyomoto::Avenida Santa Catarina, 2005": {
     "lat": -23.6517294,
     "lng": -46.6590325,
     "source": "arcgis",
@@ -946,7 +928,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Lamelas, 41, São Paulo - SP, Brasil"
   },
-  "Curumim Clinica::Rua Albuquerque Sousa Muniz, 53": {
+  "Curumim Clínica::Rua Albuquerque Sousa Muniz, 53": {
     "lat": -23.639632,
     "lng": -46.667387,
     "source": "arcgis",
@@ -955,7 +937,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Albuquerque Sousa Muniz, 53, São Paulo - SP, Brasil"
   },
-  "Dra.juliana.nakashima::Rua Palestina, 359": {
+  "Dra. Juliana Nakashima::Rua Palestina, 359": {
     "lat": -23.644213,
     "lng": -46.669025,
     "source": "arcgis",
@@ -964,7 +946,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 359, São Paulo - SP, Brasil"
   },
-  "Dradeboradsouza::Rua Lamelas, 41": {
+  "Dra. Débora Souza::Rua Lamelas, 41": {
     "lat": -23.6487675,
     "lng": -46.6692756,
     "source": "arcgis",
@@ -973,7 +955,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Lamelas, 41, São Paulo - SP, Brasil"
   },
-  "Dramarciabusato::Rua Engenheiro Jorge Oliva, 354": {
+  "Dra. Márcia Busato::Rua Engenheiro Jorge Oliva, 354": {
     "lat": -23.645634,
     "lng": -46.668287,
     "source": "arcgis",
@@ -982,7 +964,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Engenheiro Jorge Oliva, 354, São Paulo - SP, Brasil"
   },
-  "Esteticamarianab::Avenida Mascote, 486": {
+  "Estética Mariana B::Avenida Mascote, 486": {
     "lat": -23.6484768,
     "lng": -46.6669221,
     "source": "arcgis",
@@ -991,7 +973,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 486, São Paulo - SP, Brasil"
   },
-  "Hugopainodeoliveira::Avenida Mascote, 877": {
+  "Hugo Paino de Oliveira::Avenida Mascote, 877": {
     "lat": -23.647408,
     "lng": -46.669969,
     "source": "arcgis",
@@ -1000,7 +982,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 877, São Paulo - SP, Brasil"
   },
-  "Keila Xn::Rua Ossian Terceiro Teles, 43": {
+  "Keila Xavier::Rua Ossian Terceiro Teles, 43": {
     "lat": -23.649324,
     "lng": -46.67258,
     "source": "arcgis",
@@ -1009,7 +991,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Ossian Terceiro Teles, 43, São Paulo - SP, Brasil"
   },
-  "Kravmaga Vila Mascote::Avenida Santa Catarina, 788": {
+  "Krav Maga Vila Mascote::Avenida Santa Catarina, 788": {
     "lat": -23.6428687,
     "lng": -46.6662197,
     "source": "arcgis",
@@ -1018,7 +1000,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 788, São Paulo - SP, Brasil"
   },
-  "Oralsinsaopaulo Vila Mascote::Rua Palacete das Águias, 211": {
+  "Oral Sin São Paulo Vila Mascote::Rua Palacete das Águias, 211": {
     "lat": -23.64,
     "lng": -46.671105,
     "source": "arcgis",
@@ -1027,7 +1009,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palacete das Águias, 211, São Paulo - SP, Brasil"
   },
-  "Oticasdiniz Mascote::Avenida Santa Catarina, 1870": {
+  "Óticas Diniz Mascote::Avenida Santa Catarina, 1870": {
     "lat": -23.6510366,
     "lng": -46.6600648,
     "source": "arcgis",
@@ -1036,7 +1018,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 1870, São Paulo - SP, Brasil"
   },
-  "Oticasdinizcatarina::Avenida Santa Catarina, 1870": {
+  "Óticas Diniz Catarina::Avenida Santa Catarina, 1870": {
     "lat": -23.6510366,
     "lng": -46.6600648,
     "source": "arcgis",
@@ -1045,7 +1027,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Santa Catarina, 1870, São Paulo - SP, Brasil"
   },
-  "Pilatesspacoequilibrium::Rua Palestina, 235": {
+  "Pilates Spaço Equilibrium::Rua Palestina, 235": {
     "lat": -23.64415,
     "lng": -46.667629,
     "source": "arcgis",
@@ -1054,7 +1036,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Palestina, 235, São Paulo - SP, Brasil"
   },
-  "Studiovitabemestar::Rua Engenheiro Jorge Oliva, 424": {
+  "Studio Vita Bem-Estar::Rua Engenheiro Jorge Oliva, 424": {
     "lat": -23.645832,
     "lng": -46.668717,
     "source": "arcgis",
@@ -1063,7 +1045,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Engenheiro Jorge Oliva, 424, São Paulo - SP, Brasil"
   },
-  "Vollstudiosvilamascote::Avenida Mascote, 486": {
+  "Voll Studios Vila Mascote::Avenida Mascote, 486": {
     "lat": -23.6484768,
     "lng": -46.6669221,
     "source": "arcgis",
@@ -1072,7 +1054,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 486, São Paulo - SP, Brasil"
   },
-  "Arranjosexpress Vilamascote::Avenida Mascote, 490": {
+  "Arranjos Express Vila Mascote::Avenida Mascote, 490": {
     "lat": -23.648342,
     "lng": -46.666913,
     "source": "arcgis",
@@ -1081,7 +1063,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 490, São Paulo - SP, Brasil"
   },
-  "Ecoville Vilamascotesp::Avenida Mascote, 493": {
+  "Ecoville Vila Mascote SP::Avenida Mascote, 493": {
     "lat": -23.648661,
     "lng": -46.666834,
     "source": "arcgis",
@@ -1099,7 +1081,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Mascote, 493, São Paulo - SP, Brasil"
   },
-  "Lavupsp Vlmascote::Avenida Damasceno Vieira, 1027": {
+  "LavUp Vila Mascote::Avenida Damasceno Vieira, 1027": {
     "lat": -23.647664,
     "lng": -46.667215,
     "source": "arcgis",
@@ -1108,7 +1090,7 @@
     "addr_type": "PointAddress",
     "query": "Avenida Damasceno Vieira, 1027, São Paulo - SP, Brasil"
   },
-  "Omolavanderia Vila Mascote::Avenida Santa Catarina, 851": {
+  "OMO Lavanderia Vila Mascote::Avenida Santa Catarina, 851": {
     "lat": -23.643294,
     "lng": -46.66545,
     "source": "arcgis",
@@ -1144,7 +1126,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Madre Emilie de Villeneuve, 331, São Paulo - SP, Brasil"
   },
-  "Jed elétrica::Rua Walter Fontana, 40": {
+  "Jed Elétrica::Rua Walter Fontana, 40": {
     "lat": -23.637227,
     "lng": -46.670404,
     "source": "arcgis",
@@ -1171,7 +1153,7 @@
     "addr_type": "PointAddress",
     "query": "Rua Engenheiro Jorge Oliva, 381, São Paulo - SP, Brasil"
   },
-  "Colégio Dominus::Avenida Mascote, 913": {
+  "Colégio Dominus Vivendi::Avenida Mascote, 913": {
     "lat": -23.647034,
     "lng": -46.670217,
     "source": "arcgis",
@@ -1197,15 +1179,5 @@
     "score": 100.0,
     "addr_type": "PointAddress",
     "query": "Avenida Vereador João de Luca, 539, São Paulo - SP, Brasil"
-  },
-  "Padaria do Plinio::Vila Mascote": {
-    "lat": -23.6501027,
-    "lng": -46.6652813,
-    "source": "",
-    "display_name": "Vila Mascote, São Paulo",
-    "score": 100.0,
-    "addr_type": "Locality",
-    "query": "Vila Mascote, São Paulo - SP, Brasil",
-    "rejected": "low_score_or_out_of_bounds"
   }
 }

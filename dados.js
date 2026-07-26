@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 137
+ * Total de estabelecimentos listaveis: 136
  */
 
 const dados = [
@@ -116,7 +116,7 @@ const dados = [
   },
   {
     "id": 5,
-    "nome": "Yogavilamascote",
+    "nome": "Yoga Vila Mascote",
     "categoriaPrincipal": "Academias, Esportes & Bem-Estar",
     "categorias": [
       "Academias, Esportes & Bem-Estar"
@@ -130,7 +130,7 @@ const dados = [
       "11999467026"
     ],
     "instagram": "yogavilamascote",
-    "descricao": "Yogavilamascote: academia/fitness na Vila Mascote. Presente na região há mais de três anos, o estúdio já faz parte da rotina dos moradores que desejam equilíbrio entre corpo e mente As aulas acontecem em grupos pequenos, com.",
+    "descricao": "Yoga Vila Mascote: academia/fitness na Vila Mascote. Presente na região há mais de três anos, o estúdio já faz parte da rotina dos moradores que desejam equilíbrio entre corpo e mente As aulas acontecem em grupos pequenos, com.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-11-23",
@@ -146,7 +146,7 @@ const dados = [
   },
   {
     "id": 6,
-    "nome": "Barbierobarbearia",
+    "nome": "Barbiero Barbearia",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
       "Beleza & Estetica"
@@ -160,7 +160,7 @@ const dados = [
       "11910718528"
     ],
     "instagram": "barbierobarbearia",
-    "descricao": "Barbierobarbearia: barbearia na Vila Mascote.",
+    "descricao": "Barbiero Barbearia: barbearia na Vila Mascote.",
     "promocao": "10% off no primeiro serviço + 20% off no clube de assinatura",
     "termosBusca": [
       "Cupom",
@@ -181,7 +181,7 @@ const dados = [
   },
   {
     "id": 7,
-    "nome": "Botocenter.vilamascote",
+    "nome": "Botocenter Vila Mascote",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
       "Beleza & Estetica",
@@ -196,7 +196,7 @@ const dados = [
       "11937230872"
     ],
     "instagram": "botocenter.vilamascote",
-    "descricao": "Botocenter.vilamascote: estetica clinica na Vila Mascote. Oferece vários serviços, como toxina botulínica (Dysport), preenchedores, como o preenchimento labial (Restylane Kysse), preenchimento de bigode chinês (Restylane).",
+    "descricao": "Botocenter Vila Mascote: estetica clinica na Vila Mascote. Oferece vários serviços, como toxina botulínica (Dysport), preenchedores, como o preenchimento labial (Restylane Kysse), preenchimento de bigode chinês (Restylane).",
     "promocao": "Na compra de 2 procedimentos ou mais, ganhe uma bolsa exclusiva Botocenter",
     "termosBusca": [
       "Cupom",
@@ -296,7 +296,7 @@ const dados = [
   },
   {
     "id": 10,
-    "nome": "Espaco.artnails",
+    "nome": "Espaço Art Nails",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
       "Beleza & Estetica"
@@ -311,7 +311,7 @@ const dados = [
       "11996811716"
     ],
     "instagram": "espaco.artnails",
-    "descricao": "Espaco.artnails: unhas / estetica na Vila Mascote. Entre os serviços que passam a fazer parte da clínica estão Bem-estar de forma integrada Os serviços de unhas serão.",
+    "descricao": "Espaço Art Nails: unhas / estetica na Vila Mascote. Entre os serviços que passam a fazer parte da clínica estão Bem-estar de forma integrada Os serviços de unhas serão.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-01-17",
@@ -330,7 +330,7 @@ const dados = [
   },
   {
     "id": 11,
-    "nome": "Fastescova Vilamascote",
+    "nome": "Fast Escova Vila Mascote",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
       "Beleza & Estetica"
@@ -344,7 +344,7 @@ const dados = [
       "11978227978"
     ],
     "instagram": "fastescova.vilamascote",
-    "descricao": "Fastescova Vilamascote: salao / escovaria na Vila Mascote.",
+    "descricao": "Fast Escova Vila Mascote: salao / escovaria na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-09-25",
@@ -360,7 +360,7 @@ const dados = [
   },
   {
     "id": 12,
-    "nome": "Fecarvalho Makeup",
+    "nome": "Fê Carvalho Makeup",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
       "Beleza & Estetica"
@@ -374,7 +374,7 @@ const dados = [
       "11992815975"
     ],
     "instagram": "fecarvalho_makeup",
-    "descricao": "Fecarvalho Makeup: maquiagem na Vila Mascote.",
+    "descricao": "Fê Carvalho Makeup: maquiagem na Vila Mascote.",
     "promocao": "Black Friday: até 50% off",
     "termosBusca": [
       "Cupom",
@@ -394,7 +394,7 @@ const dados = [
   },
   {
     "id": 13,
-    "nome": "Janasestetica",
+    "nome": "Jana's Estética",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
       "Beleza & Estetica",
@@ -409,7 +409,7 @@ const dados = [
       "11999120420"
     ],
     "instagram": "janasestetica",
-    "descricao": "Janasestetica: estetica clinica na Vila Mascote. Oferece a Limpeza de Pele 4D Premium, que combina dois protocolos exclusivos e entrega um drug delivery poderoso: os ativos penetram melhor na pele.",
+    "descricao": "Jana's Estética: estetica clinica na Vila Mascote. Oferece a Limpeza de Pele 4D Premium, que combina dois protocolos exclusivos e entrega um drug delivery poderoso: os ativos penetram melhor na pele.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-09-17",
@@ -480,7 +480,7 @@ const dados = [
   },
   {
     "id": 16,
-    "nome": "Valen Vilakidsebarber",
+    "nome": "Valen Vila Kids e Barber",
     "categoriaPrincipal": "Beleza & Estetica",
     "categorias": [
       "Beleza & Estetica",
@@ -495,7 +495,7 @@ const dados = [
       "11981090765"
     ],
     "instagram": "valen.vilakidsebarber",
-    "descricao": "Valen Vilakidsebarber: barbearia infantil na Vila Mascote. Conta com um ambiente totalmente voltado para os pequenos, com brinquedos e videogame para deixar o momento do corte muito mais divertido.",
+    "descricao": "Valen Vila Kids e Barber: barbearia infantil na Vila Mascote. Conta com um ambiente totalmente voltado para os pequenos, com brinquedos e videogame para deixar o momento do corte muito mais divertido.",
     "promocao": "10% off em qualquer serviço",
     "termosBusca": [
       "Cupom",
@@ -629,7 +629,7 @@ const dados = [
   },
   {
     "id": 21,
-    "nome": "Casaelleganceprime",
+    "nome": "Casa Ellegance Prime",
     "categoriaPrincipal": "Casa, Decoracao & Organizacao",
     "categorias": [
       "Casa, Decoracao & Organizacao"
@@ -643,7 +643,7 @@ const dados = [
       "11994802596"
     ],
     "instagram": "casaelleganceprime",
-    "descricao": "Casaelleganceprime: marcenaria / moveis na Vila Mascote. Trabalha com móveis para todos os estilos, desde os convencionais até os modulados e planejados, além de sofás, poltronas, móveis para áreas externas.",
+    "descricao": "Casa Ellegance Prime: marcenaria / moveis na Vila Mascote. Trabalha com móveis para todos os estilos, desde os convencionais até os modulados e planejados, além de sofás, poltronas, móveis para áreas externas.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-12-05",
@@ -661,7 +661,7 @@ const dados = [
   },
   {
     "id": 22,
-    "nome": "Girasole Boutiquedosaromas",
+    "nome": "Girasole Boutique dos Aromas",
     "categoriaPrincipal": "Casa, Decoracao & Organizacao",
     "categorias": [
       "Casa, Decoracao & Organizacao",
@@ -676,7 +676,7 @@ const dados = [
       "11988308225"
     ],
     "instagram": "girasole.boutiquedosaromas",
-    "descricao": "Girasole Boutiquedosaromas: aromas / presentes na Vila Mascote. Oferece difusores de varetas, sabonete líquido, home spray, velas aromáticas e óleos concentrados para difusores elétricos. São diversas opções, inclusive kits prontos para presentear.",
+    "descricao": "Girasole Boutique dos Aromas: aromas / presentes na Vila Mascote. Oferece difusores de varetas, sabonete líquido, home spray, velas aromáticas e óleos concentrados para difusores elétricos. São diversas opções, inclusive kits prontos para presentear.",
     "promocao": "20% off na compra de 3 aromas",
     "termosBusca": [
       "Cupom",
@@ -760,7 +760,7 @@ const dados = [
   },
   {
     "id": 25,
-    "nome": "Seuestilodecor",
+    "nome": "Seu Estilo Decor",
     "categoriaPrincipal": "Casa, Decoracao & Organizacao",
     "categorias": [
       "Casa, Decoracao & Organizacao"
@@ -776,7 +776,7 @@ const dados = [
       "11996263725"
     ],
     "instagram": "seuestilodecor",
-    "descricao": "Seuestilodecor: decoracao na Vila Mascote. Conta com mais de 10 anos de história na Vila Mascote e segue como referência quando o assunto é decoração, cortinas e persianas sob medida.",
+    "descricao": "Seu Estilo Decor: decoracao na Vila Mascote. Conta com mais de 10 anos de história na Vila Mascote e segue como referência quando o assunto é decoração, cortinas e persianas sob medida.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-11-05",
@@ -908,7 +908,7 @@ const dados = [
   },
   {
     "id": 29,
-    "nome": "Olimpiafutebol",
+    "nome": "Olímpia Futebol",
     "categoriaPrincipal": "Educacao & Cursos",
     "categorias": [
       "Academias, Esportes & Bem-Estar",
@@ -924,7 +924,7 @@ const dados = [
       "11940368687"
     ],
     "instagram": "olimpiafutebol",
-    "descricao": "Olimpiafutebol: academia/fitness na Vila Mascote. Oferece aulas para crianças de 5 até adolescentes de 15 anos e o melhor: tem aula experimental grátis antes da matrícula. Conta com mais de 30 anos de história, e desde então vem transformando o jeito de aprender e viver o futebol.",
+    "descricao": "Olímpia Futebol: academia/fitness na Vila Mascote. Oferece aulas para crianças de 5 até adolescentes de 15 anos e o melhor: tem aula experimental grátis antes da matrícula. Conta com mais de 30 anos de história, e desde então vem transformando o jeito de aprender e viver o futebol.",
     "promocao": "Isenção de matrícula + 10% off na mensalidade",
     "termosBusca": [
       "Cupom",
@@ -971,7 +971,7 @@ const dados = [
   },
   {
     "id": 31,
-    "nome": "Kasportsoficial",
+    "nome": "KA Sports",
     "categoriaPrincipal": "Festas & Eventos",
     "categorias": [
       "Festas & Eventos",
@@ -986,7 +986,7 @@ const dados = [
       "11954546867"
     ],
     "instagram": "kasportsoficial",
-    "descricao": "Kasportsoficial: eventos / recreacao na Vila Mascote.",
+    "descricao": "KA Sports: eventos / recreacao na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-11-03",
@@ -999,7 +999,7 @@ const dados = [
   },
   {
     "id": 32,
-    "nome": "Projetosfesta",
+    "nome": "Projetos Festa",
     "categoriaPrincipal": "Festas & Eventos",
     "categorias": [
       "Festas & Eventos",
@@ -1014,7 +1014,7 @@ const dados = [
       "11947875908"
     ],
     "instagram": "projetosfesta",
-    "descricao": "Projetosfesta: festas / decoracao na Vila Mascote.",
+    "descricao": "Projetos Festa: festas / decoracao na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-06-05",
@@ -1268,7 +1268,7 @@ const dados = [
   },
   {
     "id": 39,
-    "nome": "Casapalma Restaurante",
+    "nome": "Casa Palma Restaurante",
     "categoriaPrincipal": "Gastronomia & Delivery",
     "categorias": [
       "Gastronomia & Delivery"
@@ -1282,7 +1282,7 @@ const dados = [
       "11983945538"
     ],
     "instagram": "casapalmarestaurante",
-    "descricao": "Casapalma Restaurante: restaurante na Vila Mascote. Conta com salão para quem prefere almoç. A casa já soma quase 12 anos de história aqui na região, levando uma proposta de comida caseira de qualidade, com atendimento atencioso e aquele ambiente aconchegante.",
+    "descricao": "Casa Palma Restaurante: restaurante na Vila Mascote. Conta com salão para quem prefere almoç. A casa já soma quase 12 anos de história aqui na região, levando uma proposta de comida caseira de qualidade, com atendimento atencioso e aquele ambiente aconchegante.",
     "promocao": "Cupom VILAMASCOTE12",
     "termosBusca": [
       "Cupom",
@@ -1301,7 +1301,7 @@ const dados = [
   },
   {
     "id": 40,
-    "nome": "Fashiongrill Br",
+    "nome": "Fashion Grill BR",
     "categoriaPrincipal": "Gastronomia & Delivery",
     "categorias": [
       "Gastronomia & Delivery"
@@ -1315,7 +1315,7 @@ const dados = [
       "11933847569"
     ],
     "instagram": "fashiongrill_br",
-    "descricao": "Fashiongrill Br: hamburgueria na Vila Mascote. O clima é bem agradável e o espaço funciona em formato de food truck e salão, mas com um ambiente familiar, pensado para o pessoal ficar à vontade e curtir com conforto.",
+    "descricao": "Fashion Grill BR: hamburgueria na Vila Mascote. O clima é bem agradável e o espaço funciona em formato de food truck e salão, mas com um ambiente familiar, pensado para o pessoal ficar à vontade e curtir com conforto.",
     "promocao": "10% off nos combos e nos lanches, em março",
     "termosBusca": [
       "Cupom",
@@ -1334,7 +1334,7 @@ const dados = [
   },
   {
     "id": 41,
-    "nome": "Hakkasushibr",
+    "nome": "Hakka Sushi Vila Mascote",
     "categoriaPrincipal": "Gastronomia & Delivery",
     "categorias": [
       "Gastronomia & Delivery"
@@ -1349,7 +1349,7 @@ const dados = [
       "1123627309"
     ],
     "instagram": "hakkasushibr",
-    "descricao": "Hakkasushibr: japonês na Vila Mascote. Quer saber como é pedir delivery do Hakka Sushi Vila Mascote? O Hakkasushibr é uma das redes japonesas mais tradicionais de São Paulo, com um cardápio gigante e aquele capricho.",
+    "descricao": "Hakka Sushi Vila Mascote: japonês na Vila Mascote. Quer saber como é pedir delivery do Hakka Sushi Vila Mascote? O Hakka Sushi Vila Mascote é uma das redes japonesas mais tradicionais de São Paulo, com um cardápio gigante e aquele capricho.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-11-19",
@@ -1599,7 +1599,7 @@ const dados = [
   },
   {
     "id": 49,
-    "nome": "Winnerburger",
+    "nome": "Winner Burger",
     "categoriaPrincipal": "Gastronomia & Delivery",
     "categorias": [
       "Gastronomia & Delivery"
@@ -1611,7 +1611,7 @@ const dados = [
     "mapSource": "arcgis",
     "telefones": [],
     "instagram": "winnerburger",
-    "descricao": "Winnerburger: hamburgueria na Vila Mascote.",
+    "descricao": "Winner Burger: hamburgueria na Vila Mascote.",
     "promocao": "Cheeseburger R$14,90 + combo R$28,90",
     "termosBusca": [
       "Cupom",
@@ -1631,7 +1631,7 @@ const dados = [
   },
   {
     "id": 50,
-    "nome": "Adautofilhodedeus",
+    "nome": "Adauto Filho de Deus",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
       "Imoveis & Construcao"
@@ -1645,7 +1645,7 @@ const dados = [
       "11977836971"
     ],
     "instagram": "adautofilhodedeus",
-    "descricao": "Adautofilhodedeus: imobiliária na Vila Mascote. Plantas de 76m² a 149m², com opções de 2 a 4 dormitórios e até 3 suítes, em uma localização privilegiada do bairro.",
+    "descricao": "Adauto Filho de Deus: imobiliária na Vila Mascote. Plantas de 76m² a 149m², com opções de 2 a 4 dormitórios e até 3 suítes, em uma localização privilegiada do bairro.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-09-28",
@@ -1661,7 +1661,7 @@ const dados = [
   },
   {
     "id": 51,
-    "nome": "Ceciliateixeira",
+    "nome": "Cecília Teixeira",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
       "Imoveis & Construcao"
@@ -1675,7 +1675,7 @@ const dados = [
       "11914672584"
     ],
     "instagram": "ceciliateixeira",
-    "descricao": "Ceciliateixeira: imobiliária na Vila Mascote. Conta com mais: moradores da região contam com condições especiais e bônus. São apartamentos de 76m², 89m² e até 149m², com opções de 2 a 3 suítes e 2 vagas de garagem O lazer é completo e pensado para toda a família.",
+    "descricao": "Cecília Teixeira: imobiliária na Vila Mascote. Conta com mais: moradores da região contam com condições especiais e bônus. São apartamentos de 76m², 89m² e até 149m², com opções de 2 a 3 suítes e 2 vagas de garagem O lazer é completo e pensado para toda a família.",
     "promocao": "Condições especiais para moradores",
     "termosBusca": [
       "Cupom",
@@ -1744,7 +1744,7 @@ const dados = [
   },
   {
     "id": 54,
-    "nome": "Flora Barretoimoveis",
+    "nome": "Flora Barreto Imóveis",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
       "Imoveis & Construcao"
@@ -1758,7 +1758,7 @@ const dados = [
       "11958511441"
     ],
     "instagram": "flora.barretoimoveis",
-    "descricao": "Flora Barretoimoveis: imobiliária na Vila Mascote. Conta com lançamento especial aqui na Mascote.",
+    "descricao": "Flora Barreto Imóveis: imobiliária na Vila Mascote. Conta com lançamento especial aqui na Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-09-30",
@@ -1801,7 +1801,7 @@ const dados = [
   },
   {
     "id": 56,
-    "nome": "Jzmconst",
+    "nome": "JZM Construtora",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
       "Imoveis & Construcao"
@@ -1815,7 +1815,7 @@ const dados = [
       "11983891682"
     ],
     "instagram": "jzmconst",
-    "descricao": "Jzmconst: construtora / lancamento na Vila Mascote. Rhapsody – Rua Palestina, 300 Opus 95 – Rua Santa , 95 Unidades especiais com pre.",
+    "descricao": "JZM Construtora: construtora / lancamento na Vila Mascote. Rhapsody – Rua Palestina, 300 Opus 95 – Rua Santa , 95 Unidades especiais com pre.",
     "promocao": "Black Friday: condições especiais",
     "termosBusca": [
       "Cupom",
@@ -1889,7 +1889,7 @@ const dados = [
   },
   {
     "id": 59,
-    "nome": "Louimoveis",
+    "nome": "Lou Imóveis",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
       "Imoveis & Construcao"
@@ -1903,7 +1903,7 @@ const dados = [
       "11995066130"
     ],
     "instagram": "louimoveis",
-    "descricao": "Louimoveis: imobiliária na Vila Mascote. Imóvel com De alto padrão aqui na Mascote.",
+    "descricao": "Lou Imóveis: imobiliária na Vila Mascote. Imóvel com De alto padrão aqui na Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-10-21",
@@ -1956,7 +1956,7 @@ const dados = [
   },
   {
     "id": 61,
-    "nome": "Sellerspoficial",
+    "nome": "Seller SP Oficial",
     "categoriaPrincipal": "Imoveis & Construcao",
     "categorias": [
       "Imoveis & Construcao"
@@ -1970,7 +1970,7 @@ const dados = [
       "11958886413"
     ],
     "instagram": "sellerspoficial",
-    "descricao": "Sellerspoficial: imobiliaria / corretor na Vila Mascote. O Mediterranée by Living foi pensado para quem busca qualidade de vida em uma das regiões mais desejadas da zona sul, com plantas inteligentes e ambientes que valorizam o bem-estar no dia a dia Apartamentos de 76, 89 e 149 m² 2 a 4 dormitórios 1 a 3 suítes Studios de 22 a 35 m².",
+    "descricao": "Seller SP Oficial: imobiliaria / corretor na Vila Mascote. O Mediterranée by Living foi pensado para quem busca qualidade de vida em uma das regiões mais desejadas da zona sul, com plantas inteligentes e ambientes que valorizam o bem-estar no dia a dia Apartamentos de 76, 89 e 149 m² 2 a 4 dormitórios 1 a 3 suítes Studios de 22 a 35.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-03-20",
@@ -2152,7 +2152,7 @@ const dados = [
   },
   {
     "id": 67,
-    "nome": "Eespaconeuroaprender",
+    "nome": "Espaço Neuro Aprender",
     "categoriaPrincipal": "Infantil & Familia",
     "categorias": [
       "Saude & Clinicas",
@@ -2167,7 +2167,7 @@ const dados = [
       "11989024490"
     ],
     "instagram": "eespaconeuroaprender",
-    "descricao": "Eespaconeuroaprender: infantil & familia na Vila Mascote. Conta com uma opção que deixa a criançada feliz da vida pertinho da gente: o day use do Eespaconeuroaprender.",
+    "descricao": "Espaço Neuro Aprender: infantil & familia na Vila Mascote. Conta com uma opção que deixa a criançada feliz da vida pertinho da gente: o day use do Espaço Neuro Aprender.",
     "promocao": "10% off para seguidores",
     "termosBusca": [
       "Cupom",
@@ -2188,7 +2188,7 @@ const dados = [
   },
   {
     "id": 68,
-    "nome": "Espacosallesxavier",
+    "nome": "Espaço Salles Xavier",
     "categoriaPrincipal": "Infantil & Familia",
     "categorias": [
       "Servicos para Casa",
@@ -2203,7 +2203,7 @@ const dados = [
       "11914268634"
     ],
     "instagram": "espacosallesxavier",
-    "descricao": "Espacosallesxavier: reformas na Vila Mascote. Conta com manicure, pedicure, lash lifting, design de sobrancelhas, makes incríveis e produtos de altíssima qualidade. Conta com um espaço exclusivo para a criançada: o SPA KIDS.",
+    "descricao": "Espaço Salles Xavier: reformas na Vila Mascote. Conta com manicure, pedicure, lash lifting, design de sobrancelhas, makes incríveis e produtos de altíssima qualidade. Conta com um espaço exclusivo para a criançada: o SPA KIDS.",
     "promocao": "10% off para seguidoras",
     "termosBusca": [
       "Cupom",
@@ -2256,7 +2256,7 @@ const dados = [
   },
   {
     "id": 70,
-    "nome": "Institutogabioficial",
+    "nome": "Instituto Gabi",
     "categoriaPrincipal": "Instituicoes & Comunidade",
     "categorias": [
       "Instituicoes & Comunidade"
@@ -2272,7 +2272,7 @@ const dados = [
       "11975651750"
     ],
     "instagram": "institutogabioficial",
-    "descricao": "Institutogabioficial: instituicao / comunidade na Vila Mascote. “QUEM AJUDA AS PESSOAS É FELIZ” Institutogabioficial Sede do Instituto Gabi: Rua Palacete das Águias, 735 Vila Alexandria São Paulo SP ☎ (11) 5031-1765 (11) 99156-7835.",
+    "descricao": "Instituto Gabi: instituicao / comunidade na Vila Mascote. “QUEM AJUDA AS PESSOAS É FELIZ” Instituto Gabi Sede do Instituto Gabi: Rua Palacete das Águias, 735 Vila Alexandria São Paulo SP ☎ (11) 5031-1765 (11) 99156-7835.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-10-19",
@@ -2287,7 +2287,7 @@ const dados = [
   },
   {
     "id": 71,
-    "nome": "Paroquianspsestarosalia",
+    "nome": "Paróquia Nossa Senhora do Perpétuo Socorro e Santa Rosália",
     "categoriaPrincipal": "Instituicoes & Comunidade",
     "categorias": [
       "Instituicoes & Comunidade"
@@ -2299,7 +2299,7 @@ const dados = [
     "mapSource": "",
     "telefones": [],
     "instagram": "paroquianspsestarosalia",
-    "descricao": "Paroquianspsestarosalia: instituicao / comunidade na Vila Mascote.",
+    "descricao": "Paróquia Nossa Senhora do Perpétuo Socorro e Santa Rosália: instituicao / comunidade na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-04-04",
@@ -2313,7 +2313,7 @@ const dados = [
   },
   {
     "id": 72,
-    "nome": "Bazardoinstitutogabi",
+    "nome": "Bazar do Instituto Gabi",
     "categoriaPrincipal": "Lojas & Presentes",
     "categorias": [
       "Lojas & Presentes",
@@ -2326,7 +2326,7 @@ const dados = [
     "mapSource": "arcgis",
     "telefones": [],
     "instagram": "bazardoinstitutogabi",
-    "descricao": "Bazardoinstitutogabi: instituicao / comunidade na Vila Mascote.",
+    "descricao": "Bazar do Instituto Gabi: instituicao / comunidade na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-04-26",
@@ -2339,7 +2339,7 @@ const dados = [
   },
   {
     "id": 73,
-    "nome": "Musicinplay",
+    "nome": "Music in Play",
     "categoriaPrincipal": "Lojas & Presentes",
     "categorias": [
       "Lojas & Presentes"
@@ -2353,7 +2353,7 @@ const dados = [
       "11914986096"
     ],
     "instagram": "musicinplay",
-    "descricao": "Musicinplay: loja de musica na Vila Mascote. Conta com uma unidade aqui na Mascote, acaba de dar mais um passo no seu universo musical e apresenta a Inplay Music Store.",
+    "descricao": "Music in Play: loja de musica na Vila Mascote. Conta com uma unidade aqui na Mascote, acaba de dar mais um passo no seu universo musical e apresenta a Inplay Music Store.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-11-04",
@@ -2492,7 +2492,7 @@ const dados = [
   },
   {
     "id": 78,
-    "nome": "Camarimstar",
+    "nome": "Camarim Star",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
       "Moda, Calcados & Acessorios",
@@ -2507,7 +2507,7 @@ const dados = [
       "11983388038"
     ],
     "instagram": "camarimstar",
-    "descricao": "Camarimstar: moda feminina na Vila Mascote. E nesta sexta e sábado (8 e 9/05) vai acontecer um coquetel especial em homenagem ao Dia das Mães, deixando a experiência ainda mais gostosa.",
+    "descricao": "Camarim Star: moda feminina na Vila Mascote. E nesta sexta e sábado (8 e 9/05) vai acontecer um coquetel especial em homenagem ao Dia das Mães, deixando a experiência ainda mais gostosa.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-05-07",
@@ -2549,7 +2549,7 @@ const dados = [
   },
   {
     "id": 80,
-    "nome": "Garimpodesmeralda",
+    "nome": "Garimpo de Esmeralda",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
       "Moda, Calcados & Acessorios",
@@ -2564,7 +2564,7 @@ const dados = [
       "11992254276"
     ],
     "instagram": "garimpodesmeralda",
-    "descricao": "Garimpodesmeralda: brecho boutique na Vila Mascote.",
+    "descricao": "Garimpo de Esmeralda: brecho boutique na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-11-05",
@@ -2679,7 +2679,7 @@ const dados = [
   },
   {
     "id": 84,
-    "nome": "Infinitastore",
+    "nome": "Infinita Store",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
       "Moda, Calcados & Acessorios"
@@ -2693,7 +2693,7 @@ const dados = [
       "11953890159"
     ],
     "instagram": "infinitastore",
-    "descricao": "Infinitastore: moda feminina na Vila Mascote.",
+    "descricao": "Infinita Store: moda feminina na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-12-04",
@@ -2732,7 +2732,7 @@ const dados = [
   },
   {
     "id": 86,
-    "nome": "Plakianca_plaadulto",
+    "nome": "Plá Kiança Plá Adulto",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
       "Moda, Calcados & Acessorios"
@@ -2746,7 +2746,7 @@ const dados = [
       "11982011429"
     ],
     "instagram": "plakianca_plaadulto",
-    "descricao": "Plakianca_plaadulto: moda na Vila Mascote. Trabalha com moda infantil e adulta feminina, tudo de alta qualidade das marcas mais desejadas, como Malwee, Hering, Lupo, Kyly, Milon, Carinhoso, entre outras. Conta com descontos de até 50% OFF em várias peças. Conta com diversas opções de brinquedos e bonecas.",
+    "descricao": "Plá Kiança Plá Adulto: moda na Vila Mascote. Trabalha com moda infantil e adulta feminina, tudo de alta qualidade das marcas mais desejadas, como Malwee, Hering, Lupo, Kyly, Milon, Carinhoso, entre outras. Conta com descontos de até 50% OFF em várias peças. Conta com diversas opções de brinquedos e bonecas.",
     "promocao": "Descontos de até 50% off",
     "termosBusca": [
       "Cupom",
@@ -2847,21 +2847,21 @@ const dados = [
   },
   {
     "id": 89,
-    "nome": "Usetboy",
+    "nome": "The Boy Clothing",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
       "Moda, Calcados & Acessorios"
     ],
     "subcategoria": "Moda masculina",
-    "endereco": "Avenida Santa Catarina, 1321",
-    "lat": -23.646786,
-    "lng": -46.663207,
-    "mapSource": "arcgis",
+    "endereco": "",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
     "telefones": [
       "11988318811"
     ],
     "instagram": "usetboy",
-    "descricao": "Usetboy: moda masculina na Vila Mascote. Toda semana tem novidade.",
+    "descricao": "The Boy Clothing: moda masculina na Vila Mascote. Toda semana tem novidade.",
     "promocao": "A loja toda em liquidação de até 40% off no Pix",
     "termosBusca": [
       "Cupom",
@@ -2881,7 +2881,7 @@ const dados = [
   },
   {
     "id": 90,
-    "nome": "Zophimodas",
+    "nome": "Zophi Modas",
     "categoriaPrincipal": "Moda, Calcados & Acessorios",
     "categorias": [
       "Moda, Calcados & Acessorios"
@@ -2897,7 +2897,7 @@ const dados = [
       "11914048383"
     ],
     "instagram": "zophimodas",
-    "descricao": "Zophimodas: moda feminina na Vila Mascote. Oferece peças que unem moda, conforto e estilo. ☕ Nas araras, tem diversos model.",
+    "descricao": "Zophi Modas: moda feminina na Vila Mascote. Oferece peças que unem moda, conforto e estilo. ☕ Nas araras, tem diversos model.",
     "promocao": "Condições especiais",
     "termosBusca": [
       "Cupom",
@@ -2981,7 +2981,7 @@ const dados = [
   },
   {
     "id": 93,
-    "nome": "Katia Csilva",
+    "nome": "Kátia C. Silva",
     "categoriaPrincipal": "Pets",
     "categorias": [
       "Pets"
@@ -2996,7 +2996,7 @@ const dados = [
       "11948687641"
     ],
     "instagram": "katia.csilva",
-    "descricao": "Katia Csilva: veterinario na Vila Mascote. Especializado em medicina felina do Katia Csilva, explica pra gente no vídeo 5 cuidados essenciais.",
+    "descricao": "Kátia C. Silva: veterinario na Vila Mascote. Especializado em medicina felina do Kátia C. Silva, explica pra gente no vídeo 5 cuidados essenciais.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-04-17",
@@ -3102,7 +3102,7 @@ const dados = [
   },
   {
     "id": 97,
-    "nome": "Orquídea ouro",
+    "nome": "Orquídea Ouro",
     "categoriaPrincipal": "Mercados Emporios & Conveniencia",
     "categorias": [
       "Mercados Emporios & Conveniencia"
@@ -3114,7 +3114,7 @@ const dados = [
     "mapSource": "",
     "telefones": [],
     "instagram": "",
-    "descricao": "Orquídea ouro: padaria na Vila Mascote. Oferece pães, doces, bolos e salgados.",
+    "descricao": "Orquídea Ouro: padaria na Vila Mascote. Oferece pães, doces, bolos e salgados.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
@@ -3167,7 +3167,7 @@ const dados = [
   },
   {
     "id": 99,
-    "nome": "Carlaazevedogm",
+    "nome": "Carla Azevedo GM",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
       "Saude & Clinicas"
@@ -3181,7 +3181,7 @@ const dados = [
       "11952733424"
     ],
     "instagram": "carlaazevedogm",
-    "descricao": "Carlaazevedogm: psicologia / terapias na Vila Mascote. Trabalha com terapia Cognitivo Comportamental (TCC), ajudando em questões como ansiedade, depressão, b. A Carlaazevedogm é psicóloga, nossa vizinha, com mais de 10 anos de experiência na área.",
+    "descricao": "Carla Azevedo GM: psicologia / terapias na Vila Mascote. Trabalha com terapia Cognitivo Comportamental (TCC), ajudando em questões como ansiedade, depressão, b. A Carla Azevedo GM é psicóloga, nossa vizinha, com mais de 10 anos de experiência na área.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-01-26",
@@ -3360,7 +3360,7 @@ const dados = [
   },
   {
     "id": 105,
-    "nome": "Dra.juliana.nakashima",
+    "nome": "Dra. Juliana Nakashima",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
       "Saude & Clinicas",
@@ -3375,7 +3375,7 @@ const dados = [
       "11920170738"
     ],
     "instagram": "dra.juliana.nakashima",
-    "descricao": "Dra.juliana.nakashima: pilates/fisioterapia na Vila Mascote. Ela é fisioterapeuta osteopata com mais de 15 anos de experiência e atende aqui na Mascote Juliana atende desde bebês até adultos e realiza avaliações detalhadas e personalizadas, ouvindo atentamente as queixas de cada paciente, para assim tratar a causa das dores, e não.",
+    "descricao": "Dra. Juliana Nakashima: pilates/fisioterapia na Vila Mascote. Ela é fisioterapeuta osteopata com mais de 15 anos de experiência e atende aqui na Mascote Juliana atende desde bebês até adultos e realiza avaliações detalhadas e personalizadas, ouvindo atentamente as queixas de cada paciente, para assim tratar a causa das dores, e não.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-05-04",
@@ -3474,7 +3474,7 @@ const dados = [
   },
   {
     "id": 108,
-    "nome": "Esteticamarianab",
+    "nome": "Estética Mariana B",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
       "Saude & Clinicas",
@@ -3489,7 +3489,7 @@ const dados = [
       "11997701995"
     ],
     "instagram": "esteticamarianab",
-    "descricao": "Esteticamarianab: clínica/estética na Vila Mascote. Oferece tudo o que você precisa pra eliminar toxinas, reduzir medidas e recuperar aquela leveza que transforma o dia a dia.",
+    "descricao": "Estética Mariana B: clínica/estética na Vila Mascote. Oferece tudo o que você precisa pra eliminar toxinas, reduzir medidas e recuperar aquela leveza que transforma o dia a dia.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-10-26",
@@ -3504,7 +3504,7 @@ const dados = [
   },
   {
     "id": 109,
-    "nome": "Hugopainodeoliveira",
+    "nome": "Hugo Paino de Oliveira",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
       "Saude & Clinicas"
@@ -3518,7 +3518,7 @@ const dados = [
       "11985880856"
     ],
     "instagram": "hugopainodeoliveira",
-    "descricao": "Hugopainodeoliveira: odontologia na Vila Mascote. O Consultório de Acupuntura Hugopainodeoliveira está aqui no bairro há mais de 12 anos, junto com o Hugopainodeoliveira, cuidando da saúde e do bem-estar As terapias são indicadas para dores no corpo, artrose, artrite, AVCs (Acidente Vascular Cerebral), dores.",
+    "descricao": "Hugo Paino de Oliveira: odontologia na Vila Mascote. O Consultório de Acupuntura Hugo Paino de Oliveira está aqui no bairro há mais de 12 anos, junto com o Hugo Paino de Oliveira, cuidando da saúde e do bem-estar As terapias são indicadas para dores no corpo, artrose, artrite, AVCs (Acidente Vascular Cerebral), dores.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-11-11",
@@ -3531,7 +3531,7 @@ const dados = [
   },
   {
     "id": 110,
-    "nome": "Keila Xn",
+    "nome": "Keila Xavier",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
       "Saude & Clinicas",
@@ -3546,7 +3546,7 @@ const dados = [
       "1156779171"
     ],
     "instagram": "keila.xn",
-    "descricao": "Keila Xn: clínica/estética na Vila Mascote. Entre os serviços, dá pra encontrar.",
+    "descricao": "Keila Xavier: clínica/estética na Vila Mascote. Entre os serviços, dá pra encontrar.",
     "promocao": "10% off no primeiro serviço",
     "termosBusca": [
       "Cupom",
@@ -3594,7 +3594,7 @@ const dados = [
   },
   {
     "id": 112,
-    "nome": "Oralsinsaopaulo Vila Mascote",
+    "nome": "Oral Sin São Paulo Vila Mascote",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
       "Saude & Clinicas"
@@ -3608,7 +3608,7 @@ const dados = [
       "11930249566"
     ],
     "instagram": "oralsinsaopaulovilamascote",
-    "descricao": "Oralsinsaopaulo Vila Mascote: odontologia na Vila Mascote.",
+    "descricao": "Oral Sin São Paulo Vila Mascote: odontologia na Vila Mascote. O Núcleo Première agora é Oral Sin São Paulo Vila Mascote.",
     "promocao": "Condições especiais para seguidores",
     "termosBusca": [
       "Cupom",
@@ -3741,7 +3741,7 @@ const dados = [
   },
   {
     "id": 116,
-    "nome": "Studiovitabemestar",
+    "nome": "Studio Vita Bem-Estar",
     "categoriaPrincipal": "Saude & Clinicas",
     "categorias": [
       "Saude & Clinicas",
@@ -3756,7 +3756,7 @@ const dados = [
       "11993344116"
     ],
     "instagram": "studiovitabemestar",
-    "descricao": "Studiovitabemestar: pilates/fisioterapia na Vila Mascote. Conta com a Studiovitabemestar, que oferece. São mais de 13 anos de história, com aulas feitas por fisioterapeutas e acompanhamento bem próximo, no máximo 3 alunos por horário, então dá para fazer tudo com atenção, sem ficar perdido na aula.",
+    "descricao": "Studio Vita Bem-Estar: pilates/fisioterapia na Vila Mascote. Conta com a Studio Vita Bem-Estar, que oferece. São mais de 13 anos de história, com aulas feitas por fisioterapeutas e acompanhamento bem próximo, no máximo 3 alunos por horário, então dá para fazer tudo com atenção, sem ficar perdido na aula.",
     "promocao": "50% off na primeira mensalidade",
     "termosBusca": [
       "Cupom",
@@ -3890,7 +3890,7 @@ const dados = [
   },
   {
     "id": 120,
-    "nome": "Ecoville Vilamascotesp",
+    "nome": "Ecoville Vila Mascote SP",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
       "Servicos para Casa"
@@ -3905,7 +3905,7 @@ const dados = [
       "11936197956"
     ],
     "instagram": "ecoville.vilamascotesp",
-    "descricao": "Ecoville Vilamascotesp: reformas na Vila Mascote. A Ecoville Vilamascotesp não vende só produtos de limpeza — ela ensina como usar cada um de forma inteligente, pra reduzir desperdício.",
+    "descricao": "Ecoville Vila Mascote SP: reformas na Vila Mascote. A Ecoville Vila Mascote SP não vende só produtos de limpeza — ela ensina como usar cada um de forma inteligente, pra reduzir desperdício.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-10-17",
@@ -3974,7 +3974,7 @@ const dados = [
   },
   {
     "id": 123,
-    "nome": "Lucianaserer",
+    "nome": "Luciana Serer",
     "categoriaPrincipal": "Servicos para Casa",
     "categorias": [
       "Casa, Decoracao & Organizacao",
@@ -3989,7 +3989,7 @@ const dados = [
       "11999569053"
     ],
     "instagram": "lucianaserer",
-    "descricao": "Lucianaserer: reformas na Vila Mascote.",
+    "descricao": "Luciana Serer: reformas na Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2026-03-18",
@@ -4214,7 +4214,7 @@ const dados = [
   },
   {
     "id": 130,
-    "nome": "Jed elétrica",
+    "nome": "Jed Elétrica",
     "categoriaPrincipal": "Casa, Decoracao & Organizacao",
     "categorias": [
       "Casa, Decoracao & Organizacao",
@@ -4296,7 +4296,7 @@ const dados = [
   },
   {
     "id": 133,
-    "nome": "Colégio Dominus",
+    "nome": "Colégio Dominus Vivendi",
     "categoriaPrincipal": "Educacao & Cursos",
     "categorias": [
       "Educacao & Cursos"
@@ -4310,7 +4310,7 @@ const dados = [
       "1155643466"
     ],
     "instagram": "",
-    "descricao": "Colégio Dominus: colegio particular na Vila Mascote. Colegio particular da Vila Mascote com oferta de educacao infantil, ensino fundamental, ensino medio e periodo integral.",
+    "descricao": "Colégio Dominus Vivendi: colegio particular na Vila Mascote. Colegio particular da Vila Mascote com oferta de educacao infantil, ensino fundamental, ensino medio e periodo integral.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
@@ -4384,29 +4384,6 @@ const dados = [
     ],
     "instagram": "",
     "descricao": "Escola de idiomas do CNA na Vila Mascote, com cursos de inglês e espanhol para crianças, jovens e adultos, com aulas presenciais e online ao vivo.",
-    "promocao": "",
-    "termosBusca": [],
-    "ultimoPost": "",
-    "postsAno": 0,
-    "jaNoGuia": true,
-    "origem": "Instagram @vila.mascote",
-    "linksPosts": []
-  },
-  {
-    "id": 137,
-    "nome": "Padaria do Plinio",
-    "categoriaPrincipal": "Cafes, Padarias & Doces",
-    "categorias": [
-      "Cafes, Padarias & Doces"
-    ],
-    "subcategoria": "Padaria",
-    "endereco": "Vila Mascote",
-    "lat": null,
-    "lng": null,
-    "mapSource": "",
-    "telefones": [],
-    "instagram": "",
-    "descricao": "Padaria tradicional da Vila Mascote.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "",
