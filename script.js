@@ -101,7 +101,7 @@ const state = {
   category: null,
   subcategory: "Todos",
   query: "",
-  sort: "recentes"
+  sort: "az"
 };
 
 const categoryGrid = document.getElementById("categoryGrid");
@@ -611,6 +611,7 @@ async function loadWeather() {
 
 function render() {
   resultsSection.hidden = !hasActiveIntent();
+  if (sortSelect) sortSelect.value = state.sort;
   renderCategorySelect();
   renderCategoryGrid();
   renderSubnav();
