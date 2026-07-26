@@ -186,6 +186,13 @@ function hasActiveIntent() {
   return Boolean(state.category || state.query);
 }
 
+function clearCategoryScopeForSearch() {
+  if (!state.query) return;
+  state.category = null;
+  state.subcategory = "Todos";
+  if (categorySelect) categorySelect.value = "Todos";
+}
+
 function getSearchHaystack(item) {
   return normalizeText([
     item.nome,
@@ -622,7 +629,8 @@ function render() {
 function init() {
   searchInput.addEventListener("input", (event) => {
     state.query = event.target.value.trim();
-    if (!resultsSection.hidden || state.category) {
+    clearCategoryScopeForSearch();
+    if (!resultsSection.hidden || state.category || state.query) {
       render();
     }
   });
@@ -646,7 +654,7 @@ function init() {
   searchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
     state.query = searchInput.value.trim();
-    state.subcategory = "Todos";
+    clearCategoryScopeForSearch();
     render();
     if (hasActiveIntent()) {
       resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });

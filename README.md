@@ -8,6 +8,7 @@ Site local do Guia Vila Mascote, com estabelecimentos categorizados a partir da 
 - `style.css`: identidade visual, responsividade, cards, mapa e tipografia.
 - `script.js`: busca, filtros, cards e mapa.
 - `dados.js`: dados gerados para o site.
+- `drone/`: experiência 3D responsiva disponível em `/drone/`.
 - `scripts/build_site_data.py`: gera `dados.js` a partir da categorização.
 - `scripts/geocode.py`: gera coordenadas confiaveis para o mapa usando pontos por endereco.
 - `scripts/geocode_vila_mascote.py`: atalho compativel para `scripts/geocode.py`.
@@ -16,6 +17,10 @@ Site local do Guia Vila Mascote, com estabelecimentos categorizados a partir da 
 
 A base editorial fica em `CATEGORIZACAO/estabelecimentos_categorizados_v1.csv`.
 O material bruto do Instagram fica em `SCRAP UM ANO`.
+
+A página do drone consome o mesmo `dados.js` da página principal. Somente
+estabelecimentos com coordenadas validadas aparecem no voo, e as categorias
+secundárias também são consideradas nos filtros.
 
 ## Rodar localmente
 
