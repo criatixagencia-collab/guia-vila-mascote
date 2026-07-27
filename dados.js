@@ -1,7 +1,7 @@
 /**
  * DADOS GERADOS AUTOMATICAMENTE
  * Fonte: CATEGORIZACAO/estabelecimentos_categorizados_v1.csv
- * Total de estabelecimentos listaveis: 136
+ * Total de estabelecimentos listaveis: 137
  */
 
 const dados = [
@@ -4390,6 +4390,31 @@ const dados = [
     "postsAno": 0,
     "jaNoGuia": true,
     "origem": "Instagram @vila.mascote",
+    "linksPosts": []
+  },
+  {
+    "id": 137,
+    "nome": "Cris Aranha Eventos",
+    "categoriaPrincipal": "Festas & Eventos",
+    "categorias": [
+      "Festas & Eventos"
+    ],
+    "subcategoria": "Promotor(a) de eventos",
+    "endereco": "",
+    "lat": null,
+    "lng": null,
+    "mapSource": "",
+    "telefones": [
+      "11998797500"
+    ],
+    "instagram": "crisaranhaeventos",
+    "descricao": "Cris Aranha Eventos: promotora de eventos na Vila Mascote. Organização e soluções para receber em casa e etiqueta, com formação pela The British School of Etiquette Brazil - a arte da conveniência personalizada.",
+    "promocao": "",
+    "termosBusca": [],
+    "ultimoPost": "",
+    "postsAno": 0,
+    "jaNoGuia": false,
+    "origem": "Instagram @crisaranhaeventos",
     "linksPosts": []
   }
 ];
