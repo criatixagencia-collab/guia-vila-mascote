@@ -135,6 +135,13 @@ label,
   text-transform: none;
 }
 
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
 .weather-widget {
   min-width: min(280px, 42vw);
   flex: 0 0 auto;
@@ -146,6 +153,30 @@ label,
   border-radius: 999px;
   padding: 7px 13px;
   background: color-mix(in oklch, var(--blue-dark), transparent 22%);
+}
+
+.drone-btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--blue-dark);
+  background: var(--gold);
+  padding: 11px 20px;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px color-mix(in oklch, black, transparent 65%);
+  transition: transform 0.15s ease;
+}
+
+.drone-btn:hover,
+.drone-btn:focus-visible {
+  transform: translateY(-1px);
 }
 
 .weather-title {
