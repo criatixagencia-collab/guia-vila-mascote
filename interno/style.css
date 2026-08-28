@@ -108,6 +108,35 @@ h1 {
   text-transform: uppercase;
 }
 
+.internal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.internal-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 11px 16px;
+  border: 1px solid rgba(16, 35, 71, 0.16);
+  border-radius: 999px;
+  color: var(--blue);
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 0.8rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.internal-button.is-active,
+.internal-button:hover,
+.internal-button:focus-visible {
+  color: var(--blue);
+  background: var(--gold);
+}
+
 .art-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));

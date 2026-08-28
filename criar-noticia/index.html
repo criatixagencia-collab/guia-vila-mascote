@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0d0d0d">
+    <title>Criar post | Vila Mascote</title>
+    <meta name="description" content="Gerador local de post de notícia da Vila Mascote para Instagram.">
+    <link rel="icon" href="../assets/logo-vila-mascote.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="step-screen is-active" data-step="1" aria-labelledby="uploadTitle">
+        <div class="step-dots" aria-label="Etapa 1 de 4"></div>
+        <img class="mini-logo" src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+        <p class="kicker">Revista Digital Vila Mascote</p>
+        <h1 id="uploadTitle">Gerador de post</h1>
+        <p class="subtitle">Instagram 1080 x 1350</p>
+
+        <button class="upload-box" id="uploadBox" type="button">
+          <span class="upload-icon" aria-hidden="true">+</span>
+          <strong>Toque para enviar a foto</strong>
+          <small>JPG ou PNG, sem upload para servidor</small>
+        </button>
+        <input id="imageInput" type="file" accept="image/*">
+
+        <a class="back-link" href="../interno/">Voltar para área interna</a>
+      </section>
+
+      <section class="step-screen" data-step="2" aria-labelledby="titleTitle">
+        <div class="step-dots" aria-label="Etapa 2 de 4"></div>
+        <p class="kicker">Título do post</p>
+        <h2 id="titleTitle">Escreva a chamada</h2>
+        <p class="subtitle">O texto entra em maiúsculas automaticamente.</p>
+
+        <textarea id="titleInput" rows="5" maxlength="170" placeholder="Ex: NOVA OPÇÃO DE CAFÉ CHEGA À VILA MASCOTE"></textarea>
+        <p class="counter"><span id="titleCount">0</span>/170 caracteres</p>
+
+        <div class="button-row">
+          <button class="ghost-button" type="button" data-go-step="1">Voltar</button>
+          <button class="primary-button" id="titleNextButton" type="button">Avançar</button>
+        </div>
+      </section>
+
+      <section class="step-screen adjust-screen" data-step="3" aria-labelledby="adjustTitle">
+        <div class="step-dots" aria-label="Etapa 3 de 4"></div>
+        <p class="kicker">Ajuste a imagem</p>
+        <h2 id="adjustTitle">Arraste a foto</h2>
+
+        <div class="canvas-card" id="canvasCard">
+          <canvas id="postCanvas" width="1080" height="1350" aria-label="Preview do post"></canvas>
+        </div>
+
+        <div class="tools">
+          <div class="tool-line">
+            <label for="zoomRange">Zoom</label>
+            <output id="zoomValue" for="zoomRange">100%</output>
+            <input id="zoomRange" type="range" min="100" max="260" value="100">
+          </div>
+
+          <div class="tool-line">
+            <label for="xRange">Horizontal</label>
+            <output id="xValue" for="xRange">0</output>
+            <input id="xRange" type="range" min="-540" max="540" value="0">
+          </div>
+
+          <div class="tool-line">
+            <label for="yRange">Vertical</label>
+            <output id="yValue" for="yRange">0</output>
+            <input id="yRange" type="range" min="-675" max="675" value="0">
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button class="ghost-button" type="button" data-go-step="2">Voltar</button>
+          <button class="primary-button" id="finishButton" type="button">Pronto</button>
+        </div>
+      </section>
+
+      <section class="step-screen result-screen" data-step="4" aria-labelledby="resultTitle">
+        <div class="step-dots" aria-label="Etapa 4 de 4"></div>
+        <p class="kicker">Imagem pronta</p>
+        <h2 id="resultTitle">Post final</h2>
+        <p class="subtitle">Baixe o PNG ou segure a imagem no celular para salvar.</p>
+
+        <img id="resultImage" alt="Post gerado da Vila Mascote">
+
+        <div class="button-row stacked">
+          <a class="primary-button" id="downloadButton" href="#" download="vila-mascote-noticia-1080x1350.png">Baixar PNG</a>
+          <button class="ghost-button" id="newPostButton" type="button">Novo post</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
