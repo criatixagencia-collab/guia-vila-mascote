@@ -19,12 +19,12 @@
         <img class="mini-logo" src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
         <p class="kicker">Revista Digital Vila Mascote</p>
         <h1 id="uploadTitle">Gerador de post</h1>
-        <p class="subtitle">Instagram 1080 x 1350</p>
+        <p class="subtitle">Gerador de Post · Instagram</p>
 
         <button class="upload-box" id="uploadBox" type="button">
-          <span class="upload-icon" aria-hidden="true">+</span>
+          <span class="upload-icon" aria-hidden="true">📷</span>
           <strong>Toque para enviar a foto</strong>
-          <small>JPG ou PNG, sem upload para servidor</small>
+          <small>JPG, PNG · qualquer proporção</small>
         </button>
         <input id="imageInput" type="file" accept="image/*">
 
@@ -35,7 +35,7 @@
         <div class="step-dots" aria-label="Etapa 2 de 4"></div>
         <p class="kicker">Título do post</p>
         <h2 id="titleTitle">Escreva a chamada</h2>
-        <p class="subtitle">O texto entra em maiúsculas automaticamente.</p>
+        <p class="subtitle">Enter para quebrar linha</p>
 
         <textarea id="titleInput" rows="5" maxlength="170" placeholder="Ex: NOVA OPÇÃO DE CAFÉ CHEGA À VILA MASCOTE"></textarea>
         <p class="counter"><span id="titleCount">0</span>/170 caracteres</p>
@@ -53,9 +53,16 @@
 
         <div class="canvas-card" id="canvasCard">
           <canvas id="postCanvas" width="1080" height="1350" aria-label="Preview do post"></canvas>
+          <div class="drag-zone image-zone" id="imageZone" aria-hidden="true"></div>
+          <div class="drag-zone title-zone" id="titleZone" aria-hidden="true"></div>
         </div>
 
         <div class="tools">
+          <div class="help-chips" aria-label="Dicas de ajuste">
+            <span>📷 Arraste a foto</span>
+            <span>✍️ Arraste o título</span>
+          </div>
+
           <div class="tool-line">
             <label for="zoomRange">Zoom</label>
             <output id="zoomValue" for="zoomRange">100%</output>
@@ -73,11 +80,17 @@
             <output id="yValue" for="yRange">0</output>
             <input id="yRange" type="range" min="-675" max="675" value="0">
           </div>
+
+          <div class="tool-line">
+            <label for="titleRange">Tamanho do título</label>
+            <output id="titleSizeValue" for="titleRange">28px</output>
+            <input id="titleRange" type="range" min="10" max="72" value="28">
+          </div>
         </div>
 
         <div class="button-row">
           <button class="ghost-button" type="button" data-go-step="2">Voltar</button>
-          <button class="primary-button" id="finishButton" type="button">Pronto</button>
+          <button class="primary-button" id="finishButton" type="button">Pronto!</button>
         </div>
       </section>
 
@@ -85,7 +98,7 @@
         <div class="step-dots" aria-label="Etapa 4 de 4"></div>
         <p class="kicker">Imagem pronta</p>
         <h2 id="resultTitle">Post final</h2>
-        <p class="subtitle">Baixe o PNG ou segure a imagem no celular para salvar.</p>
+        <p class="subtitle">Segure a imagem e toque em "Salvar na Galeria de Fotos".</p>
 
         <img id="resultImage" alt="Post gerado da Vila Mascote">
 

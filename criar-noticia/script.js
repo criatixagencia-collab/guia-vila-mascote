@@ -11,12 +11,16 @@ const titleNextButton = document.getElementById("titleNextButton");
 const canvasCard = document.getElementById("canvasCard");
 const canvas = document.getElementById("postCanvas");
 const ctx = canvas.getContext("2d");
+const imageZone = document.getElementById("imageZone");
+const titleZone = document.getElementById("titleZone");
 const zoomRange = document.getElementById("zoomRange");
 const xRange = document.getElementById("xRange");
 const yRange = document.getElementById("yRange");
+const titleRange = document.getElementById("titleRange");
 const zoomValue = document.getElementById("zoomValue");
 const xValue = document.getElementById("xValue");
 const yValue = document.getElementById("yValue");
+const titleSizeValue = document.getElementById("titleSizeValue");
 const finishButton = document.getElementById("finishButton");
 const resultImage = document.getElementById("resultImage");
 const downloadButton = document.getElementById("downloadButton");
@@ -28,17 +32,16 @@ const state = {
   zoom: 1,
   offsetX: 0,
   offsetY: 0,
-  dragging: false,
+  titleOffsetY: 0,
+  titleSize: 28,
+  dragging: null,
   dragStartX: 0,
   dragStartY: 0,
   startOffsetX: 0,
   startOffsetY: 0,
+  startTitleOffsetY: 0,
   resultUrl: ""
 };
-
-const logo = new Image();
-logo.src = "../assets/logo-vila-mascote.png";
-logo.onload = drawPost;
 
 function renderDots() {
   dotContainers.forEach((container) => {
@@ -67,6 +70,7 @@ function updateControls() {
   zoomValue.textContent = `${Math.round(state.zoom * 100)}%`;
   xValue.textContent = String(Math.round(state.offsetX));
   yValue.textContent = String(Math.round(state.offsetY));
+  titleSizeValue.textContent = `${state.titleSize}px`;
 }
 
 function setOffsets(x, y) {
@@ -98,14 +102,14 @@ function wrapText(text, maxWidth) {
 }
 
 function fitTitle(text) {
-  let size = 92;
+  let size = state.titleSize * (POST_WIDTH / 420);
   let lines = [];
-  const maxWidth = POST_WIDTH - 120;
+  const maxWidth = POST_WIDTH - 100;
 
-  while (size >= 48) {
+  while (size >= 26) {
     ctx.font = `900 ${size}px Montserrat, Arial Black, Arial, sans-serif`;
     lines = text.split(/\n+/).flatMap((part) => wrapText(part, maxWidth));
-    if (lines.length <= 5 && lines.every((line) => ctx.measureText(line).width <= maxWidth)) break;
+    if (lines.length <= 4 && lines.every((line) => ctx.measureText(line).width <= maxWidth)) break;
     size -= 4;
   }
 
@@ -149,78 +153,79 @@ function drawImage() {
 }
 
 function drawOverlay() {
-  const dark = ctx.createLinearGradient(0, POST_HEIGHT * 0.24, 0, POST_HEIGHT);
+  const dark = ctx.createLinearGradient(0, POST_HEIGHT * 0.35, 0, POST_HEIGHT);
   dark.addColorStop(0, "rgba(0, 0, 0, 0)");
-  dark.addColorStop(0.32, "rgba(0, 0, 0, 0.34)");
-  dark.addColorStop(0.58, "rgba(0, 0, 0, 0.82)");
+  dark.addColorStop(0.25, "rgba(0, 0, 0, 0.60)");
+  dark.addColorStop(0.50, "rgba(0, 0, 0, 0.90)");
+  dark.addColorStop(0.70, "rgba(0, 0, 0, 0.97)");
   dark.addColorStop(1, "rgba(0, 0, 0, 1)");
   ctx.fillStyle = dark;
   ctx.fillRect(0, 0, POST_WIDTH, POST_HEIGHT);
-
-  const brand = ctx.createLinearGradient(0, POST_HEIGHT * 0.5, POST_WIDTH, POST_HEIGHT);
-  brand.addColorStop(0, "rgba(16, 35, 71, 0.25)");
-  brand.addColorStop(0.6, "rgba(16, 35, 71, 0.55)");
-  brand.addColorStop(1, "rgba(255, 214, 0, 0.2)");
-  ctx.fillStyle = brand;
-  ctx.fillRect(0, 0, POST_WIDTH, POST_HEIGHT);
-}
-
-function drawBrandMark() {
-  const size = 58;
-  const x = POST_WIDTH - 96;
-  const y = 54;
-
-  ctx.save();
-  ctx.globalAlpha = 0.86;
-  if (logo.complete && logo.naturalWidth) {
-    ctx.drawImage(logo, x, y, size, size);
-  }
-  ctx.restore();
 }
 
 function drawTitle() {
-  const title = titleInput.value.trim().toLocaleUpperCase("pt-BR") || "TÍTULO DA NOTÍCIA";
-  const { size, lines } = fitTitle(title);
-  const lineHeight = size * 1.08;
-  const titleBottom = POST_HEIGHT - 138;
-  const startY = titleBottom - lines.length * lineHeight;
+  const stripHeight = POST_HEIGHT * 0.18;
+  const lineY = POST_HEIGHT * 0.65;
+  const lineMargin = 72;
+  const handle = "@vila.mascote";
 
   ctx.save();
-  ctx.textAlign = "left";
-  ctx.textBaseline = "top";
-  ctx.fillStyle = "#ffffff";
-  ctx.shadowColor = "rgba(0, 0, 0, 0.55)";
-  ctx.shadowBlur = 18;
-  ctx.shadowOffsetY = 6;
-  ctx.font = `900 ${size}px Montserrat, Arial Black, Arial, sans-serif`;
-  lines.forEach((line, index) => {
-    ctx.fillText(line, 60, startY + index * lineHeight);
-  });
+  ctx.fillStyle = "#000000";
+  ctx.fillRect(0, POST_HEIGHT - stripHeight, POST_WIDTH, stripHeight);
+
+  ctx.font = "700 38px Arial, sans-serif";
+  const handleWidth = ctx.measureText(handle).width + 16;
+  const sideWidth = (POST_WIDTH - lineMargin * 2 - handleWidth - 56) / 2;
+  ctx.strokeStyle = "#ffd600";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(lineMargin, lineY);
+  ctx.lineTo(lineMargin + sideWidth, lineY);
+  ctx.stroke();
+  ctx.fillStyle = "#ffd600";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText(handle, POST_WIDTH / 2, lineY);
+  ctx.beginPath();
+  ctx.moveTo(POST_WIDTH - lineMargin - sideWidth, lineY);
+  ctx.lineTo(POST_WIDTH - lineMargin, lineY);
+  ctx.stroke();
   ctx.restore();
 
+  const title = titleInput.value.trim().toLocaleUpperCase("pt-BR");
+  if (!title) return;
+
+  const { size, lines } = fitTitle(title);
+  const lineHeight = size * 1.1;
+  const totalHeight = lines.length * lineHeight;
+  const areaTop = lineY + 48;
+  const areaBottom = POST_HEIGHT - stripHeight - 20;
+  const baseY = areaTop + (areaBottom - areaTop - totalHeight) / 2 + state.titleOffsetY;
+
+  ctx.save();
   ctx.fillStyle = "#ffd600";
-  ctx.fillRect(60, POST_HEIGHT - 92, 184, 8);
-  ctx.font = "900 28px Montserrat, Arial, sans-serif";
-  ctx.fillText("@VILA.MASCOTE", 60, POST_HEIGHT - 52);
+  ctx.textAlign = "center";
+  ctx.textBaseline = "top";
+  ctx.font = `900 ${size}px Arial Black, Impact, Montserrat, Arial, sans-serif`;
+  lines.forEach((line, index) => {
+    ctx.fillText(line, POST_WIDTH / 2, baseY + index * lineHeight);
+  });
+  ctx.restore();
 }
 
 function drawPost() {
   ctx.clearRect(0, 0, POST_WIDTH, POST_HEIGHT);
   drawImage();
   drawOverlay();
-  drawBrandMark();
   drawTitle();
 }
 
 function makeResult() {
   drawPost();
-  if (state.resultUrl) URL.revokeObjectURL(state.resultUrl);
-  canvas.toBlob((blob) => {
-    state.resultUrl = URL.createObjectURL(blob);
-    resultImage.src = state.resultUrl;
-    downloadButton.href = state.resultUrl;
-    goToStep(4);
-  }, "image/png");
+  state.resultUrl = canvas.toDataURL("image/png");
+  resultImage.src = state.resultUrl;
+  downloadButton.href = state.resultUrl;
+  goToStep(4);
 }
 
 uploadBox.addEventListener("click", () => imageInput.click());
@@ -263,6 +268,11 @@ zoomRange.addEventListener("input", () => {
 
 xRange.addEventListener("input", () => setOffsets(xRange.value, state.offsetY));
 yRange.addEventListener("input", () => setOffsets(state.offsetX, yRange.value));
+titleRange.addEventListener("input", () => {
+  state.titleSize = Number(titleRange.value);
+  updateControls();
+  drawPost();
+});
 
 document.querySelectorAll("[data-go-step]").forEach((button) => {
   button.addEventListener("click", () => goToStep(Number(button.dataset.goStep)));
@@ -276,38 +286,51 @@ function getCanvasPoint(event) {
   };
 }
 
-canvas.addEventListener("pointerdown", (event) => {
+function startDrag(event, target) {
   if (!state.image) return;
   event.preventDefault();
-  canvas.setPointerCapture(event.pointerId);
+  event.currentTarget.setPointerCapture(event.pointerId);
   const point = getCanvasPoint(event);
-  state.dragging = true;
+  state.dragging = target;
   state.dragStartX = point.x;
   state.dragStartY = point.y;
   state.startOffsetX = state.offsetX;
   state.startOffsetY = state.offsetY;
+  state.startTitleOffsetY = state.titleOffsetY;
   canvasCard.classList.add("is-dragging");
-});
+}
 
-canvas.addEventListener("pointermove", (event) => {
+imageZone.addEventListener("pointerdown", (event) => startDrag(event, "image"));
+titleZone.addEventListener("pointerdown", (event) => startDrag(event, "title"));
+
+function moveDrag(event) {
   if (!state.dragging) return;
   event.preventDefault();
   const point = getCanvasPoint(event);
-  setOffsets(
-    state.startOffsetX + point.x - state.dragStartX,
-    state.startOffsetY + point.y - state.dragStartY
-  );
-});
+  if (state.dragging === "title") {
+    state.titleOffsetY = state.startTitleOffsetY + point.y - state.dragStartY;
+    updateControls();
+    drawPost();
+    return;
+  }
+
+  setOffsets(state.startOffsetX + point.x - state.dragStartX, state.startOffsetY + point.y - state.dragStartY);
+}
+
+imageZone.addEventListener("pointermove", moveDrag);
+titleZone.addEventListener("pointermove", moveDrag);
 
 function stopDragging() {
-  state.dragging = false;
+  state.dragging = null;
   canvasCard.classList.remove("is-dragging");
 }
 
-canvas.addEventListener("pointerup", stopDragging);
-canvas.addEventListener("pointercancel", stopDragging);
-canvas.addEventListener("lostpointercapture", stopDragging);
-canvas.addEventListener("pointerleave", stopDragging);
+[imageZone, titleZone].forEach((zone) => {
+  zone.addEventListener("pointerup", stopDragging);
+  zone.addEventListener("pointercancel", stopDragging);
+  zone.addEventListener("lostpointercapture", stopDragging);
+  zone.addEventListener("pointerleave", stopDragging);
+});
 
 finishButton.addEventListener("click", makeResult);
 
@@ -322,11 +345,13 @@ newPostButton.addEventListener("click", () => {
   titleInput.value = "";
   state.image = null;
   state.zoom = 1;
-  if (state.resultUrl) URL.revokeObjectURL(state.resultUrl);
+  state.titleOffsetY = 0;
+  state.titleSize = 28;
   state.resultUrl = "";
   resultImage.removeAttribute("src");
   downloadButton.href = "#";
   zoomRange.value = "100";
+  titleRange.value = "28";
   setOffsets(0, 0);
   goToStep(1);
 });
