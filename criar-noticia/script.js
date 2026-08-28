@@ -1,5 +1,7 @@
 const POST_WIDTH = 1080;
 const POST_HEIGHT = 1350;
+const TITLE_SIDE_MARGIN = 32;
+const TITLE_STRETCH = 1.08;
 
 const screens = Array.from(document.querySelectorAll(".step-screen"));
 const dotContainers = Array.from(document.querySelectorAll(".step-dots"));
@@ -104,10 +106,10 @@ function wrapText(text, maxWidth) {
 function fitTitle(text) {
   let size = state.titleSize * (POST_WIDTH / 420);
   let lines = [];
-  const maxWidth = POST_WIDTH - 100;
+  const maxWidth = (POST_WIDTH - TITLE_SIDE_MARGIN * 2) / TITLE_STRETCH;
 
   while (size >= 26) {
-    ctx.font = `900 ${size}px Montserrat, Arial Black, Arial, sans-serif`;
+    ctx.font = `900 ${size}px Arial Black, Impact, Montserrat, Arial, sans-serif`;
     lines = text.split(/\n+/).flatMap((part) => wrapText(part, maxWidth));
     if (lines.length <= 4 && lines.every((line) => ctx.measureText(line).width <= maxWidth)) break;
     size -= 4;
@@ -208,7 +210,15 @@ function drawTitle() {
   ctx.textBaseline = "top";
   ctx.font = `900 ${size}px Arial Black, Impact, Montserrat, Arial, sans-serif`;
   lines.forEach((line, index) => {
-    ctx.fillText(line, POST_WIDTH / 2, baseY + index * lineHeight);
+    const y = baseY + index * lineHeight;
+    const naturalWidth = ctx.measureText(line).width;
+    const safeWidth = POST_WIDTH - TITLE_SIDE_MARGIN * 2;
+    const scaleX = Math.min(TITLE_STRETCH, safeWidth / Math.max(naturalWidth, 1));
+    ctx.save();
+    ctx.translate(POST_WIDTH / 2, y);
+    ctx.scale(scaleX, 1);
+    ctx.fillText(line, 0, 0);
+    ctx.restore();
   });
   ctx.restore();
 }
