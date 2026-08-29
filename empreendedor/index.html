@@ -107,7 +107,7 @@
       margin-left: 12px;
       color: var(--gold-deep);
       font-family: "Libre Baskerville", serif;
-      font-size: .68em;
+      font-size: 1em;
       font-weight: 400;
       letter-spacing: -.035em;
       vertical-align: baseline;
@@ -309,6 +309,40 @@
       border-radius: 20px;
       background: #fffaf1;
     }
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+    }
+    .deep-button {
+      display: grid;
+      align-content: space-between;
+      min-height: 138px;
+      padding: 18px;
+      border-radius: 22px;
+      border: 1px solid color-mix(in oklch, var(--blue), transparent 80%);
+      background: linear-gradient(145deg, #fffefb, color-mix(in oklch, var(--gold), white 84%));
+      text-decoration: none;
+      box-shadow: 0 12px 28px color-mix(in oklch, var(--blue), transparent 92%);
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .deep-button:hover,
+    .deep-button:focus-visible {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 34px color-mix(in oklch, var(--blue), transparent 88%);
+    }
+    .deep-button strong {
+      display: block;
+      color: var(--blue);
+      font-size: 1rem;
+      line-height: 1.12;
+      letter-spacing: -.02em;
+    }
+    .deep-button span {
+      color: var(--muted);
+      font-size: .86rem;
+      font-weight: 700;
+    }
     .date { font-weight: 900; color: var(--gold-deep); }
     .segment {
       border: 1px solid var(--line);
@@ -340,7 +374,7 @@
     @media (max-width: 900px) {
       .hero-card { grid-template-columns: 1fr; }
       .span-8, .span-6, .span-4 { grid-column: span 12; }
-      .kpis { grid-template-columns: repeat(2, 1fr); }
+      .kpis, .button-grid { grid-template-columns: repeat(2, 1fr); }
       .event { grid-template-columns: 1fr; }
       th:nth-child(4), td:nth-child(4) { display: none; }
     }
@@ -349,7 +383,7 @@
       .wrap { width: min(100% - 20px, 1180px); }
       header { padding-top: 26px; }
       .card { padding: 18px; border-radius: 22px; }
-      .kpis { grid-template-columns: 1fr; }
+      .kpis, .button-grid { grid-template-columns: 1fr; }
       th, td { padding: 11px 8px; }
       .brand-row { align-items: flex-start; border-radius: 24px; }
       .thermo-wrap { grid-template-columns: 1fr; }
@@ -417,77 +451,18 @@
       </article>
 
       <article class="card span-4">
-        <h2>Assuntos em alta da semana</h2>
-        <p>Buscas em alta do Google Trends no estado de São Paulo ajudam a entender o que está chamando atenção na cidade e podem inspirar posts rápidos, ofertas do dia e comunicação por WhatsApp.</p>
-        <table>
-          <thead><tr><th>Assunto</th><th>Leitura para o bairro</th></tr></thead>
-          <tbody>
-            <tr><td>São Paulo contra Bragantino</td><td>Assunto paulista. Se cair em horário de jantar, favorece pizza, lanche, bebida e delivery.</td></tr>
-            <tr><td>Botafogo SP contra Cuiabá</td><td>Jogo brasileiro com time paulista. Vale acompanhar se ganhar volume na região.</td></tr>
-            <tr><td>Flamengo feminino</td><td>Tema brasileiro em alta. Usar apenas se houver conversa forte no dia.</td></tr>
-            <tr><td>Atlético MG contra Vitória</td><td>Volume nacional alto. Pode indicar atenção forte para futebol brasileiro, mas impacto local é menor.</td></tr>
-            <tr><td>Vasco contra Cruzeiro</td><td>Jogo brasileiro com procura relevante. Útil para delivery se o horário coincidir com refeição.</td></tr>
-            <tr><td>Série C</td><td>Busca esportiva brasileira. Serve mais como sinal de futebol dominando a atenção do dia.</td></tr>
-            <tr><td>Pesquisa Vox</td><td>Assunto político. Não usar como promoção, apenas como sinal de atenção pública dividida.</td></tr>
-            <tr><td>Gasolina em São Paulo</td><td>Assunto local de custo. Reforça conveniência de comprar perto de casa.</td></tr>
-            <tr><td>Calor em São Paulo</td><td>Ajuda sorvete, açaí, bebidas, farmácia, pet e alimentação leve.</td></tr>
-            <tr><td>Peixe</td><td>Confirmar contexto. Se for comida, pode virar gancho para restaurantes e mercados.</td></tr>
-          </tbody>
-        </table>
-      </article>
-
-      <article class="card span-6">
-        <h2>Datas que vendem mais no trimestre</h2>
-        <p>Esta previsão ajuda o empreendedor a se preparar antes. Setembro deve começar a aquecer a base para outubro, novembro e dezembro.</p>
-        <ul>
-          <li><strong>12/10, Dia das Crianças e feriado:</strong> presentes, alimentação, doces, lazer, estética infantil, papelaria e brinquedos.</li>
-          <li><strong>15/10, Dia do Professor:</strong> lembranças, flores, doces, papelaria, cafés e presentes acessíveis.</li>
-          <li><strong>31/10, Halloween:</strong> docerias, festas, fantasias, papelaria, bares e condomínios.</li>
-          <li><strong>27/11, Black Friday:</strong> estoque, pacotes, serviços recorrentes e antecipação de Natal.</li>
-          <li><strong>30/11, Cyber Monday:</strong> reforço digital para WhatsApp, catálogo, delivery e atendimento online.</li>
-          <li><strong>24 e 25/12, Natal:</strong> alimentação, presentes, beleza, decoração, pet, saúde e serviços de casa.</li>
-          <li><strong>31/12, Réveillon:</strong> comida pronta, bebidas, beleza e cuidados de última hora.</li>
-        </ul>
-      </article>
-
-      <article class="card span-6">
-        <h2>Jogos importantes no calendário</h2>
-        <p>Jogos de setembro com maior chance de gerar consumo em casa, encontro em bar, pedido por delivery ou post rápido de comércio local.</p>
-        <div class="timeline">
-          <div class="event"><div class="date">05/09</div><div><strong>São Paulo contra Atlético Mineiro.</strong><br><span class="muted">Brasileirão, 18h30. Bom horário para alimentação antes e durante o jogo.</span></div></div>
-          <div class="event"><div class="date">06/09</div><div><strong>Corinthians contra Chapecoense.</strong><br><span class="muted">Brasileirão, 19h30. Boa janela para pizza, lanche, bebida e delivery.</span></div></div>
-          <div class="event"><div class="date">06/09</div><div><strong>Botafogo contra Palmeiras.</strong><br><span class="muted">Brasileirão, 18h30. Jogo fora, bom para consumo em casa.</span></div></div>
-          <div class="event"><div class="date">08/09</div><div><strong>Boca Juniors contra São Paulo.</strong><br><span class="muted">Sul Americana, quartas de final, 21h30. Jogo decisivo, forte para bares e delivery.</span></div></div>
-          <div class="event"><div class="date">09/09</div><div><strong>Palmeiras contra LDU.</strong><br><span class="muted">Libertadores, quartas de final, 21h30. Boa pauta para consumo noturno.</span></div></div>
-          <div class="event"><div class="date">09/09</div><div><strong>Estudiantes contra Corinthians.</strong><br><span class="muted">Libertadores, quartas de final, 21h30. Jogo decisivo, bom para combos e pedidos antecipados.</span></div></div>
-          <div class="event"><div class="date">13/09</div><div><strong>Palmeiras contra São Paulo.</strong><br><span class="muted">Clássico pelo Brasileirão, horário a confirmar. Entrar como destaque da semana.</span></div></div>
-          <div class="event"><div class="date">15/09</div><div><strong>São Paulo contra Boca Juniors.</strong><br><span class="muted">Sul Americana, volta das quartas, 21h30. Jogo decisivo para comunicação no fim da tarde.</span></div></div>
-          <div class="event"><div class="date">16/09</div><div><strong>Corinthians contra Estudiantes.</strong><br><span class="muted">Libertadores, volta das quartas, 21h30. Boa janela para bares, pizzarias e delivery.</span></div></div>
-          <div class="event"><div class="date">15 a 17/09</div><div><strong>LDU contra Palmeiras.</strong><br><span class="muted">Libertadores, volta das quartas, data e horário a confirmar. Manter no radar da semana.</span></div></div>
-        </div>
+        <h2>Ver análises completas</h2>
+        <p>Abra os blocos detalhados quando quiser entender cada sinal do mês.</p>
       </article>
 
       <article class="card span-12">
-        <h2>Previsão do tempo e impacto nas vendas</h2>
-        <p>A primeira semana de setembro começa com mudança forte de clima em São Paulo. Depois de calor no fim de agosto, a terça feira deve ter chuva e queda de temperatura. Quarta fica mais fria. Quinta e sexta voltam a ter chuva em alguns períodos.</p>
-        <div class="grid">
-          <div class="segment span-4">
-            <h3>01/09, terça feira</h3>
-            <span class="pill watch">chuva e queda de temperatura</span>
-            <p class="muted">Máxima perto de 21 graus e mínima perto de 13 graus. Bom para delivery, comida quente, farmácia, mercado, pet com agendamento e comunicação de conforto.</p>
-          </div>
-          <div class="segment span-4">
-            <h3>02/09, quarta feira</h3>
-            <span class="pill mid">mais frio e menos úmido</span>
-            <p class="muted">Máxima perto de 19 graus e mínima perto de 11 graus. Ajuda cafés, padarias, sopas, caldos, massas, roupas, farmácia e serviços de cuidado.</p>
-          </div>
-          <div class="segment span-4">
-            <h3>03 e 04/09</h3>
-            <span class="pill watch">chuva em períodos</span>
-            <p class="muted">Quinta e sexta com chuva. Reforçar entrega, retirada rápida, WhatsApp, reserva e lembrete de horário para serviços marcados.</p>
-          </div>
+        <div class="button-grid" aria-label="Análises completas do Radar Vila Mascote">
+          <a class="deep-button" href="assuntos/"><strong>Assuntos em alta da semana</strong><span>Google Trends em São Paulo</span></a>
+          <a class="deep-button" href="clima/"><strong>Previsão do tempo nas vendas</strong><span>Duas semanas de influência</span></a>
+          <a class="deep-button" href="datas/"><strong>Datas que vendem mais no trimestre</strong><span>Próximas campanhas</span></a>
+          <a class="deep-button" href="jogos/"><strong>Jogos de futebol importantes</strong><span>Calendário de setembro</span></a>
+          <a class="deep-button" href="economia/"><strong>Economia e consumo</strong><span>Números atuais explicados</span></a>
         </div>
-        <p><strong>Como isso muda o índice:</strong> alimentação e delivery ganham força nos dias de chuva e frio. Beleza, pet e clínicas precisam reforçar confirmação de horário. Comércio de impulso deve publicar cedo, porque chuva reduz decisão de última hora fora de casa.</p>
       </article>
 
       <article class="card span-12">
@@ -567,33 +542,6 @@
         </ul>
       </article>
 
-      <article class="card span-12">
-        <h2>Economia: números atuais e o que eles significam</h2>
-        <div class="kpis">
-          <div class="kpi"><span class="muted">IPCA julho</span><b>0,07%</b><small>4,44% em 12 meses</small></div>
-          <div class="kpi"><span class="muted">IPCA 15 agosto</span><b>menos 0,40%</b><small>prévia com 4,24% em 12 meses</small></div>
-          <div class="kpi"><span class="muted">Selic</span><b>14,00%</b><small>crédito ainda caro</small></div>
-          <div class="kpi"><span class="muted">Desemprego</span><b>5,3%</b><small>trimestre encerrado em julho</small></div>
-          <div class="kpi"><span class="muted">Confiança</span><b>84,7</b><small>FGV IBRE em agosto</small></div>
-          <div class="kpi"><span class="muted">Gasolina SP</span><b>R$ 6,33</b><small>média semanal até 29/08</small></div>
-          <div class="kpi"><span class="muted">Poder de compra</span><b>misto</b><small>emprego ajuda, juros limitam</small></div>
-          <div class="kpi"><span class="muted">Consumo</span><b>seletivo</b><small>cliente compara mais</small></div>
-        </div>
-        <table>
-          <thead>
-            <tr><th>Indicador</th><th>O que significa</th><th>Impacto para o negócio</th><th>Como usar no mês</th></tr>
-          </thead>
-          <tbody>
-            <tr><td><strong>Inflação e IPCA</strong></td><td>Preços subiram pouco em julho e a prévia de agosto veio negativa.</td><td>Ajuda o cliente a respirar, mas ele continua sensível a preço.</td><td>Use combos, preço fechado e ofertas simples de entender.</td></tr>
-            <tr><td><strong>Juros e Selic</strong></td><td>A taxa segue alta, então compras grandes e parceladas exigem mais convencimento.</td><td>Afeta mais cursos, estética cara, móveis e serviços de ticket alto. Em imóveis, cruzar com procura local e notícias do setor.</td><td>Explique valor, parcela, garantia e benefício real. Não dependa só de desconto.</td></tr>
-            <tr><td><strong>Emprego e renda</strong></td><td>Desemprego baixo melhora renda disponível, mas não torna o consumidor descuidado.</td><td>Ajuda compras recorrentes: comida, beleza, pet, saúde preventiva e serviços próximos.</td><td>Fale de rotina, praticidade e confiança no bairro.</td></tr>
-            <tr><td><strong>Confiança do consumidor</strong></td><td>Confiança em 84,7 mostra um consumidor ainda cauteloso.</td><td>Promoção vaga perde força. Motivo concreto vende melhor.</td><td>Use prazo, brinde, agenda limitada, retirada rápida ou benefício claro.</td></tr>
-            <tr><td><strong>Combustíveis</strong></td><td>Gasolina perto de R$ 6,33 por litro em São Paulo valoriza resolver coisas perto de casa.</td><td>Comércio de bairro ganha argumento natural.</td><td>Reforce “perto de você”, WhatsApp, entrega local e retirada fácil.</td></tr>
-            <tr><td><strong>Imóveis em São Paulo</strong></td><td>Leituras recentes do setor mostram mercado ativo, com bom volume de vendas e lançamentos em 2026.</td><td>Na Mascote, isso favorece conteúdo de avaliação, compra, aluguel e vida de bairro, sem promessa exagerada.</td><td>Mostrar dados locais, imóveis reais, comparativos simples e chamada para avaliação.</td></tr>
-          </tbody>
-        </table>
-        <div class="source"><strong>Fontes:</strong> IBGE para IPCA e desemprego; Banco Central e Copom para Selic; FGV IBRE para confiança do consumidor; ANP e UOL para gasolina em São Paulo; TSE para calendário eleitoral; Secovi SP e notícias recentes do setor para leitura imobiliária. Indicadores consultados em 29/08/2026.</div>
-      </article>
     </section>
   </main>
 
