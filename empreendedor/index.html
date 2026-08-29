@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar do Empreendedor Vila Mascote</title>
+  <meta name="description" content="Radar mensal para empreendedores da Vila Mascote, com datas, tendências, jogos, segmentos e economia para planejar divulgação local.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assets/logo-vila-mascote.png">
+  <style>
+    :root {
+      --bg: oklch(98% 0.012 93);
+      --paper: oklch(98% 0.012 93);
+      --surface: #fffdf8;
+      --ink: #102347;
+      --muted: color-mix(in oklch, #102347, transparent 35%);
+      --line: oklch(88% 0.018 92);
+      --blue: #102347;
+      --gold: #c9ae24;
+      --gold-deep: #9a8219;
+      --green: oklch(64% 0.12 152);
+      --rose: oklch(66% 0.14 18);
+      --shadow: 0 18px 50px color-mix(in oklch, #102347, transparent 88%);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 0%, color-mix(in oklch, var(--gold), transparent 72%), transparent 30rem),
+        radial-gradient(circle at 90% 8%, color-mix(in oklch, var(--blue), transparent 82%), transparent 28rem),
+        linear-gradient(180deg, oklch(97% 0.018 96), var(--paper) 360px),
+        var(--paper);
+      font: 16px/1.55 "Montserrat", ui-sans-serif, system-ui, sans-serif;
+    }
+
+    a { color: inherit; }
+    .wrap { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+    header { padding: 30px 0 24px; }
+    .brand-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 26px;
+      padding: 16px 18px;
+      border: 1px solid color-mix(in oklch, var(--blue), transparent 82%);
+      border-radius: 999px;
+      background: rgba(255,255,255,.62);
+      box-shadow: 0 10px 30px color-mix(in oklch, var(--blue), transparent 92%);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      text-decoration: none;
+      color: var(--blue);
+    }
+    .brand-mark {
+      width: 54px;
+      height: 54px;
+      object-fit: contain;
+      flex: 0 0 auto;
+    }
+    .brand-copy {
+      display: grid;
+      gap: 2px;
+    }
+    .brand-copy strong {
+      font-size: .98rem;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+    .brand-copy span {
+      color: var(--muted);
+      font-size: .78rem;
+      font-weight: 700;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid color-mix(in oklch, var(--blue), transparent 78%);
+      color: var(--blue);
+      background: rgba(255,255,255,.62);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 18px 0 10px;
+      max-width: 980px;
+      color: var(--blue);
+      font-size: clamp(38px, 6.8vw, 82px);
+      line-height: .9;
+      letter-spacing: -.06em;
+    }
+    h1 em {
+      display: inline-block;
+      margin-left: 12px;
+      color: var(--gold-deep);
+      font-family: "Libre Baskerville", serif;
+      font-size: .68em;
+      font-weight: 400;
+      letter-spacing: -.035em;
+      vertical-align: baseline;
+      white-space: nowrap;
+    }
+    h2 { margin: 0 0 16px; font-size: clamp(24px, 3vw, 38px); line-height: 1.04; letter-spacing: -.035em; }
+    h3 { margin: 0 0 10px; font-size: 21px; line-height: 1.15; letter-spacing: -.02em; }
+    p { margin: 0 0 12px; }
+    ul { margin: 12px 0 0; padding-left: 20px; }
+    li { margin: 7px 0; }
+    .lead { max-width: 860px; color: #415047; font-size: clamp(18px, 2.2vw, 23px); }
+    .muted { color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; margin: 18px 0; }
+    .card {
+      background: rgba(255,253,248,.90);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(8px);
+    }
+    .span-12 { grid-column: span 12; }
+    .span-8 { grid-column: span 8; }
+    .span-6 { grid-column: span 6; }
+    .span-4 { grid-column: span 4; }
+    .hero-card {
+      display: grid;
+      grid-template-columns: 1.18fr .82fr;
+      gap: 22px;
+      align-items: stretch;
+    }
+    .quick {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-top: 18px;
+    }
+    .quick div {
+      border-radius: 20px;
+      border: 1px solid color-mix(in oklch, var(--gold), transparent 26%);
+      background: linear-gradient(135deg, color-mix(in oklch, var(--gold), white 72%), color-mix(in oklch, var(--gold), white 88%));
+      padding: 20px 22px;
+      box-shadow:
+        0 18px 38px color-mix(in oklch, var(--gold), transparent 78%),
+        inset 0 1px 0 rgba(255,255,255,.78);
+    }
+    .quick b {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--blue);
+      font-size: .82rem;
+      font-weight: 950;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .quick span {
+      display: block;
+      color: var(--blue);
+      font-size: clamp(1.15rem, 2.2vw, 1.7rem);
+      line-height: 1.15;
+      font-weight: 900;
+      letter-spacing: -.03em;
+    }
+    .score {
+      min-height: 280px;
+      border-radius: 28px;
+      padding: 28px;
+      color: white;
+      background:
+        linear-gradient(145deg, var(--blue), color-mix(in oklch, var(--blue), var(--gold) 18%)),
+        radial-gradient(circle at top right, rgba(255,255,255,.28), transparent 12rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      position: relative;
+    }
+    .score:after {
+      content: "";
+      position: absolute;
+      right: -80px;
+      bottom: -90px;
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+      border: 34px solid color-mix(in oklch, var(--gold), transparent 72%);
+    }
+    .score > * { position: relative; z-index: 1; }
+    .score strong { display: block; font-size: clamp(74px, 10vw, 136px); line-height: .8; letter-spacing: -.07em; }
+    .score small { text-transform: uppercase; letter-spacing: .08em; opacity: .85; font-weight: 850; }
+    .thermo-wrap {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 18px;
+      align-items: center;
+      margin: 18px 0;
+    }
+    .thermo {
+      width: 74px;
+      height: 198px;
+      position: relative;
+      display: grid;
+      justify-items: center;
+    }
+    .thermo-tube {
+      width: 34px;
+      height: 158px;
+      border-radius: 999px;
+      border: 4px solid rgba(255,255,255,.72);
+      background: rgba(255,255,255,.18);
+      position: relative;
+      overflow: hidden;
+      box-shadow: inset 0 8px 18px rgba(0,0,0,.22);
+    }
+    .thermo-fill {
+      position: absolute;
+      left: 4px;
+      right: 4px;
+      bottom: 4px;
+      height: 56%;
+      border-radius: 999px;
+      background: linear-gradient(180deg, var(--gold), #f3d96c);
+      box-shadow: 0 0 22px color-mix(in oklch, var(--gold), transparent 34%);
+    }
+    .thermo-bulb {
+      width: 66px;
+      height: 66px;
+      margin-top: -18px;
+      border-radius: 999px;
+      border: 4px solid rgba(255,255,255,.72);
+      background:
+        radial-gradient(circle at 35% 28%, rgba(255,255,255,.72), transparent 16px),
+        linear-gradient(145deg, #f3d96c, var(--gold));
+      box-shadow: 0 0 28px color-mix(in oklch, var(--gold), transparent 45%);
+    }
+    .score-reading { display: grid; gap: 10px; }
+    .score-label {
+      display: inline-flex;
+      width: fit-content;
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: rgba(255,255,255,.16);
+      border: 1px solid rgba(255,255,255,.22);
+      color: rgba(255,255,255,.92);
+      font-size: 13px;
+      font-weight: 850;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .meter { display: grid; gap: 8px; }
+    .meter-track {
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.18);
+      overflow: hidden;
+    }
+    .meter-track span {
+      display: block;
+      width: 56%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #f3d96c, var(--gold));
+    }
+    .meter-scale {
+      display: flex;
+      justify-content: space-between;
+      color: rgba(255,255,255,.72);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border-radius: 999px;
+      padding: 7px 11px;
+      font-size: 13px;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+    .good { background: color-mix(in oklch, var(--green), transparent 86%); color: color-mix(in oklch, var(--green), black 28%); }
+    .mid { background: color-mix(in oklch, var(--gold), transparent 82%); color: var(--gold-deep); }
+    .watch { background: color-mix(in oklch, var(--rose), transparent 88%); color: color-mix(in oklch, var(--rose), black 20%); }
+    .blue { background: rgba(45,95,145,.12); color: var(--blue); }
+    table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 18px; }
+    th, td { padding: 14px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .07em; }
+    tr:last-child td { border-bottom: 0; }
+    .num { font-size: 24px; font-weight: 900; letter-spacing: -.03em; }
+    .timeline { display: grid; gap: 12px; }
+    .event {
+      display: grid;
+      grid-template-columns: 104px 1fr;
+      gap: 12px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: #fffaf1;
+    }
+    .date { font-weight: 900; color: var(--gold-deep); }
+    .segment {
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 20px;
+      background: linear-gradient(180deg, #fffefb, color-mix(in oklch, var(--gold), white 88%));
+      min-height: 100%;
+    }
+    .bar { height: 10px; background: #eadfce; border-radius: 999px; overflow: hidden; margin: 12px 0 15px; }
+    .bar span { display: block; height: 100%; background: linear-gradient(90deg, var(--blue), var(--gold)); border-radius: inherit; }
+    .explain { margin-top: 14px; display: grid; gap: 10px; }
+    .explain div { border-left: 4px solid color-mix(in oklch, var(--gold), transparent 35%); padding-left: 12px; }
+    .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .kpi {
+      border: 1px solid var(--line);
+      background: #fffaf1;
+      border-radius: 20px;
+      padding: 16px;
+    }
+    .kpi b { display: block; font-size: 24px; letter-spacing: -.035em; }
+    .source {
+      border-top: 1px solid var(--line);
+      padding-top: 12px;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+    footer { padding: 18px 0 42px; color: var(--muted); font-size: 14px; }
+
+    @media (max-width: 900px) {
+      .hero-card { grid-template-columns: 1fr; }
+      .span-8, .span-6, .span-4 { grid-column: span 12; }
+      .kpis { grid-template-columns: repeat(2, 1fr); }
+      .event { grid-template-columns: 1fr; }
+      th:nth-child(4), td:nth-child(4) { display: none; }
+    }
+
+    @media (max-width: 560px) {
+      .wrap { width: min(100% - 20px, 1180px); }
+      header { padding-top: 26px; }
+      .card { padding: 18px; border-radius: 22px; }
+      .kpis { grid-template-columns: 1fr; }
+      th, td { padding: 11px 8px; }
+      .brand-row { align-items: flex-start; border-radius: 24px; }
+      .thermo-wrap { grid-template-columns: 1fr; }
+      .thermo { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand-row">
+      <a class="brand" href="../" aria-label="Voltar para o Guia Vila Mascote">
+        <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote" class="brand-mark">
+        <span class="brand-copy">
+          <strong>Revista Digital Vila Mascote</strong>
+          <span>Radar para empreendedores</span>
+        </span>
+      </a>
+      <span class="eyebrow">Setembro 2026</span>
+    </div>
+    <span class="eyebrow">Radar Vila Mascote</span>
+    <h1>O que pode mexer com as vendas no bairro <em>este mês</em></h1>
+    <p class="lead">Um painel direto para o empreendedor da Vila Mascote enxergar datas, jogos, comportamento de consumo e ações práticas. A ideia é simples: transformar o calendário em movimento real no balcão, no WhatsApp, no delivery e na agenda.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card hero-card">
+      <div>
+        <h2>Resumo do mês</h2>
+        <p><strong>Setembro é mês de chamar o cliente de volta.</strong> Tem feriado logo no começo, Dia do Cliente no meio do mês, primavera chegando e preparação para outubro. Não é mês para ficar parado esperando movimento cair do céu.</p>
+        <p>O empreendedor que cria uma razão clara para agir agora sai na frente: reservar, pedir antes do jogo, retirar rápido, ganhar um mimo, marcar horário ou aproveitar uma condição por poucos dias.</p>
+        <div class="quick">
+          <div><b>Melhor janela</b><span>01 a 15/09, com feriado e Dia do Cliente.</span></div>
+        </div>
+      </div>
+      <div class="score">
+        <small>Índice geral de setembro</small>
+        <div class="thermo-wrap" aria-label="Termômetro de demanda em 56 de 100">
+          <div class="thermo" aria-hidden="true">
+            <div class="thermo-tube"><div class="thermo-fill"></div></div>
+            <div class="thermo-bulb"></div>
+          </div>
+          <div class="score-reading">
+            <strong>56</strong>
+            <span class="score-label">Demanda moderada</span>
+          </div>
+        </div>
+        <div class="meter" aria-hidden="true">
+          <div class="meter-track"><span></span></div>
+          <div class="meter-scale"><span>fria</span><span>morna</span><span>quente</span></div>
+        </div>
+        <p>O mês precisa de oferta clara, calendário bem usado e comunicação rápida.</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card span-8">
+        <h2>Agenda local e comercial</h2>
+        <div class="timeline">
+          <div class="event"><div class="date">07/09</div><div><strong>Feriado nacional, segunda feira.</strong><br><span class="muted">Bom para restaurantes, bares, pizzarias, padarias, cafeterias, docerias, sorvetes, açaí, pet, farmácias, mercados, lojas de conveniência, beleza com horário marcado e serviços perto de casa. O ideal é divulgar antes do fim de semana, com horário de funcionamento, reserva, retirada ou WhatsApp bem visível.</span></div></div>
+          <div class="event"><div class="date">15/09</div><div><strong>Dia do Cliente.</strong><br><span class="muted">Serve para reativar quem já comprou: cupom simples, mimo, brinde pequeno ou mensagem de agradecimento com convite para voltar.</span></div></div>
+          <div class="event"><div class="date">22/09</div><div><strong>Início da primavera.</strong><br><span class="muted">Gancho bom para beleza, saúde, pet, alimentação leve, decoração, flores, casa e conteúdos mais visuais.</span></div></div>
+          <div class="event"><div class="date">04/10</div><div><strong>Votação, primeiro turno.</strong><br><span class="muted">Preparar desde setembro. Locais informados: Colégio Etapa, Colégio Domino's Vivendi e Colégio Bernardo. Domingo de votação costuma colocar moradores na rua procurando café, almoço rápido e conveniência.</span></div></div>
+          <div class="event"><div class="date">25/10</div><div><strong>Possível segundo turno.</strong><br><span class="muted">Se houver, repetir estratégia: comunicação cedo, produtos fáceis, retirada rápida e atendimento por WhatsApp.</span></div></div>
+        </div>
+      </article>
+
+      <article class="card span-4">
+        <h2>Assuntos em alta da semana</h2>
+        <p>Buscas em alta ajudam a entender o que está chamando atenção na cidade e podem inspirar posts rápidos, ofertas do dia e comunicação por WhatsApp.</p>
+        <table>
+          <thead><tr><th>Assunto</th><th>Leitura para o bairro</th></tr></thead>
+          <tbody>
+            <tr><td>São Paulo contra Bragantino</td><td>Assunto paulista. Se cair em horário de jantar, favorece pizza, lanche, bebida e delivery.</td></tr>
+            <tr><td>Botafogo SP contra Cuiabá</td><td>Jogo brasileiro com time paulista. Vale acompanhar se ganhar volume na região.</td></tr>
+            <tr><td>Flamengo feminino</td><td>Tema brasileiro em alta. Usar apenas se houver conversa forte no dia.</td></tr>
+            <tr><td>Atlético MG contra Vitória</td><td>Volume nacional alto. Pode indicar atenção forte para futebol brasileiro, mas impacto local é menor.</td></tr>
+            <tr><td>Vasco contra Cruzeiro</td><td>Jogo brasileiro com procura relevante. Útil para delivery se o horário coincidir com refeição.</td></tr>
+            <tr><td>Série C</td><td>Busca esportiva brasileira. Serve mais como sinal de futebol dominando a atenção do dia.</td></tr>
+            <tr><td>Pesquisa Vox</td><td>Assunto político. Não usar como promoção, apenas como sinal de atenção pública dividida.</td></tr>
+            <tr><td>Gasolina em São Paulo</td><td>Assunto local de custo. Reforça conveniência de comprar perto de casa.</td></tr>
+            <tr><td>Calor em São Paulo</td><td>Ajuda sorvete, açaí, bebidas, farmácia, pet e alimentação leve.</td></tr>
+            <tr><td>Peixe</td><td>Confirmar contexto. Se for comida, pode virar gancho para restaurantes e mercados.</td></tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="card span-6">
+        <h2>Datas que vendem mais no trimestre</h2>
+        <p>Esta previsão ajuda o empreendedor a se preparar antes. Setembro deve começar a aquecer a base para outubro, novembro e dezembro.</p>
+        <ul>
+          <li><strong>12/10, Dia das Crianças e feriado:</strong> presentes, alimentação, doces, lazer, estética infantil, papelaria e brinquedos.</li>
+          <li><strong>15/10, Dia do Professor:</strong> lembranças, flores, doces, papelaria, cafés e presentes acessíveis.</li>
+          <li><strong>31/10, Halloween:</strong> docerias, festas, fantasias, papelaria, bares e condomínios.</li>
+          <li><strong>27/11, Black Friday:</strong> estoque, pacotes, serviços recorrentes e antecipação de Natal.</li>
+          <li><strong>30/11, Cyber Monday:</strong> reforço digital para WhatsApp, catálogo, delivery e atendimento online.</li>
+          <li><strong>24 e 25/12, Natal:</strong> alimentação, presentes, beleza, decoração, pet, saúde e serviços de casa.</li>
+          <li><strong>31/12, Réveillon:</strong> comida pronta, bebidas, beleza e cuidados de última hora.</li>
+        </ul>
+      </article>
+
+      <article class="card span-6">
+        <h2>Jogos importantes no calendário</h2>
+        <p>Jogos de setembro com maior chance de gerar consumo em casa, encontro em bar, pedido por delivery ou post rápido de comércio local.</p>
+        <div class="timeline">
+          <div class="event"><div class="date">05/09</div><div><strong>São Paulo contra Atlético Mineiro.</strong><br><span class="muted">Brasileirão, 18h30. Bom horário para alimentação antes e durante o jogo.</span></div></div>
+          <div class="event"><div class="date">06/09</div><div><strong>Corinthians contra Chapecoense.</strong><br><span class="muted">Brasileirão, 19h30. Boa janela para pizza, lanche, bebida e delivery.</span></div></div>
+          <div class="event"><div class="date">06/09</div><div><strong>Botafogo contra Palmeiras.</strong><br><span class="muted">Brasileirão, 18h30. Jogo fora, bom para consumo em casa.</span></div></div>
+          <div class="event"><div class="date">08/09</div><div><strong>Boca Juniors contra São Paulo.</strong><br><span class="muted">Sul Americana, quartas de final, 21h30. Jogo decisivo, forte para bares e delivery.</span></div></div>
+          <div class="event"><div class="date">09/09</div><div><strong>Palmeiras contra LDU.</strong><br><span class="muted">Libertadores, quartas de final, 21h30. Boa pauta para consumo noturno.</span></div></div>
+          <div class="event"><div class="date">09/09</div><div><strong>Estudiantes contra Corinthians.</strong><br><span class="muted">Libertadores, quartas de final, 21h30. Jogo decisivo, bom para combos e pedidos antecipados.</span></div></div>
+          <div class="event"><div class="date">13/09</div><div><strong>Palmeiras contra São Paulo.</strong><br><span class="muted">Clássico pelo Brasileirão, horário a confirmar. Entrar como destaque da semana.</span></div></div>
+          <div class="event"><div class="date">15/09</div><div><strong>São Paulo contra Boca Juniors.</strong><br><span class="muted">Sul Americana, volta das quartas, 21h30. Jogo decisivo para comunicação no fim da tarde.</span></div></div>
+          <div class="event"><div class="date">16/09</div><div><strong>Corinthians contra Estudiantes.</strong><br><span class="muted">Libertadores, volta das quartas, 21h30. Boa janela para bares, pizzarias e delivery.</span></div></div>
+          <div class="event"><div class="date">15 a 17/09</div><div><strong>LDU contra Palmeiras.</strong><br><span class="muted">Libertadores, volta das quartas, data e horário a confirmar. Manter no radar da semana.</span></div></div>
+        </div>
+      </article>
+
+      <article class="card span-12">
+        <h2>Previsão do tempo e impacto nas vendas</h2>
+        <p>A primeira semana de setembro começa com mudança forte de clima em São Paulo. Depois de calor no fim de agosto, a terça feira deve ter chuva e queda de temperatura. Quarta fica mais fria. Quinta e sexta voltam a ter chuva em alguns períodos.</p>
+        <div class="grid">
+          <div class="segment span-4">
+            <h3>01/09, terça feira</h3>
+            <span class="pill watch">chuva e queda de temperatura</span>
+            <p class="muted">Máxima perto de 21 graus e mínima perto de 13 graus. Bom para delivery, comida quente, farmácia, mercado, pet com agendamento e comunicação de conforto.</p>
+          </div>
+          <div class="segment span-4">
+            <h3>02/09, quarta feira</h3>
+            <span class="pill mid">mais frio e menos úmido</span>
+            <p class="muted">Máxima perto de 19 graus e mínima perto de 11 graus. Ajuda cafés, padarias, sopas, caldos, massas, roupas, farmácia e serviços de cuidado.</p>
+          </div>
+          <div class="segment span-4">
+            <h3>03 e 04/09</h3>
+            <span class="pill watch">chuva em períodos</span>
+            <p class="muted">Quinta e sexta com chuva. Reforçar entrega, retirada rápida, WhatsApp, reserva e lembrete de horário para serviços marcados.</p>
+          </div>
+        </div>
+        <p><strong>Como isso muda o índice:</strong> alimentação e delivery ganham força nos dias de chuva e frio. Beleza, pet e clínicas precisam reforçar confirmação de horário. Comércio de impulso deve publicar cedo, porque chuva reduz decisão de última hora fora de casa.</p>
+      </article>
+
+      <article class="card span-12">
+        <h2>Índice por segmento para setembro</h2>
+        <div class="grid">
+          <div class="segment span-4">
+            <h3>Restaurantes, bares e delivery</h3>
+            <span class="pill good">63/100 • bom moderado</span>
+            <div class="bar"><span style="width:63%"></span></div>
+            <div class="explain">
+              <div><strong>Leitura:</strong> há bons motivos para chamar o cliente, principalmente feriado, jogos e consumo em casa.</div>
+              <div><strong>Ação:</strong> trabalhar combo fechado, retirada rápida, cardápio fácil e publicação antes dos horários de fome.</div>
+              <div><strong>Exemplo:</strong> “Combo família para hoje. Peça pelo WhatsApp e retire no horário combinado.”</div>
+            </div>
+          </div>
+          <div class="segment span-4">
+            <h3>Padarias, cafeterias e docerias</h3>
+            <span class="pill good">61/100 • bom moderado</span>
+            <div class="bar"><span style="width:61%"></span></div>
+            <div class="explain">
+              <div><strong>Leitura:</strong> o mês favorece compra pequena, café, pão, doce, presente simples e mimo para cliente.</div>
+              <div><strong>Ação:</strong> mostrar vitrine cedo, montar kits pequenos e usar Dia do Cliente com brinde barato.</div>
+              <div><strong>Exemplo:</strong> “Café com doce do dia e mimo de Dia do Cliente durante esta semana.”</div>
+            </div>
+          </div>
+          <div class="segment span-4">
+            <h3>Beleza, estética e salão</h3>
+            <span class="pill mid">56/100 • atenção positiva</span>
+            <div class="bar"><span style="width:56%"></span></div>
+            <div class="explain">
+              <div><strong>Leitura:</strong> primavera ajuda o discurso de renovação, autoestima e cuidado.</div>
+              <div><strong>Ação:</strong> oferecer agenda fácil, pacote de entrada e conteúdo visual com resultado real.</div>
+              <div><strong>Exemplo:</strong> “Semana da primavera com avaliação e horário pelo WhatsApp.”</div>
+            </div>
+          </div>
+          <div class="segment span-4">
+            <h3>Pet shops e serviços pet</h3>
+            <span class="pill mid">51/100 • estável</span>
+            <div class="bar"><span style="width:51%"></span></div>
+            <div class="explain">
+              <div><strong>Leitura:</strong> pet não depende tanto de data. Depende de lembrança, confiança e conveniência.</div>
+              <div><strong>Ação:</strong> lembrete de banho e tosa, reposição de ração, retirada rápida e atendimento para moradores próximos.</div>
+              <div><strong>Exemplo:</strong> “Seu pet pronto para a primavera com banho agendado e retirada no horário combinado.”</div>
+            </div>
+          </div>
+          <div class="segment span-4">
+            <h3>Saúde, odonto e clínicas</h3>
+            <span class="pill mid">49/100 • estável cauteloso</span>
+            <div class="bar"><span style="width:49%"></span></div>
+            <div class="explain">
+              <div><strong>Leitura:</strong> o cliente não decide por impulso. Ele precisa confiar, entender o benefício e sentir segurança.</div>
+              <div><strong>Ação:</strong> usar conteúdo educativo, check up, prevenção, agenda clara e linguagem humana.</div>
+              <div><strong>Exemplo:</strong> “Setembro é um bom mês para retomar seus cuidados antes da correria de fim de ano.”</div>
+            </div>
+          </div>
+          <div class="segment span-4">
+            <h3>Imóveis e serviços residenciais</h3>
+            <span class="pill blue">58/100 • mercado ativo com decisão cuidadosa</span>
+            <div class="bar"><span style="width:58%"></span></div>
+            <div class="explain">
+              <div><strong>Leitura:</strong> o mercado imobiliário de São Paulo segue ativo, com vendas e lançamentos fortes em 2026, mesmo com crédito caro.</div>
+              <div><strong>Ação:</strong> mostrar oportunidades reais da Vila Mascote, qualidade de vida, comparação de bairros, avaliação de imóvel e orientação segura.</div>
+              <div><strong>Exemplo:</strong> “Quer entender quanto vale seu imóvel na Vila Mascote hoje? Faça uma avaliação local com quem conhece o bairro.”</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card span-12">
+        <h2>Como o empreendedor deve agir em setembro</h2>
+        <ul>
+          <li><strong>Escolha uma data por semana.</strong> Use feriado, Dia do Cliente, primavera e jogos. Uma campanha pequena bem feita vale mais do que um mês inteiro sem foco.</li>
+          <li><strong>Faça a oferta caber em uma frase.</strong> O cliente precisa entender preço, benefício e caminho de compra em poucos segundos.</li>
+          <li><strong>Mostre como comprar.</strong> WhatsApp, horário, retirada, reserva, cardápio ou agenda precisam aparecer com clareza.</li>
+          <li><strong>Publique mais de uma vez.</strong> Manhã para lembrar, tarde para decidir, perto do horário para converter.</li>
+          <li><strong>Use bairro como vantagem.</strong> Resolver perto de casa é argumento forte para quem mora na Mascote.</li>
+        </ul>
+      </article>
+
+      <article class="card span-12">
+        <h2>Economia: números atuais e o que eles significam</h2>
+        <div class="kpis">
+          <div class="kpi"><span class="muted">IPCA julho</span><b>0,07%</b><small>4,44% em 12 meses</small></div>
+          <div class="kpi"><span class="muted">IPCA 15 agosto</span><b>menos 0,40%</b><small>prévia com 4,24% em 12 meses</small></div>
+          <div class="kpi"><span class="muted">Selic</span><b>14,00%</b><small>crédito ainda caro</small></div>
+          <div class="kpi"><span class="muted">Desemprego</span><b>5,3%</b><small>trimestre encerrado em julho</small></div>
+          <div class="kpi"><span class="muted">Confiança</span><b>84,7</b><small>FGV IBRE em agosto</small></div>
+          <div class="kpi"><span class="muted">Gasolina SP</span><b>R$ 6,33</b><small>média semanal até 29/08</small></div>
+          <div class="kpi"><span class="muted">Poder de compra</span><b>misto</b><small>emprego ajuda, juros limitam</small></div>
+          <div class="kpi"><span class="muted">Consumo</span><b>seletivo</b><small>cliente compara mais</small></div>
+        </div>
+        <table>
+          <thead>
+            <tr><th>Indicador</th><th>O que significa</th><th>Impacto para o negócio</th><th>Como usar no mês</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Inflação e IPCA</strong></td><td>Preços subiram pouco em julho e a prévia de agosto veio negativa.</td><td>Ajuda o cliente a respirar, mas ele continua sensível a preço.</td><td>Use combos, preço fechado e ofertas simples de entender.</td></tr>
+            <tr><td><strong>Juros e Selic</strong></td><td>A taxa segue alta, então compras grandes e parceladas exigem mais convencimento.</td><td>Afeta mais cursos, estética cara, móveis e serviços de ticket alto. Em imóveis, cruzar com procura local e notícias do setor.</td><td>Explique valor, parcela, garantia e benefício real. Não dependa só de desconto.</td></tr>
+            <tr><td><strong>Emprego e renda</strong></td><td>Desemprego baixo melhora renda disponível, mas não torna o consumidor descuidado.</td><td>Ajuda compras recorrentes: comida, beleza, pet, saúde preventiva e serviços próximos.</td><td>Fale de rotina, praticidade e confiança no bairro.</td></tr>
+            <tr><td><strong>Confiança do consumidor</strong></td><td>Confiança em 84,7 mostra um consumidor ainda cauteloso.</td><td>Promoção vaga perde força. Motivo concreto vende melhor.</td><td>Use prazo, brinde, agenda limitada, retirada rápida ou benefício claro.</td></tr>
+            <tr><td><strong>Combustíveis</strong></td><td>Gasolina perto de R$ 6,33 por litro em São Paulo valoriza resolver coisas perto de casa.</td><td>Comércio de bairro ganha argumento natural.</td><td>Reforce “perto de você”, WhatsApp, entrega local e retirada fácil.</td></tr>
+            <tr><td><strong>Imóveis em São Paulo</strong></td><td>Leituras recentes do setor mostram mercado ativo, com bom volume de vendas e lançamentos em 2026.</td><td>Na Mascote, isso favorece conteúdo de avaliação, compra, aluguel e vida de bairro, sem promessa exagerada.</td><td>Mostrar dados locais, imóveis reais, comparativos simples e chamada para avaliação.</td></tr>
+          </tbody>
+        </table>
+        <div class="source"><strong>Fontes:</strong> IBGE para IPCA e desemprego; Banco Central e Copom para Selic; FGV IBRE para confiança do consumidor; ANP e UOL para gasolina em São Paulo; TSE para calendário eleitoral; Secovi SP e notícias recentes do setor para leitura imobiliária. Indicadores consultados em 29/08/2026.</div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    Radar Vila Mascote, versão de setembro para empreendedores locais. Última atualização: 29/08/2026.
+  </footer>
+</body>
+</html>
