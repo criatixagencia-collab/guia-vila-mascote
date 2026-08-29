@@ -311,15 +311,15 @@
     }
     .button-grid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 12px;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
     }
     .deep-button {
       display: grid;
       align-content: space-between;
-      min-height: 138px;
-      padding: 18px;
-      border-radius: 22px;
+      min-height: 118px;
+      padding: 15px;
+      border-radius: 18px;
       border: 1px solid color-mix(in oklch, var(--blue), transparent 80%);
       background: linear-gradient(145deg, #fffefb, color-mix(in oklch, var(--gold), white 84%));
       text-decoration: none;
@@ -334,13 +334,13 @@
     .deep-button strong {
       display: block;
       color: var(--blue);
-      font-size: 1rem;
+      font-size: .95rem;
       line-height: 1.12;
       letter-spacing: -.02em;
     }
     .deep-button span {
       color: var(--muted);
-      font-size: .86rem;
+      font-size: .78rem;
       font-weight: 700;
     }
     .date { font-weight: 900; color: var(--gold-deep); }
@@ -388,6 +388,14 @@
       .brand-row { align-items: flex-start; border-radius: 24px; }
       .thermo-wrap { grid-template-columns: 1fr; }
       .thermo { display: none; }
+      .button-grid { gap: 8px; }
+      .deep-button {
+        min-height: 82px;
+        padding: 13px 14px;
+        border-radius: 16px;
+      }
+      .deep-button strong { font-size: .9rem; }
+      .deep-button span { font-size: .74rem; }
     }
   </style>
 </head>
@@ -412,7 +420,7 @@
     <section class="card hero-card">
       <div>
         <h2>Resumo do mês</h2>
-        <p><strong>Setembro é mês de chamar o cliente de volta.</strong> Tem feriado logo no começo, Dia do Cliente no meio do mês, primavera chegando e preparação para outubro. Não é mês para ficar parado esperando movimento cair do céu.</p>
+        <p><strong>Setembro é mês de chamar o cliente de volta.</strong> Tem feriado logo no começo, Dia do Cliente no meio do mês, primavera chegando e preparação para outubro.</p>
         <p>O empreendedor que cria uma razão clara para agir agora sai na frente: reservar, pedir antes do jogo, retirar rápido, ganhar um mimo, marcar horário ou aproveitar uma condição por poucos dias.</p>
         <div class="quick">
           <div><b>Melhor janela</b><span>01 a 15/09, com feriado e Dia do Cliente.</span></div>
@@ -448,11 +456,6 @@
           <div class="event"><div class="date">04/10</div><div><strong>Votação, primeiro turno.</strong><br><span class="muted">Preparar desde setembro. Locais informados: Colégio Etapa, Colégio Domino's Vivendi e Colégio Bernardo. Domingo de votação costuma colocar moradores na rua procurando café, almoço rápido e conveniência.</span></div></div>
           <div class="event"><div class="date">25/10</div><div><strong>Possível segundo turno.</strong><br><span class="muted">Se houver, repetir estratégia: comunicação cedo, produtos fáceis, retirada rápida e atendimento por WhatsApp.</span></div></div>
         </div>
-      </article>
-
-      <article class="card span-4">
-        <h2>Ver análises completas</h2>
-        <p>Abra os blocos detalhados quando quiser entender cada sinal do mês.</p>
       </article>
 
       <article class="card span-12">
