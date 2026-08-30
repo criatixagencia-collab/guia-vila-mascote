@@ -3,552 +3,535 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Radar do Empreendedor Vila Mascote</title>
-  <meta name="description" content="Radar mensal para empreendedores da Vila Mascote, com datas, tendências, jogos, segmentos e economia para planejar divulgação local.">
+  <title>Teste visual — Radar Vila Mascote</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="icon" href="../assets/logo-vila-mascote.png">
   <style>
     :root {
-      --bg: oklch(98% 0.012 93);
-      --paper: oklch(98% 0.012 93);
-      --surface: #fffdf8;
-      --ink: #102347;
-      --muted: color-mix(in oklch, #102347, transparent 35%);
-      --line: oklch(88% 0.018 92);
       --blue: #102347;
       --gold: #c9ae24;
-      --gold-deep: #9a8219;
-      --green: oklch(64% 0.12 152);
-      --rose: oklch(66% 0.14 18);
-      --shadow: 0 18px 50px color-mix(in oklch, #102347, transparent 88%);
+      --gold-dark: #8d7617;
+      --paper: #f7f2e7;
+      --card: #fffdf8;
+      --line: #e9dfcc;
+      --muted: rgba(16, 35, 71, .62);
+      --green: #2d9465;
+      --orange: #d98a25;
+      --red: #c65742;
+      --shadow: 0 20px 55px rgba(16, 35, 71, .10);
     }
 
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      color: var(--ink);
+      color: var(--blue);
       background:
-        radial-gradient(circle at 12% 0%, color-mix(in oklch, var(--gold), transparent 72%), transparent 30rem),
-        radial-gradient(circle at 90% 8%, color-mix(in oklch, var(--blue), transparent 82%), transparent 28rem),
-        linear-gradient(180deg, oklch(97% 0.018 96), var(--paper) 360px),
+        radial-gradient(circle at top left, rgba(201,174,36,.28), transparent 28rem),
+        radial-gradient(circle at 95% 0%, rgba(16,35,71,.16), transparent 28rem),
         var(--paper);
-      font: 16px/1.55 "Montserrat", ui-sans-serif, system-ui, sans-serif;
+      font: 15px/1.45 Montserrat, system-ui, sans-serif;
     }
 
-    a { color: inherit; }
-    .wrap { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
-    header { padding: 30px 0 24px; }
-    .brand-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-      margin-bottom: 26px;
-      padding: 16px 18px;
-      border: 1px solid color-mix(in oklch, var(--blue), transparent 82%);
-      border-radius: 999px;
-      background: rgba(255,255,255,.62);
-      box-shadow: 0 10px 30px color-mix(in oklch, var(--blue), transparent 92%);
-    }
+    .wrap { width: min(1120px, calc(100% - 28px)); margin: 0 auto; }
+    .top { padding: 24px 0 12px; }
     .brand {
       display: flex;
       align-items: center;
-      gap: 12px;
-      min-width: 0;
-      text-decoration: none;
-      color: var(--blue);
-    }
-    .brand-mark {
-      width: 54px;
-      height: 54px;
-      object-fit: contain;
-      flex: 0 0 auto;
-    }
-    .brand-copy {
-      display: grid;
-      gap: 2px;
-    }
-    .brand-copy strong {
-      font-size: .98rem;
-      line-height: 1.1;
-      font-weight: 900;
-    }
-    .brand-copy span {
-      color: var(--muted);
-      font-size: .78rem;
-      font-weight: 700;
-    }
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      border: 1px solid color-mix(in oklch, var(--blue), transparent 78%);
-      color: var(--blue);
-      background: rgba(255,255,255,.62);
-      padding: 8px 12px;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 22px;
+      padding: 12px 16px;
+      border: 1px solid rgba(16,35,71,.12);
       border-radius: 999px;
-      font-size: 13px;
-      font-weight: 850;
-      letter-spacing: .04em;
+      background: rgba(255,255,255,.62);
+      box-shadow: 0 12px 34px rgba(16,35,71,.07);
+    }
+    .brand-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+    .brand img { width: 50px; height: 50px; object-fit: contain; }
+    .brand strong { display: block; font-size: .95rem; font-weight: 900; }
+    .brand span { color: var(--muted); font-size: .78rem; font-weight: 700; }
+    .badge {
+      display: inline-flex;
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: var(--blue);
+      color: white;
+      font-size: .72rem;
+      font-weight: 900;
+      letter-spacing: .06em;
       text-transform: uppercase;
-    }
-    h1 {
-      margin: 18px 0 10px;
-      max-width: 980px;
-      color: var(--blue);
-      font-size: clamp(38px, 6.8vw, 82px);
-      line-height: .9;
-      letter-spacing: -.06em;
-    }
-    h1 em {
-      display: inline-block;
-      margin-left: 12px;
-      color: var(--gold-deep);
-      font-family: "Libre Baskerville", serif;
-      font-size: 1em;
-      font-weight: 400;
-      letter-spacing: -.035em;
-      vertical-align: baseline;
       white-space: nowrap;
     }
-    h2 { margin: 0 0 16px; font-size: clamp(24px, 3vw, 38px); line-height: 1.04; letter-spacing: -.035em; }
-    h3 { margin: 0 0 10px; font-size: 21px; line-height: 1.15; letter-spacing: -.02em; }
-    p { margin: 0 0 12px; }
-    ul { margin: 12px 0 0; padding-left: 20px; }
-    li { margin: 7px 0; }
-    .lead { max-width: 860px; color: #415047; font-size: clamp(18px, 2.2vw, 23px); }
+
+    h1 {
+      margin: 0;
+      max-width: 1040px;
+      font-size: clamp(36px, 8vw, 86px);
+      line-height: .9;
+      letter-spacing: -.065em;
+    }
+    h1 em {
+      color: var(--gold-dark);
+      font-family: "Libre Baskerville", serif;
+      font-weight: 400;
+      letter-spacing: -.05em;
+      white-space: nowrap;
+    }
+    h2 { margin: 0 0 14px; font-size: clamp(24px, 3vw, 38px); line-height: 1.02; letter-spacing: -.04em; }
+    h3 { margin: 0 0 6px; font-size: 1.05rem; line-height: 1.1; }
+    p { margin: 0; }
     .muted { color: var(--muted); }
-    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; margin: 18px 0; }
+
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; margin: 16px 0; }
     .card {
       background: rgba(255,253,248,.90);
       border: 1px solid var(--line);
-      border-radius: 28px;
-      padding: 24px;
+      border-radius: 26px;
+      padding: 22px;
       box-shadow: var(--shadow);
-      backdrop-filter: blur(8px);
+      overflow: hidden;
     }
     .span-12 { grid-column: span 12; }
     .span-8 { grid-column: span 8; }
     .span-6 { grid-column: span 6; }
     .span-4 { grid-column: span 4; }
-    .hero-card {
+    .span-3 { grid-column: span 3; }
+
+    .hero {
       display: grid;
-      grid-template-columns: 1.18fr .82fr;
-      gap: 22px;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 16px;
       align-items: stretch;
     }
-    .quick {
+    .summary {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 12px;
-      margin-top: 18px;
+      gap: 16px;
     }
-    .quick div {
-      border-radius: 20px;
-      border: 1px solid color-mix(in oklch, var(--gold), transparent 26%);
-      background: linear-gradient(135deg, color-mix(in oklch, var(--gold), white 72%), color-mix(in oklch, var(--gold), white 88%));
-      padding: 20px 22px;
-      box-shadow:
-        0 18px 38px color-mix(in oklch, var(--gold), transparent 78%),
-        inset 0 1px 0 rgba(255,255,255,.78);
+    .summary p {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      max-width: 760px;
     }
-    .quick b {
+    .window {
+      border-radius: 22px;
+      padding: 18px;
+      background: linear-gradient(135deg, #f2d65d, #fff2aa);
+      border: 1px solid rgba(141,118,23,.25);
+    }
+    .window small {
       display: block;
-      margin-bottom: 5px;
-      color: var(--blue);
-      font-size: .82rem;
-      font-weight: 950;
-      letter-spacing: .09em;
+      margin-bottom: 4px;
+      font-weight: 900;
+      letter-spacing: .08em;
       text-transform: uppercase;
     }
-    .quick span {
+    .window strong {
       display: block;
-      color: var(--blue);
-      font-size: clamp(1.15rem, 2.2vw, 1.7rem);
-      line-height: 1.15;
-      font-weight: 900;
-      letter-spacing: -.03em;
+      font-size: clamp(1.3rem, 3vw, 2.15rem);
+      line-height: 1;
+      letter-spacing: -.04em;
     }
+
     .score {
-      min-height: 280px;
-      border-radius: 28px;
-      padding: 28px;
+      min-height: 100%;
       color: white;
       background:
-        linear-gradient(145deg, var(--blue), color-mix(in oklch, var(--blue), var(--gold) 18%)),
-        radial-gradient(circle at top right, rgba(255,255,255,.28), transparent 12rem);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      overflow: hidden;
+        linear-gradient(145deg, var(--blue), #1c386e),
+        radial-gradient(circle at top right, rgba(201,174,36,.24), transparent 12rem);
       position: relative;
     }
-    .score:after {
-      content: "";
-      position: absolute;
-      right: -80px;
-      bottom: -90px;
-      width: 210px;
-      height: 210px;
-      border-radius: 50%;
-      border: 34px solid color-mix(in oklch, var(--gold), transparent 72%);
-    }
-    .score > * { position: relative; z-index: 1; }
-    .score strong { display: block; font-size: clamp(74px, 10vw, 136px); line-height: .8; letter-spacing: -.07em; }
-    .score small { text-transform: uppercase; letter-spacing: .08em; opacity: .85; font-weight: 850; }
-    .thermo-wrap {
+    .score-layout {
       display: grid;
-      grid-template-columns: auto 1fr;
+      grid-template-columns: 92px 1fr;
       gap: 18px;
       align-items: center;
-      margin: 18px 0;
+      margin: 12px 0;
     }
     .thermo {
-      width: 74px;
-      height: 198px;
-      position: relative;
+      width: 76px;
+      height: 205px;
       display: grid;
       justify-items: center;
     }
-    .thermo-tube {
+    .tube {
       width: 34px;
-      height: 158px;
+      height: 156px;
       border-radius: 999px;
-      border: 4px solid rgba(255,255,255,.72);
-      background: rgba(255,255,255,.18);
-      position: relative;
+      border: 4px solid rgba(255,255,255,.7);
+      background: rgba(255,255,255,.16);
       overflow: hidden;
-      box-shadow: inset 0 8px 18px rgba(0,0,0,.22);
+      position: relative;
     }
-    .thermo-fill {
+    .fill {
       position: absolute;
       left: 4px;
       right: 4px;
       bottom: 4px;
       height: 56%;
       border-radius: 999px;
-      background: linear-gradient(180deg, var(--gold), #f3d96c);
-      box-shadow: 0 0 22px color-mix(in oklch, var(--gold), transparent 34%);
+      background: linear-gradient(180deg, #ffe978, var(--gold));
     }
-    .thermo-bulb {
+    .bulb {
       width: 66px;
       height: 66px;
-      margin-top: -18px;
-      border-radius: 999px;
-      border: 4px solid rgba(255,255,255,.72);
-      background:
-        radial-gradient(circle at 35% 28%, rgba(255,255,255,.72), transparent 16px),
-        linear-gradient(145deg, #f3d96c, var(--gold));
-      box-shadow: 0 0 28px color-mix(in oklch, var(--gold), transparent 45%);
+      margin-top: -17px;
+      border-radius: 50%;
+      border: 4px solid rgba(255,255,255,.7);
+      background: linear-gradient(145deg, #ffe978, var(--gold));
     }
-    .score-reading { display: grid; gap: 10px; }
-    .score-label {
+    .score b {
+      display: block;
+      font-size: clamp(78px, 12vw, 138px);
+      line-height: .78;
+      letter-spacing: -.08em;
+    }
+    .score-pill {
       display: inline-flex;
-      width: fit-content;
-      border-radius: 999px;
+      margin-top: 12px;
       padding: 8px 12px;
+      border-radius: 999px;
       background: rgba(255,255,255,.16);
       border: 1px solid rgba(255,255,255,.22);
-      color: rgba(255,255,255,.92);
-      font-size: 13px;
-      font-weight: 850;
+      font-weight: 900;
       text-transform: uppercase;
-      letter-spacing: .06em;
+      letter-spacing: .05em;
+      font-size: .78rem;
     }
-    .meter { display: grid; gap: 8px; }
-    .meter-track {
-      height: 10px;
-      border-radius: 999px;
-      background: rgba(255,255,255,.18);
+
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+    }
+    .date-card {
+      min-height: 150px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: white;
       overflow: hidden;
     }
-    .meter-track span {
-      display: block;
-      width: 56%;
-      height: 100%;
-      border-radius: inherit;
-      background: linear-gradient(90deg, #f3d96c, var(--gold));
-    }
-    .meter-scale {
+    .date-top {
       display: flex;
       justify-content: space-between;
-      color: rgba(255,255,255,.72);
-      font-size: 11px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: .04em;
+      align-items: center;
+      padding: 10px 12px;
+      background: var(--blue);
+      color: white;
+      font-weight: 900;
+    }
+    .date-top small { color: rgba(255,255,255,.75); font-weight: 800; }
+    .date-body { padding: 13px; }
+    .date-body p { color: var(--muted); font-size: .88rem; }
+
+    .link-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+    .link-card {
+      min-height: 92px;
+      border: 1px solid rgba(16,35,71,.12);
+      border-radius: 18px;
+      background: linear-gradient(145deg, white, #fff8dc);
+      padding: 14px;
+      text-decoration: none;
+      color: var(--blue);
+      display: grid;
+      gap: 10px;
+      align-content: start;
+    }
+    .icon {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+      background: var(--blue);
+      color: var(--gold);
+      font-size: 1.1rem;
+    }
+    .link-card strong { font-size: .88rem; line-height: 1.1; }
+
+    .trend-list {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+    .trend {
+      border-radius: 18px;
+      padding: 14px;
+      background: #fffaf1;
+      border: 1px solid var(--line);
+    }
+    .trend .rank { color: var(--gold-dark); font-weight: 900; font-size: .78rem; }
+    .trend p { margin-top: 5px; font-weight: 800; line-height: 1.15; }
+
+    .weather-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 10px;
+    }
+    .weather {
+      min-height: 142px;
+      border-radius: 20px;
+      padding: 12px;
+      background: linear-gradient(180deg, #ffffff, #eff5ff);
+      border: 1px solid #dbe6f4;
+      display: grid;
+      gap: 6px;
+    }
+    .weather.rain { background: linear-gradient(180deg, #ffffff, #e9eef8); }
+    .weather.cold { background: linear-gradient(180deg, #ffffff, #e6f4ff); }
+    .weather.sun { background: linear-gradient(180deg, #ffffff, #fff3c8); }
+    .weather .emoji { font-size: 1.55rem; line-height: 1; }
+    .weather strong { font-size: .9rem; }
+    .temp { font-size: 1.1rem; font-weight: 900; letter-spacing: -.03em; }
+    .weather small { color: var(--muted); font-weight: 700; }
+
+    .mini-cal {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 8px;
+    }
+    .sale-day {
+      min-height: 112px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: white;
+      padding: 10px;
+    }
+    .sale-day b {
+      display: inline-flex;
+      padding: 5px 8px;
+      border-radius: 999px;
+      background: var(--gold);
+      color: var(--blue);
+      font-size: .8rem;
+      margin-bottom: 8px;
+    }
+    .sale-day strong { display: block; font-size: .92rem; line-height: 1.1; }
+    .sale-day span { display: block; color: var(--muted); font-size: .78rem; margin-top: 5px; }
+
+    .match-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    .match {
+      display: grid;
+      grid-template-columns: 70px 1fr;
+      gap: 12px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: #fffaf1;
+      padding: 12px;
+    }
+    .match-date {
+      display: grid;
+      place-items: center;
+      min-height: 64px;
+      border-radius: 16px;
+      background: var(--blue);
+      color: white;
+      font-weight: 900;
+    }
+    .match p { color: var(--muted); font-size: .85rem; }
+
+    .segment-grid, .econ-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .segment, .econ {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 16px;
+      background: linear-gradient(180deg, white, #fff8e8);
     }
     .pill {
       display: inline-flex;
-      align-items: center;
-      gap: 7px;
+      padding: 6px 10px;
       border-radius: 999px;
-      padding: 7px 11px;
-      font-size: 13px;
-      font-weight: 850;
-      white-space: nowrap;
-    }
-    .good { background: color-mix(in oklch, var(--green), transparent 86%); color: color-mix(in oklch, var(--green), black 28%); }
-    .mid { background: color-mix(in oklch, var(--gold), transparent 82%); color: var(--gold-deep); }
-    .watch { background: color-mix(in oklch, var(--rose), transparent 88%); color: color-mix(in oklch, var(--rose), black 20%); }
-    .blue { background: rgba(45,95,145,.12); color: var(--blue); }
-    table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 18px; }
-    th, td { padding: 14px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
-    th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .07em; }
-    tr:last-child td { border-bottom: 0; }
-    .num { font-size: 24px; font-weight: 900; letter-spacing: -.03em; }
-    .timeline { display: grid; gap: 12px; }
-    .event {
-      display: grid;
-      grid-template-columns: 104px 1fr;
-      gap: 12px;
-      padding: 14px;
-      border: 1px solid var(--line);
-      border-radius: 20px;
-      background: #fffaf1;
-    }
-    .button-grid {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 10px;
-    }
-    .deep-button {
-      display: grid;
-      align-content: space-between;
-      min-height: 118px;
-      padding: 15px;
-      border-radius: 18px;
-      border: 1px solid color-mix(in oklch, var(--blue), transparent 80%);
-      background: linear-gradient(145deg, #fffefb, color-mix(in oklch, var(--gold), white 84%));
-      text-decoration: none;
-      box-shadow: 0 12px 28px color-mix(in oklch, var(--blue), transparent 92%);
-      transition: transform .18s ease, box-shadow .18s ease;
-    }
-    .deep-button:hover,
-    .deep-button:focus-visible {
-      transform: translateY(-2px);
-      box-shadow: 0 18px 34px color-mix(in oklch, var(--blue), transparent 88%);
-    }
-    .deep-button strong {
-      display: block;
-      color: var(--blue);
-      font-size: .95rem;
-      line-height: 1.12;
-      letter-spacing: -.02em;
-    }
-    .deep-button span {
-      color: var(--muted);
+      background: rgba(201,174,36,.18);
+      color: var(--gold-dark);
+      font-weight: 900;
       font-size: .78rem;
-      font-weight: 700;
+      margin: 8px 0 10px;
     }
-    .date { font-weight: 900; color: var(--gold-deep); }
-    .segment {
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: 20px;
-      background: linear-gradient(180deg, #fffefb, color-mix(in oklch, var(--gold), white 88%));
-      min-height: 100%;
-    }
-    .bar { height: 10px; background: #eadfce; border-radius: 999px; overflow: hidden; margin: 12px 0 15px; }
-    .bar span { display: block; height: 100%; background: linear-gradient(90deg, var(--blue), var(--gold)); border-radius: inherit; }
-    .explain { margin-top: 14px; display: grid; gap: 10px; }
-    .explain div { border-left: 4px solid color-mix(in oklch, var(--gold), transparent 35%); padding-left: 12px; }
-    .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
-    .kpi {
-      border: 1px solid var(--line);
-      background: #fffaf1;
-      border-radius: 20px;
-      padding: 16px;
-    }
-    .kpi b { display: block; font-size: 24px; letter-spacing: -.035em; }
-    .source {
-      border-top: 1px solid var(--line);
-      padding-top: 12px;
-      margin-top: 12px;
-      font-size: 14px;
-    }
-    footer { padding: 18px 0 42px; color: var(--muted); font-size: 14px; }
+    .bar { height: 9px; border-radius: 999px; background: #eadfce; overflow: hidden; margin: 8px 0 12px; }
+    .bar span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--blue), var(--gold)); }
+    .segment p, .econ p { color: var(--muted); font-size: .9rem; }
+    .econ b { display: block; font-size: 1.65rem; letter-spacing: -.05em; margin: 5px 0; }
 
-    @media (max-width: 900px) {
-      .hero-card { grid-template-columns: 1fr; }
-      .span-8, .span-6, .span-4 { grid-column: span 12; }
-      .kpis, .button-grid { grid-template-columns: repeat(2, 1fr); }
-      .event { grid-template-columns: 1fr; }
-      th:nth-child(4), td:nth-child(4) { display: none; }
+    @media (max-width: 940px) {
+      .hero { grid-template-columns: 1fr; }
+      .span-8, .span-6, .span-4, .span-3 { grid-column: span 12; }
+      .calendar, .link-grid, .trend-list, .weather-grid, .mini-cal, .segment-grid, .econ-grid { grid-template-columns: repeat(2, 1fr); }
+      .match-list { grid-template-columns: 1fr; }
     }
-
     @media (max-width: 560px) {
-      .wrap { width: min(100% - 20px, 1180px); }
-      header { padding-top: 26px; }
-      .card { padding: 18px; border-radius: 22px; }
-      .kpis, .button-grid { grid-template-columns: 1fr; }
-      th, td { padding: 11px 8px; }
-      .brand-row { align-items: flex-start; border-radius: 24px; }
-      .thermo-wrap { grid-template-columns: 1fr; }
+      .wrap { width: min(100% - 20px, 1120px); }
+      .brand { border-radius: 24px; align-items: flex-start; }
+      .badge { display: none; }
+      .card { padding: 16px; border-radius: 22px; }
+      .calendar, .link-grid, .trend-list, .weather-grid, .mini-cal, .segment-grid, .econ-grid { grid-template-columns: 1fr; }
+      .link-card { min-height: 78px; grid-template-columns: 38px 1fr; align-items: center; }
+      .score-layout { grid-template-columns: 1fr; }
       .thermo { display: none; }
-      .button-grid { gap: 8px; }
-      .deep-button {
-        min-height: 82px;
-        padding: 13px 14px;
-        border-radius: 16px;
-      }
-      .deep-button strong { font-size: .9rem; }
-      .deep-button span { font-size: .74rem; }
+      .match { grid-template-columns: 56px 1fr; }
     }
   </style>
 </head>
 <body>
-  <header class="wrap">
-    <div class="brand-row">
-      <a class="brand" href="../" aria-label="Voltar para o Guia Vila Mascote">
-        <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote" class="brand-mark">
-        <span class="brand-copy">
-          <strong>Revista Digital Vila Mascote</strong>
-          <span>Radar para empreendedores</span>
-        </span>
-      </a>
-      <span class="eyebrow">Setembro 2026</span>
+  <header class="top wrap">
+    <div class="brand">
+      <div class="brand-left">
+        <img src="../assets/logo-vila-mascote.png" alt="Vila Mascote">
+        <div><strong>Revista Digital Vila Mascote</strong><span>Radar para empreendedores</span></div>
+      </div>
+      <div class="badge">teste visual</div>
     </div>
-    <span class="eyebrow">Radar Vila Mascote</span>
     <h1>O que pode mexer com as vendas no bairro <em>este mês</em></h1>
   </header>
 
   <main class="wrap">
-    <section class="card hero-card">
-      <div>
-        <h2>Resumo do mês</h2>
+    <section class="hero">
+      <article class="card summary">
+        <h2>Resumo de setembro</h2>
         <p><strong>Setembro é mês de chamar o cliente de volta.</strong> Tem feriado logo no começo, Dia do Cliente no meio do mês, primavera chegando e preparação para outubro.</p>
-        <p>O empreendedor que cria uma razão clara para agir agora sai na frente: reservar, pedir antes do jogo, retirar rápido, ganhar um mimo, marcar horário ou aproveitar uma condição por poucos dias.</p>
-        <div class="quick">
-          <div><b>Melhor janela</b><span>01 a 15/09, com feriado e Dia do Cliente.</span></div>
+        <div class="window">
+          <small>Melhor janela</small>
+          <strong>01 a 15/09, com feriado e Dia do Cliente.</strong>
         </div>
-      </div>
-      <div class="score">
+      </article>
+
+      <article class="card score">
         <small>Índice geral de setembro</small>
-        <div class="thermo-wrap" aria-label="Termômetro de demanda em 56 de 100">
+        <div class="score-layout">
           <div class="thermo" aria-hidden="true">
-            <div class="thermo-tube"><div class="thermo-fill"></div></div>
-            <div class="thermo-bulb"></div>
+            <div class="tube"><div class="fill"></div></div>
+            <div class="bulb"></div>
           </div>
-          <div class="score-reading">
-            <strong>56</strong>
-            <span class="score-label">Demanda moderada</span>
+          <div>
+            <b>56</b>
+            <span class="score-pill">Demanda moderada</span>
           </div>
         </div>
-        <div class="meter" aria-hidden="true">
-          <div class="meter-track"><span></span></div>
-          <div class="meter-scale"><span>fria</span><span>morna</span><span>quente</span></div>
-        </div>
-        <p>O mês precisa de oferta clara, calendário bem usado e comunicação rápida.</p>
-      </div>
+        <p>Oferta clara, calendário bem usado e comunicação rápida.</p>
+      </article>
     </section>
 
     <section class="grid">
-      <article class="card span-8">
+      <article class="card span-12">
         <h2>Agenda local e comercial</h2>
-        <div class="timeline">
-          <div class="event"><div class="date">07/09</div><div><strong>Feriado nacional, segunda feira.</strong><br><span class="muted">Bom para restaurantes, bares, pizzarias, padarias, cafeterias, docerias, sorvetes, açaí, pet, farmácias, mercados, lojas de conveniência, beleza com horário marcado e serviços perto de casa. O ideal é divulgar antes do fim de semana, com horário de funcionamento, reserva, retirada ou WhatsApp bem visível.</span></div></div>
-          <div class="event"><div class="date">15/09</div><div><strong>Dia do Cliente.</strong><br><span class="muted">Serve para reativar quem já comprou: cupom simples, mimo, brinde pequeno ou mensagem de agradecimento com convite para voltar.</span></div></div>
-          <div class="event"><div class="date">22/09</div><div><strong>Início da primavera.</strong><br><span class="muted">Gancho bom para beleza, saúde, pet, alimentação leve, decoração, flores, casa e conteúdos mais visuais.</span></div></div>
-          <div class="event"><div class="date">04/10</div><div><strong>Votação, primeiro turno.</strong><br><span class="muted">Preparar desde setembro. Locais informados: Colégio Etapa, Colégio Domino's Vivendi e Colégio Bernardo. Domingo de votação costuma colocar moradores na rua procurando café, almoço rápido e conveniência.</span></div></div>
-          <div class="event"><div class="date">25/10</div><div><strong>Possível segundo turno.</strong><br><span class="muted">Se houver, repetir estratégia: comunicação cedo, produtos fáceis, retirada rápida e atendimento por WhatsApp.</span></div></div>
+        <div class="calendar">
+          <div class="date-card"><div class="date-top"><span>07</span><small>set</small></div><div class="date-body"><h3>Feriado</h3><p>Restaurantes, padarias, cafés, pet, farmácias, mercados e serviços perto de casa.</p></div></div>
+          <div class="date-card"><div class="date-top"><span>15</span><small>set</small></div><div class="date-body"><h3>Dia do Cliente</h3><p>Cupom, mimo, brinde simples e convite para voltar.</p></div></div>
+          <div class="date-card"><div class="date-top"><span>22</span><small>set</small></div><div class="date-body"><h3>Primavera</h3><p>Beleza, saúde, pet, alimentação leve, flores e casa.</p></div></div>
+          <div class="date-card"><div class="date-top"><span>04</span><small>out</small></div><div class="date-body"><h3>Votação</h3><p>Movimento perto do Etapa, Domino's Vivendi e Bernardo.</p></div></div>
+          <div class="date-card"><div class="date-top"><span>25</span><small>out</small></div><div class="date-body"><h3>2º turno</h3><p>Se houver, repetir plano de café, almoço rápido e conveniência.</p></div></div>
         </div>
       </article>
 
       <article class="card span-12">
-        <div class="button-grid" aria-label="Análises completas do Radar Vila Mascote">
-          <a class="deep-button" href="assuntos/"><strong>Assuntos em alta da semana</strong><span>Google Trends em São Paulo</span></a>
-          <a class="deep-button" href="clima/"><strong>Previsão do tempo nas vendas</strong><span>Duas semanas de influência</span></a>
-          <a class="deep-button" href="datas/"><strong>Datas que vendem mais no trimestre</strong><span>Próximas campanhas</span></a>
-          <a class="deep-button" href="jogos/"><strong>Jogos de futebol importantes</strong><span>Calendário de setembro</span></a>
-          <a class="deep-button" href="economia/"><strong>Economia e consumo</strong><span>Números atuais explicados</span></a>
+        <h2>Clique para ver mais</h2>
+        <div class="link-grid">
+          <a class="link-card" href="/empreendedor/assuntos/"><span class="icon">⌕</span><strong>Assuntos em alta</strong></a>
+          <a class="link-card" href="/empreendedor/clima/"><span class="icon">☔</span><strong>Previsão do tempo</strong></a>
+          <a class="link-card" href="/empreendedor/datas/"><span class="icon">◷</span><strong>Datas do trimestre</strong></a>
+          <a class="link-card" href="/empreendedor/jogos/"><span class="icon">⚽</span><strong>Jogos importantes</strong></a>
+          <a class="link-card" href="/empreendedor/economia/"><span class="icon">R$</span><strong>Economia</strong></a>
+        </div>
+      </article>
+
+      <article class="card span-12" id="assuntos">
+        <h2>Assuntos em alta da semana</h2>
+        <div class="trend-list">
+          <div class="trend"><span class="rank">01</span><p>São Paulo contra Bragantino</p></div>
+          <div class="trend"><span class="rank">02</span><p>Gasolina em São Paulo</p></div>
+          <div class="trend"><span class="rank">03</span><p>Calor em São Paulo</p></div>
+          <div class="trend"><span class="rank">04</span><p>Preço de combustíveis</p></div>
+          <div class="trend"><span class="rank">05</span><p>Dia do Cliente</p></div>
+          <div class="trend"><span class="rank">06</span><p>Peixe</p></div>
+          <div class="trend"><span class="rank">07</span><p>Baixa umidade</p></div>
+          <div class="trend"><span class="rank">08</span><p>Previsão do tempo SP</p></div>
+          <div class="trend"><span class="rank">09</span><p>Carteira de motorista</p></div>
+          <div class="trend"><span class="rank">10</span><p>Pesquisa Vox</p></div>
+        </div>
+      </article>
+
+      <article class="card span-12" id="clima">
+        <h2>Previsão do tempo nas vendas</h2>
+        <div class="weather-grid">
+          <div class="weather rain"><span class="emoji">⛈️</span><strong>01/09</strong><div class="temp">13° a 21°</div><small>chuva forte</small></div>
+          <div class="weather cold"><span class="emoji">🌥️</span><strong>02/09</strong><div class="temp">11° a 19°</div><small>mais frio</small></div>
+          <div class="weather rain"><span class="emoji">🌦️</span><strong>03/09</strong><div class="temp">15° a 24°</div><small>chuva à tarde</small></div>
+          <div class="weather rain"><span class="emoji">🌧️</span><strong>04/09</strong><div class="temp">16° a 26°</div><small>chuva</small></div>
+          <div class="weather rain"><span class="emoji">🌦️</span><strong>05/09</strong><div class="temp">14° a 21°</div><small>chuva cedo</small></div>
+          <div class="weather"><span class="emoji">☁️</span><strong>06/09</strong><div class="temp">13° a 21°</div><small>garoa</small></div>
+          <div class="weather"><span class="emoji">☁️</span><strong>07/09</strong><div class="temp">14° a 23°</div><small>feriado</small></div>
+          <div class="weather rain"><span class="emoji">🌧️</span><strong>08/09</strong><div class="temp">15° a 24°</div><small>chuva</small></div>
+          <div class="weather rain"><span class="emoji">🌦️</span><strong>09/09</strong><div class="temp">15° a 23°</div><small>chuva leve</small></div>
+          <div class="weather rain"><span class="emoji">🌦️</span><strong>10/09</strong><div class="temp">16° a 26°</div><small>instável</small></div>
+          <div class="weather rain"><span class="emoji">🌧️</span><strong>11/09</strong><div class="temp">16° a 22°</div><small>chuva</small></div>
+          <div class="weather rain"><span class="emoji">🌦️</span><strong>12/09</strong><div class="temp">17° a 23°</div><small>chuva fraca</small></div>
+          <div class="weather"><span class="emoji">↻</span><strong>13/09</strong><div class="temp">atualizar</div><small>na semana</small></div>
+          <div class="weather"><span class="emoji">↻</span><strong>14/09</strong><div class="temp">atualizar</div><small>na semana</small></div>
+        </div>
+      </article>
+
+      <article class="card span-12" id="datas">
+        <h2>Datas que vendem mais no trimestre</h2>
+        <div class="mini-cal">
+          <div class="sale-day"><b>12/10</b><strong>Dia das Crianças</strong><span>presentes, doces, lazer</span></div>
+          <div class="sale-day"><b>15/10</b><strong>Dia do Professor</strong><span>lembranças e cafés</span></div>
+          <div class="sale-day"><b>31/10</b><strong>Halloween</strong><span>doces e festas</span></div>
+          <div class="sale-day"><b>27/11</b><strong>Black Friday</strong><span>pacotes e estoque</span></div>
+          <div class="sale-day"><b>30/11</b><strong>Cyber Monday</strong><span>WhatsApp e catálogo</span></div>
+          <div class="sale-day"><b>24/12</b><strong>Natal</strong><span>presentes e ceia</span></div>
+          <div class="sale-day"><b>31/12</b><strong>Réveillon</strong><span>comida e beleza</span></div>
+        </div>
+      </article>
+
+      <article class="card span-12" id="jogos">
+        <h2>Jogos de futebol importantes</h2>
+        <div class="match-list">
+          <div class="match"><div class="match-date">05/09</div><div><h3>São Paulo contra Atlético Mineiro</h3><p>18h30, boa janela para jantar.</p></div></div>
+          <div class="match"><div class="match-date">06/09</div><div><h3>Corinthians contra Chapecoense</h3><p>19h30, pizza, lanche e delivery.</p></div></div>
+          <div class="match"><div class="match-date">06/09</div><div><h3>Botafogo contra Palmeiras</h3><p>18h30, consumo em casa.</p></div></div>
+          <div class="match"><div class="match-date">13/09</div><div><h3>Palmeiras contra São Paulo</h3><p>Clássico, destaque da semana.</p></div></div>
         </div>
       </article>
 
       <article class="card span-12">
         <h2>Veja a previsão para o seu segmento em setembro</h2>
-        <div class="grid">
-          <div class="segment span-4">
-            <h3>Restaurantes, bares e delivery</h3>
-            <span class="pill good">63/100 • bom moderado</span>
-            <div class="bar"><span style="width:63%"></span></div>
-            <div class="explain">
-              <div><strong>Leitura:</strong> há bons motivos para chamar o cliente, principalmente feriado, jogos e consumo em casa.</div>
-              <div><strong>Ação:</strong> trabalhar combo fechado, retirada rápida, cardápio fácil e publicação antes dos horários de fome.</div>
-              <div><strong>Exemplo:</strong> “Combo família para hoje. Peça pelo WhatsApp e retire no horário combinado.”</div>
-            </div>
-          </div>
-          <div class="segment span-4">
-            <h3>Padarias, cafeterias e docerias</h3>
-            <span class="pill good">61/100 • bom moderado</span>
-            <div class="bar"><span style="width:61%"></span></div>
-            <div class="explain">
-              <div><strong>Leitura:</strong> o mês favorece compra pequena, café, pão, doce, presente simples e mimo para cliente.</div>
-              <div><strong>Ação:</strong> mostrar vitrine cedo, montar kits pequenos e usar Dia do Cliente com brinde barato.</div>
-              <div><strong>Exemplo:</strong> “Café com doce do dia e mimo de Dia do Cliente durante esta semana.”</div>
-            </div>
-          </div>
-          <div class="segment span-4">
-            <h3>Beleza, estética e salão</h3>
-            <span class="pill mid">56/100 • atenção positiva</span>
-            <div class="bar"><span style="width:56%"></span></div>
-            <div class="explain">
-              <div><strong>Leitura:</strong> primavera ajuda o discurso de renovação, autoestima e cuidado.</div>
-              <div><strong>Ação:</strong> oferecer agenda fácil, pacote de entrada e conteúdo visual com resultado real.</div>
-              <div><strong>Exemplo:</strong> “Semana da primavera com avaliação e horário pelo WhatsApp.”</div>
-            </div>
-          </div>
-          <div class="segment span-4">
-            <h3>Pet shops e serviços pet</h3>
-            <span class="pill mid">51/100 • estável</span>
-            <div class="bar"><span style="width:51%"></span></div>
-            <div class="explain">
-              <div><strong>Leitura:</strong> pet não depende tanto de data. Depende de lembrança, confiança e conveniência.</div>
-              <div><strong>Ação:</strong> lembrete de banho e tosa, reposição de ração, retirada rápida e atendimento para moradores próximos.</div>
-              <div><strong>Exemplo:</strong> “Seu pet pronto para a primavera com banho agendado e retirada no horário combinado.”</div>
-            </div>
-          </div>
-          <div class="segment span-4">
-            <h3>Saúde, odonto e clínicas</h3>
-            <span class="pill mid">49/100 • estável cauteloso</span>
-            <div class="bar"><span style="width:49%"></span></div>
-            <div class="explain">
-              <div><strong>Leitura:</strong> o cliente não decide por impulso. Ele precisa confiar, entender o benefício e sentir segurança.</div>
-              <div><strong>Ação:</strong> usar conteúdo educativo, check up, prevenção, agenda clara e linguagem humana.</div>
-              <div><strong>Exemplo:</strong> “Setembro é um bom mês para retomar seus cuidados antes da correria de fim de ano.”</div>
-            </div>
-          </div>
-          <div class="segment span-4">
-            <h3>Imóveis e serviços residenciais</h3>
-            <span class="pill blue">58/100 • mercado ativo com decisão cuidadosa</span>
-            <div class="bar"><span style="width:58%"></span></div>
-            <div class="explain">
-              <div><strong>Leitura:</strong> o mercado imobiliário de São Paulo segue ativo, com vendas e lançamentos fortes em 2026, mesmo com crédito caro.</div>
-              <div><strong>Ação:</strong> mostrar oportunidades reais da Vila Mascote, qualidade de vida, comparação de bairros, avaliação de imóvel e orientação segura.</div>
-              <div><strong>Exemplo:</strong> “Quer entender quanto vale seu imóvel na Vila Mascote hoje? Faça uma avaliação local com quem conhece o bairro.”</div>
-            </div>
-          </div>
+        <div class="segment-grid">
+          <div class="segment"><h3>Restaurantes e delivery</h3><span class="pill">63/100</span><div class="bar"><span style="width:63%"></span></div><p>Feriado, jogos e chuva ajudam pedidos. Aposte em combo e retirada rápida.</p></div>
+          <div class="segment"><h3>Padarias e docerias</h3><span class="pill">61/100</span><div class="bar"><span style="width:61%"></span></div><p>Café, pão, doce e mimo do Dia do Cliente têm boa chance.</p></div>
+          <div class="segment"><h3>Beleza e estética</h3><span class="pill">56/100</span><div class="bar"><span style="width:56%"></span></div><p>Primavera favorece autocuidado. Facilite agenda no WhatsApp.</p></div>
+          <div class="segment"><h3>Pet shops</h3><span class="pill">51/100</span><div class="bar"><span style="width:51%"></span></div><p>Lembrete, confiança e conveniência valem mais que data.</p></div>
+          <div class="segment"><h3>Saúde e clínicas</h3><span class="pill">49/100</span><div class="bar"><span style="width:49%"></span></div><p>Conteúdo educativo e prevenção funcionam melhor que urgência.</p></div>
+          <div class="segment"><h3>Imóveis e casa</h3><span class="pill">58/100</span><div class="bar"><span style="width:58%"></span></div><p>Mercado ativo. Fale de bairro, avaliação e orientação segura.</p></div>
         </div>
       </article>
 
-      <article class="card span-12">
-        <h2>Como o empreendedor deve agir em setembro</h2>
-        <ul>
-          <li><strong>Escolha uma data por semana.</strong> Use feriado, Dia do Cliente, primavera e jogos. Uma campanha pequena bem feita vale mais do que um mês inteiro sem foco.</li>
-          <li><strong>Faça a oferta caber em uma frase.</strong> O cliente precisa entender preço, benefício e caminho de compra em poucos segundos.</li>
-          <li><strong>Mostre como comprar.</strong> WhatsApp, horário, retirada, reserva, cardápio ou agenda precisam aparecer com clareza.</li>
-          <li><strong>Publique mais de uma vez.</strong> Manhã para lembrar, tarde para decidir, perto do horário para converter.</li>
-          <li><strong>Use bairro como vantagem.</strong> Resolver perto de casa é argumento forte para quem mora na Mascote.</li>
-        </ul>
+      <article class="card span-12" id="economia">
+        <h2>Economia em cards rápidos</h2>
+        <div class="econ-grid">
+          <div class="econ"><h3>IPCA julho</h3><b>0,07%</b><p>Inflação mais calma ajuda o cliente, mas preço claro segue essencial.</p></div>
+          <div class="econ"><h3>IPCA 15 agosto</h3><b>menos 0,40%</b><p>Prévia negativa melhora percepção, principalmente em compras pequenas.</p></div>
+          <div class="econ"><h3>Selic</h3><b>14%</b><p>Crédito caro pede oferta bem explicada e benefício concreto.</p></div>
+          <div class="econ"><h3>Desemprego</h3><b>5,3%</b><p>Emprego forte ajuda consumo recorrente no bairro.</p></div>
+          <div class="econ"><h3>Confiança</h3><b>84,7</b><p>Cliente cauteloso compra melhor quando entende valor e prazo.</p></div>
+          <div class="econ"><h3>Gasolina SP</h3><b>R$ 6,33</b><p>Comprar perto de casa fica mais atraente.</p></div>
+          <div class="econ"><h3>Poder de compra</h3><b>misto</b><p>Renda ajuda, juros pesam. Evite oferta confusa.</p></div>
+          <div class="econ"><h3>Consumo</h3><b>seletivo</b><p>Preço, confiança e praticidade decidem.</p></div>
+          <div class="econ"><h3>Imóveis SP</h3><b>ativo</b><p>Bom para avaliação, bairro e orientação, sem exagero.</p></div>
+        </div>
       </article>
-
     </section>
   </main>
-
-  <footer class="wrap">
-    Radar Vila Mascote, versão de setembro para empreendedores locais. Última atualização: 29/08/2026.
-  </footer>
 </body>
 </html>
