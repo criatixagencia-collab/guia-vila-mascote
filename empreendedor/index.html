@@ -224,23 +224,6 @@
     .date-body { padding: 13px; }
     .date-body p { color: var(--muted); font-size: .88rem; }
 
-    .link-grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 10px;
-    }
-    .link-card {
-      min-height: 92px;
-      border: 1px solid rgba(16,35,71,.12);
-      border-radius: 18px;
-      background: linear-gradient(145deg, white, #fff8dc);
-      padding: 14px;
-      text-decoration: none;
-      color: var(--blue);
-      display: grid;
-      gap: 10px;
-      align-content: start;
-    }
     .icon {
       width: 34px;
       height: 34px;
@@ -251,7 +234,6 @@
       color: var(--gold);
       font-size: 1.1rem;
     }
-    .link-card strong { font-size: .88rem; line-height: 1.1; }
 
     .trend-list {
       display: grid;
@@ -368,7 +350,7 @@
     @media (max-width: 940px) {
       .hero { grid-template-columns: 1fr; }
       .span-8, .span-6, .span-4, .span-3 { grid-column: span 12; }
-      .calendar, .link-grid, .trend-list, .weather-grid, .mini-cal, .segment-grid, .econ-grid { grid-template-columns: repeat(2, 1fr); }
+      .calendar, .trend-list, .weather-grid, .mini-cal, .segment-grid, .econ-grid { grid-template-columns: repeat(2, 1fr); }
       .match-list { grid-template-columns: 1fr; }
     }
     @media (max-width: 560px) {
@@ -376,8 +358,7 @@
       .brand { border-radius: 24px; align-items: flex-start; }
       .badge { display: none; }
       .card { padding: 16px; border-radius: 22px; }
-      .calendar, .link-grid, .trend-list, .weather-grid, .mini-cal, .segment-grid, .econ-grid { grid-template-columns: 1fr; }
-      .link-card { min-height: 78px; grid-template-columns: 38px 1fr; align-items: center; }
+      .calendar, .trend-list, .weather-grid, .mini-cal, .segment-grid, .econ-grid { grid-template-columns: 1fr; }
       .score-layout { grid-template-columns: 1fr; }
       .thermo { display: none; }
       .match { grid-template-columns: 56px 1fr; }
@@ -432,17 +413,6 @@
           <div class="date-card"><div class="date-top"><span>22</span><small>set</small></div><div class="date-body"><h3>Primavera</h3><p>Beleza, saúde, pet, alimentação leve, flores e casa.</p></div></div>
           <div class="date-card"><div class="date-top"><span>04</span><small>out</small></div><div class="date-body"><h3>Votação</h3><p>Movimento perto do Etapa, Domino's Vivendi e Bernardo.</p></div></div>
           <div class="date-card"><div class="date-top"><span>25</span><small>out</small></div><div class="date-body"><h3>2º turno</h3><p>Se houver, repetir plano de café, almoço rápido e conveniência.</p></div></div>
-        </div>
-      </article>
-
-      <article class="card span-12">
-        <h2>Clique para ver mais</h2>
-        <div class="link-grid">
-          <a class="link-card" href="/empreendedor/assuntos/"><span class="icon">⌕</span><strong>Assuntos em alta</strong></a>
-          <a class="link-card" href="/empreendedor/clima/"><span class="icon">☔</span><strong>Previsão do tempo</strong></a>
-          <a class="link-card" href="/empreendedor/datas/"><span class="icon">◷</span><strong>Datas do trimestre</strong></a>
-          <a class="link-card" href="/empreendedor/jogos/"><span class="icon">⚽</span><strong>Jogos importantes</strong></a>
-          <a class="link-card" href="/empreendedor/economia/"><span class="icon">R$</span><strong>Economia</strong></a>
         </div>
       </article>
 
