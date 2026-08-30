@@ -251,25 +251,41 @@
 
     .weather-grid {
       display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      gap: 10px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
     }
     .weather {
-      min-height: 142px;
-      border-radius: 20px;
-      padding: 12px;
+      min-height: 0;
+      border-radius: 16px;
+      padding: 9px 10px;
       background: linear-gradient(180deg, #ffffff, #eff5ff);
       border: 1px solid #dbe6f4;
       display: grid;
-      gap: 6px;
+      grid-template-columns: 58px 30px 46px 44px 1fr 44px;
+      align-items: center;
+      gap: 8px;
     }
     .weather.rain { background: linear-gradient(180deg, #ffffff, #e9eef8); }
     .weather.cold { background: linear-gradient(180deg, #ffffff, #e6f4ff); }
     .weather.sun { background: linear-gradient(180deg, #ffffff, #fff3c8); }
-    .weather .emoji { font-size: 1.55rem; line-height: 1; }
-    .weather strong { font-size: .9rem; }
-    .temp { font-size: 1.1rem; font-weight: 900; letter-spacing: -.03em; }
+    .weather .emoji { font-size: 1.2rem; line-height: 1; text-align: center; }
+    .weather strong { font-size: .82rem; }
+    .rain-chance { color: #1fbce7; font-weight: 900; font-size: .85rem; }
+    .temp, .max-temp { font-size: .95rem; font-weight: 900; letter-spacing: -.03em; }
+    .max-temp { text-align: right; color: var(--blue); }
     .weather small { color: var(--muted); font-weight: 700; }
+    .temp-bar {
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(16,35,71,.12);
+      overflow: hidden;
+    }
+    .temp-bar span {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #62d6c7, #ffd000, #ff8a00);
+    }
 
     .mini-cal {
       display: grid;
@@ -308,17 +324,19 @@
       border: 1px solid var(--line);
       border-radius: 20px;
       background: #fffaf1;
-      padding: 12px;
+      padding: 9px 10px;
     }
     .match-date {
       display: grid;
       place-items: center;
-      min-height: 64px;
+      min-height: 48px;
       border-radius: 16px;
       background: var(--blue);
       color: white;
       font-weight: 900;
+      font-size: .86rem;
     }
+    .match h3 { font-size: .96rem; margin-bottom: 3px; }
     .match p { color: var(--muted); font-size: .85rem; }
 
     .segment-grid, .econ-grid {
@@ -350,7 +368,8 @@
     @media (max-width: 940px) {
       .hero { grid-template-columns: 1fr; }
       .span-8, .span-6, .span-4, .span-3 { grid-column: span 12; }
-      .calendar, .trend-list, .weather-grid, .mini-cal, .segment-grid, .econ-grid { grid-template-columns: repeat(2, 1fr); }
+      .calendar, .trend-list, .mini-cal, .segment-grid, .econ-grid { grid-template-columns: repeat(2, 1fr); }
+      .weather-grid { grid-template-columns: 1fr; }
       .match-list { grid-template-columns: 1fr; }
     }
     @media (max-width: 560px) {
@@ -362,6 +381,11 @@
       .score-layout { grid-template-columns: 1fr; }
       .thermo { display: none; }
       .match { grid-template-columns: 56px 1fr; }
+      .weather {
+        grid-template-columns: 52px 28px 42px 38px 1fr 38px;
+        gap: 6px;
+        padding: 8px;
+      }
     }
   </style>
 </head>
@@ -419,23 +443,23 @@
       <article class="card span-12" id="jogos">
         <h2>Jogos de futebol importantes</h2>
         <div class="match-list">
-          <div class="match"><div class="match-date">02/09</div><div><h3>Santos contra Palmeiras</h3><p>21h30, Copa do Brasil. Clássico paulista costuma puxar pizza, lanche, bebida e pedido em casa.</p></div></div>
-          <div class="match"><div class="match-date">05/09</div><div><h3>São Paulo contra Atlético Mineiro</h3><p>18h30, boa janela para jantar.</p></div></div>
-          <div class="match"><div class="match-date">06/09</div><div><h3>Corinthians contra Chapecoense</h3><p>19h30, pizza, lanche e delivery.</p></div></div>
-          <div class="match"><div class="match-date">06/09</div><div><h3>Botafogo contra Palmeiras</h3><p>18h30, consumo em casa.</p></div></div>
-          <div class="match"><div class="match-date">08/09</div><div><h3>Boca Juniors contra São Paulo</h3><p>21h30, Sul Americana. Jogo grande à noite, bom para delivery e ofertas rápidas.</p></div></div>
-          <div class="match"><div class="match-date">09/09</div><div><h3>Palmeiras contra LDU</h3><p>21h30, Libertadores. Noite forte para comida em casa, bebida e post de oportunidade.</p></div></div>
-          <div class="match"><div class="match-date">09/09</div><div><h3>Estudiantes contra Corinthians</h3><p>21h30, Libertadores. Atenção para combos de jogo e comunicação antes das 19h.</p></div></div>
-          <div class="match"><div class="match-date">09/09</div><div><h3>Santos contra Atlético Mineiro</h3><p>19h, Sul Americana. Relevante para o calendário paulista e consumo no começo da noite.</p></div></div>
-          <div class="match"><div class="match-date">10/09</div><div><h3>Independiente del Valle contra Flamengo</h3><p>21h30, Libertadores. Jogo internacional com alta atenção nacional e boa chance de pedidos à noite.</p></div></div>
-          <div class="match"><div class="match-date">12/09</div><div><h3>Flamengo contra Corinthians</h3><p>Horário a definir. Confronto nacional grande, com torcida forte e chance de movimento no delivery.</p></div></div>
-          <div class="match"><div class="match-date">13/09</div><div><h3>Palmeiras contra São Paulo</h3><p>Clássico paulista, destaque do fim de semana.</p></div></div>
-          <div class="match"><div class="match-date">15/09</div><div><h3>São Paulo contra Boca Juniors</h3><p>21h30, Sul Americana. Volta da decisão, ótima janela para lanches e pedidos de última hora.</p></div></div>
-          <div class="match"><div class="match-date">16/09</div><div><h3>LDU contra Palmeiras</h3><p>19h, Libertadores. Jogo decisivo, bom para antecipar ofertas ainda no fim da tarde.</p></div></div>
-          <div class="match"><div class="match-date">16/09</div><div><h3>Corinthians contra Estudiantes</h3><p>21h30, Libertadores. Jogo decisivo em casa, forte para bares, pizzarias, hambúrgueres e bebidas.</p></div></div>
-          <div class="match"><div class="match-date">16/09</div><div><h3>Atlético Mineiro contra Santos</h3><p>19h, Sul Americana. Boa leitura para negócios de comida rápida e delivery.</p></div></div>
-          <div class="match"><div class="match-date">17/09</div><div><h3>Flamengo contra Independiente del Valle</h3><p>21h30, Libertadores. Jogo internacional de alto interesse, com potencial nacional de consumo em casa.</p></div></div>
-          <div class="match"><div class="match-date">19/09</div><div><h3>Corinthians contra Fluminense</h3><p>Horário a definir. Jogo grande para preparar comunicação de fim de semana.</p></div></div>
+          <div class="match"><div class="match-date">02/09</div><div><h3>Santos contra Palmeiras</h3><p>21h30 · Copa do Brasil</p></div></div>
+          <div class="match"><div class="match-date">05/09</div><div><h3>São Paulo contra Atlético Mineiro</h3><p>18h30 · Brasileiro</p></div></div>
+          <div class="match"><div class="match-date">06/09</div><div><h3>Corinthians contra Chapecoense</h3><p>19h30 · Brasileiro</p></div></div>
+          <div class="match"><div class="match-date">06/09</div><div><h3>Botafogo contra Palmeiras</h3><p>18h30 · Brasileiro</p></div></div>
+          <div class="match"><div class="match-date">08/09</div><div><h3>Boca Juniors contra São Paulo</h3><p>21h30 · Sul Americana</p></div></div>
+          <div class="match"><div class="match-date">09/09</div><div><h3>Palmeiras contra LDU</h3><p>21h30 · Libertadores</p></div></div>
+          <div class="match"><div class="match-date">09/09</div><div><h3>Estudiantes contra Corinthians</h3><p>21h30 · Libertadores</p></div></div>
+          <div class="match"><div class="match-date">09/09</div><div><h3>Santos contra Atlético Mineiro</h3><p>19h · Sul Americana</p></div></div>
+          <div class="match"><div class="match-date">10/09</div><div><h3>Independiente del Valle contra Flamengo</h3><p>21h30 · Libertadores</p></div></div>
+          <div class="match"><div class="match-date">12/09</div><div><h3>Flamengo contra Corinthians</h3><p>Horário a definir · Brasileiro</p></div></div>
+          <div class="match"><div class="match-date">13/09</div><div><h3>Palmeiras contra São Paulo</h3><p>Horário a definir · Brasileiro</p></div></div>
+          <div class="match"><div class="match-date">15/09</div><div><h3>São Paulo contra Boca Juniors</h3><p>21h30 · Sul Americana</p></div></div>
+          <div class="match"><div class="match-date">16/09</div><div><h3>LDU contra Palmeiras</h3><p>19h · Libertadores</p></div></div>
+          <div class="match"><div class="match-date">16/09</div><div><h3>Corinthians contra Estudiantes</h3><p>21h30 · Libertadores</p></div></div>
+          <div class="match"><div class="match-date">16/09</div><div><h3>Atlético Mineiro contra Santos</h3><p>19h · Sul Americana</p></div></div>
+          <div class="match"><div class="match-date">17/09</div><div><h3>Flamengo contra Independiente del Valle</h3><p>21h30 · Libertadores</p></div></div>
+          <div class="match"><div class="match-date">19/09</div><div><h3>Corinthians contra Fluminense</h3><p>Horário a definir · Brasileiro</p></div></div>
         </div>
       </article>
 
@@ -448,39 +472,6 @@
           <div class="segment"><h3>Pet shops</h3><span class="pill">51/100</span><div class="bar"><span style="width:51%"></span></div><p>Pet shop depende menos de data comemorativa e mais de lembrança. O tutor compra quando percebe necessidade: banho, tosa, ração, remédio, conforto no frio ou cuidado em dia de chuva. Por isso, lembrete e conveniência vendem muito.</p></div>
           <div class="segment"><h3>Saúde e clínicas</h3><span class="pill">49/100</span><div class="bar"><span style="width:49%"></span></div><p>Saúde raramente vende por impulso. A pessoa agenda quando entende o risco de adiar ou o benefício de prevenir. Conteúdo educativo, check up, cuidado antes do fim de ano e linguagem de confiança tendem a funcionar melhor.</p></div>
           <div class="segment"><h3>Imóveis e casa</h3><span class="pill">58/100</span><div class="bar"><span style="width:58%"></span></div><p>O mercado segue ativo, mas a decisão é mais cuidadosa. Na Vila Mascote, o melhor argumento é concreto: vida de bairro, localização, avaliação realista, comparação simples e orientação segura para compra, venda ou aluguel.</p></div>
-        </div>
-      </article>
-
-      <article class="card span-12" id="clima">
-        <h2>Previsão do tempo nas vendas</h2>
-        <div class="weather-grid">
-          <div class="weather rain"><span class="emoji">⛈️</span><strong>01/09</strong><div class="temp">13° a 21°</div><small>chuva forte</small></div>
-          <div class="weather cold"><span class="emoji">🌥️</span><strong>02/09</strong><div class="temp">11° a 19°</div><small>mais frio</small></div>
-          <div class="weather rain"><span class="emoji">🌦️</span><strong>03/09</strong><div class="temp">15° a 24°</div><small>chuva à tarde</small></div>
-          <div class="weather rain"><span class="emoji">🌧️</span><strong>04/09</strong><div class="temp">16° a 26°</div><small>chuva</small></div>
-          <div class="weather rain"><span class="emoji">🌦️</span><strong>05/09</strong><div class="temp">14° a 21°</div><small>chuva cedo</small></div>
-          <div class="weather"><span class="emoji">☁️</span><strong>06/09</strong><div class="temp">13° a 21°</div><small>garoa</small></div>
-          <div class="weather"><span class="emoji">☁️</span><strong>07/09</strong><div class="temp">14° a 23°</div><small>feriado</small></div>
-          <div class="weather rain"><span class="emoji">🌧️</span><strong>08/09</strong><div class="temp">15° a 24°</div><small>chuva</small></div>
-          <div class="weather rain"><span class="emoji">🌦️</span><strong>09/09</strong><div class="temp">15° a 23°</div><small>chuva leve</small></div>
-          <div class="weather rain"><span class="emoji">🌦️</span><strong>10/09</strong><div class="temp">16° a 26°</div><small>instável</small></div>
-          <div class="weather rain"><span class="emoji">🌧️</span><strong>11/09</strong><div class="temp">16° a 22°</div><small>chuva</small></div>
-          <div class="weather rain"><span class="emoji">🌦️</span><strong>12/09</strong><div class="temp">17° a 23°</div><small>chuva fraca</small></div>
-          <div class="weather"><span class="emoji">↻</span><strong>13/09</strong><div class="temp">atualizar</div><small>na semana</small></div>
-          <div class="weather"><span class="emoji">↻</span><strong>14/09</strong><div class="temp">atualizar</div><small>na semana</small></div>
-        </div>
-      </article>
-
-      <article class="card span-12" id="datas">
-        <h2>Datas que vendem mais no trimestre</h2>
-        <div class="mini-cal">
-          <div class="sale-day"><b>12/10</b><strong>Dia das Crianças</strong><span>presentes, doces, lazer</span></div>
-          <div class="sale-day"><b>15/10</b><strong>Dia do Professor</strong><span>lembranças e cafés</span></div>
-          <div class="sale-day"><b>31/10</b><strong>Halloween</strong><span>doces e festas</span></div>
-          <div class="sale-day"><b>27/11</b><strong>Black Friday</strong><span>pacotes e estoque</span></div>
-          <div class="sale-day"><b>30/11</b><strong>Cyber Monday</strong><span>WhatsApp e catálogo</span></div>
-          <div class="sale-day"><b>24/12</b><strong>Natal</strong><span>presentes e ceia</span></div>
-          <div class="sale-day"><b>31/12</b><strong>Réveillon</strong><span>comida e beleza</span></div>
         </div>
       </article>
 
@@ -500,6 +491,25 @@
         </div>
       </article>
 
+      <article class="card span-12" id="clima">
+        <h2>Previsão do tempo nas vendas</h2>
+        <div class="weather-grid">
+          <div class="weather rain"><strong>01/09</strong><span class="emoji">⛈️</span><span class="rain-chance">85%</span><div class="temp">12°</div><div class="temp-bar"><span style="width:55%"></span></div><div class="max-temp">22°</div></div>
+          <div class="weather cold"><strong>02/09</strong><span class="emoji">🌥️</span><span class="rain-chance">35%</span><div class="temp">11°</div><div class="temp-bar"><span style="width:48%"></span></div><div class="max-temp">19°</div></div>
+          <div class="weather rain"><strong>03/09</strong><span class="emoji">🌦️</span><span class="rain-chance">70%</span><div class="temp">14°</div><div class="temp-bar"><span style="width:70%"></span></div><div class="max-temp">26°</div></div>
+          <div class="weather rain"><strong>04/09</strong><span class="emoji">🌧️</span><span class="rain-chance">70%</span><div class="temp">17°</div><div class="temp-bar"><span style="width:70%"></span></div><div class="max-temp">26°</div></div>
+          <div class="weather rain"><strong>05/09</strong><span class="emoji">🌦️</span><span class="rain-chance">60%</span><div class="temp">12°</div><div class="temp-bar"><span style="width:50%"></span></div><div class="max-temp">20°</div></div>
+          <div class="weather"><strong>06/09</strong><span class="emoji">☁️</span><span class="rain-chance">45%</span><div class="temp">13°</div><div class="temp-bar"><span style="width:50%"></span></div><div class="max-temp">20°</div></div>
+          <div class="weather"><strong>07/09</strong><span class="emoji">☁️</span><span class="rain-chance">45%</span><div class="temp">13°</div><div class="temp-bar"><span style="width:55%"></span></div><div class="max-temp">22°</div></div>
+          <div class="weather rain"><strong>08/09</strong><span class="emoji">🌧️</span><span class="rain-chance">80%</span><div class="temp">14°</div><div class="temp-bar"><span style="width:62%"></span></div><div class="max-temp">24°</div></div>
+          <div class="weather rain"><strong>09/09</strong><span class="emoji">🌦️</span><span class="rain-chance">60%</span><div class="temp">15°</div><div class="temp-bar"><span style="width:58%"></span></div><div class="max-temp">23°</div></div>
+          <div class="weather rain"><strong>10/09</strong><span class="emoji">🌦️</span><span class="rain-chance">65%</span><div class="temp">16°</div><div class="temp-bar"><span style="width:70%"></span></div><div class="max-temp">26°</div></div>
+          <div class="weather rain"><strong>11/09</strong><span class="emoji">🌧️</span><span class="rain-chance">70%</span><div class="temp">16°</div><div class="temp-bar"><span style="width:58%"></span></div><div class="max-temp">22°</div></div>
+          <div class="weather rain"><strong>12/09</strong><span class="emoji">🌦️</span><span class="rain-chance">55%</span><div class="temp">17°</div><div class="temp-bar"><span style="width:60%"></span></div><div class="max-temp">23°</div></div>
+          <div class="weather sun"><strong>13/09</strong><span class="emoji">🌤️</span><span class="rain-chance">20%</span><div class="temp">13°</div><div class="temp-bar"><span style="width:62%"></span></div><div class="max-temp">24°</div></div>
+        </div>
+      </article>
+
       <article class="card span-12" id="economia">
         <h2>Economia em cards rápidos</h2>
         <div class="econ-grid">
@@ -512,6 +522,19 @@
           <div class="econ"><h3>Poder de compra</h3><b>misto</b><p>Emprego ajuda, juros e custos ainda apertam. A venda melhora quando o cliente entende exatamente o que recebe. Menos promessa genérica, mais benefício concreto, prazo, garantia e facilidade.</p></div>
           <div class="econ"><h3>Consumo</h3><b>seletivo</b><p>O cliente escolhe melhor onde gastar. Negócios que aparecem com frequência, têm prova social e resposta rápida no WhatsApp saem na frente. Setembro favorece presença constante, não campanha solta.</p></div>
           <div class="econ"><h3>Imóveis SP</h3><b>ativo</b><p>Mesmo com juros altos, bairros bons seguem procurados. Para imóveis e serviços residenciais, a força está em mostrar vida prática, localização, avaliação realista e segurança na decisão.</p></div>
+        </div>
+      </article>
+
+      <article class="card span-12" id="datas">
+        <h2>Datas que vendem mais no trimestre</h2>
+        <div class="mini-cal">
+          <div class="sale-day"><b>12/10</b><strong>Dia das Crianças</strong><span>presentes, doces, lazer</span></div>
+          <div class="sale-day"><b>15/10</b><strong>Dia do Professor</strong><span>lembranças e cafés</span></div>
+          <div class="sale-day"><b>31/10</b><strong>Halloween</strong><span>doces e festas</span></div>
+          <div class="sale-day"><b>27/11</b><strong>Black Friday</strong><span>pacotes e estoque</span></div>
+          <div class="sale-day"><b>30/11</b><strong>Cyber Monday</strong><span>WhatsApp e catálogo</span></div>
+          <div class="sale-day"><b>24/12</b><strong>Natal</strong><span>presentes e ceia</span></div>
+          <div class="sale-day"><b>31/12</b><strong>Réveillon</strong><span>comida e beleza</span></div>
         </div>
       </article>
     </section>
