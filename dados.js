@@ -3509,7 +3509,7 @@ const dados = [
     "categorias": [
       "Saude & Clinicas"
     ],
-    "subcategoria": "Odontologia",
+    "subcategoria": "Acupuntura",
     "endereco": "Avenida Mascote, 877",
     "lat": -23.647408,
     "lng": -46.669969,
@@ -3518,7 +3518,7 @@ const dados = [
       "11985880856"
     ],
     "instagram": "hugopainodeoliveira",
-    "descricao": "Hugo Paino de Oliveira: odontologia na Vila Mascote. O Consultório de Acupuntura Hugo Paino de Oliveira está aqui no bairro há mais de 12 anos, junto com o Hugo Paino de Oliveira, cuidando da saúde e do bem-estar As terapias são indicadas para dores no corpo, artrose, artrite, AVCs (Acidente Vascular Cerebral), dores.",
+    "descricao": "Hugo Paino de Oliveira: acupuntura na Vila Mascote. O Consultório de Acupuntura Hugo Paino de Oliveira está aqui no bairro há mais de 12 anos, junto com o Hugo Paino de Oliveira, cuidando da saúde e do bem-estar As terapias são indicadas para dores no corpo, artrose, artrite, AVCs (Acidente Vascular Cerebral), dores.",
     "promocao": "",
     "termosBusca": [],
     "ultimoPost": "2025-11-11",

@@ -59,7 +59,7 @@ Esta lista e uma proposta inicial para revisao. Nada foi aplicado ao site ainda.
 | Dra. Débora Souza | @dradeboradsouza | Clínica/Estética | Beleza & Estetica | Listar |  |
 | Dra. Márcia Busato | @dramarciabusato | Clínica/Estética | Beleza & Estetica | Listar |  |
 | Estética Mariana B | @esteticamarianab | Clínica/Estética | Beleza & Estetica | Listar |  |
-| Hugo Paino de Oliveira | @hugopainodeoliveira | Odontologia |  | Listar |  |
+| Hugo Paino de Oliveira | @hugopainodeoliveira | Acupuntura |  | Listar |  |
 | Keila Xavier | @keila.xn | Clínica/Estética | Beleza & Estetica | Listar |  |
 | Krav Maga Vila Mascote | @kravmagavilamascote | Pilates/Fisioterapia | Academias, Esportes & Bem-Estar / Educacao & Cursos | Listar |  |
 | Marciabarbezan | @marciabarbezan | Saude & Clinicas |  | Revisar | Profissional citado em talk-show; validar endereco/atendimento antes de listar. |
@@ -196,12 +196,13 @@ Esta lista e uma proposta inicial para revisao. Nada foi aplicado ao site ainda.
 | Espaço Salles Xavier | @espacosallesxavier | Reformas | Servicos para Casa | Listar |  |
 | Guigo Jiu-Jitsu Vila Mascote | @guigojj_vilamascote | Academia/Fitness | Academias, Esportes & Bem-Estar | Listar |  |
 
-## Festas & Eventos (2)
+## Festas & Eventos (3)
 
 | Estabelecimento | Instagram | Subcategoria | Aparece tambem em | Acao | Obs |
 |---|---|---|---|---|---|
 | KA Sports | @kasportsoficial | Eventos / recreacao | Infantil & Familia | Listar |  |
 | Projetos Festa | @projetosfesta | Festas / decoracao | Lojas & Presentes | Listar |  |
+| Cris Aranha Eventos | @crisaranhaeventos | Promotor(a) de eventos |  | Listar |  |
 
 ## Lojas & Presentes (2)
 
