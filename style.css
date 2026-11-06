@@ -669,18 +669,21 @@ h2 {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity .4s ease, visibility .4s ease;
+  transition: visibility 0s linear .4s;
 }
 
 .pasta-intro.is-visible {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transition: none;
 }
 
 .pasta-intro.is-leaving {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
+  transition: opacity .35s ease, visibility 0s linear .35s;
 }
 
 .pasta-intro__backdrop,
@@ -808,6 +811,71 @@ h2 {
   .pasta-intro__photo {
     transition: none !important;
     animation: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  body.pasta-intro-open {
+    overflow: hidden;
+  }
+
+  .pasta-intro {
+    padding: 16px;
+  }
+
+  .pasta-intro__content {
+    margin-top: -1vh;
+  }
+
+  .pasta-intro__eyebrow {
+    margin-bottom: 6px;
+    font-size: .62rem;
+    letter-spacing: .18em;
+  }
+
+  .pasta-intro__logo {
+    width: min(68vw, 270px);
+  }
+
+  .pasta-intro__rule {
+    width: 46px;
+    height: 2px;
+    margin: 7px auto 11px;
+  }
+
+  .pasta-intro__title {
+    font-size: clamp(1.9rem, 8.6vw, 2.7rem);
+    line-height: .98;
+  }
+
+  .pasta-intro__subtitle {
+    margin-top: 12px;
+    font-size: .95rem;
+  }
+
+  .pasta-intro__detail {
+    max-width: 30ch;
+    margin-top: 6px;
+    font-size: .78rem;
+    line-height: 1.35;
+  }
+}
+
+@media (max-width: 600px) and (max-height: 680px) {
+  .pasta-intro__logo {
+    width: min(56vw, 220px);
+  }
+
+  .pasta-intro__title {
+    font-size: clamp(1.75rem, 8.5vw, 2.3rem);
+  }
+
+  .pasta-intro__subtitle {
+    margin-top: 9px;
+  }
+
+  .pasta-intro__detail {
+    display: none;
   }
 }
 

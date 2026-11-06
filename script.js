@@ -648,6 +648,7 @@ function initPastaIntro() {
     if (dismissed) return;
     dismissed = true;
     timers.forEach(clearTimeout);
+    document.body.classList.remove("pasta-intro-open");
     intro.classList.add("is-leaving");
     intro.setAttribute("aria-hidden", "true");
     setTimeout(() => intro.remove(), 450);
@@ -667,6 +668,7 @@ function initPastaIntro() {
     if (dismissed) return;
     clearTimeout(fallback);
     intro.setAttribute("aria-hidden", "false");
+    document.body.classList.add("pasta-intro-open");
     intro.classList.add("is-visible");
     timers.push(setTimeout(() => {
       activeIndex = 1;
