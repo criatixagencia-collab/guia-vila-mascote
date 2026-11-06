@@ -616,6 +616,67 @@ async function loadWeather() {
   }
 }
 
+function initPastaIntro() {
+  const intro = document.getElementById("pastaIntro");
+  if (!intro) return;
+
+  const preview = new URLSearchParams(window.location.search).get("pasta-gialla-preview") === "1";
+  let seen = false;
+  try {
+    seen = sessionStorage.getItem("pasta-gialla-intro-seen") === "1";
+  } catch (_) {}
+
+  if (seen && !preview) {
+    intro.remove();
+    return;
+  }
+
+  try {
+    sessionStorage.setItem("pasta-gialla-intro-seen", "1");
+  } catch (_) {}
+
+  const photos = [...intro.querySelectorAll(".pasta-intro__photo")];
+  photos.forEach((photo) => {
+    photo.style.setProperty("--pasta-photo", `url("${photo.dataset.image}")`);
+  });
+
+  const timers = [];
+  let dismissed = false;
+  let activeIndex = 0;
+
+  function dismiss() {
+    if (dismissed) return;
+    dismissed = true;
+    timers.forEach(clearTimeout);
+    intro.classList.add("is-leaving");
+    intro.setAttribute("aria-hidden", "true");
+    setTimeout(() => intro.remove(), 450);
+  }
+
+  document.getElementById("pastaIntroSkip")?.addEventListener("click", dismiss);
+
+  const imageLoads = photos.map((photo) => new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = resolve;
+    image.onerror = reject;
+    image.src = photo.dataset.image;
+  }));
+
+  const fallback = setTimeout(dismiss, 4500);
+  Promise.all(imageLoads).then(() => {
+    if (dismissed) return;
+    clearTimeout(fallback);
+    intro.setAttribute("aria-hidden", "false");
+    intro.classList.add("is-visible");
+    timers.push(setTimeout(() => {
+      activeIndex = 1;
+      photos[0]?.classList.remove("is-active");
+      photos[activeIndex]?.classList.add("is-active");
+    }, 2600));
+    timers.push(setTimeout(dismiss, 5600));
+  }).catch(dismiss);
+}
+
 function render() {
   resultsSection.hidden = !hasActiveIntent();
   if (sortSelect) sortSelect.value = state.sort;
@@ -669,6 +730,7 @@ function init() {
   render();
   initMap();
   loadWeather();
+  initPastaIntro();
 }
 
 document.addEventListener("DOMContentLoaded", init);
